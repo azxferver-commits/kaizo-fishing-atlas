@@ -2,7 +2,7 @@
   'use strict';
 
   const canvas = document.getElementById('particleCanvas');
-  const ctx = canvas ? canvas.getContext('2d') : null;
+  const ctx = canvas.getContext('2d');
   const portalStage = document.querySelector('[data-portal-stage]');
   const menuToggle = document.querySelector('.menu-toggle');
   const mainNav = document.querySelector('.main-nav');
@@ -14,6 +14,9 @@
   let height = 0;
   let dpr = 1;
   let particles = [];
+  let pointerX = 0;
+  let pointerY = 0;
+  let scrollY = window.scrollY;
   let rafId = null;
 
   const palette = [
@@ -24,7 +27,6 @@
   ];
 
   function resizeCanvas() {
-    if (!canvas || !ctx) return;
     dpr = Math.min(window.devicePixelRatio || 1, 2);
     width = window.innerWidth;
     height = window.innerHeight;
@@ -37,7 +39,6 @@
   }
 
   function createParticles() {
-    if (!canvas || !ctx) return;
     const count = Math.max(38, Math.min(95, Math.floor(width / 18)));
     particles = Array.from({ length: count }, () => {
       const color = palette[Math.floor(Math.random() * palette.length)];
@@ -54,8 +55,7 @@
     });
   }
 
-  function drawParticles() {
-    if (!ctx) return;
+  function drawParticles(time) {
     ctx.clearRect(0, 0, width, height);
 
     for (const p of particles) {
@@ -95,18 +95,16 @@
       entries => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            entry.target.classList.remove('reveal-pending');
             entry.target.classList.add('is-visible');
             observer.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.08, rootMargin: '0px 0px -20px 0px' }
+      { threshold: 0.12, rootMargin: '0px 0px -35px 0px' }
     );
 
     revealItems.forEach((el, index) => {
-      el.classList.add('reveal-pending');
-      el.style.transitionDelay = `${Math.min(index % 5, 4) * 55}ms`;
+      el.style.transitionDelay = `${Math.min(index % 5, 4) * 65}ms`;
       observer.observe(el);
     });
   }
@@ -123,16 +121,15 @@
         event.preventDefault();
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-        if (mainNav && mainNav.classList.contains('is-open')) {
+        if (mainNav.classList.contains('is-open')) {
           mainNav.classList.remove('is-open');
-          if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+          menuToggle.setAttribute('aria-expanded', 'false');
         }
       });
     });
   }
 
   function setupMenu() {
-    if (!menuToggle || !mainNav) return;
     menuToggle.addEventListener('click', () => {
       const nextState = !mainNav.classList.contains('is-open');
       mainNav.classList.toggle('is-open', nextState);
@@ -188,16 +185,15 @@
   }
 
   function handleScroll() {
+    scrollY = window.scrollY;
     updateActiveNav();
   }
 
   window.addEventListener('resize', resizeCanvas, { passive: true });
   window.addEventListener('scroll', handleScroll, { passive: true });
 
-  if (canvas && ctx) {
-    resizeCanvas();
-    drawParticles();
-  }
+  resizeCanvas();
+  drawParticles(performance.now());
   setupReveal();
   setupSmoothScroll();
   setupMenu();
