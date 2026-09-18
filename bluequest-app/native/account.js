@@ -60,13 +60,14 @@ async function loadAccess(){
   renderAccount();
 }
 function has(k){return entitlements.has(k)}
+function hasModule(k){return has(k)||(['fishing_tools','gold_saucer','nexus'].includes(k)&&has('community'))}
 function moduleState(el,key){
   if(!el)return;
   const tag=el.querySelector('.module-lock');
   if(tag)tag.remove();
   const s=document.createElement('span');s.className='module-lock';
-  s.textContent=has(key)?'DESBLOQUEADO ✓':'CUENTA · '+key.toUpperCase();
-  if(has(key))s.style.color='#aef4d2';
+  s.textContent=hasModule(key)?'COMMUNITY ✓':'COMMUNITY 🔒';
+  if(hasModule(key))s.style.color='#aef4d2';
   el.querySelector('div')?.appendChild(s);
 }
 function emitSession(){document.dispatchEvent(new CustomEvent('bluequest:session',{detail:{loggedIn:!!session?.user}}))}
@@ -84,8 +85,8 @@ function renderAccount(){
     email.textContent='El Core funciona sin cuenta. Inicia sesión para beneficios online.';
     q('#accountLoginBtn').hidden=false;q('#accountLogoutBtn').hidden=true;q('#accountRefreshBtn').hidden=true;
   }
-  const map={community:'accCommunity',boss_atlas:'accBoss',fishing_tools:'accFishing',gold_saucer:'accGold',cloud_sync:'accCloud',supporter:'accSupporter'};
-  Object.entries(map).forEach(([k,id])=>{const e=q('#'+id);if(!e)return;e.classList.toggle('ok',has(k));e.classList.toggle('locked',!has(k));const s=e.querySelector('small');if(s)s.textContent=has(k)?'Disponible en tu cuenta':'Bloqueado'});
+  const map={community:'accCommunity',boss_atlas:'accBoss',fishing_tools:'accFishing',gold_saucer:'accGold',nexus:'accNexus',cloud_sync:'accCloud',supporter:'accSupporter'};
+  Object.entries(map).forEach(([k,id])=>{const e=q('#'+id);if(!e)return;e.classList.toggle('ok',hasModule(k));e.classList.toggle('locked',!hasModule(k));const s=e.querySelector('small');if(s)s.textContent=hasModule(k)?(k==='community'?'Disponible en tu cuenta':'Incluido con Community'):'Bloqueado'});
   moduleState(q('[data-cloud-module="boss_atlas"]'),'boss_atlas');
   moduleState(q('[data-cloud-module="fishing_tools"]'),'fishing_tools');
   moduleState(q('[data-cloud-module="gold_saucer"]'),'gold_saucer');
@@ -134,6 +135,6 @@ function bind(){
   q('#authSwitchBtn')?.addEventListener('click',()=>openAuth(mode==='login'?'signup':'login'));
   q('#authPassword')?.addEventListener('keydown',e=>{if(e.key==='Enter')submitAuth()});
 }
-window.BlueQuestCloud={has,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;},acceptAuthUrl};
+window.BlueQuestCloud={has,hasModule,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;},acceptAuthUrl};
 document.addEventListener('DOMContentLoaded',async()=>{loadSession();bind();renderAccount();await bindNativeAuthLinks();if(session)await loadAccess()});
 })();
