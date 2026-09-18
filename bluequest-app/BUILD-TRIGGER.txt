@@ -1,3 +1,3 @@
-BlueQuest Native App 1.8
-Community access gate: Lv 1-50 free, Lv 51+ requires community entitlement
-Build revision: 15
+BlueQuest Native App 1.9
+Integrated ecosystem: Fishing Tools + Gold Saucer + Nexus/Eorzea Codex under Community
+Build revision: 16
