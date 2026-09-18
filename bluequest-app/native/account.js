@@ -1,6 +1,7 @@
 (()=>{
 const CFG=window.BLUEQUEST_CLOUD||null;
 const SESSION_KEY='bluequest-cloud-session-v1';
+const BLUEQUEST_WELCOME_URL='https://azxferver-commits.github.io/kaizo-fishing-atlas/bluequest-welcome/';
 let session=null, entitlements=new Set(), mode='login';
 
 const q=s=>document.querySelector(s);
@@ -68,7 +69,7 @@ async function submitAuth(){
   if(!email||password.length<6){q('#authMessage').textContent='Usa un correo válido y una contraseña de al menos 6 caracteres.';return}
   q('#authSubmit').disabled=true;q('#authMessage').textContent='Conectando…';
   try{
-    const endpoint=mode==='login'?'/auth/v1/token?grant_type=password':'/auth/v1/signup';
+    const endpoint=mode==='login'?'/auth/v1/token?grant_type=password':'/auth/v1/signup?redirect_to='+encodeURIComponent(BLUEQUEST_WELCOME_URL);
     const body=mode==='login'?{email,password}:{email,password,data:{display_name:email.split('@')[0]}};
     const r=await fetch(CFG.url+endpoint,{method:'POST',headers:{'apikey':CFG.publishableKey,'Content-Type':'application/json'},body:JSON.stringify(body)});
     const d=await safeJson(r);
