@@ -18,6 +18,12 @@ jobs:
     defaults:
       run:
         working-directory: bluequest-app
+    env:
+      BLUEQUEST_SUPABASE_URL: ${{ vars.BLUEQUEST_SUPABASE_URL }}
+      BLUEQUEST_SUPABASE_ANON_KEY: ${{ vars.BLUEQUEST_SUPABASE_ANON_KEY }}
+      BLUEQUEST_FUNCTIONS_BASE: ${{ vars.BLUEQUEST_FUNCTIONS_BASE }}
+      BLUEQUEST_DISCORD_OAUTH_START: ${{ vars.BLUEQUEST_DISCORD_OAUTH_START }}
+      BLUEQUEST_YOUTUBE_OAUTH_START: ${{ vars.BLUEQUEST_YOUTUBE_OAUTH_START }}
 
     steps:
       - name: Checkout repository
@@ -72,6 +78,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.0.apk
-          gh release view bluequest-android-v1.0.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.0.0 --title "BlueQuest Atlas Android 1.0" --notes "Android test build of BlueQuest Atlas. Includes the 433 Blue Quest entries offline."
-          gh release upload bluequest-android-v1.0.0 BlueQuest-Atlas-Android-1.0.apk --clobber
+          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.1.apk
+          gh release view bluequest-android-v1.1.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.1.0 --title "BlueQuest Atlas Android 1.1" --notes "BlueQuest Atlas Android 1.1. Includes 433 Blue Quest entries offline plus the account/entitlement architecture."
+          gh release upload bluequest-android-v1.1.0 BlueQuest-Atlas-Android-1.1.apk --clobber
