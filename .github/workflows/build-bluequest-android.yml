@@ -81,6 +81,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.1.apk
-          gh release view bluequest-android-v1.1.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.1.0 --title "BlueQuest Atlas Android 1.1" --notes "BlueQuest Atlas Android 1.1. Includes 433 Blue Quest entries offline plus the account/entitlement architecture."
-          gh release upload bluequest-android-v1.1.0 BlueQuest-Atlas-Android-1.1.apk --clobber
+          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.2.apk
+          gh release view bluequest-android-v1.2.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.2.0 --title "BlueQuest Atlas Android 1.2" --notes "BlueQuest Atlas Android 1.2. Includes 433 Blue Quest entries offline plus the account/entitlement architecture."
+          gh release upload bluequest-android-v1.2.0 BlueQuest-Atlas-Android-1.2.apk --clobber
