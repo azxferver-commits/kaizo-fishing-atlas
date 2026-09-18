@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Enciclopedia interactiva en español de Final Fantasy XIV: historia, progresión 1–99, jobs, mundo, contenido y glosario.">
+  <title>Eorzea Codex · Guía de FFXIV 1–99</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 50 23 42 49 32 61 22 49 14 23Z' fill='%23071326' stroke='%23d9fbff' stroke-width='3'/%3E%3Cpath d='M32 8 44 25 37 45 32 55 27 45 20 25Z' fill='%234f8cff'/%3E%3Cpath d='M20 25h24M32 8v47M20 25l17 20M44 25 27 45' fill='none' stroke='%23e9fdff' stroke-width='2' opacity='.72'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Eorzea Codex, inicio">
+        <span class="brand-crystal" aria-hidden="true"></span>
+        <span><strong>EORZEA</strong><small>CODEX · 1–99</small></span>
+      </a>
+
+      <nav class="side-nav">
+        <a class="nav-item active" href="#inicio" data-view="inicio"><span>✦</span> Inicio</a>
+        <a class="nav-item" href="#historia" data-view="historia"><span>◈</span> Historia</a>
+        <a class="nav-item" href="#niveles" data-view="niveles"><span>⌁</span> Ruta 1–99</a>
+        <a class="nav-item" href="#jobs" data-view="jobs"><span>⚔</span> Jobs</a>
+        <a class="nav-item" href="#mundo" data-view="mundo"><span>◎</span> Mundo y lore</a>
+        <a class="nav-item" href="#contenido" data-view="contenido"><span>◇</span> Contenido</a>
+        <a class="nav-item" href="#glosario" data-view="glosario"><span>≡</span> Glosario</a>
+        <button type="button" class="nav-item nav-methodology" data-methodology><span>✓</span> Fuentes</button>
+      </nav>
+
+      <button type="button" class="sidebar-note" data-methodology aria-label="Abrir fuentes y método de la guía">
+        <img src="assets/allagan-tomestone.png" alt="Tomestone allagan ilustrado">
+        <span><strong>Guía sin humo</strong><span>Qué es, cuándo aparece y por qué importa.</span></span>
+      </button>
+
+      <p class="sidebar-foot">Guía fan no oficial · Español</p>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="search-wrap">
+          <label class="sr-only" for="globalSearch">Buscar en toda la guía</label>
+          <span aria-hidden="true">⌕</span>
+          <input id="globalSearch" type="search" autocomplete="off" placeholder="Busca: Warrior, poetics, Shadowbringers…">
+          <kbd>/</kbd>
+          <div id="searchResults" class="search-results" hidden></div>
+        </div>
+        <button id="spoilerToggle" class="spoiler-toggle" type="button" aria-pressed="false">
+          <span class="toggle-dot"></span>
+          Spoilers: <strong>OFF</strong>
+        </button>
+      </header>
+
+      <section id="inicio" class="view active" aria-labelledby="homeTitle">
+        <div class="hero-panel">
+          <div class="hero-copy">
+            <span class="eyebrow">ARCHIVO DEL GUERRERO DE LA LUZ</span>
+            <h1 id="homeTitle">Entiende <em>todo</em> FFXIV, desde nivel 1 hasta 99.</h1>
+            <p>Una ruta clara por la historia, las expansiones, los jobs y los sistemas que el juego nunca te explica de una sola vez.</p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#niveles" data-go="niveles">¿Qué hago a mi nivel?</a>
+              <a class="ghost-btn" href="#historia" data-go="historia">Ver la historia</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-a"></div>
+            <div class="orbit orbit-b"></div>
+            <img src="assets/aetheryte.png" alt="">
+          </div>
+        </div>
+
+        <div class="stat-row" aria-label="Resumen de la guía">
+          <div><strong>6</strong><span>arcos principales</span></div>
+          <div><strong>23</strong><span>jobs de combate</span></div>
+          <div><strong>1–99</strong><span>ruta por niveles</span></div>
+          <div><strong>30+</strong><span>conceptos explicados</span></div>
+        </div>
+
+        <div class="section-head compact">
+          <div><span class="eyebrow">EL VIAJE PRINCIPAL</span><h2>Una historia, seis grandes etapas</h2></div>
+          <a class="text-btn" href="#historia" data-go="historia">Abrir cronología →</a>
+        </div>
+        <div id="homeExpansionStrip" class="expansion-strip"></div>
+
+        <div class="home-grid">
+          <article class="feature-card level-card">
+            <div class="feature-icon">⌁</div>
+            <span class="eyebrow">RUTA PRÁCTICA</span>
+            <h3>Dime tu nivel y te digo qué importa</h3>
+            <p>MSQ, job quests, equipo y contenido recomendado para no perderte entre iconos azules.</p>
+            <a class="text-btn" href="#niveles" data-go="niveles">Abrir explorador →</a>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon gold">⚔</div>
+            <span class="eyebrow">ARSENAL</span>
+            <h3>Todos los jobs, sin jerga</h3>
+            <p>Rol, nivel inicial, requisito y sensación de juego para escoger por gusto, no por presión.</p>
+            <a class="text-btn" href="#jobs" data-go="jobs">Comparar jobs →</a>
+          </article>
+          <article class="feature-card illustrated">
+            <img src="assets/wondrous-tails.png" alt="Diario de aventuras ilustrado">
+            <div><span class="eyebrow">MÁS ALLÁ DE LA MSQ</span><h3>El juego no termina en la historia</h3><p>Raids, pesca, relics, glamour, housing, PvP y mucho más.</p><a class="text-btn" href="#contenido" data-go="contenido">Explorar contenido →</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="historia" class="view" aria-labelledby="historyTitle">
+        <div class="page-heading">
+          <span class="eyebrow">CRONOLOGÍA PRINCIPAL</span>
+          <h1 id="historyTitle">La historia de FFXIV, expansión por expansión</h1>
+          <p>Las tarjetas muestran primero una explicación segura. Activa los spoilers para revelar los giros y el significado completo.</p>
+        </div>
+        <button type="button" class="history-banner" data-story="legacy" aria-label="Abrir ficha del prólogo de Final Fantasy XIV">
+          <span><strong>Antes de A Realm Reborn</strong><span class="history-banner-copy">La versión original de 2010 terminó con la Séptima Calamidad. Su destrucción se convirtió en el prólogo canónico del relanzamiento de 2013.</span></span>
+          <span>2010 → 2013</span>
+          <span class="card-open">Abrir prólogo →</span>
+        </button>
+        <div id="historyTimeline" class="history-timeline"></div>
+        <div class="lore-summary">
+          <div class="section-head compact"><div><span class="eyebrow">LA GRAN PREGUNTA</span><h2>¿De qué trata realmente FFXIV?</h2></div></div>
+          <p>Empieza como la aventura de una persona desconocida que ayuda a tres ciudades. Poco a poco se convierte en una historia sobre memoria, identidad, imperios, dioses creados por la fe y el valor de seguir viviendo cuando todo parece perdido.</p>
+          <div class="spoiler-box spoiler-only"><strong>Lectura completa:</strong> el arco central conecta el mundo fragmentado, los antiguos, Hydaelyn, Zodiark y los Ascians. Endwalker cierra ese conflicto; Dawntrail inaugura una etapa nueva centrada en explorar culturas y problemas nacidos de otros legados.</div>
+        </div>
+      </section>
+
+      <section id="niveles" class="view" aria-labelledby="levelsTitle">
+        <div class="page-heading split-heading">
+          <div><span class="eyebrow">EXPLORADOR DE PROGRESIÓN</span><h1 id="levelsTitle">¿Qué deberías hacer ahora?</h1><p>El nivel ayuda, pero la MSQ manda. Mueve el selector y revisa tus prioridades.</p></div>
+          <div class="level-number"><small>NIVEL</small><strong id="levelReadout">1</strong></div>
+        </div>
+
+        <div class="level-console">
+          <input id="levelSlider" type="range" min="1" max="99" value="1" aria-label="Seleccionar nivel del 1 al 99">
+          <div class="level-scale"><span>1</span><span>30</span><span>50</span><span>60</span><span>70</span><span>80</span><span>90</span><span>99</span></div>
+          <div id="levelResult" class="level-result"></div>
+        </div>
+
+        <div class="section-head compact"><div><span class="eyebrow">MAPA COMPLETO</span><h2>Todos los tramos del viaje</h2></div></div>
+        <div id="levelBands" class="level-bands"></div>
+
+        <aside class="truth-card"><strong>Regla que evita el 80% de la confusión</strong><p>Tu nivel de combate no desbloquea por sí solo las expansiones. Si eres 70 pero tu MSQ está en 55, tu mundo sigue estando en 55.</p></aside>
+      </section>
+
+      <section id="jobs" class="view" aria-labelledby="jobsTitle">
+        <div class="page-heading"><span class="eyebrow">ARSENAL</span><h1 id="jobsTitle">Escoge el job por cómo se siente</h1><p>Un personaje puede dominar todos los jobs. No necesitas crear otro personaje para cambiar de rol.</p></div>
+        <div id="jobFilters" class="filter-row" aria-label="Filtrar jobs por rol"></div>
+        <p class="interaction-hint">Toca cualquier job para abrir su ficha.</p>
+        <div id="jobsGrid" class="jobs-grid"></div>
+        <div class="profession-panel">
+          <div><span class="eyebrow">DISCIPLES OF THE HAND & LAND</span><h2>Crafting y gathering</h2><p>Ocho artesanos y tres recolectores comparten su propia progresión, equipo y contenido.</p></div>
+          <div id="professionList" class="profession-list"></div>
+        </div>
+      </section>
+
+      <section id="mundo" class="view" aria-labelledby="worldTitle">
+        <div class="page-heading"><span class="eyebrow">MUNDO Y LORE</span><h1 id="worldTitle">Las piezas que hacen funcionar el universo</h1><p>Conceptos esenciales explicados sin convertir esto en una tesis de Sharlayan.</p></div>
+        <p class="interaction-hint">Toca un concepto o una raza para abrir su explicación completa.</p>
+        <div id="loreGrid" class="lore-grid"></div>
+        <div class="section-head compact"><div><span class="eyebrow">PUEBLOS JUGABLES</span><h2>Las ocho razas</h2></div></div>
+        <div id="raceGrid" class="race-grid"></div>
+      </section>
+
+      <section id="contenido" class="view" aria-labelledby="contentTitle">
+        <div class="page-heading"><span class="eyebrow">MÁS ALLÁ DE LA MSQ</span><h1 id="contentTitle">Todo lo que puedes hacer</h1><p>FFXIV es un parque enorme: la historia es la avenida principal, no la única atracción.</p></div>
+        <div id="contentFilters" class="filter-row" aria-label="Filtrar tipos de contenido"></div>
+        <p class="interaction-hint">Cada tarjeta abre una ficha con cómo empezar, para quién es y por qué importa.</p>
+        <div id="contentGrid" class="content-grid"></div>
+      </section>
+
+      <section id="glosario" class="view" aria-labelledby="glossaryTitle">
+        <div class="page-heading"><span class="eyebrow">TRADUCTOR DE JERGA</span><h1 id="glossaryTitle">Lo que los jugadores dicen y el juego no explica</h1><p>Busca arriba o recorre las palabras que aparecen en grupos, guías y chats.</p></div>
+        <p class="interaction-hint">Toca una palabra para ver un ejemplo real y conceptos relacionados.</p>
+        <div id="glossaryGrid" class="glossary-grid"></div>
+      </section>
+
+      <footer>
+        <div><strong>Eorzea Codex</strong><p>Guía fan independiente. FINAL FANTASY XIV y sus elementos pertenecen a Square Enix.</p></div>
+        <div class="source-links">
+          <a href="https://na.finalfantasyxiv.com/jobguide/battle/" target="_blank" rel="noreferrer">Job Guide oficial</a>
+          <a href="https://na.finalfantasyxiv.com/game_manual/" target="_blank" rel="noreferrer">Manual oficial</a>
+          <a href="https://na.finalfantasyxiv.com/dawntrail/" target="_blank" rel="noreferrer">Dawntrail oficial</a>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <dialog id="jobDialog" class="job-dialog" aria-labelledby="jobDialogTitle">
+    <form method="dialog">
+      <button class="dialog-close" type="submit" aria-label="Cerrar ficha del job">×</button>
+    </form>
+    <div id="jobDialogContent"></div>
+  </dialog>
+
+  <dialog id="detailDialog" class="job-dialog detail-dialog" aria-labelledby="detailDialogTitle">
+    <form method="dialog">
+      <button class="dialog-close" type="submit" aria-label="Cerrar ficha">×</button>
+    </form>
+    <div id="detailDialogContent"></div>
+  </dialog>
+
+  <script src="./app.js?v=4"></script>
+</body>
+</html>
