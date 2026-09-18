@@ -82,6 +82,11 @@ html = html.replace(
 
 html = html.replace(/if\('serviceWorker'in navigator\)[^;]*;/g, "");
 
+html = html.replace(
+  "function saveState(){localStorage.setItem(STATE_KEY,JSON.stringify(state));updateGlobalStats()}",
+  "function saveState(){localStorage.setItem(STATE_KEY,JSON.stringify(state));updateGlobalStats();document.dispatchEvent(new CustomEvent('bluequest:progress'))}"
+);
+
 const moreNeedle = '<section class="view" id="view-more" data-view="more">\n      <div class="screen-head"><p class="eyebrow">BLUEQUEST NEXO</p><h2>Más herramientas</h2><p>La base móvil está preparada para crecer con el resto del ecosistema.</p></div>\n      <div class="module-grid">';
 const moreReplacement = '<section class="view" id="view-more" data-view="more">\n      <div class="screen-head"><p class="eyebrow">BLUEQUEST NEXO</p><h2>Más herramientas</h2><p>La base móvil está preparada para crecer con el resto del ecosistema.</p></div>\n      <section class="account-card" id="bluequestAccountCard">\n        <div class="account-head">\n          <div><h3 id="accountName">Cuenta BlueQuest</h3><p id="accountEmail">El Core funciona sin cuenta. Inicia sesión para beneficios online.</p></div>\n          <span class="account-badge" id="accountStatus">CORE GRATIS</span>\n        </div>\n        <div class="account-actions">\n          <button id="accountLoginBtn">Iniciar sesión / Crear cuenta</button>\n          <button id="accountRefreshBtn" class="secondary" hidden>Actualizar acceso</button>\n          <button id="accountLogoutBtn" class="secondary" hidden>Cerrar sesión</button>\n        </div>\n        <div class="access-grid">\n          <div class="access-item locked" id="accCommunity"><b>Community</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accBoss"><b>Boss Atlas</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accFishing"><b>Fishing Tools</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accGold"><b>Gold Saucer</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accCloud"><b>Cloud Sync</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accSupporter"><b>Supporter</b><small>Bloqueado</small></div>\n        </div>\n      </section>\n      <div class="module-grid">';
 
