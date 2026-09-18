@@ -10,7 +10,7 @@ on:
       - "blue-quest-atlas-80-100/data.json"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build-apk:
@@ -66,3 +66,12 @@ jobs:
           name: BlueQuest-Atlas-Android-debug
           path: bluequest-app/android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
+
+
+      - name: Publish downloadable APK release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.0.apk
+          gh release view bluequest-android-v1.0.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.0.0 --title "BlueQuest Atlas Android 1.0" --notes "Android test build of BlueQuest Atlas. Includes the 433 Blue Quest entries offline."
+          gh release upload bluequest-android-v1.0.0 BlueQuest-Atlas-Android-1.0.apk --clobber
