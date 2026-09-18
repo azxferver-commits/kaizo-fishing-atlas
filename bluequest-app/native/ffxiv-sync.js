@@ -219,9 +219,7 @@ function render(){
   const jobs=(character.jobs||[]).filter(j=>j.level!=null).sort((a,b)=>(b.level||0)-(a.level||0)||a.name.localeCompare(b.name));
   q('#ffxivJobs').innerHTML=jobs.map(j=>{
     const r=routeFor(j), pending=r.pending.length;
-    const alert=pending
-      ?'<span class="job-alert" aria-label="'+esc(pending)+' pendientes"><i></i>'+esc(pending>99?'99+':pending)+'</span>'
-      :'<span class="job-ok" aria-label="Sin pendientes detectados">✓</span>';
+    const alert='<span class="job-alert" aria-label="'+esc(pending?pending+' pendientes detectados':'Revisar ruta')+'"><i></i>'+(pending?esc(pending>99?'99+':pending):'')+'</span>';
     return '<button class="ffxiv-job-chip" type="button" data-ffxiv-job="'+esc(j.name)+'">'+
       '<b>'+esc(j.name)+'</b> Lv. '+esc(j.level)+alert+
     '</button>';
@@ -238,16 +236,16 @@ function openJob(name){
   const pending=route.pending.length;
   q('#jobRouteEyebrow').textContent=routeLabel(job).toUpperCase();
   q('#jobRouteTitle').textContent=job.name+' · Lv. '+job.level;
-  q('#jobRouteFlag').textContent=pending?('● '+pending):'✓';
-  q('#jobRouteFlag').classList.toggle('has-pending',!!pending);
-  q('#jobRouteFlagLabel').textContent=pending?'PENDIENTES':'AL DÍA';
+  q('#jobRouteFlag').textContent=pending?('● '+pending):'●';
+  q('#jobRouteFlag').classList.add('has-pending');
+  q('#jobRouteFlagLabel').textContent=pending?'PENDIENTES':'REVISAR';
   q('#jobRouteSummary').textContent=combined+' conocidas · '+pending+' pendientes · '+route.eligible.length+' relacionadas con esta ruta';
   q('#jobRouteManual').textContent=route.manual.length;
   q('#jobRouteDetected').textContent=route.detected.length;
   q('#jobRoutePending').textContent=pending;
   q('#jobRouteRecommended').innerHTML=recs.length
     ?recs.map((x,i)=>questRow(x,job,(i===0?'Recomendación principal · ':'')+(x.unlock||x.opens||x.location||''))).join('')
-    :'<div class="route-empty">No tienes pendientes de esta ruta para tu nivel actual. ✓</div>';
+    :'<div class="route-empty">BlueQuest no detectó pendientes concretos en las entradas mapeadas, pero esta ruta todavía puede ser parcial. Revisa la lista.</div>';
   q('#jobRouteFuture').innerHTML=future.length
     ?future.map(x=>questRow(x,job,'Disponible a partir de nivel '+x.level)).join('')
     :'<div class="route-empty">No hay próximos desbloqueos documentados en el Atlas para esta ruta.</div>';
