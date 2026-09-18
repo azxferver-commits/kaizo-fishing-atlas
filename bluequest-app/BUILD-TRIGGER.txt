@@ -1,3 +1,3 @@
 BlueQuest Native App 1.1
-Account + entitlement architecture build.
+Account + Supabase entitlements
 Build revision: 6
