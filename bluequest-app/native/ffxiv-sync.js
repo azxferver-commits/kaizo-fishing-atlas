@@ -113,7 +113,8 @@ function statusOf(qst,job){
   return'pending';
 }
 function routeFor(job){
-  const all=allQuests().filter(x=>isRouteQuest(x,job));
+  const matched=allQuests().filter(x=>isRouteQuest(x,job));
+  const all=[...new Map(matched.map(x=>[questKey(x),x])).values()];
   const eligible=all.filter(x=>Number(x.level||0)<=Number(job.level||0));
   const future=all.filter(x=>Number(x.level||0)>Number(job.level||0));
   const currentDone=eligible.filter(x=>statusOf(x,job)!=='pending');
