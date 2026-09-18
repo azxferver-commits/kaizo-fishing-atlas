@@ -29,7 +29,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.4 · FFXIV SYNC")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.5 · JOB ROUTES")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -112,6 +112,10 @@ if (!html.includes('id="ffxivCharacterCard"')) {
             <div class="ffxiv-stat"><small>JOBS CON NIVEL</small><b id="ffxivUnlocked">—</b></div>
           </div>
           <div class="ffxiv-jobs" id="ffxivJobs"></div>
+          <div class="ffxiv-atlas-progress" id="ffxivAtlasProgress" hidden>
+            <div><div><b>Progreso total BlueQuest</b><small id="ffxivAtlasCount">0 / 433 confirmadas</small></div><strong id="ffxivAtlasPct">0%</strong></div>
+            <div class="progress-track"><i id="ffxivAtlasBar"></i></div>
+          </div>
           <div class="ffxiv-actions">
             <button id="ffxivSyncBtn" type="button">Sincronizar</button>
             <button id="ffxivChangeBtn" class="secondary" type="button">Cambiar personaje</button>
@@ -137,6 +141,13 @@ html = html
     '<article class="module-card future" data-cloud-module="gold_saucer"><span>✦</span><div><small>SIGUIENTE</small><h3>Gold Saucer</h3><p>Rutas y Fashion Report.</p></div></article>'
   );
 
+if (!html.includes('id="ffxivJobDialog"')) {
+  html = html.replace(
+    '  <div id="toast" class="toast" role="status"></div>',
+    '  <dialog id="ffxivJobDialog" class="quest-dialog">\n    <div class="dialog-sheet ffxiv-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="ffxivJobClose" aria-label="Cerrar">×</button>\n      <div class="route-head"><div><p class="eyebrow" id="jobRouteEyebrow">RUTA BLUEQUEST</p><h2 id="jobRouteTitle">Job</h2></div><div class="route-percent"><strong id="jobRoutePct">0%</strong><small>RUTA ACTUAL</small></div></div>\n      <div class="route-meter"><div class="progress-track"><i id="jobRouteBar"></i></div><p id="jobRouteSummary">0 de 0 misiones elegibles cubiertas</p></div>\n      <div class="route-stats"><div class="route-stat"><b id="jobRouteManual">0</b><small>Marcadas por ti</small></div><div class="route-stat"><b id="jobRouteDetected">0</b><small>Detectadas por sync</small></div><div class="route-stat"><b id="jobRoutePending">0</b><small>Pendientes</small></div></div>\n      <section class="route-section"><h3>✦ BlueQuest recomienda ahora</h3><p>Prioriza desbloqueos útiles que ya puedes hacer con tu nivel.</p><div class="route-list" id="jobRouteRecommended"></div></section>\n      <section class="route-section"><h3>Próximos desbloqueos</h3><div class="route-list" id="jobRouteFuture"></div></section>\n      <section class="route-section"><h3>Ruta disponible a tu nivel</h3><div class="route-list" id="jobRouteAll"></div></section>\n      <p class="route-note">✓ Hecha = la marcaste en BlueQuest. ◆ Detectada = Lodestone demuestra el desbloqueo del job/clase. El nivel por sí solo no marca otras misiones como completadas.</p>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
+  );
+}
+
 if (!html.includes('id="ffxivLinkDialog"')) {
   html = html.replace(
     '  <div id="toast" class="toast" role="status"></div>',
@@ -153,7 +164,7 @@ if (!html.includes('id="bluequestAuthDialog"')) {
 
 html = html.replace(
   "init();\n</script>",
-  "document.documentElement.dataset.runtime=(window.Capacitor&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform())?'native':'web';\ninit();\n</script>"
+  "document.documentElement.dataset.runtime=(window.Capacitor&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform())?'native':'web';\nwindow.BlueQuestAtlas={getData:()=>DATA,getState:()=>state,key:q=>key(q),isDone:q=>!!state.done[key(q)],findByKey:k=>findByKey(k),openQuest:q=>openQuest(q)};\ninit();\n</script>"
 );
 
 if (!html.includes('src="./cloud-config.js"')) {
