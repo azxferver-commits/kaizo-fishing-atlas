@@ -237,7 +237,7 @@ function openJob(name){
   q('#jobRouteAll').innerHTML=route.eligible.length
     ?[...route.eligible].sort((a,b)=>Number(a.level)-Number(b.level)||String(a.name).localeCompare(String(b.name))).map(x=>questRow(x,job)).join('')
     :'<div class="route-empty">Todavía no hay misiones de esta ruta documentadas para tu nivel.</div>';
-  q('#ffxivJobDialog').showModal();
+  if(!q('#ffxivJobDialog').open)q('#ffxivJobDialog').showModal();
 }
 async function load(){
   character=null;
