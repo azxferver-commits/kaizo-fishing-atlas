@@ -331,6 +331,6 @@ function bind(){
   document.addEventListener('bluequest:ready',render);
   document.addEventListener('bluequest:progress',()=>{renderGlobalProgress();if(activeJob&&q('#ffxivJobDialog')?.open)openJob(activeJob.name);else render()});
 }
-window.BlueQuestFFXIV={load,sync,openJob};
+window.BlueQuestFFXIV={load,sync,openJob,getCharacter:()=>character};
 document.addEventListener('DOMContentLoaded',()=>{bind();load()});
 })();
