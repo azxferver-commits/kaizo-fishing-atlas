@@ -72,7 +72,7 @@ function roleMatches(type,role){
 function directMatch(qst,job){
   const meta=metaFor(job.name);
   const names=[job.name,...(meta.aliases||[])].map(x=>x.toLowerCase());
-  const t=textOf(qst);
+  const t=[qst.name,qst.type,qst.unlock,qst.opens].filter(Boolean).join(' ').toLowerCase();
   return names.some(n=>n&&t.includes(n));
 }
 function isRouteQuest(qst,job){
@@ -80,10 +80,12 @@ function isRouteQuest(qst,job){
   if(directMatch(qst,job))return true;
   if(meta.kind==='combat')return roleMatches(qst.type,meta.role);
   if(meta.kind==='gather'){
-    return ['Gathering','Crafting / Gathering','Collectables','Custom Deliveries','Studium'].includes(qst.type);
+    if(qst.type==='Gathering')return !/^Way of the /i.test(String(qst.name||''));
+    return ['Crafting / Gathering','Collectables','Custom Deliveries','Studium'].includes(qst.type);
   }
   if(meta.kind==='craft'){
-    return ['Crafting','Crafting / Gathering','Collectables','Custom Deliveries','Studium'].includes(qst.type);
+    if(qst.type==='Crafting')return !/^Way of the /i.test(String(qst.name||''));
+    return ['Crafting / Gathering','Collectables','Custom Deliveries','Studium'].includes(qst.type);
   }
   return false;
 }
