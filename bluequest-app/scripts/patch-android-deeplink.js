@@ -2,7 +2,12 @@ const fs=require("fs");
 const path=require("path");
 
 const manifest=path.resolve(__dirname,"..","android","app","src","main","AndroidManifest.xml");
-let xml=fs.readFileSync(manifest,"utf8");
+let const webIconDir=path.resolve(__dirname,"..","www");
+fs.mkdirSync(webIconDir,{recursive:true});
+fs.copyFileSync(path.join(iconDir,"bluequest_icon.webp"),path.join(webIconDir,"bluequest_icon.webp"));
+console.log("BlueQuest final icon copied into web bundle");
+
+xml=fs.readFileSync(manifest,"utf8");
 
 const marker='android:scheme="bluequest"';
 if(!xml.includes(marker)){
