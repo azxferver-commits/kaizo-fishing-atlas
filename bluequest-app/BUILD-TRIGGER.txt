@@ -1,3 +1,3 @@
-BlueQuest Native App 1.6
-Synced known progress + blue pending/review job alerts
-Build revision: 13
+BlueQuest Native App 1.7
+Final crystal icon + redesigned auth/confirmation + automatic confirmed-session handoff
+Build revision: 14
