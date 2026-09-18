@@ -1,0 +1,24 @@
+{
+  "name": "bluequest-atlas-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BlueQuest Atlas native companion for FINAL FANTASY XIV",
+  "scripts": {
+    "prepare:web": "node scripts/prepare-web.js",
+    "sync": "npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios",
+    "build:android": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/core": "7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.3",
+    "@capacitor/android": "7.4.3",
+    "@capacitor/ios": "7.4.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
