@@ -96,6 +96,7 @@ function openAuth(which='login'){
   q('#authSubmit').textContent=mode==='login'?'Entrar':'Crear cuenta';
   q('#authSwitchText').textContent=mode==='login'?'¿No tienes cuenta?':'¿Ya tienes cuenta?';
   q('#authSwitchBtn').textContent=mode==='login'?'Crear una':'Iniciar sesión';
+  const lead=q('#authLead');if(lead)lead.textContent=mode==='login'?'Continúa tu aventura desde cualquier dispositivo.':'Crea tu cuenta. Confirma el correo y BlueQuest abrirá tu sesión automáticamente.';
   q('#authMessage').textContent='';
   q('#bluequestAuthDialog').showModal();
 }
@@ -114,7 +115,7 @@ async function submitAuth(){
       session={...d,expires_at:Date.now()+(d.expires_in||3600)*1000};saveSession();q('#bluequestAuthDialog').close();await loadAccess();window.toast?.('Sesión iniciada');
     }else{
       if(d.access_token){session={...d,expires_at:Date.now()+(d.expires_in||3600)*1000};saveSession();q('#bluequestAuthDialog').close();await loadAccess();window.toast?.('Cuenta creada')}
-      else q('#authMessage').textContent='Cuenta creada. Revisa tu correo para confirmar y luego inicia sesión.';
+      else q('#authMessage').textContent='Cuenta creada. Revisa tu correo. Al confirmar, pulsa “Comenzar mi aventura” para volver con la sesión iniciada.';
     }
   }catch(e){q('#authMessage').textContent=e.message}
   finally{q('#authSubmit').disabled=false}
