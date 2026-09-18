@@ -9,6 +9,40 @@ const safeJson=async r=>{try{return await r.json()}catch{return{}}};
 function loadSession(){try{session=JSON.parse(localStorage.getItem(SESSION_KEY)||'null')}catch{session=null}}
 function saveSession(){if(session)localStorage.setItem(SESSION_KEY,JSON.stringify(session));else localStorage.removeItem(SESSION_KEY)}
 function authHeaders(token){return {'apikey':CFG.publishableKey,'Authorization':'Bearer '+token,'Content-Type':'application/json'}}
+async function acceptAuthUrl(rawUrl){
+  if(!rawUrl||!CFG)return false;
+  try{
+    const u=new URL(rawUrl);
+    const qs=new URLSearchParams(u.search||'');
+    const hs=new URLSearchParams((u.hash||'').replace(/^#/,''));
+    const pick=k=>qs.get(k)||hs.get(k);
+    const access_token=pick('access_token'), refresh_token=pick('refresh_token');
+    if(!access_token||!refresh_token)return false;
+    const expires_in=Number(pick('expires_in')||3600);
+    const token_type=pick('token_type')||'bearer';
+    const ur=await fetch(CFG.url+'/auth/v1/user',{headers:{'apikey':CFG.publishableKey,'Authorization':'Bearer '+access_token}});
+    if(!ur.ok)throw new Error('La sesión de confirmación ya no es válida.');
+    const user=await ur.json();
+    session={access_token,refresh_token,token_type,expires_in,expires_at:Date.now()+expires_in*1000,user};
+    saveSession();
+    await loadAccess();
+    window.toast?.('Cuenta confirmada · sesión iniciada ✓');
+    return true;
+  }catch(e){
+    console.error('BlueQuest auth deeplink',e);
+    window.toast?.('La cuenta fue confirmada, pero no pude iniciar la sesión automáticamente.');
+    return false;
+  }
+}
+async function bindNativeAuthLinks(){
+  const App=window.Capacitor?.Plugins?.App;
+  if(!App)return;
+  try{
+    App.addListener('appUrlOpen',ev=>{if(ev?.url)acceptAuthUrl(ev.url)});
+    const launch=await App.getLaunchUrl();
+    if(launch?.url)await acceptAuthUrl(launch.url);
+  }catch(e){console.warn('BlueQuest App deeplink unavailable',e)}
+}
 async function refreshIfNeeded(){
   if(!session?.refresh_token||!CFG)return false;
   if(session.expires_at && Date.now()<session.expires_at-60000)return true;
@@ -98,6 +132,6 @@ function bind(){
   q('#authSwitchBtn')?.addEventListener('click',()=>openAuth(mode==='login'?'signup':'login'));
   q('#authPassword')?.addEventListener('keydown',e=>{if(e.key==='Enter')submitAuth()});
 }
-window.BlueQuestCloud={has,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;}};
-document.addEventListener('DOMContentLoaded',async()=>{loadSession();bind();renderAccount();if(session)await loadAccess()});
+window.BlueQuestCloud={has,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;},acceptAuthUrl};
+document.addEventListener('DOMContentLoaded',async()=>{loadSession();bind();renderAccount();await bindNativeAuthLinks();if(session)await loadAccess()});
 })();
