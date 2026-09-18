@@ -1,3 +1,1 @@
-BlueQuest Native App 1.1
-Account + Supabase entitlements
-Build revision: 6
+BlueQuest Native App 1.2\nWelcome confirmation + bluequest://welcome deep link\nBuild revision: 7\n
