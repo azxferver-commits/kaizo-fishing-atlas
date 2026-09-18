@@ -35,6 +35,7 @@ function moduleState(el,key){
   if(has(key))s.style.color='#aef4d2';
   el.querySelector('div')?.appendChild(s);
 }
+function emitSession(){document.dispatchEvent(new CustomEvent('bluequest:session',{detail:{loggedIn:!!session?.user}}))}
 function renderAccount(){
   const card=q('#bluequestAccountCard'); if(!card)return;
   const status=q('#accountStatus'), name=q('#accountName'), email=q('#accountEmail');
@@ -54,6 +55,7 @@ function renderAccount(){
   moduleState(q('[data-cloud-module="boss_atlas"]'),'boss_atlas');
   moduleState(q('[data-cloud-module="fishing_tools"]'),'fishing_tools');
   moduleState(q('[data-cloud-module="gold_saucer"]'),'gold_saucer');
+  emitSession();
 }
 function openAuth(which='login'){
   mode=which; q('#authTitle').textContent=mode==='login'?'Iniciar sesión':'Crear cuenta';
@@ -96,6 +98,6 @@ function bind(){
   q('#authSwitchBtn')?.addEventListener('click',()=>openAuth(mode==='login'?'signup':'login'));
   q('#authPassword')?.addEventListener('keydown',e=>{if(e.key==='Enter')submitAuth()});
 }
-window.BlueQuestCloud={has,openAuth,refresh:loadAccess};
+window.BlueQuestCloud={has,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;}};
 document.addEventListener('DOMContentLoaded',async()=>{loadSession();bind();renderAccount();if(session)await loadAccess()});
 })();
