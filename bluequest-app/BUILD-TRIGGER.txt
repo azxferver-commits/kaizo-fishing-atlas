@@ -1,3 +1,3 @@
-BlueQuest Native App 1.2
-Welcome confirmation + bluequest://welcome deep link
-Build revision: 8 - publish 1.2 release
+BlueQuest Native App 1.3
+Explicit confirmation redirect to BlueQuest welcome page
+Build revision: 9
