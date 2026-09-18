@@ -1,0 +1,43 @@
+name: Generate BlueQuest iOS Project
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ios-project:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: bluequest-app
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Capacitor
+        run: npm install
+
+      - name: Build offline web bundle
+        run: npm run prepare:web
+
+      - name: Generate iOS project
+        run: |
+          npx cap add ios
+          npx cap sync ios
+
+      - name: Package Xcode project
+        run: ditto -c -k --sequesterRsrc --keepParent ios BlueQuest-iOS-Project.zip
+
+      - name: Upload Xcode project
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlueQuest-iOS-Xcode-Project
+          path: bluequest-app/BlueQuest-iOS-Project.zip
