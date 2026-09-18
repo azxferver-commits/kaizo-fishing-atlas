@@ -1,0 +1,7 @@
+BlueQuest Atlas Native App 1.0
+Android: Capacitor
+iOS: Capacitor
+Atlas 1-80: 274
+Atlas 80-100: 159
+Total offline: 433
+App ID: com.kaizo.bluequest
