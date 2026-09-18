@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#06101a">
+<title>Bienvenido a BlueQuest</title>
+<style>
+:root{--bg:#050b12;--panel:#0c1724;--line:#28475d;--text:#f5f8fb;--muted:#98aaba;--cyan:#63dce8;--violet:#a88cff;--pink:#ff77c8;--gold:#e6c66c}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#050b12;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body{min-height:100vh;display:grid;place-items:center;overflow:hidden;background:
+radial-gradient(circle at 15% 15%,#133b55 0,transparent 31rem),
+radial-gradient(circle at 88% 82%,#321b52 0,transparent 34rem),
+linear-gradient(160deg,#06101a,#050b12 62%)}
+.aether{position:fixed;border-radius:50%;filter:blur(75px);opacity:.2;pointer-events:none}.a{width:280px;height:280px;background:var(--cyan);left:-180px;top:18%}.b{width:320px;height:320px;background:var(--violet);right:-220px;bottom:5%}
+.wrap{width:min(92vw,620px);padding:24px 0 calc(24px + env(safe-area-inset-bottom))}
+.card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:28px;padding:34px 24px;background:linear-gradient(145deg,#0c1c29ef,#0d1425ed);box-shadow:0 30px 100px #0008;text-align:center}
+.card:before{content:"";position:absolute;width:300px;height:300px;border:1px solid #5adfe526;border-radius:50%;right:-145px;top:-150px;box-shadow:0 0 80px #5adfe51b inset}
+.brand{display:flex;align-items:center;justify-content:center;gap:10px;font-weight:950;letter-spacing:.16em;font-size:13px}.mark{width:34px;height:34px;border:1px solid #3b728c;border-radius:11px;display:grid;place-items:center;background:#0c2837;color:var(--cyan);box-shadow:0 0 24px #63dce82a}
+.orb{width:112px;height:112px;margin:30px auto 24px;display:grid;place-items:center;position:relative;transform:rotate(45deg);border:1px solid #74e7ef70;border-radius:24px;background:linear-gradient(145deg,#173b53,#171934);box-shadow:0 0 70px #63dce82f,0 0 80px #a88cff1e inset;animation:float 3.2s ease-in-out infinite}
+.orb:after{content:"✦";transform:rotate(-45deg);font-size:44px;color:#baf8ff;text-shadow:0 0 28px #7cf2ff}
+@keyframes float{50%{transform:translateY(-7px) rotate(45deg)}}
+.eyebrow{margin:0 0 8px;color:var(--cyan);font-size:10px;font-weight:950;letter-spacing:.2em}
+h1{margin:0;font-size:clamp(36px,10vw,58px);line-height:.96;letter-spacing:-.055em}h1 span{background:linear-gradient(90deg,var(--cyan),var(--violet),var(--pink));-webkit-background-clip:text;color:transparent}
+.lead{max-width:460px;margin:18px auto 0;color:var(--muted);font-size:15px;line-height:1.6}
+.ok{display:inline-flex;align-items:center;gap:7px;margin-top:18px;padding:7px 11px;border:1px solid #285e48;border-radius:999px;background:#0e2a22;color:#aef4d2;font-weight:850;font-size:11px}
+.actions{display:grid;gap:10px;margin-top:26px}.primary,.secondary{display:flex;align-items:center;justify-content:center;min-height:52px;border-radius:14px;text-decoration:none;font-weight:950;letter-spacing:.02em}
+.primary{border:1px solid #5c99ad;background:linear-gradient(120deg,#15425a,#27325f);color:#eaffff;box-shadow:0 12px 35px #07151f80}.primary:active{transform:scale(.985)}
+.secondary{border:1px solid #304b60;background:#0a1722;color:#c5d7e4}
+.note{min-height:20px;margin:13px 0 0;color:#7890a1;font-size:10px}.footer{margin-top:23px;color:#607787;font-size:10px}.footer b{color:#8da7b9}
+@media(max-width:420px){.card{padding:28px 18px}.orb{width:94px;height:94px;margin-top:25px}.lead{font-size:14px}}
+</style>
+</head>
+<body>
+<div class="aether a"></div><div class="aether b"></div>
+<main class="wrap">
+<section class="card">
+  <div class="brand"><span class="mark">✦</span><span>BLUEQUEST</span></div>
+  <div class="orb" aria-hidden="true"></div>
+  <p class="eyebrow">CUENTA CONFIRMADA</p>
+  <h1>Tu aventura<br><span>comienza aquí.</span></h1>
+  <p class="lead">Tu cuenta BlueQuest ya está lista. Tu Atlas, tus desbloqueos y las próximas herramientas del ecosistema pueden acompañarte desde este momento.</p>
+  <div class="ok">✓ Aventurero verificado</div>
+  <div class="actions">
+    <a class="primary" id="openApp" href="bluequest://welcome">✦&nbsp;&nbsp;Comenzar mi aventura</a>
+    <a class="secondary" href="https://github.com/azxferver-commits/kaizo-fishing-atlas/releases/download/bluequest-android-v1.2.0/BlueQuest-Atlas-Android-1.2.apk">Descargar BlueQuest para Android</a>
+  </div>
+  <p class="note" id="status">Si BlueQuest está instalada, el botón principal abrirá la app.</p>
+  <div class="footer">Guía comunitaria no oficial de FINAL FANTASY XIV · <b>KAIZO / BlueQuest</b></div>
+</section>
+</main>
+<script>
+const btn=document.getElementById('openApp'),status=document.getElementById('status');
+btn.addEventListener('click',()=>{
+  status.textContent='Abriendo BlueQuest…';
+  setTimeout(()=>{status.textContent='Si la app no se abrió, usa “Descargar BlueQuest para Android”.';},1400);
+});
+</script>
+</body>
+</html>
