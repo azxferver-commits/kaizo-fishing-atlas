@@ -107,6 +107,9 @@ function detectedBySync(qst,job){
   }
   return false;
 }
+function detectedByAnySync(qst){
+  return (character?.jobs||[]).some(job=>job.level!=null&&detectedBySync(qst,job));
+}
 function statusOf(qst,job){
   if(isManual(qst))return'manual';
   if(detectedBySync(qst,job))return'detected';
@@ -168,11 +171,19 @@ function renderGlobalProgress(){
   if(!el)return;
   const a=atlas(),data=allQuests();
   if(!a||!data.length){el.hidden=true;return}
-  const done=data.filter(x=>a.isDone?.(x)).length;
-  const pct=Math.round(done/data.length*100);
+  const manual=data.filter(x=>a.isDone?.(x));
+  const manualKeys=new Set(manual.map(questKey));
+  const detected=data.filter(x=>!manualKeys.has(questKey(x))&&detectedByAnySync(x));
+  const known=manual.length+detected.length;
+  const pct=Math.round(known/data.length*100);
+  const manualPct=(manual.length/data.length)*100;
+  const detectedPct=(detected.length/data.length)*100;
   q('#ffxivAtlasPct').textContent=pct+'%';
-  q('#ffxivAtlasCount').textContent=done+' / '+data.length+' confirmadas';
-  q('#ffxivAtlasBar').style.width=pct+'%';
+  q('#ffxivAtlasCount').textContent=known+' / '+data.length+' conocidas';
+  q('#ffxivManualCount').textContent=manual.length;
+  q('#ffxivDetectedCount').textContent=detected.length;
+  q('#ffxivAtlasManualBar').style.width=manualPct+'%';
+  q('#ffxivAtlasDetectedBar').style.width=detectedPct+'%';
   el.hidden=false;
 }
 function render(){
@@ -207,10 +218,12 @@ function render(){
   q('#ffxivUnlocked').textContent=(character.jobs||[]).filter(j=>j.level!=null).length;
   const jobs=(character.jobs||[]).filter(j=>j.level!=null).sort((a,b)=>(b.level||0)-(a.level||0)||a.name.localeCompare(b.name));
   q('#ffxivJobs').innerHTML=jobs.map(j=>{
-    const r=routeFor(j);
+    const r=routeFor(j), pending=r.pending.length;
+    const alert=pending
+      ?'<span class="job-alert" aria-label="'+esc(pending)+' pendientes"><i></i>'+esc(pending>99?'99+':pending)+'</span>'
+      :'<span class="job-ok" aria-label="Sin pendientes detectados">✓</span>';
     return '<button class="ffxiv-job-chip" type="button" data-ffxiv-job="'+esc(j.name)+'">'+
-      '<b>'+esc(j.name)+'</b> Lv. '+esc(j.level)+
-      '<span class="chip-progress">'+esc(r.pct)+'%</span>'+
+      '<b>'+esc(j.name)+'</b> Lv. '+esc(j.level)+alert+
     '</button>';
   }).join('');
   q('#ffxivLodestone').href=character.source_url||'#';
@@ -225,9 +238,10 @@ function openJob(name){
   const pending=route.pending.length;
   q('#jobRouteEyebrow').textContent=routeLabel(job).toUpperCase();
   q('#jobRouteTitle').textContent=job.name+' · Lv. '+job.level;
-  q('#jobRoutePct').textContent=route.pct+'%';
-  q('#jobRouteBar').style.width=route.pct+'%';
-  q('#jobRouteSummary').textContent=combined+' de '+route.eligible.length+' misiones elegibles cubiertas';
+  q('#jobRouteFlag').textContent=pending?('● '+pending):'✓';
+  q('#jobRouteFlag').classList.toggle('has-pending',!!pending);
+  q('#jobRouteFlagLabel').textContent=pending?'PENDIENTES':'AL DÍA';
+  q('#jobRouteSummary').textContent=combined+' conocidas · '+pending+' pendientes · '+route.eligible.length+' relacionadas con esta ruta';
   q('#jobRouteManual').textContent=route.manual.length;
   q('#jobRouteDetected').textContent=route.detected.length;
   q('#jobRoutePending').textContent=pending;
