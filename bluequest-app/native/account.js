@@ -1,147 +1,100 @@
 (()=>{
-const CFG=window.BLUEQUEST_ACCOUNT_CONFIG||{};
-const SESSION_KEY='bluequest-account-session-v1';
-const modules=[
-  {key:'core',name:'BlueQuest Core',desc:'Blue Quests, búsqueda, favoritos y progreso',free:true},
-  {key:'boss_atlas',name:'Boss Atlas',desc:'Mecánicas y roles'},
-  {key:'fishing_tools',name:'Fishing Tools',desc:'Pesca y herramientas'},
-  {key:'gold_saucer',name:'Gold Saucer',desc:'Rutas y Fashion Report'},
-  {key:'cloud_sync',name:'Cloud Sync',desc:'Sincronización entre dispositivos'}
-];
-let mode='login';
-let session=readSession();
-let entitlements=new Set();
+const CFG=window.BLUEQUEST_CLOUD||null;
+const SESSION_KEY='bluequest-cloud-session-v1';
+let session=null, entitlements=new Set(), mode='login';
 
-function configured(){return !!(CFG.supabaseUrl&&CFG.supabaseAnonKey)}
-function base(){return String(CFG.supabaseUrl||'').replace(/\/$/,'')}
-function readSession(){try{return JSON.parse(localStorage.getItem(SESSION_KEY)||'null')}catch{return null}}
-function saveSession(s){session=s||null;if(s)localStorage.setItem(SESSION_KEY,JSON.stringify(s));else localStorage.removeItem(SESSION_KEY);updateButton()}
-function authHeaders(token=session?.access_token){return {'apikey':CFG.supabaseAnonKey,'Authorization':'Bearer '+token,'Content-Type':'application/json'}}
-function updateButton(){const b=document.getElementById('bqAccountBtn');if(!b)return;b.classList.toggle('signed',!!session);b.textContent=session?'✓':'♙';b.title=session?'Cuenta BlueQuest conectada':'Cuenta BlueQuest'}
-
-async function request(path,options={}){
-  const r=await fetch(base()+path,{...options,headers:{...authHeaders(options.token),...(options.headers||{})}});
-  let body=null;try{body=await r.json()}catch{}
-  if(!r.ok)throw new Error(body?.msg||body?.message||body?.error_description||body?.error||('HTTP '+r.status));
-  return body;
+const q=s=>document.querySelector(s);
+const safeJson=async r=>{try{return await r.json()}catch{return{}}};
+function loadSession(){try{session=JSON.parse(localStorage.getItem(SESSION_KEY)||'null')}catch{session=null}}
+function saveSession(){if(session)localStorage.setItem(SESSION_KEY,JSON.stringify(session));else localStorage.removeItem(SESSION_KEY)}
+function authHeaders(token){return {'apikey':CFG.publishableKey,'Authorization':'Bearer '+token,'Content-Type':'application/json'}}
+async function refreshIfNeeded(){
+  if(!session?.refresh_token||!CFG)return false;
+  if(session.expires_at && Date.now()<session.expires_at-60000)return true;
+  const r=await fetch(CFG.url+'/auth/v1/token?grant_type=refresh_token',{method:'POST',headers:{'apikey':CFG.publishableKey,'Content-Type':'application/json'},body:JSON.stringify({refresh_token:session.refresh_token})});
+  if(!r.ok){session=null;saveSession();return false}
+  const d=await r.json();session={...session,...d,expires_at:Date.now()+(d.expires_in||3600)*1000};saveSession();return true
 }
-async function signIn(email,password){
-  const data=await request('/auth/v1/token?grant_type=password',{method:'POST',body:JSON.stringify({email,password}),token:CFG.supabaseAnonKey});
-  saveSession(data);await refreshEntitlements();render();
-}
-async function signUp(email,password){
-  const data=await request('/auth/v1/signup',{method:'POST',body:JSON.stringify({email,password}),token:CFG.supabaseAnonKey});
-  if(data?.access_token){saveSession(data);await refreshEntitlements();render();return}
-  document.getElementById('bqAccountError').textContent='Cuenta creada. Revisa tu correo para confirmar y después inicia sesión.';
-}
-async function signOut(){saveSession(null);entitlements=new Set();render();applyLocks()}
-async function refreshToken(){
-  if(!session?.refresh_token||!configured())return false;
-  try{
-    const data=await request('/auth/v1/token?grant_type=refresh_token',{method:'POST',body:JSON.stringify({refresh_token:session.refresh_token}),token:CFG.supabaseAnonKey});
-    saveSession(data);return true;
-  }catch{return false}
-}
-async function refreshEntitlements(){
+async function loadAccess(){
   entitlements=new Set();
-  if(!session||!configured())return;
+  if(!session?.access_token||!session?.user?.id||!CFG){renderAccount();return}
+  await refreshIfNeeded();
+  if(!session?.access_token){renderAccount();return}
+  const r=await fetch(CFG.url+'/rest/v1/user_entitlements?select=module_key,granted_until,source&user_id=eq.'+encodeURIComponent(session.user.id),{headers:authHeaders(session.access_token)});
+  if(r.ok){const rows=await r.json();rows.forEach(x=>{if(!x.granted_until||new Date(x.granted_until)>new Date())entitlements.add(x.module_key)})}
+  renderAccount();
+}
+function has(k){return entitlements.has(k)}
+function moduleState(el,key){
+  if(!el)return;
+  const tag=el.querySelector('.module-lock');
+  if(tag)tag.remove();
+  const s=document.createElement('span');s.className='module-lock';
+  s.textContent=has(key)?'DESBLOQUEADO ✓':'CUENTA · '+key.toUpperCase();
+  if(has(key))s.style.color='#aef4d2';
+  el.querySelector('div')?.appendChild(s);
+}
+function renderAccount(){
+  const card=q('#bluequestAccountCard'); if(!card)return;
+  const status=q('#accountStatus'), name=q('#accountName'), email=q('#accountEmail');
+  if(session?.user){
+    status.textContent='CONECTADO';
+    name.textContent=session.user.user_metadata?.display_name||session.user.email?.split('@')[0]||'BlueQuest User';
+    email.textContent=session.user.email||'';
+    q('#accountLoginBtn').hidden=true;q('#accountLogoutBtn').hidden=false;q('#accountRefreshBtn').hidden=false;
+  }else{
+    status.textContent='CORE GRATIS';
+    name.textContent='Cuenta BlueQuest';
+    email.textContent='El Core funciona sin cuenta. Inicia sesión para beneficios online.';
+    q('#accountLoginBtn').hidden=false;q('#accountLogoutBtn').hidden=true;q('#accountRefreshBtn').hidden=true;
+  }
+  const map={community:'accCommunity',boss_atlas:'accBoss',fishing_tools:'accFishing',gold_saucer:'accGold',cloud_sync:'accCloud',supporter:'accSupporter'};
+  Object.entries(map).forEach(([k,id])=>{const e=q('#'+id);if(!e)return;e.classList.toggle('ok',has(k));e.classList.toggle('locked',!has(k));const s=e.querySelector('small');if(s)s.textContent=has(k)?'Disponible en tu cuenta':'Bloqueado'});
+  moduleState(q('[data-cloud-module="boss_atlas"]'),'boss_atlas');
+  moduleState(q('[data-cloud-module="fishing_tools"]'),'fishing_tools');
+  moduleState(q('[data-cloud-module="gold_saucer"]'),'gold_saucer');
+}
+function openAuth(which='login'){
+  mode=which; q('#authTitle').textContent=mode==='login'?'Iniciar sesión':'Crear cuenta';
+  q('#authSubmit').textContent=mode==='login'?'Entrar':'Crear cuenta';
+  q('#authSwitchText').textContent=mode==='login'?'¿No tienes cuenta?':'¿Ya tienes cuenta?';
+  q('#authSwitchBtn').textContent=mode==='login'?'Crear una':'Iniciar sesión';
+  q('#authMessage').textContent='';
+  q('#bluequestAuthDialog').showModal();
+}
+async function submitAuth(){
+  if(!CFG){q('#authMessage').textContent='Cloud no configurado.';return}
+  const email=q('#authEmail').value.trim(), password=q('#authPassword').value;
+  if(!email||password.length<6){q('#authMessage').textContent='Usa un correo válido y una contraseña de al menos 6 caracteres.';return}
+  q('#authSubmit').disabled=true;q('#authMessage').textContent='Conectando…';
   try{
-    const uid=session.user?.id;
-    if(!uid)return;
-    const rows=await request('/rest/v1/user_entitlements?select=module_key,source,granted_until&user_id=eq.'+encodeURIComponent(uid));
-    (rows||[]).forEach(x=>{if(!x.granted_until||new Date(x.granted_until)>new Date())entitlements.add(x.module_key)});
-  }catch(e){
-    if(String(e.message).includes('401')){if(await refreshToken())return refreshEntitlements()}
-    console.warn('BlueQuest entitlements',e);
-  }
+    const endpoint=mode==='login'?'/auth/v1/token?grant_type=password':'/auth/v1/signup';
+    const body=mode==='login'?{email,password}:{email,password,data:{display_name:email.split('@')[0]}};
+    const r=await fetch(CFG.url+endpoint,{method:'POST',headers:{'apikey':CFG.publishableKey,'Content-Type':'application/json'},body:JSON.stringify(body)});
+    const d=await safeJson(r);
+    if(!r.ok)throw new Error(d.msg||d.error_description||d.message||'No se pudo completar la operación');
+    if(mode==='login'){
+      session={...d,expires_at:Date.now()+(d.expires_in||3600)*1000};saveSession();q('#bluequestAuthDialog').close();await loadAccess();window.toast?.('Sesión iniciada');
+    }else{
+      if(d.access_token){session={...d,expires_at:Date.now()+(d.expires_in||3600)*1000};saveSession();q('#bluequestAuthDialog').close();await loadAccess();window.toast?.('Cuenta creada')}
+      else q('#authMessage').textContent='Cuenta creada. Revisa tu correo para confirmar y luego inicia sesión.';
+    }
+  }catch(e){q('#authMessage').textContent=e.message}
+  finally{q('#authSubmit').disabled=false}
 }
-function has(key){return key==='core'||entitlements.has(key)||entitlements.has('supporter')}
-function applyLocks(){
-  document.querySelectorAll('[data-entitlement]').forEach(el=>{
-    const key=el.dataset.entitlement;
-    const ok=has(key);
-    el.classList.toggle('bq-locked',!ok);
-    el.classList.toggle('bq-unlocked',ok);
-    if(!ok)el.setAttribute('aria-disabled','true'); else el.removeAttribute('aria-disabled');
-  });
+async function logout(){
+  try{if(session?.access_token)await fetch(CFG.url+'/auth/v1/logout',{method:'POST',headers:authHeaders(session.access_token)})}catch{}
+  session=null;entitlements.clear();saveSession();renderAccount();window.toast?.('Sesión cerrada');
 }
-function accountHtml(){
-  const online=configured();
-  const email=session?.user?.email||'Cuenta BlueQuest';
-  const cards=modules.map(m=>'<div class="bq-access-card '+(has(m.key)?'on':'')+'"><b>'+m.name+'</b><small>'+m.desc+'</small><div class="state">'+(has(m.key)?'✓ DISPONIBLE':(m.free?'✓ GRATIS':'🔒 BLOQUEADO'))+'</div></div>').join('');
-  if(!session){
-    return '<div class="bq-account-head"><p class="eyebrow">BLUEQUEST ID</p><h2>Tu cuenta BlueQuest</h2><p>El APK puede compartirse. Tus accesos no.</p></div>'+
-      '<div class="bq-status '+(online?'good':'warn')+'"><b>'+(online?'Servidor de cuentas conectado':'Core offline activo')+'</b><small>'+(online?'Inicia sesión para consultar tus desbloqueos.':'La app funciona gratis; el backend de cuentas todavía no está enlazado a este build.')+'</small></div>'+
-      '<div class="bq-auth-tabs"><button id="bqTabLogin" class="'+(mode==='login'?'active':'')+'">Entrar</button><button id="bqTabSignup" class="'+(mode==='signup'?'active':'')+'">Crear cuenta</button></div>'+
-      '<form class="bq-form" id="bqAuthForm"><input id="bqEmail" type="email" autocomplete="email" placeholder="Correo" required><input id="bqPassword" type="password" minlength="6" autocomplete="'+(mode==='login'?'current-password':'new-password')+'" placeholder="Contraseña" required><button class="bq-primary" '+(online?'':'disabled')+'>'+(mode==='login'?'Entrar':'Crear cuenta')+'</button><div id="bqAccountError" class="bq-account-error"></div></form>'+
-      '<h3 class="bq-access-title">Acceso</h3><div class="bq-entitlements">'+cards+'</div>'+
-      '<p class="bq-note">Las funciones protegidas se validan contra el servidor. Compartir el APK no concede esos permisos.</p>';
-  }
-  return '<div class="bq-account-head"><p class="eyebrow">BLUEQUEST ID</p><h2>Cuenta conectada</h2><p>Tu acceso vive en tu cuenta, no en el APK.</p></div>'+
-    '<div class="bq-account-user"><div><strong>'+escapeHtml(email)+'</strong><small>ID '+escapeHtml(String(session.user?.id||'').slice(0,8))+'…</small></div><button class="bq-secondary" id="bqSignOut">Salir</button></div>'+
-    '<h3 class="bq-access-title">Tus módulos</h3><div class="bq-entitlements">'+cards+'</div>'+
-    '<h3 class="bq-access-title">Desbloqueos de comunidad</h3>'+
-    '<div class="bq-social"><div class="bq-social-card"><span class="bq-social-icon">D</span><div><b>Discord</b><small>Verificar membresía del servidor</small></div><button id="bqDiscord" '+(CFG.discordOAuthStart?'':'disabled')+'>Conectar</button></div>'+
-    '<div class="bq-social-card"><span class="bq-social-icon">▶</span><div><b>YouTube</b><small>Verificar suscripción al canal</small></div><button id="bqYouTube" '+(CFG.youtubeOAuthStart?'':'disabled')+'>Conectar</button></div></div>'+
-    '<p class="bq-note">La verificación social se realiza con OAuth y en el servidor. BlueQuest nunca debe pedirte la contraseña de Discord o Google.</p>';
+function bind(){
+  q('#accountLoginBtn')?.addEventListener('click',()=>openAuth('login'));
+  q('#accountLogoutBtn')?.addEventListener('click',logout);
+  q('#accountRefreshBtn')?.addEventListener('click',loadAccess);
+  q('#authClose')?.addEventListener('click',()=>q('#bluequestAuthDialog').close());
+  q('#authSubmit')?.addEventListener('click',submitAuth);
+  q('#authSwitchBtn')?.addEventListener('click',()=>openAuth(mode==='login'?'signup':'login'));
+  q('#authPassword')?.addEventListener('keydown',e=>{if(e.key==='Enter')submitAuth()});
 }
-function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
-function render(){
-  const content=document.getElementById('bqAccountContent');if(!content)return;
-  content.innerHTML=accountHtml();
-  const login=document.getElementById('bqTabLogin'),signup=document.getElementById('bqTabSignup');
-  if(login)login.onclick=()=>{mode='login';render()};
-  if(signup)signup.onclick=()=>{mode='signup';render()};
-  const form=document.getElementById('bqAuthForm');
-  if(form)form.onsubmit=async e=>{
-    e.preventDefault();
-    const err=document.getElementById('bqAccountError');err.textContent='';
-    try{
-      const email=document.getElementById('bqEmail').value.trim();
-      const password=document.getElementById('bqPassword').value;
-      if(mode==='login')await signIn(email,password);else await signUp(email,password);
-    }catch(x){err.textContent=x.message}
-  };
-  const out=document.getElementById('bqSignOut');if(out)out.onclick=signOut;
-  const d=document.getElementById('bqDiscord');if(d)d.onclick=()=>openSocial('discord');
-  const y=document.getElementById('bqYouTube');if(y)y.onclick=()=>openSocial('youtube');
-  applyLocks();
-}
-function openSocial(provider){
-  const url=provider==='discord'?CFG.discordOAuthStart:CFG.youtubeOAuthStart;
-  if(!url)return;
-  window.open(url,'_blank');
-}
-async function fetchProtectedContent(moduleKey,contentKey){
-  if(!session||!has(moduleKey))throw new Error('Este módulo no está desbloqueado');
-  const path='/rest/v1/protected_content?select=payload,content_version&module_key=eq.'+encodeURIComponent(moduleKey)+'&content_key=eq.'+encodeURIComponent(contentKey)+'&limit=1';
-  const rows=await request(path);
-  if(!rows?.length)throw new Error('Contenido no disponible');
-  return rows[0];
-}
-function buildUI(){
-  const top=document.querySelector('.top-actions');
-  if(top&&!document.getElementById('bqAccountBtn')){
-    const b=document.createElement('button');b.id='bqAccountBtn';b.className='bq-account-btn';b.type='button';b.title='Cuenta BlueQuest';b.textContent='♙';b.onclick=()=>open();top.prepend(b);
-  }
-  if(!document.getElementById('bqAccountOverlay')){
-    const wrap=document.createElement('div');wrap.id='bqAccountOverlay';wrap.className='bq-account-overlay';
-    wrap.innerHTML='<div class="bq-account-sheet"><div class="bq-account-grab"></div><button class="bq-account-close" id="bqAccountClose">×</button><div id="bqAccountContent"></div></div>';
-    document.body.appendChild(wrap);
-    wrap.addEventListener('click',e=>{if(e.target===wrap)close()});
-    document.getElementById('bqAccountClose').onclick=close;
-  }
-  document.querySelectorAll('.module-card.future').forEach(el=>{
-    const title=el.querySelector('h3')?.textContent||'';
-    if(/Boss Atlas/i.test(title))el.dataset.entitlement='boss_atlas';
-    if(/Fishing Atlas/i.test(title))el.dataset.entitlement='fishing_tools';
-    if(/Gold Saucer/i.test(title))el.dataset.entitlement='gold_saucer';
-  });
-  updateButton();render();
-}
-function open(){document.getElementById('bqAccountOverlay')?.classList.add('open');render()}
-function close(){document.getElementById('bqAccountOverlay')?.classList.remove('open')}
-async function init(){buildUI();if(session&&configured())await refreshEntitlements();render();applyLocks()}
-window.BlueQuestAccount={open,close,has,refresh:refreshEntitlements,fetchProtectedContent,get session(){return session},get entitlements(){return [...entitlements]}};
-if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+window.BlueQuestCloud={has,openAuth,refresh:loadAccess};
+document.addEventListener('DOMContentLoaded',async()=>{loadSession();bind();renderAccount();if(session)await loadAccess()});
 })();
