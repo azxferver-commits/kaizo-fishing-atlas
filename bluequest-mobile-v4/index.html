@@ -24,7 +24,7 @@
       <span class="brand-mark">✦</span>
       <span><b>BLUEQUEST</b><small>ATLAS MOBILE</small></span>
     </button>
-    <span style="font-size:9px;font-weight:900;letter-spacing:.12em;color:#63dce8;border:1px solid #25485f;border-radius:999px;padding:5px 8px">V4.2 · DATA FIXED</span><div class="top-actions">
+    <span style="font-size:9px;font-weight:900;letter-spacing:.12em;color:#63dce8;border:1px solid #25485f;border-radius:999px;padding:5px 8px">V4.3 · FAVORITES FILTER</span><div class="top-actions">
       <button class="icon-btn" id="offlineState" aria-label="Estado de conexión" title="Estado de conexión">●</button>
       <button class="icon-btn" id="installBtn" aria-label="Instalar app" title="Instalar app">⇩</button>
     </div>
@@ -54,7 +54,7 @@
         <a class="quick-card" href="../blue-quest-atlas-80-100/" data-atlas-link="80-100">
           <span class="quick-icon">◇</span><span><small>ENDGAME</small><b>Atlas 80–100</b></span><em>159</em>
         </a>
-        <button class="quick-card" data-filter="favorites" data-nav="favorites">
+        <button class="quick-card" data-range="favorites" data-nav="explore">
           <span class="quick-icon">★</span><span><small>GUARDADAS</small><b>Favoritas</b></span><em id="favHome">0</em>
         </button>
         <button class="quick-card" data-nav="progress">
@@ -97,6 +97,7 @@
           <button class="chip" data-range-chip="80-100">80–100</button>
           <button class="chip" data-range-chip="done">✓ Hechas</button>
           <button class="chip" data-range-chip="pending">Pendientes</button>
+          <button class="chip" data-range-chip="favorites">★ Favoritos</button>
         </div>
         <div class="filter-row">
           <select id="typeFilter"><option value="">Todos los tipos</option></select>
@@ -149,7 +150,7 @@
   <nav class="bottom-nav" aria-label="Navegación principal">
     <button class="active" data-nav="home"><span>⌂</span><small>Inicio</small></button>
     <button data-nav="explore"><span>⌕</span><small>Buscar</small></button>
-    <button data-nav="favorites"><span>☆</span><small>Favoritos</small><i id="favBadge" hidden>0</i></button>
+    <button data-nav="explore" data-range="favorites"><span>☆</span><small>Favoritos</small><i id="favBadge" hidden>0</i></button>
     <button data-nav="progress"><span>✓</span><small>Progreso</small></button>
     <button data-nav="more"><span>•••</span><small>Más</small></button>
   </nav>
@@ -188,9 +189,9 @@ function pushRecent(q){let arr=getRecent().filter(x=>x!==key(q));arr.unshift(key
 function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('show'),1700)}
 async function loadData(){let sets;if(Array.isArray(window.BLUEQUEST_DATA_1_80)&&Array.isArray(window.BLUEQUEST_DATA_80_100)){sets=[window.BLUEQUEST_DATA_1_80.map(x=>({...x,__range:'1-80'})),window.BLUEQUEST_DATA_80_100.map(x=>({...x,__range:'80-100'}))]}else{sets=await Promise.all(DATA_FILES.map(async(f,i)=>{const r=await fetch(f);if(!r.ok)throw new Error(`No se pudo cargar ${f}`);return (await r.json()).map(x=>({...x,__range:i===0?'1-80':'80-100'}))}))}DATA=sets.flat();populateTypes();updateGlobalStats();renderExplore();renderRecent();renderFavorites();renderProgress()}
 function populateTypes(){const sel=$('#typeFilter');[...new Set(DATA.map(q=>q.type).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es')).forEach(v=>sel.insertAdjacentHTML('beforeend',`<option value="${esc(v)}">${esc(v)}</option>`))}
-function navigate(view){$$('.view').forEach(v=>v.classList.toggle('active',v.dataset.view===view));$$('.bottom-nav button').forEach(b=>b.classList.toggle('active',b.dataset.nav===view));window.scrollTo({top:0,behavior:'instant'});if(view==='favorites')renderFavorites();if(view==='progress')renderProgress();if(view==='explore')setTimeout(()=>$('#searchInput')?.focus({preventScroll:true}),80);history.replaceState(null,'',`#${view}`)}
+function navigate(view){$$('.view').forEach(v=>v.classList.toggle('active',v.dataset.view===view));$('.bottom-nav button').forEach(b=>{const favMode=b.dataset.range==='favorites'&&view==='explore'&&currentRange==='favorites';const normal=b.dataset.nav===view&&!(b.dataset.nav==='explore'&&b.dataset.range==='favorites');b.classList.toggle('active',favMode||normal)});window.scrollTo({top:0,behavior:'instant'});if(view==='favorites')renderFavorites();if(view==='progress')renderProgress();if(view==='explore')setTimeout(()=>$('#searchInput')?.focus({preventScroll:true}),80);history.replaceState(null,'',`#${view}`)}
 function matchesLevel(q,val){if(!val)return true;const [a,b]=val.split('-').map(Number);return q.level>=a&&q.level<=b}
-function applyFilters(){const term=$('#searchInput').value.trim().toLowerCase(), type=$('#typeFilter').value, lv=$('#levelFilter').value;filtered=DATA.filter(q=>{if(currentRange==='1-80'&&rangeOf(q)!=='1-80')return false;if(currentRange==='80-100'&&rangeOf(q)!=='80-100')return false;if(currentRange==='done'&&!state.done[key(q)])return false;if(currentRange==='pending'&&state.done[key(q)])return false;if(type&&q.type!==type)return false;if(!matchesLevel(q,lv))return false;if(term&&!Object.values(q).join(' ').toLowerCase().includes(term))return false;return true});renderQuestList(filtered.slice(0,displayLimit),$('#questList'));$('#resultCount').textContent=`${filtered.length} resultado${filtered.length===1?'':'s'}`;$('#loadMore').hidden=displayLimit>=filtered.length;$('#emptyState').hidden=!!filtered.length;const labels={all:'1–100','1-80':'Free Trial · 1–80','80-100':'80–100',done:'Completadas',pending:'Pendientes'};$('#activeHint').textContent=labels[currentRange]||''}
+function applyFilters(){const term=$('#searchInput').value.trim().toLowerCase(), type=$('#typeFilter').value, lv=$('#levelFilter').value;filtered=DATA.filter(q=>{if(currentRange==='1-80'&&rangeOf(q)!=='1-80')return false;if(currentRange==='80-100'&&rangeOf(q)!=='80-100')return false;if(currentRange==='done'&&!state.done[key(q)])return false;if(currentRange==='pending'&&state.done[key(q)])return false;if(currentRange==='favorites'&&!state.favorites[key(q)])return false;if(type&&q.type!==type)return false;if(!matchesLevel(q,lv))return false;if(term&&!Object.values(q).join(' ').toLowerCase().includes(term))return false;return true});renderQuestList(filtered.slice(0,displayLimit),$('#questList'));$('#resultCount').textContent=`${filtered.length} resultado${filtered.length===1?'':'s'}`;$('#loadMore').hidden=displayLimit>=filtered.length;$('#emptyState').hidden=!!filtered.length;const labels={all:'1–100','1-80':'Free Trial · 1–80','80-100':'80–100',done:'Completadas',pending:'Pendientes',favorites:'★ Favoritos'};$('#activeHint').textContent=labels[currentRange]||''}
 function renderExplore(){if(!DATA.length)return;applyFilters()}
 function card(q){const k=key(q),done=!!state.done[k],fav=!!state.favorites[k];return `<article class="quest-card" data-key="${esc(k)}" tabindex="0"><span class="level-pill">Lv ${q.level}</span><div class="quest-main"><h3>${esc(q.name)}</h3><p>${esc(q.location||q.unlock||'')}</p><div class="quest-tags"><span class="tag">${esc(q.type||'Quest')}</span><span class="tag high">${rangeOf(q)}</span>${done?'<span class="tag done">✓ Hecha</span>':''}</div></div><button class="fav-btn ${fav?'on':''}" data-fav="${esc(k)}" aria-label="Favorito">${fav?'★':'☆'}</button></article>`}
 function renderQuestList(list,target){target.innerHTML=list.map(card).join('')}
@@ -203,7 +204,7 @@ function renderFavorites(){if(!DATA.length)return;const list=DATA.filter(q=>stat
 function renderRecent(){if(!DATA.length)return;const qs=getRecent().map(findByKey).filter(Boolean).slice(0,4);$('#recentList').innerHTML=qs.length?qs.map(q=>`<button class="mini-item" data-recent="${esc(key(q))}"><span class="mini-level">${q.level}</span><span><b>${esc(q.name)}</b><small>${esc(q.location||q.type||'')}</small></span><span class="mini-arrow">›</span></button>`).join(''):`<div class="empty-state" style="padding:24px 10px"><p>Aún no has abierto ninguna misión.</p></div>`}
 function updateGlobalStats(){if(!DATA.length)return;const done=DATA.filter(q=>state.done[key(q)]).length,favs=DATA.filter(q=>state.favorites[key(q)]).length,total=DATA.length,pct=Math.round(done/total*100);$('#favHome').textContent=favs;$('#doneHome').textContent=done;$('#doneStat').textContent=done;$('#todoStat').textContent=total-done;$('#totalStat').textContent=total;$('#progressPercent').textContent=`${pct}%`;$('#progressBar').style.width=`${pct}%`;$('#favBadge').hidden=!favs;$('#favBadge').textContent=favs>99?'99+':favs}
 function renderProgress(){if(!DATA.length)return;const done=DATA.filter(q=>state.done[key(q)]).length,total=DATA.length,pct=Math.round(done/total*100);$('#ringPercent').textContent=`${pct}%`;$('#progressRing').style.setProperty('--p',`${pct*3.6}deg`);$('#progressDone').textContent=`${done} de ${total}`;const ranges=[['1–80','1-80'],['80–100','80-100']];$('#rangeProgress').innerHTML=ranges.map(([label,r])=>{const arr=DATA.filter(q=>rangeOf(q)===r),d=arr.filter(q=>state.done[key(q)]).length,p=Math.round(d/arr.length*100);return `<div class="range-row"><div><b>Atlas ${label}</b><small>${d} / ${arr.length}</small></div><div class="progress-track"><i style="width:${p}%"></i></div></div>`}).join('')}
-function setRange(r){currentRange=r;displayLimit=50;$$('[data-range-chip]').forEach(b=>b.classList.toggle('active',b.dataset.rangeChip===r));applyFilters()}
+function setRange(r){currentRange=r;displayLimit=50;$('[data-range-chip]').forEach(b=>b.classList.toggle('active',b.dataset.rangeChip===r));applyFilters();$('.bottom-nav button').forEach(b=>{const favMode=b.dataset.range==='favorites'&&currentRange==='favorites';const exploreMode=b.dataset.nav==='explore'&&!b.dataset.range&&currentRange!=='favorites'&&$('#view-explore').classList.contains('active');b.classList.toggle('active',favMode||exploreMode)})}
 function resetFilters(){currentRange='all';$('#searchInput').value='';$('#typeFilter').value='';$('#levelFilter').value='';$$('[data-range-chip]').forEach(b=>b.classList.toggle('active',b.dataset.rangeChip==='all'));displayLimit=50;applyFilters()}
 function exportData(){const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),state,recent:getRecent()},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='bluequest-atlas-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('Copia exportada')}
 async function importData(file){try{const obj=JSON.parse(await file.text());if(!obj.state)throw new Error();state={done:{},favorites:{},...obj.state};saveState();if(Array.isArray(obj.recent))localStorage.setItem(RECENT_KEY,JSON.stringify(obj.recent));renderExplore();renderFavorites();renderRecent();renderProgress();toast('Copia importada')}catch{toast('Archivo de copia no válido')}}
