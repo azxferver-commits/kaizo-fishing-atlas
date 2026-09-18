@@ -312,7 +312,8 @@ function bind(){
   q('#ffxivJobClose')?.addEventListener('click',()=>q('#ffxivJobDialog').close());
   q('#ffxivJobs')?.addEventListener('click',e=>{const b=e.target.closest('[data-ffxiv-job]');if(b)openJob(b.dataset.ffxivJob)});
   q('#ffxivJobDialog')?.addEventListener('click',e=>{const b=e.target.closest('[data-route-key]');if(b)openAtlasQuest(b.dataset.routeKey)});
-  document.addEventListener('bluequest:session',load);\n  document.addEventListener('bluequest:ready',render);
+  document.addEventListener('bluequest:session',load);
+  document.addEventListener('bluequest:ready',render);
   document.addEventListener('bluequest:progress',()=>{renderGlobalProgress();if(activeJob&&q('#ffxivJobDialog')?.open)openJob(activeJob.name);else render()});
 }
 window.BlueQuestFFXIV={load,sync,openJob};
