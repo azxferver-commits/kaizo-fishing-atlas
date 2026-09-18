@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d1b">
+  <meta name="description" content="Guía interactiva del Manderville Gold Saucer: mapa, métodos de MGP, juegos, GATEs y Fashion Report semanal.">
+  <meta property="og:title" content="KAIZO Gold Saucer — Guía interactiva">
+  <meta property="og:description" content="Planifica tu semana, sigue el Fashion Report y aprende cada atracción del Gold Saucer.">
+  <meta property="og:type" content="website">
+  <title>KAIZO Gold Saucer — Guía interactiva</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="brand" aria-label="KAIZO Gold Saucer">
+      <span class="brand-orbit" aria-hidden="true"><span>G</span></span>
+      <span class="brand-copy">
+        <strong>KAIZO</strong>
+        <small>GOLD SAUCER</small>
+      </span>
+    </div>
+
+    <nav class="primary-nav" aria-label="Secciones principales">
+      <button class="nav-button is-active" type="button" data-view="inicio" aria-current="page">
+        <span aria-hidden="true">⌂</span> Inicio
+      </button>
+      <button class="nav-button" type="button" data-view="mapa">
+        <span aria-hidden="true">⌖</span> Mapa
+      </button>
+      <button class="nav-button" type="button" data-view="mgp">
+        <span aria-hidden="true">◇</span> Ganar MGP
+      </button>
+      <button class="nav-button" type="button" data-view="juegos">
+        <span aria-hidden="true">✦</span> Juegos
+      </button>
+      <button class="nav-button nav-fashion" type="button" data-view="fashion">
+        <span aria-hidden="true">♢</span> Fashion Report
+        <span class="live-dot">LIVE</span>
+      </button>
+    </nav>
+
+    <div class="header-status" title="El progreso se guarda únicamente en este dispositivo">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span>PROGRESO LOCAL</span>
+    </div>
+  </header>
+
+  <main id="mainContent" tabindex="-1">
+    <section class="view is-visible" id="view-inicio" data-view-panel="inicio" aria-labelledby="inicio-title">
+      <div class="dashboard-heading">
+        <div>
+          <p class="eyebrow">MANDERVILLE CONTROL DESK</p>
+          <h1 id="inicio-title">Tu semana en el Gold Saucer</h1>
+          <p class="lede">Todo lo importante en una sola pantalla: próxima GATE, reinicio semanal, Fashion Report y ruta rápida hacia los <strong>500.000 MGP</strong>.</p>
+        </div>
+        <div class="week-chip">
+          <span>SEMANA ACTUAL</span>
+          <strong id="weekRange">Calculando…</strong>
+        </div>
+      </div>
+
+      <div class="status-grid">
+        <article class="status-card status-card--gate">
+          <div class="status-card-top">
+            <span class="mini-label">PRÓXIMA GATE</span>
+            <span class="pulse-tag">EN VIVO</span>
+          </div>
+          <strong class="status-value" id="gateCountdown">--:--</strong>
+          <p id="gateLocalTime">Calculando hora local…</p>
+          <button class="text-action" type="button" data-view-jump="juegos" data-filter-jump="gate">Ver las 5 GATEs <span aria-hidden="true">→</span></button>
+        </article>
+
+        <article class="status-card status-card--fashion">
+          <div class="status-card-top">
+            <span class="mini-label">FASHION REPORT</span>
+            <span class="source-pill" id="fashionSourcePill">Cargando</span>
+          </div>
+          <strong class="status-value status-value--text" id="fashionThemeMini">Buscando semana…</strong>
+          <p><span id="fashionStageMini">Sincronizando</span> · hasta 60.000 MGP</p>
+          <button class="text-action" type="button" data-view-jump="fashion">Abrir guía semanal <span aria-hidden="true">→</span></button>
+        </article>
+
+        <article class="status-card status-card--reset">
+          <div class="status-card-top">
+            <span class="mini-label">REINICIO SEMANAL</span>
+            <span class="timezone-tag">TU HORA</span>
+          </div>
+          <strong class="status-value" id="resetCountdown">--d --h</strong>
+          <p id="resetLocalTime">Calculando…</p>
+          <button class="text-action" type="button" data-view-jump="mgp">Abrir lista semanal <span aria-hidden="true">→</span></button>
+        </article>
+
+        <article class="status-card status-card--goal">
+          <div class="status-card-top">
+            <span class="mini-label">META DE MGP</span>
+            <span class="goal-tag" id="goalPercentBadge">4%</span>
+          </div>
+          <strong class="status-value"><span id="goalCurrentMini">20.000</span><small> / <span id="goalTargetMini">500.000</span></small></strong>
+          <div class="progress-track" aria-hidden="true"><span id="goalProgressMini"></span></div>
+          <button class="text-action" type="button" data-view-jump="mgp" data-focus-target="mgpCurrent">Editar meta y calcular <span aria-hidden="true">→</span></button>
+        </article>
+      </div>
+
+      <div class="home-layout">
+        <section class="panel weekly-panel" aria-labelledby="quick-plan-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">RUTA RECOMENDADA</p>
+              <h2 id="quick-plan-title">Una semana sin desperdiciar MGP</h2>
+            </div>
+            <span class="reward-badge">60k+ fácil</span>
+          </div>
+          <div class="quick-list" id="quickChecklist"></div>
+          <div class="panel-footer split-footer">
+            <span><strong id="quickDoneCount">0</strong> de 5 prioridades completas</span>
+            <button class="secondary-button" id="resetQuickButton" type="button">Reiniciar lista</button>
+          </div>
+        </section>
+
+        <aside class="panel first-visit-panel" aria-labelledby="first-visit-title">
+          <p class="eyebrow">PRIMERA VISITA</p>
+          <h2 id="first-visit-title">Entra en 3 pasos</h2>
+          <ol class="step-list">
+            <li><span>01</span><div><strong>Nivel 15</strong><p>Completa uno de los tres encargos del Enviado en la historia principal.</p></div></li>
+            <li><span>02</span><div><strong>“It Could Happen to You”</strong><p>Habla con Well-Heeled Youth en Ul'dah, Steps of Nald (X:9.6 Y:9.0).</p></div></li>
+            <li><span>03</span><div><strong>Activa los aetherytes</strong><p>Registra los puntos de viaje del recinto antes de empezar tu ruta.</p></div></li>
+          </ol>
+          <button class="primary-button full-button" type="button" data-view-jump="mapa">Abrir mapa práctico <span aria-hidden="true">→</span></button>
+        </aside>
+      </div>
+
+      <section class="home-cards" aria-labelledby="explore-title">
+        <div class="section-heading compact-heading">
+          <div><p class="eyebrow">EXPLORA</p><h2 id="explore-title">Cada pantalla lleva a una herramienta real</h2></div>
+        </div>
+        <div class="feature-grid">
+          <button class="feature-card" type="button" data-view-jump="mapa">
+            <span class="feature-icon" aria-hidden="true">⌖</span>
+            <span><strong>Mapa interactivo</strong><small>Selecciona una plaza y descubre qué hay allí.</small></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="feature-card" type="button" data-view-jump="mgp">
+            <span class="feature-icon" aria-hidden="true">◇</span>
+            <span><strong>Planificador MGP</strong><small>Calcula tu meta y marca el Challenge Log.</small></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="feature-card" type="button" data-view-jump="juegos">
+            <span class="feature-icon" aria-hidden="true">✦</span>
+            <span><strong>Todos los juegos</strong><small>Filtros, reglas, ubicación y consejos.</small></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="feature-card" type="button" data-view-jump="fashion">
+            <span class="feature-icon" aria-hidden="true">♢</span>
+            <span><strong>Fashion Report vivo</strong><small>Semana, pistas, prendas y lista personal.</small></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="view-mapa" data-view-panel="mapa" aria-labelledby="mapa-title" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ORIENTACIÓN</p>
+          <h1 id="mapa-title">Mapa práctico del Gold Saucer</h1>
+          <p class="lede">Pulsa cualquier zona para ver sus atracciones, coordenadas y la mejor razón para visitarla. Es un esquema de navegación, no un mapa a escala.</p>
+        </div>
+        <button class="secondary-button" id="mapResetButton" type="button">Volver a Entrada</button>
+      </div>
+
+      <div class="map-layout">
+        <div class="saucer-map" id="saucerMap" role="group" aria-label="Zonas seleccionables del Gold Saucer">
+          <div class="map-ring map-ring--outer" aria-hidden="true"></div>
+          <div class="map-ring map-ring--inner" aria-hidden="true"></div>
+          <div class="map-line map-line--vertical" aria-hidden="true"></div>
+          <div class="map-line map-line--middle" aria-hidden="true"></div>
+          <div class="map-line map-line--upper" aria-hidden="true"></div>
+          <div class="map-core" aria-hidden="true"><span>MANDERVILLE</span><strong>GOLD<br>SAUCER</strong></div>
+
+          <button class="map-node map-node--entrance is-active" type="button" data-zone="entrance"><span class="node-icon">◎</span><span>Entrance<br>Square</span></button>
+          <button class="map-node map-node--card" type="button" data-zone="card"><span class="node-icon">▣</span><span>Card<br>Square</span></button>
+          <button class="map-node map-node--wonder" type="button" data-zone="wonder"><span class="node-icon">✦</span><span>Wonder<br>Square</span></button>
+          <button class="map-node map-node--event" type="button" data-zone="event"><span class="node-icon">☆</span><span>Event<br>Square</span></button>
+          <button class="map-node map-node--round" type="button" data-zone="round"><span class="node-icon">◉</span><span>Round<br>Square</span></button>
+          <button class="map-node map-node--chocobo" type="button" data-zone="chocobo"><span class="node-icon">♞</span><span>Chocobo<br>Square</span></button>
+          <button class="map-node map-node--minion" type="button" data-zone="minion"><span class="node-icon">♟</span><span>Minion<br>Square</span></button>
+          <p class="map-help"><span aria-hidden="true">●</span> Pulsa una zona</p>
+        </div>
+
+        <aside class="zone-panel panel" aria-live="polite">
+          <div class="zone-kicker"><span id="zoneNumber">01</span><span id="zoneType">PUNTO DE LLEGADA</span></div>
+          <h2 id="zoneName">Entrance Square</h2>
+          <p class="zone-coords" id="zoneCoords">X:4.8 · Y:6.7</p>
+          <p id="zoneDescription">El centro de operaciones: registro, cambio inicial de MGP, acceso al dirigible y ascensor hacia Chocobo Square.</p>
+          <div class="zone-list-wrap">
+            <h3>Encontrarás aquí</h3>
+            <ul id="zoneActivities"></ul>
+          </div>
+          <div class="zone-tip"><span aria-hidden="true">!</span><p id="zoneTip">Registra el aetheryte y habla con el Gold Saucer Attendant antes de explorar.</p></div>
+          <button class="primary-button full-button" id="zoneGamesButton" type="button">Ver actividades de esta zona <span aria-hidden="true">→</span></button>
+        </aside>
+      </div>
+
+      <section class="route-panel panel" aria-labelledby="route-title">
+        <div class="panel-heading">
+          <div><p class="eyebrow">RUTA DE 10 MINUTOS</p><h2 id="route-title">Qué activar en tu primera vuelta</h2></div>
+          <span class="reward-badge">Sin perderte</span>
+        </div>
+        <div class="route-steps">
+          <button type="button" data-zone-route="entrance"><span>1</span><strong>Entrada</strong><small>Registro y MGP</small></button>
+          <i aria-hidden="true">→</i>
+          <button type="button" data-zone-route="wonder"><span>2</span><strong>Wonder</strong><small>Mini Cactpot</small></button>
+          <i aria-hidden="true">→</i>
+          <button type="button" data-zone-route="card"><span>3</span><strong>Card</strong><small>Triple Triad</small></button>
+          <i aria-hidden="true">→</i>
+          <button type="button" data-zone-route="chocobo"><span>4</span><strong>Chocobo</strong><small>Carreras</small></button>
+          <i aria-hidden="true">→</i>
+          <button type="button" data-zone-route="minion"><span>5</span><strong>Minion</strong><small>Verminion</small></button>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="view-mgp" data-view-panel="mgp" aria-labelledby="mgp-title" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">MANDERVILLE GOLD SAUCER POINTS</p>
+          <h1 id="mgp-title">Gana MGP con una ruta, no al azar</h1>
+          <p class="lede">Fashion Report y Challenge Log son la base semanal. GATEs, Cactpot y tus juegos favoritos completan el resto.</p>
+        </div>
+        <div class="total-chip"><span>MÁX. CHALLENGE LOG</span><strong>95.000 MGP</strong></div>
+      </div>
+
+      <div class="mgp-layout">
+        <section class="panel goal-calculator" aria-labelledby="calculator-title">
+          <div class="panel-heading">
+            <div><p class="eyebrow">CALCULADORA</p><h2 id="calculator-title">Meta personal</h2></div>
+            <button class="icon-button" id="resetGoalButton" type="button" title="Restablecer meta" aria-label="Restablecer meta">↺</button>
+          </div>
+          <div class="input-grid">
+            <label>MGP actuales<input id="mgpCurrent" type="number" min="0" max="9999999" step="1000" value="20000" inputmode="numeric"></label>
+            <label>Objetivo<input id="mgpGoal" type="number" min="1" max="9999999" step="1000" value="500000" inputmode="numeric"></label>
+          </div>
+          <div class="goal-output">
+            <div><span>Te faltan</span><strong id="mgpRemaining">480.000 MGP</strong></div>
+            <div><span>Semanas estimadas*</span><strong id="mgpWeeks">4</strong></div>
+          </div>
+          <div class="progress-track progress-track--large" aria-label="Progreso hacia la meta"><span id="goalProgressMain"></span></div>
+          <p class="fine-print">*Estimación usando Fashion Report (60.000) más 60.000 MGP semanales de actividades seleccionadas. Puedes cambiar ambos números.</p>
+          <button class="primary-button full-button" id="saveGoalButton" type="button">Guardar mi meta</button>
+        </section>
+
+        <section class="panel time-planner" aria-labelledby="time-title">
+          <div class="panel-heading">
+            <div><p class="eyebrow">RUTA POR TIEMPO</p><h2 id="time-title">¿Cuánto tiempo tienes?</h2></div>
+          </div>
+          <div class="segmented-control" role="group" aria-label="Tiempo disponible">
+            <button type="button" data-time="15" class="is-active">15 min</button>
+            <button type="button" data-time="30">30 min</button>
+            <button type="button" data-time="60">60+ min</button>
+          </div>
+          <div class="time-route" id="timeRoute" aria-live="polite"></div>
+          <div class="estimate-row"><span>Estimación conservadora</span><strong id="timeEstimate">60.000+ MGP</strong></div>
+        </section>
+      </div>
+
+      <section class="methods-section" aria-labelledby="methods-title">
+        <div class="section-heading compact-heading">
+          <div><p class="eyebrow">PRIORIDAD</p><h2 id="methods-title">Mejores métodos, ordenados por valor</h2></div>
+          <p>Pulsa una tarjeta para ver la explicación completa.</p>
+        </div>
+        <div class="method-grid" id="methodGrid"></div>
+      </section>
+
+      <section class="panel challenge-panel" aria-labelledby="challenge-title">
+        <div class="panel-heading challenge-heading">
+          <div><p class="eyebrow">SE REINICIA EL MARTES</p><h2 id="challenge-title">Challenge Log interactivo</h2><p>Marca tareas y la suma se guardará en este dispositivo durante la semana.</p></div>
+          <div class="challenge-total"><span>COMPLETADO</span><strong><span id="challengeMgp">0</span> / 95.000</strong></div>
+        </div>
+        <div class="filter-row" id="challengeFilters" role="group" aria-label="Filtrar Challenge Log">
+          <button type="button" class="filter-button is-active" data-challenge-filter="all">Todos</button>
+          <button type="button" class="filter-button" data-challenge-filter="rapido">Rápidos</button>
+          <button type="button" class="filter-button" data-challenge-filter="gate">GATE</button>
+          <button type="button" class="filter-button" data-challenge-filter="carreras">Carreras</button>
+          <button type="button" class="filter-button" data-challenge-filter="cartas">Cartas</button>
+          <button type="button" class="filter-button" data-challenge-filter="verminion">Verminion</button>
+          <button type="button" class="filter-button" data-challenge-filter="mahjong">Mahjong</button>
+        </div>
+        <div class="challenge-list" id="challengeList"></div>
+        <div class="panel-footer split-footer">
+          <span id="challengeCount">0 de 17 retos completos</span>
+          <button class="secondary-button" id="clearChallengeButton" type="button">Desmarcar semana</button>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="view-juegos" data-view-panel="juegos" aria-labelledby="juegos-title" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ATRACCIONES</p>
+          <h1 id="juegos-title">Qué es cada juego y cómo empezar</h1>
+          <p class="lede">Filtra por tipo y abre cualquier ficha. Cada una incluye objetivo, controles básicos, ubicación y consejo de MGP.</p>
+        </div>
+        <div class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <label class="sr-only" for="gameSearch">Buscar juego</label>
+          <input id="gameSearch" type="search" placeholder="Buscar juego…" autocomplete="off">
+          <button id="clearGameSearch" type="button" aria-label="Limpiar búsqueda" title="Limpiar búsqueda">×</button>
+        </div>
+      </div>
+
+      <div class="filter-row games-filter" id="gameFilters" role="group" aria-label="Filtrar juegos">
+        <button type="button" class="filter-button is-active" data-game-filter="all">Todos <span id="allGamesCount"></span></button>
+        <button type="button" class="filter-button" data-game-filter="gate">GATEs</button>
+        <button type="button" class="filter-button" data-game-filter="arcade">Arcade</button>
+        <button type="button" class="filter-button" data-game-filter="azar">Cactpot</button>
+        <button type="button" class="filter-button" data-game-filter="estrategia">Estrategia</button>
+        <button type="button" class="filter-button" data-game-filter="carreras">Carreras</button>
+      </div>
+
+      <div class="games-summary" aria-live="polite"><span id="gameResultCount">0 actividades</span><span>Selecciona una ficha para abrirla</span></div>
+      <div class="games-grid" id="gamesGrid"></div>
+      <div class="empty-state" id="gamesEmpty" hidden>
+        <span aria-hidden="true">⌕</span><h2>No hay coincidencias</h2><p>Prueba otro nombre o cambia el filtro.</p><button class="secondary-button" id="resetGameFilters" type="button">Ver todos</button>
+      </div>
+    </section>
+
+    <section class="view" id="view-fashion" data-view-panel="fashion" aria-labelledby="fashion-title" hidden>
+      <div class="section-heading fashion-heading-main">
+        <div>
+          <p class="eyebrow">ACTUALIZACIÓN SEMANAL AUTOMÁTICA</p>
+          <h1 id="fashion-title">Fashion Report</h1>
+          <p class="lede">Pistas del martes, evaluación desde el viernes y una lista que se reinicia con cada semana del juego.</p>
+        </div>
+        <button class="primary-button" id="refreshFashionButton" type="button"><span aria-hidden="true">↻</span> Actualizar ahora</button>
+      </div>
+
+      <div class="fashion-status-bar">
+        <div><span class="status-dot"></span><strong id="fashionLiveStatus">Sincronizando datos…</strong><small id="fashionUpdatedAt"></small></div>
+        <div><span id="fashionStageBadge" class="stage-badge">CARGANDO</span><strong id="fashionCountdown">--d --h --m</strong><small id="fashionCountdownLabel">hasta el siguiente cambio</small></div>
+      </div>
+
+      <div class="fashion-layout">
+        <section class="panel current-report" aria-labelledby="current-report-title">
+          <div class="report-topline">
+            <div><span id="fashionWeekNumber">SEMANA —</span><span id="fashionDate">—</span></div>
+            <span class="reward-badge">Hasta 60.000 MGP</span>
+          </div>
+          <h2 id="current-report-title"><span id="fashionTheme">Cargando tema…</span></h2>
+          <p class="report-explainer" id="fashionExplainer">Consultando la última semana disponible.</p>
+          <div class="fashion-slots" id="fashionSlots" aria-live="polite"></div>
+          <div class="report-actions">
+            <button class="primary-button" id="copyFashionButton" type="button">Copiar lista</button>
+            <a class="secondary-button button-link" href="https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/goldsaucer/fashionreport/" target="_blank" rel="noreferrer">Guía oficial <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="source-note">Pistas semanales: base comunitaria FFXIV Fashion Report Tools. Reglas y recompensas: guía oficial de FINAL FANTASY XIV.</p>
+        </section>
+
+        <aside class="panel fashion-checklist-panel" aria-labelledby="fashion-check-title">
+          <div class="panel-heading">
+            <div><p class="eyebrow">MI INTENTO</p><h2 id="fashion-check-title">Lista semanal</h2></div>
+            <span class="goal-tag" id="fashionProgressBadge">0 / 6</span>
+          </div>
+          <div class="fashion-checklist" id="fashionChecklist"></div>
+          <div class="fashion-score-card">
+            <span>RECOMPENSA</span>
+            <strong id="fashionRewardEstimate">0 MGP</strong>
+            <small>Se calcula con tus marcas de participación y 80+.</small>
+          </div>
+          <button class="secondary-button full-button" id="resetFashionChecklist" type="button">Reiniciar intento</button>
+        </aside>
+      </div>
+
+      <section class="panel fashion-guide" aria-labelledby="fashion-guide-title">
+        <div class="panel-heading">
+          <div><p class="eyebrow">SIN HUMO</p><h2 id="fashion-guide-title">Cómo funciona de verdad</h2></div>
+        </div>
+        <div class="guide-tabs" role="tablist" aria-label="Guía Fashion Report">
+          <button id="tab-theme" type="button" role="tab" aria-selected="true" aria-controls="guide-panel" class="is-active" data-guide-tab="theme">1. Tema</button>
+          <button id="tab-gear" type="button" role="tab" aria-selected="false" aria-controls="guide-panel" data-guide-tab="gear">2. Equipo</button>
+          <button id="tab-score" type="button" role="tab" aria-selected="false" aria-controls="guide-panel" data-guide-tab="score">3. Puntuación</button>
+          <button id="tab-reward" type="button" role="tab" aria-selected="false" aria-controls="guide-panel" data-guide-tab="reward">4. Recompensa</button>
+        </div>
+        <div class="guide-panel" id="guide-panel" role="tabpanel" aria-labelledby="tab-theme" tabindex="0"></div>
+      </section>
+
+      <section class="truth-grid" aria-label="Datos importantes del Fashion Report">
+        <article><span>01</span><strong>4 intentos semanales</strong><p>Puedes volver con otra combinación antes del reinicio del martes.</p></article>
+        <article><span>02</span><strong>El glamour sí cuenta</strong><p>Masked Rose evalúa la apariencia glamurizada, no sólo la pieza base.</p></article>
+        <article><span>03</span><strong>El equipo se vincula</strong><p>Las piezas equipadas durante la evaluación quedan ligadas a tu personaje.</p></article>
+        <article><span>04</span><strong>80 puntos = objetivo</strong><p>10.000 por participar + 50.000 adicionales al alcanzar 80 o más.</p></article>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>KAIZO カイゾ</strong><span>Guía comunitaria no oficial de FFXIV.</span></div>
+    <nav aria-label="Fuentes y enlaces">
+      <a href="https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/goldsaucer/" target="_blank" rel="noreferrer">Guía oficial ↗</a>
+      <a href="https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2" target="_blank" rel="noreferrer">Datos Fashion Report ↗</a>
+      <button type="button" data-view-jump="inicio">Volver arriba ↑</button>
+    </nav>
+    <p>FINAL FANTASY XIV © SQUARE ENIX. Este sitio no está afiliado ni respaldado por Square Enix.</p>
+  </footer>
+
+  <dialog class="detail-dialog" id="detailDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-shell">
+      <button class="dialog-close" id="dialogClose" type="button" aria-label="Cerrar ficha">×</button>
+      <div class="dialog-kicker"><span id="dialogCategory">JUEGO</span><span id="dialogLocation">Gold Saucer</span></div>
+      <div class="dialog-icon" id="dialogIcon" aria-hidden="true">✦</div>
+      <h2 id="dialogTitle">Detalle</h2>
+      <p class="dialog-summary" id="dialogSummary"></p>
+      <div class="dialog-grid">
+        <section><h3>Cómo se juega</h3><ol id="dialogSteps"></ol></section>
+        <section><h3>Consejo MGP</h3><p id="dialogTip"></p><div class="dialog-meta" id="dialogMeta"></div></section>
+      </div>
+      <div class="dialog-actions">
+        <button class="primary-button" id="dialogMapButton" type="button">Mostrar en el mapa</button>
+        <button class="secondary-button" id="dialogDoneButton" type="button">Entendido</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <noscript>
+    <div class="noscript">Esta guía necesita JavaScript para usar el mapa, los filtros, los contadores y el Fashion Report semanal.</div>
+  </noscript>
+</body>
+</html>

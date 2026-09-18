@@ -1,0 +1,50 @@
+{
+  "week": 451,
+  "date": "2026-09-18",
+  "theme": "Shiver Me Timbers",
+  "updatedAt": "2026-09-18T15:52:56Z",
+  "source": "Sincronización automática",
+  "sourceUrl": "https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2",
+  "slots": [
+    {
+      "type": "Head",
+      "hint": "Shivering Timbers",
+      "items": []
+    },
+    {
+      "type": "Body",
+      "hint": "Winter Wonderland",
+      "items": [
+        "Adventuring Sweater",
+        "Dream Tunic",
+        "Glacial Coat",
+        "Highland Smock",
+        "Starlight Robe",
+        "Starlight Tunic",
+        "Winter Sweater"
+      ]
+    },
+    {
+      "type": "Hands",
+      "hint": "Bewitched",
+      "items": [
+        "Antiquated Constellation Armlets",
+        "Ghost Barque Long Gloves Of Scouting",
+        "Star Velvet Long Gloves Of Casting",
+        "Star Velvet Long Gloves Of Healing",
+        "Thavnairian Armlets"
+      ]
+    },
+    {
+      "type": "Legs",
+      "hint": "Sleight Of Hand",
+      "items": [
+        "Magician's Slops",
+        "Pilgrim's Slops",
+        "Rainbow Slops Of Aiming",
+        "Rainbow Slops Of Casting",
+        "Rainbow Slops Of Healing"
+      ]
+    }
+  ]
+}
