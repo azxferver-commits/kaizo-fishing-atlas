@@ -58,3 +58,12 @@
 .community-gate p{margin:0 auto 8px;max-width:360px;color:#9aafbe;font-size:10px;line-height:1.5}
 .community-gate .community-gate-sub{color:#728a9c}
 .community-gate .complete-action{margin-top:8px;width:100%}
+
+.module-dialog{width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:#020812;color:var(--text)}
+.module-dialog::backdrop{background:#020812}
+.module-shell{display:grid;grid-template-rows:auto 1fr;width:100%;height:100dvh;background:#020812}
+.module-topbar{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:58px;padding:calc(8px + env(safe-area-inset-top)) 12px 8px;border-bottom:1px solid #243c50;background:linear-gradient(180deg,#081827,#06111c)}
+.module-topbar>div{display:flex;align-items:center;gap:9px;min-width:0}.module-topbar span{display:grid;place-items:center;width:30px;height:30px;border:1px solid #35617c;border-radius:9px;background:#0d2b3a;color:var(--cyan);font-size:15px}.module-topbar b{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.module-topbar button{width:38px;height:38px;border:1px solid #365268;border-radius:50%;background:#0b1823;color:#e7f7ff;font-size:24px;line-height:1}
+#bluequestModuleFrame{display:block;width:100%;height:100%;border:0;background:#050b12}
+.module-card.live[type="button"]{appearance:none;-webkit-appearance:none;font:inherit;width:100%;cursor:pointer}
