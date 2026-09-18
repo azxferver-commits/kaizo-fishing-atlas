@@ -75,7 +75,7 @@ function tactical(id){
   } else if(id==="behe"){
     m=[mark(50,25,"BEHEMOTH","boss"),mark(50,58,"COMET","obj"),mark(28,62,"COMET","obj")];
     var bx=state.role==="tank"?46:state.role==="healer"?51:56;
-    var by=state.role==="tank"?69:74:79;
+    var by=state.role==="tank"?69:state.role==="healer"?74:79;
     you={x:bx,y:by,title:"Ecliptic Meteor · "+state.role.toUpperCase(),text:roleText("Escóndete tras el cometa sin arrastrar al boss ni al Iron Giant hacia la cobertura.","Ponte detrás del cometa con línea de visión al grupo cuando termine el cast.","Ponte detrás del cometa; no salgas antes de que Ecliptic Meteor resuelva.")};
   } else if(id==="amon"){
     m=[mark(50,27,"AMON","boss"),mark(50,58,"ICE","obj"),mark(28,62,"ICE","obj"),mark(72,62,"ICE","obj")];
