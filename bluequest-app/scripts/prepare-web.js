@@ -11,6 +11,9 @@ const dataDir = path.join(www, "data");
 const nativeDir = path.join(appRoot, "native");
 
 fs.mkdirSync(dataDir, { recursive: true });
+for (const file of ["cloud-config.js","account.css","account.js"]) {
+  fs.copyFileSync(path.join(appRoot, "native", file), path.join(www, file));
+}
 
 const atlas180 = JSON.parse(fs.readFileSync(source180, "utf8"));
 const atlas80100 = JSON.parse(fs.readFileSync(source80100, "utf8"));
@@ -29,6 +32,7 @@ html = html
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
+  .replace("</head>", '<link rel="stylesheet" href="./account.css" /></head>')
   .replace(
     /const DATA_FILES=\[[^\]]*\];/,
     "const DATA_FILES=['./data/atlas-1-80.json','./data/atlas-80-100.json'];"
@@ -87,7 +91,9 @@ html = html.replace(
   '<link rel="stylesheet" href="./account.css">\n</head>'
 );
 html = html.replace(
-  "</body>",
+  "  <script src="./cloud-config.js"></script>
+  <script src="./account.js"></script>
+</body>",
   '<script src="./account-config.js"></script>\n<script src="./account.js"></script>\n</body>'
 );
 
