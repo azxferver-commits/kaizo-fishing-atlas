@@ -81,6 +81,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.8.apk
-          gh release view bluequest-android-v1.8.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.8.0 --title "BlueQuest Atlas Android 1.8" --notes "BlueQuest Atlas Android 1.8. Adds synced known-progress, separate manual/detected counts, and pending alerts on FFXIV jobs instead of misleading percentages."
-          gh release upload bluequest-android-v1.8.0 BlueQuest-Atlas-Android-1.8.apk --clobber
+          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.9.apk
+          gh release view bluequest-android-v1.9.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.9.0 --title "BlueQuest Atlas Android 1.9" --notes "BlueQuest Atlas Android 1.9. Adds synced known-progress, separate manual/detected counts, and pending alerts on FFXIV jobs instead of misleading percentages."
+          gh release upload bluequest-android-v1.9.0 BlueQuest-Atlas-Android-1.9.apk --clobber
