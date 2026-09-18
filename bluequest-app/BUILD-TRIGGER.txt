@@ -1,0 +1,3 @@
+BlueQuest Native App 1.0
+Trigger Android APK build after mobile pipeline setup.
+Build revision: 1
