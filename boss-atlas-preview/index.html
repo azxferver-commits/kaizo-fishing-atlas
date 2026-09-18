@@ -49,8 +49,84 @@ function sync(){qsa(".role").forEach(function(x){x.classList.toggle("on",x.datas
 qsa(".role").forEach(function(x){x.onclick=function(){state.role=x.dataset.role;sync()}});qsa(".all").forEach(function(x){x.onclick=function(){state.al=x.dataset.al;sync()}});
 qsa(".filter").forEach(function(x){x.onclick=function(){state.area=x.dataset.area;qsa(".filter").forEach(function(y){y.classList.toggle("on",y===x)});render()}});
 qs("#search").oninput=render;qs("#level .navhead").onclick=function(){qs("#level").classList.toggle("open")};qs("#series .subhead").onclick=function(){qs("#series").classList.toggle("open")};
-function mark(x,y,t,c){return '<div class="mk '+(c||"")+'" style="left:'+x+'%;top:'+y+'%">'+t+'</div>'}function ax(){return state.al==="A"?24:state.al==="B"?50:76}
-function tactical(id){var m=[],you={x:ax(),y:70,title:"Quédate con tu grupo",text:"Sigue la mecánica desde tu sector."};if(id==="phle"){m=[mark(50,40,"PHLEGETHON","boss"),mark(22,79,"PAD A","zone"),mark(50,86,"PAD B","zone"),mark(78,79,"PAD C","zone")];you={x:ax(),y:state.al==="B"?84:78,title:"Corre a tu plataforma",text:"Alliance "+state.al+": entra y quédate hasta que aparezca la barrera."}}else if(id==="behe"){m=[mark(50,25,"BEHEMOTH","boss"),mark(50,58,"COMET","obj"),mark(28,62,"COMET","obj")];you={x:50,y:74,title:"Cometa entre tú y Behemoth",text:"La roca debe cortar la línea de visión."}}else if(id==="amon"){m=[mark(50,27,"AMON","boss"),mark(50,58,"ICE","obj"),mark(28,62,"ICE","obj"),mark(72,62,"ICE","obj")];you={x:50,y:75,title:"Escóndete detrás del hielo",text:"El bloque debe quedar entre tú y Amon."}}else if(id==="cerb"){m=[mark(50,41,"CERBERUS","boss"),mark(22,64,"A · ADDS","zone"),mark(50,76,"B · BELLY","zone"),mark(78,64,"C · CHAINS","zone")];you=state.al==="A"?{x:22,y:62,title:"A: Adds",text:"Controla Wolfsbane."}:state.al==="B"?{x:50,y:74,title:"B: Belly",text:"Mini → puddle morado → entra al estómago."}:{x:76,y:61,title:"C: Boss / Chains",text:"Mantén Cerberus y prepara cadenas."}}else if(id==="angra"){m=[mark(50,35,"ANGRA","boss"),mark(22,78,"CLEANSE","zone"),mark(50,85,"CLEANSE","zone"),mark(78,78,"CLEANSE","zone")];you={x:ax(),y:61,title:"Mira hacia fuera",text:"Si recibes Doom, corre al círculo iluminado."}}else if(id==="five"){m=[mark(50,48,"BODY","boss"),mark(30,31,"HEAD","obj"),mark(42,23,"HEAD","obj"),mark(58,23,"HEAD","obj"),mark(70,31,"HEAD","obj"),mark(50,16,"HEAD","obj")];you={x:ax(),y:70,title:"Cambia a las cabezas",text:"Durante Discordance mata las cinco."}}else if(id==="glas"){m=[mark(50,50,"CENTRO","obj"),mark(24,27,"A START","zone"),mark(50,83,"B START","zone"),mark(76,27,"C START","zone")];you={x:ax(),y:state.al==="B"?81:29,title:"Toma tu launch pad",text:"Alliance "+state.al+": salta al anillo exterior."}}else if(id==="bone"){m=[mark(50,24,"DRAGON","boss"),mark(25,62,"SKEL →","obj"),mark(50,66,"SKEL ↑","obj"),mark(75,62,"← SKEL","obj")];you={x:ax(),y:51,title:"Prioridad: skeletons",text:"Mata los que corren hacia el cuerpo."}}else if(id==="than"){m=[mark(50,30,"THANATOS","boss"),mark(18,74,"POT A","zone"),mark(50,84,"POT B","zone"),mark(82,74,"POT C","zone"),mark(69,54,"ADD","obj")];you=state.role==="tank"?{x:50,y:40,title:"Con buff, toma el boss",text:"Orienta Thanatos lejos de la raid."}:{x:ax(),y:63,title:"Mira tu buff",text:"Con Astral Realignment: boss. Sin buff: adds/Pots."}}else{m=[mark(50,37,"BOSS","boss"),mark(24,75,"A","zone"),mark(50,84,"B","zone"),mark(76,75,"C","zone")];you={x:ax(),y:state.al==="B"?80:70,title:"Ve al sector "+state.al,text:"Resuelve la mecánica desde tu zona asignada."}}m.push(mark(you.x,you.y,"TÚ","you"));return{html:m.join(""),you:you}}
+function mark(x,y,t,c){return '<div class="mk '+(c||"")+'" style="left:'+x+'%;top:'+y+'%">'+t+'</div>'}
+function ax(){return state.al==="A"?24:state.al==="B"?50:76}
+function roleShift(){
+  if(state.role==="tank") return {x:0,y:-8};
+  if(state.role==="healer") return {x:-5,y:3};
+  return {x:6,y:7};
+}
+function place(baseX,baseY,title,text){
+  var s=roleShift();
+  return {x:Math.max(8,Math.min(92,baseX+s.x)),y:Math.max(8,Math.min(92,baseY+s.y)),title:title,text:text};
+}
+function roleText(tank,healer,dps){
+  return state.role==="tank"?tank:state.role==="healer"?healer:dps;
+}
+function tactical(id){
+  var m=[],you={x:ax(),y:70,title:"Quédate con tu grupo",text:"Sigue la mecánica desde tu sector."};
+  if(id==="phle"){
+    m=[mark(50,40,"PHLEGETHON","boss"),mark(22,79,"PAD A","zone"),mark(50,86,"PAD B","zone"),mark(78,79,"PAD C","zone")];
+    var py=state.al==="B"?84:78;
+    you=place(ax(),py,
+      "Ancient Flare · "+state.role.toUpperCase(),
+      roleText("Corre a la plataforma de tu Alliance; entra por el borde interior y mantente listo para retomar al boss.","Corre a la plataforma y colócate hacia el centro del grupo para cubrir curas de área.","Corre a la plataforma; entra bien dentro y deja espacio alrededor del grupo.")
+    );
+  } else if(id==="behe"){
+    m=[mark(50,25,"BEHEMOTH","boss"),mark(50,58,"COMET","obj"),mark(28,62,"COMET","obj")];
+    var bx=state.role==="tank"?46:state.role==="healer"?51:56;
+    var by=state.role==="tank"?69:74:79;
+    you={x:bx,y:by,title:"Ecliptic Meteor · "+state.role.toUpperCase(),text:roleText("Escóndete tras el cometa sin arrastrar al boss ni al Iron Giant hacia la cobertura.","Ponte detrás del cometa con línea de visión al grupo cuando termine el cast.","Ponte detrás del cometa; no salgas antes de que Ecliptic Meteor resuelva.")};
+  } else if(id==="amon"){
+    m=[mark(50,27,"AMON","boss"),mark(50,58,"ICE","obj"),mark(28,62,"ICE","obj"),mark(72,62,"ICE","obj")];
+    you=state.role==="tank"?{x:44,y:70,title:"Curtain Call · TANK",text:"Usa el hielo como cobertura y vuelve al frente del boss solo después del cast."}:state.role==="healer"?{x:50,y:76,title:"Curtain Call · HEALER",text:"Escóndete detrás del hielo manteniéndote cerca del grupo para recuperar la raid después."}:{x:57,y:72,title:"Curtain Call · DPS",text:"Escóndete detrás del hielo y no lo destruyas antes del cast."};
+  } else if(id==="cerb"){
+    m=[mark(50,41,"CERBERUS","boss"),mark(22,64,"A · ADDS","zone"),mark(50,76,"B · BELLY","zone"),mark(78,64,"C · CHAINS","zone")];
+    var base=state.al==="A"?{x:22,y:62}:state.al==="B"?{x:50,y:74}:{x:76,y:61};
+    var duties={
+      A:{tank:"A · TANK: toma/agrupa Wolfsbane lejos de la raid.",healer:"A · HEALER: quédate detrás de los tanks y mantén vivo al grupo de adds.",dps:"A · DPS: enfócate en Wolfsbane y quémalos rápido."},
+      B:{tank:"B · TANK: entra al Belly con el grupo y ayuda a controlar los adds internos.",healer:"B · HEALER: entra al Belly y mantén al grupo vivo mientras destruye el estómago.",dps:"B · DPS: Mini → puddle morado → Belly; prioridad absoluta al objetivo interno."},
+      C:{tank:"C · TANK: controla Cerberus fuera del Belly y evita cleaves sobre la raid.",healer:"C · HEALER: mantén al grupo exterior estable y apoya el re-chain.",dps:"C · DPS: ayuda con Cerberus y corre por cadena cuando quede vulnerable."}
+    };
+    you=place(base.x,base.y,"Cerberus · Alliance "+state.al+" · "+state.role.toUpperCase(),duties[state.al][state.role]);
+  } else if(id==="angra"){
+    m=[mark(50,35,"ANGRA","boss"),mark(22,78,"CLEANSE","zone"),mark(50,85,"CLEANSE","zone"),mark(78,78,"CLEANSE","zone")];
+    you=place(ax(),61,"Mortal Gaze · "+state.role.toUpperCase(),roleText("Mantén al boss estable, gira la mirada en Mortal Gaze y pisa cleanse si recibes Doom.","Juega detrás/lateral, gira la mirada y prioriza sobrevivir para poder recuperar al grupo.","Gira la mirada y corre al cleanse si aparece Doom; vuelve a posición después."));
+  } else if(id==="five"){
+    m=[mark(50,48,"BODY","boss"),mark(30,31,"HEAD","obj"),mark(42,23,"HEAD","obj"),mark(58,23,"HEAD","obj"),mark(70,31,"HEAD","obj"),mark(50,16,"HEAD","obj")];
+    you=place(ax(),70,"Discordance · "+state.role.toUpperCase(),roleText("Mantén estable el cuerpo/los adds necesarios y ayuda a que las cabezas queden accesibles.","Colócate entre tu grupo y las cabezas para curar mientras todos cambian de objetivo.","Muévete hacia las cabezas y dedica todo el daño a destruir las cinco."));
+  } else if(id==="glas"){
+    m=[mark(50,50,"CENTRO","obj"),mark(24,27,"A START","zone"),mark(50,83,"B START","zone"),mark(76,27,"C START","zone")];
+    var gy=state.al==="B"?81:29;
+    you=place(ax(),gy,"Intermission · "+state.role.toUpperCase(),roleText("Toma el launch pad con tu Alliance y recoge/controla los adds exteriores.","Salta con tu Alliance y quédate centrado para cubrir curas entre plataformas.","Salta con tu Alliance y prioriza Spanner-rooks/añadidos del recorrido."));
+  } else if(id==="bone"){
+    m=[mark(50,24,"DRAGON","boss"),mark(25,62,"SKEL →","obj"),mark(50,66,"SKEL ↑","obj"),mark(75,62,"← SKEL","obj")];
+    you=place(ax(),51,"Skeleton Rush · "+state.role.toUpperCase(),roleText("Quédate más cerca del dragón y corta skeletons que se acerquen demasiado.","Mantente a media distancia para curar la raid mientras ayudas con los skeletons.","Acércate a la ruta de los skeletons y prioriza eliminarlos antes de que lleguen."));
+  } else if(id==="than"){
+    m=[mark(50,30,"THANATOS","boss"),mark(18,74,"POT A","zone"),mark(50,84,"POT B","zone"),mark(82,74,"POT C","zone"),mark(69,54,"ADD","obj")];
+    if(state.role==="tank"){
+      you={x:50,y:40,title:"Astral Realignment · TANK",text:"Con buff, toma Thanatos y oriéntalo lejos de la raid; sin buff, intercepta adds."};
+    } else if(state.role==="healer"){
+      you=place(ax(),66,"Astral Realignment · HEALER","Quédate entre tu grupo y el Magic Pot para curar ambos; con buff puedes ayudar al boss.");
+    } else {
+      you=place(ax(),57,"Astral Realignment · DPS","Con buff ataca a Thanatos; sin buff cambia inmediatamente a los adds que amenazan los Pots.");
+    }
+  } else if(id==="scy"){
+    m=[mark(50,38,"SCYLLA","boss"),mark(22,78,"A","zone"),mark(50,86,"B","zone"),mark(78,78,"C","zone")];
+    you=place(ax(),state.al==="B"?82:74,"Daybreak · "+state.role.toUpperCase(),roleText("Entra en la protección de tu Alliance y colócate hacia el borde interior para retomar al boss.","Quédate en el centro de tu Alliance para cubrir curas mientras se activa la protección.","Entra bien en la plataforma de tu Alliance y mantén daño solo si es seguro."));
+  } else if(id==="xande"){
+    m=[mark(50,37,"XANDE","boss"),mark(24,76,"NULL A","zone"),mark(50,84,"NULL B","zone"),mark(76,76,"NULL C","zone")];
+    you=place(ax(),state.al==="B"?80:72,"Ancient Quaga · "+state.role.toUpperCase(),roleText("Entra en Null Gravity y prepárate para retomar al boss al aterrizar.","Entra en Null Gravity cerca del grupo para cubrir curas al terminar.","Entra en Null Gravity y permanece flotando hasta resolver Quaga."));
+  } else if(id==="cloud"){
+    m=[mark(50,30,"CLOUD","boss"),mark(24,74,"TOWER A","zone"),mark(50,84,"TOWER B","zone"),mark(76,74,"TOWER C","zone")];
+    you=place(ax(),state.al==="B"?80:70,"Tower · "+state.role.toUpperCase(),roleText("Ocupa una tower libre sin arrastrar ataques del boss sobre otros jugadores.","Ocupa una tower y mantente a alcance del grupo mientras resuelve el impacto.","Ocupa una tower vacía y vuelve al objetivo en cuanto resuelva."));
+  } else {
+    m=[mark(50,37,"BOSS","boss"),mark(24,75,"A","zone"),mark(50,84,"B","zone"),mark(76,75,"C","zone")];
+    you=place(ax(),state.al==="B"?80:70,"Posición · "+state.role.toUpperCase(),roleText("Juega más cerca del boss y controla su orientación.","Mantente a media distancia con visión del grupo.","Colócate detrás/lateral o a rango según tu job."));
+  }
+  m.push(mark(you.x,you.y,"TÚ","you"));
+  return{html:m.join(""),you:you}
+}
 function openBoss(id){state.boss=id;qs("#modal").classList.add("open");document.body.style.overflow="hidden";showBoss()}
 function showBoss(){var b=BOSSES.find(function(z){return z[0]===state.boss}),t=tactical(b[0]);qs("#mimg").src=b[3];qs("#mtitle").textContent=b[1];qs("#mpath").textContent="Nivel 50 · Crystal Tower · "+AREAS[b[2]][0];qs("#mkey").textContent=b[4];qs("#mcontrols").innerHTML='<button class="btn role '+(state.role==="tank"?"on":"")+'" data-mrole="tank">🛡 Tank</button><button class="btn role '+(state.role==="healer"?"on":"")+'" data-mrole="healer">✚ Healer</button><button class="btn role '+(state.role==="dps"?"on":"")+'" data-mrole="dps">⚔ DPS</button><button class="btn all '+(state.al==="A"?"on":"")+'" data-mal="A">A</button><button class="btn all '+(state.al==="B"?"on":"")+'" data-mal="B">B</button><button class="btn all '+(state.al==="C"?"on":"")+'" data-mal="C">C</button>';qsa("[data-mrole]").forEach(function(x){x.onclick=function(){state.role=x.dataset.mrole;sync()}});qsa("[data-mal]").forEach(function(x){x.onclick=function(){state.al=x.dataset.mal;sync()}});qs("#arena").innerHTML=t.html;qs("#ytitle").textContent=t.you.title;qs("#ytext").textContent=t.you.text;qs("#signal").textContent=b[5];qs("#signaltext").textContent=b[6];qs("#steps").innerHTML=b[7].map(function(s,i){return '<div class="step"><div class="num">'+(i+1)+'</div><div>'+s+'</div></div>'}).join("")}
 function closeModal(){state.boss=null;qs("#modal").classList.remove("open");document.body.style.overflow=""}qs("#close").onclick=closeModal;qs("#modal").onclick=function(e){if(e.target===qs("#modal"))closeModal()};document.onkeydown=function(e){if(e.key==="Escape")closeModal()};render();sync();
