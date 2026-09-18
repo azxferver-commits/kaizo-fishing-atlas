@@ -46,3 +46,15 @@
 .auth-brand{display:flex;align-items:center;justify-content:center;gap:9px;margin:2px 0 14px;font-size:10px;font-weight:950;letter-spacing:.16em;color:#e8f8ff}
 .auth-brand img{width:54px;height:54px;border-radius:15px;display:block;box-shadow:0 0 30px #5ee6ff55}
 .auth-lead{margin:7px 0 14px;color:#8fa5b6;font-size:10px;line-height:1.45}
+
+.community-locked{border-color:#31485c;background:linear-gradient(145deg,#09141f,#0b1320);box-shadow:none}
+.community-locked .level-pill{background:#112333;color:#86a1b4}
+.community-locked .quest-main h3{color:#d7e2ea}
+.community-locked .quest-main p{color:#748a9a}
+.tag.community-lock{border-color:#385975;background:#0c2535;color:#8defff}
+.community-gate{margin-top:14px;padding:18px 14px;border:1px solid #31536b;border-radius:16px;background:linear-gradient(145deg,#081722,#0b1320);text-align:center}
+.community-gate-icon{width:48px;height:48px;margin:0 auto 10px;display:grid;place-items:center;border:1px solid #3b718a;border-radius:15px;background:#0c2938;color:var(--cyan);font-size:22px;box-shadow:0 0 26px #63dce824}
+.community-gate h3{margin:0 0 7px;font-size:16px}
+.community-gate p{margin:0 auto 8px;max-width:360px;color:#9aafbe;font-size:10px;line-height:1.5}
+.community-gate .community-gate-sub{color:#728a9c}
+.community-gate .complete-action{margin-top:8px;width:100%}
