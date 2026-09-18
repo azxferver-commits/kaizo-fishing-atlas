@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090d12" />
+  <meta name="description" content="KAIZO Fishing Atlas — guía interactiva de Fisher para Final Fantasy XIV." />
+  <title>KAIZO Fishing Atlas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="KAIZO Fishing Atlas - Inicio">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-copy"><strong>KAIZO</strong><small>FISHING ATLAS</small></span>
+      </a>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#progresion">Progresión</a>
+        <a href="#peces">Peces</a>
+        <a href="#misiones">Misiones</a>
+        <a href="#ocean">Ocean Fishing</a>
+        <a href="#herramientas">Herramientas</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">KAIZO FFXIV HUB · FISHER</p>
+          <h1>Tu ruta de pesca,<br><span>del nivel 1 al 100.</span></h1>
+          <p class="hero-lede">Busca peces, misiones, zonas y carnadas. Encuentra qué hacer según tu nivel y abre herramientas rápidas mientras juegas.</p>
+          <div class="global-search-wrap">
+            <label class="sr-only" for="globalSearch">Buscar en Fishing Atlas</label>
+            <span class="search-icon">⌕</span>
+            <input id="globalSearch" type="search" autocomplete="off" placeholder="Buscar pez, misión, zona, carnada..." />
+            <kbd>/</kbd>
+            <div class="search-results" id="searchResults" hidden></div>
+          </div>
+          <div class="quick-links" aria-label="Búsquedas rápidas">
+            <button data-search="Mooch">Mooch</button>
+            <button data-search="Powerful Hookset">Powerful Hookset</button>
+            <button data-search="Limsa Lominsa">Limsa Lominsa</button>
+            <button data-search="Heavensward">Heavensward</button>
+          </div>
+        </div>
+        <aside class="hero-panel">
+          <div class="status-line"><span class="pulse"></span> Build v5 · Ocean Fishing Planner LIVE</div>
+          <div class="hero-stat"><strong id="fishCountHero">0</strong><span>peces con ficha KAIZO verificada</span></div>
+          <div class="hero-stat"><strong id="questCountHero">0</strong><span>fichas Fisher 1–80 verificadas</span></div>
+          <div class="hero-stat"><strong id="catalogCountHero">1,730</strong><span>peces únicos · referencia oficial Patch 7.56</span></div>
+          <p class="source-note">Capa KAIZO verificada + catálogo automático preparado para XIVAPI. Los registros nuevos detectados tras un parche se marcan como pendientes hasta revisar los datos manuales de pesca.</p>
+        </aside>
+      </section>
+
+      <section class="section action-section" aria-labelledby="actionTitle">
+        <div class="section-heading">
+          <div><p class="eyebrow">ENTRA POR TU OBJETIVO</p><h2 id="actionTitle">¿Qué quieres hacer?</h2></div>
+        </div>
+        <div class="action-grid">
+          <a class="action-card" href="#progresion"><span>🎣</span><strong>Subir Fisher</strong><small>Qué hacer según tu nivel</small></a>
+          <a class="action-card" href="#peces"><span>🐟</span><strong>Encontrar un pez</strong><small>Zona, bait y condiciones</small></a>
+          <a class="action-card" href="#misiones"><span>📜</span><strong>Hacer una misión</strong><small>NPC, objetivo y ruta</small></a>
+          <a class="action-card" href="#ocean"><span>🚢</span><strong>Ocean Fishing</strong><small>Rutas y Spectral Mode</small></a>
+          <button class="action-card muted-card" type="button" data-tool="big-fish"><span>⭐</span><strong>Big Fish</strong><small>Estado y cobertura del módulo</small></button>
+          <a class="action-card muted-card" href="#herramientas"><span>💰</span><strong>Scrips</strong><small>Collectables y recompensas</small></a>
+          <button class="action-card muted-card" type="button" data-tool="spearfishing"><span>🔱</span><strong>Spearfishing</strong><small>Capturas verificadas disponibles</small></button>
+          <a class="action-card muted-card" href="#herramientas"><span>🧰</span><strong>Gear</strong><small>Equipo por nivel</small></a>
+        </div>
+      </section>
+
+      <section class="section split-section" id="progresion">
+        <div class="section-heading">
+          <div><p class="eyebrow">PROGRESIÓN</p><h2>¿Qué hago ahora?</h2></div>
+          <p>Elige tu nivel y el Atlas buscará la siguiente misión verificada disponible en la base actual.</p>
+        </div>
+        <div class="progression-layout">
+          <div class="level-picker panel">
+            <label for="fisherLevel">Mi nivel de Fisher</label>
+            <div class="level-control">
+              <button id="levelMinus" aria-label="Bajar nivel">−</button>
+              <input id="fisherLevel" type="number" min="1" max="100" value="1" />
+              <button id="levelPlus" aria-label="Subir nivel">+</button>
+            </div>
+            <input id="levelRange" type="range" min="1" max="100" value="1" />
+            <div class="range-labels"><span>1</span><span>50</span><span>100</span></div>
+          </div>
+          <div class="progress-result panel" id="progressResult"></div>
+        </div>
+      </section>
+
+      <section class="section" id="peces">
+        <div class="section-heading database-heading">
+          <div><p class="eyebrow">FISH DATABASE</p><h2>Catálogo de peces</h2></div>
+          <p>Combina datos automáticos del juego con fichas KAIZO verificadas. Los datos no confirmados se muestran como detectados, nunca como guía final.</p>
+        </div>
+        <div class="database-toolbar panel">
+          <div class="toolbar-search">
+            <span>⌕</span>
+            <input id="fishSearch" type="search" placeholder="Buscar pez, zona, hole o bait..." />
+          </div>
+          <select id="expansionFilter" aria-label="Filtrar por expansión">
+            <option value="all">Todas las expansiones</option>
+            <option value="A Realm Reborn">A Realm Reborn</option>
+            <option value="Heavensward">Heavensward</option>
+            <option value="Shadowbringers">Shadowbringers</option>
+          </select>
+          <select id="typeFilter" aria-label="Filtrar por tipo">
+            <option value="all">Todos los tipos</option>
+            <option value="Quest Fish">Quest Fish</option>
+            <option value="Big Fish">Big Fish</option>
+            <option value="Mooch">Mooch</option>
+            <option value="Spearfishing">Spearfishing</option>
+          </select>
+          <select id="statusFilter" aria-label="Filtrar por estado">
+            <option value="all">Todos los estados</option>
+            <option value="verified">Verificados KAIZO</option>
+            <option value="detected">Detectados por actualización</option>
+          </select>
+          <button class="ghost-btn" id="clearFilters">Limpiar</button>
+        </div>
+        <div class="result-meta"><span id="fishResultCount">0 peces</span><span id="syncStatusText" class="verified-key">✓ Capa verificada + auto-sync preparado</span><span id="engineStatus" class="engine-status" role="status">⚙ Motor interactivo: iniciando…</span><small id="engineHelp" class="engine-help">Si este texto no cambia a ACTIVO, recarga la página.</small></div>
+        <div class="fish-grid" id="fishGrid"></div>
+        <div class="empty-state" id="fishEmpty" hidden>No hay peces que coincidan con los filtros.</div>
+      </section>
+
+      <section class="section" id="misiones">
+        <div class="section-heading">
+          <div><p class="eyebrow">FISHER QUESTS</p><h2>Fisher 1–80 · 30/30 fichas</h2></div>
+          <p>Cada misión abre una ficha con NPC, coordenadas, objetivo, carnada, condiciones y pasos.</p>
+        </div>
+        <div class="quest-list" id="questList"></div>
+      </section>
+
+      <section class="section ocean-section" id="ocean">
+        <div class="section-heading">
+          <div><p class="eyebrow">OCEAN FISHING · LIVE TOOL</p><h2>Calendario + ruta + Spectral plan</h2></div>
+          <span class="phase-badge live-phase">Horario dinámico · Indigo + Ruby · Patch 7.56</span>
+        </div>
+
+        <div class="ocean-live-panel panel">
+          <div class="ocean-now-head">
+            <div>
+              <span class="progress-kicker">PRÓXIMA VENTANA</span>
+              <h3 id="oceanNextTitle">Calculando próxima salida…</h3>
+              <p id="oceanNextMeta">Usa la hora local de este dispositivo.</p>
+            </div>
+            <div class="ocean-countdown" id="oceanCountdown">--:--:--</div>
+          </div>
+          <div class="ocean-next-actions">
+            <button class="primary-btn" type="button" id="openNextOceanPlan">Abrir plan de la próxima salida</button>
+            <button class="secondary-btn" type="button" id="oceanTodayBtn">Ver hoy</button>
+          </div>
+        </div>
+
+        <div class="ocean-planner panel">
+          <div class="ocean-controls">
+            <div class="field-group">
+              <label for="oceanDate">Día</label>
+              <input type="date" id="oceanDate" />
+            </div>
+            <div class="field-group">
+              <label for="oceanRouteFamily">Ruta</label>
+              <select id="oceanRouteFamily">
+                <option value="indigo">Indigo Route</option>
+                <option value="ruby">Ruby Route</option>
+              </select>
+            </div>
+            <div class="field-group ocean-view-field">
+              <label>Vista</label>
+              <div class="segmented" role="group" aria-label="Vista de Ocean Fishing">
+                <button type="button" class="active" data-ocean-view="schedule">Horarios</button>
+                <button type="button" data-ocean-view="next">Próximo</button>
+              </div>
+            </div>
+          </div>
+          <div class="ocean-day-summary" id="oceanDaySummary"></div>
+          <div class="ocean-schedule" id="oceanSchedule" aria-live="polite"></div>
+        </div>
+
+        <div class="ocean-legend">
+          <div><span class="tod-chip">☀️ Día</span><span class="tod-chip">🌇 Atardecer</span><span class="tod-chip">🌙 Noche</span></div>
+          <p><strong>Antes del Spectral:</strong> usa la carnada indicada hasta pescar el Spectral Fish. Si no activa corriente, continúa con la misma carnada. <strong>Cuando aparece el arcoíris:</strong> cambia inmediatamente a la carnada “Después del Spectral”.</p>
+        </div>
+
+        <div class="ocean-grid ocean-support-grid">
+          <article class="ocean-card panel">
+            <div class="card-icon">🚢</div><h3>Ocean Fishing Unlock</h3><p id="oceanUnlockText">Cargando desbloqueo verificado…</p><button id="openOceanInfo">Ver desbloqueo</button>
+          </article>
+          <article class="ocean-card panel accent-panel">
+            <div class="card-icon">🌈</div><h3>Spectral Mode</h3><p>Abre la próxima ruta como checklist: bait para provocar el Spectral Fish y cambio inmediato después del Current.</p><button type="button" id="openSpectralMode">Abrir Spectral Mode</button>
+          </article>
+          <article class="ocean-card panel">
+            <div class="card-icon">🪱</div><h3>Bait Guide</h3><p>Las 13 zonas actuales con Spectral Fish, carnada de activación y recomendación de puntos.</p><button type="button" id="openOceanBaitGuide">Abrir Bait Guide</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="herramientas">
+        <div class="section-heading"><div><p class="eyebrow">ROADMAP FUNCIONAL</p><h2>Herramientas</h2></div></div>
+        <div class="tools-grid">
+          <button class="tool-row" type="button" data-tool="global-search"><span>🔎</span><div><strong>Global Search</strong><small>Buscar peces, quests, zonas y carnadas</small></div><b class="live">ABRIR</b></button>
+          <button class="tool-row" type="button" data-tool="level-helper"><span>🎣</span><div><strong>Level Helper</strong><small>Ir a tu progresión y siguiente misión</small></div><b class="live">ABRIR</b></button>
+          <button class="tool-row" type="button" data-tool="fish-finder"><span>🐟</span><div><strong>Fish Finder</strong><small>Abrir catálogo con filtros</small></div><b class="live">ABRIR</b></button>
+          <button class="tool-row" type="button" data-tool="mooch-viewer"><span>🔗</span><div><strong>Mooch Chain Viewer</strong><small>Ver todas las cadenas Mooch verificadas</small></div><b class="live">ABRIR</b></button>
+          <button class="tool-row" type="button" data-tool="bait-finder"><span>🪱</span><div><strong>Bait Finder</strong><small>Buscar carnadas cargadas y qué peces usan</small></div><b class="live">ABRIR</b></button>
+          <button class="tool-row" type="button" data-tool="spearfishing"><span>🔱</span><div><strong>Spearfishing</strong><small>Ver capturas de spearfishing disponibles</small></div><b class="live">ABRIR</b></button>
+          <button class="tool-row" type="button" data-tool="ocean-helper"><span>🚢</span><div><strong>Ocean Route Helper</strong><small>Horarios diarios + pantallas + Spectral plan</small></div><b class="live">LIVE</b></button>
+          <button class="tool-row" type="button" data-tool="big-fish"><span>⭐</span><div><strong>Big Fish Finder</strong><small>Buscar Big Fish verificados cuando estén cargados</small></div><b>PREVIEW</b></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><strong>KAIZO FFXIV HUB</strong><p>Fishing Atlas · herramienta no oficial para FINAL FANTASY XIV.</p></div>
+      <div class="footer-links">
+        <a href="https://blue-quest-atlas-edmundo.edmundoferver.chatgpt.site" target="_blank" rel="noreferrer">Blue Quest Atlas 1–80 ↗</a>
+        <a href="https://blue-quest-atlas-80-100.edmundoferver.chatgpt.site" target="_blank" rel="noreferrer">Blue Quest Atlas 80–100 ↗</a>
+      </div>
+      <small>Capa curada: Guía Maestra Fisher 1–80 · revisión 17 septiembre 2026 · Patch 7.56. Catálogo automático: XIVAPI v2 cuando se ejecuta el workflow.</small>
+    </footer>
+  </div>
+
+  <div class="detail-dialog" id="detailDialog" hidden role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+    <div class="dialog-shell">
+      <button class="dialog-close" id="dialogClose" aria-label="Cerrar">×</button>
+      <div id="dialogContent"></div>
+    </div>
+  </div>
+
+  <script src="data/generated.js"></script>
+  <script src="data/curated.js"></script>
+  <script src="data/ocean.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
