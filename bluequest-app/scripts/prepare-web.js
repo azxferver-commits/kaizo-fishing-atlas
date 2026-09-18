@@ -8,6 +8,7 @@ const source180 = path.join(repoRoot, "blue-quest-atlas-1-80", "data.json");
 const source80100 = path.join(repoRoot, "blue-quest-atlas-80-100", "data.json");
 const www = path.join(appRoot, "www");
 const dataDir = path.join(www, "data");
+const nativeDir = path.join(appRoot, "native");
 
 fs.mkdirSync(dataDir, { recursive: true });
 
@@ -24,7 +25,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.0 · OFFLINE")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.1 · ACCOUNT READY")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -79,6 +80,30 @@ html = html.replace(
 html = html.replace(
   "init();\n</script>",
   "document.documentElement.dataset.runtime=(window.Capacitor&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform())?'native':'web';\ninit();\n</script>"
+);
+
+html = html.replace(
+  "</head>",
+  '<link rel="stylesheet" href="./account.css">\n</head>'
+);
+html = html.replace(
+  "</body>",
+  '<script src="./account-config.js"></script>\n<script src="./account.js"></script>\n</body>'
+);
+
+fs.copyFileSync(path.join(nativeDir, "account.css"), path.join(www, "account.css"));
+fs.copyFileSync(path.join(nativeDir, "account.js"), path.join(www, "account.js"));
+
+const accountConfig = {
+  supabaseUrl: process.env.BLUEQUEST_SUPABASE_URL || "",
+  supabaseAnonKey: process.env.BLUEQUEST_SUPABASE_ANON_KEY || "",
+  functionsBase: process.env.BLUEQUEST_FUNCTIONS_BASE || "",
+  discordOAuthStart: process.env.BLUEQUEST_DISCORD_OAUTH_START || "",
+  youtubeOAuthStart: process.env.BLUEQUEST_YOUTUBE_OAUTH_START || ""
+};
+fs.writeFileSync(
+  path.join(www, "account-config.js"),
+  "window.BLUEQUEST_ACCOUNT_CONFIG=" + JSON.stringify(accountConfig) + ";\n"
 );
 
 fs.writeFileSync(path.join(www, "index.html"), html);
