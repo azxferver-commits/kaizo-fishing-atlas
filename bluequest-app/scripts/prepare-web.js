@@ -11,9 +11,6 @@ const dataDir = path.join(www, "data");
 const nativeDir = path.join(appRoot, "native");
 
 fs.mkdirSync(dataDir, { recursive: true });
-for (const file of ["cloud-config.js","account.css","account.js"]) {
-  fs.copyFileSync(path.join(appRoot, "native", file), path.join(www, file));
-}
 
 const atlas180 = JSON.parse(fs.readFileSync(source180, "utf8"));
 const atlas80100 = JSON.parse(fs.readFileSync(source80100, "utf8"));
@@ -24,19 +21,26 @@ if (atlas80100.length !== 159) throw new Error("Atlas 80-100 incompleto: " + atl
 fs.writeFileSync(path.join(dataDir, "atlas-1-80.json"), JSON.stringify(atlas180, null, 2));
 fs.writeFileSync(path.join(dataDir, "atlas-80-100.json"), JSON.stringify(atlas80100, null, 2));
 
+for (const file of ["cloud-config.js", "account.css", "account.js"]) {
+  fs.copyFileSync(path.join(nativeDir, file), path.join(www, file));
+}
+
 let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.1 · ACCOUNT READY")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.1 · ACCOUNT CLOUD")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
-  .replace("</head>", '<link rel="stylesheet" href="./account.css" /></head>')
   .replace(
     /const DATA_FILES=\[[^\]]*\];/,
     "const DATA_FILES=['./data/atlas-1-80.json','./data/atlas-80-100.json'];"
   );
+
+if (!html.includes('href="./account.css"')) {
+  html = html.replace("</head>", '<link rel="stylesheet" href="./account.css" />\n</head>');
+}
 
 html = html.replace(
   /<a class="quick-card" href="\.\.\/blue-quest-atlas-1-80\/"[^>]*>([\s\S]*?<em>274<\/em>)\s*<\/a>/,
@@ -76,41 +80,47 @@ html = html.replace(
   "const ib=$('#installBtn');if(ib)ib.onclick=installAction;const ib2=$('#installBtn2');if(ib2)ib2.onclick=installAction;const ic=$('#installClose');if(ic)ic.onclick=()=>$('#installDialog').close();"
 );
 
-html = html.replace(
-  /if\('serviceWorker'in navigator\)[^;]*;/g,
-  ""
-);
+html = html.replace(/if\('serviceWorker'in navigator\)[^;]*;/g, "");
+
+const moreNeedle = '<section class="view" id="view-more" data-view="more">\n      <div class="screen-head"><p class="eyebrow">BLUEQUEST NEXO</p><h2>Más herramientas</h2><p>La base móvil está preparada para crecer con el resto del ecosistema.</p></div>\n      <div class="module-grid">';
+const moreReplacement = '<section class="view" id="view-more" data-view="more">\n      <div class="screen-head"><p class="eyebrow">BLUEQUEST NEXO</p><h2>Más herramientas</h2><p>La base móvil está preparada para crecer con el resto del ecosistema.</p></div>\n      <section class="account-card" id="bluequestAccountCard">\n        <div class="account-head">\n          <div><h3 id="accountName">Cuenta BlueQuest</h3><p id="accountEmail">El Core funciona sin cuenta. Inicia sesión para beneficios online.</p></div>\n          <span class="account-badge" id="accountStatus">CORE GRATIS</span>\n        </div>\n        <div class="account-actions">\n          <button id="accountLoginBtn">Iniciar sesión / Crear cuenta</button>\n          <button id="accountRefreshBtn" class="secondary" hidden>Actualizar acceso</button>\n          <button id="accountLogoutBtn" class="secondary" hidden>Cerrar sesión</button>\n        </div>\n        <div class="access-grid">\n          <div class="access-item locked" id="accCommunity"><b>Community</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accBoss"><b>Boss Atlas</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accFishing"><b>Fishing Tools</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accGold"><b>Gold Saucer</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accCloud"><b>Cloud Sync</b><small>Bloqueado</small></div>\n          <div class="access-item locked" id="accSupporter"><b>Supporter</b><small>Bloqueado</small></div>\n        </div>\n      </section>\n      <div class="module-grid">';
+
+if (!html.includes('id="bluequestAccountCard"')) {
+  html = html.replace(moreNeedle, moreReplacement);
+}
+
+html = html
+  .replace(
+    '<article class="module-card future"><span>🎣</span><div><small>SIGUIENTE</small><h3>Fishing Atlas</h3><p>Preparado para integrarlo.</p></div></article>',
+    '<article class="module-card future" data-cloud-module="fishing_tools"><span>🎣</span><div><small>SIGUIENTE</small><h3>Fishing Atlas</h3><p>Preparado para integrarlo.</p></div></article>'
+  )
+  .replace(
+    '<article class="module-card future"><span>⚔</span><div><small>SIGUIENTE</small><h3>Boss Atlas</h3><p>Raids, roles y mecánicas.</p></div></article>',
+    '<article class="module-card future" data-cloud-module="boss_atlas"><span>⚔</span><div><small>SIGUIENTE</small><h3>Boss Atlas</h3><p>Raids, roles y mecánicas.</p></div></article>'
+  )
+  .replace(
+    '<article class="module-card future"><span>✦</span><div><small>SIGUIENTE</small><h3>Gold Saucer</h3><p>Rutas y Fashion Report.</p></div></article>',
+    '<article class="module-card future" data-cloud-module="gold_saucer"><span>✦</span><div><small>SIGUIENTE</small><h3>Gold Saucer</h3><p>Rutas y Fashion Report.</p></div></article>'
+  );
+
+if (!html.includes('id="bluequestAuthDialog"')) {
+  html = html.replace(
+    '  <div id="toast" class="toast" role="status"></div>',
+    '  <dialog id="bluequestAuthDialog" class="quest-dialog">\n    <div class="dialog-sheet auth-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="authClose" aria-label="Cerrar">×</button>\n      <p class="eyebrow">BLUEQUEST ACCOUNT</p>\n      <h2 id="authTitle">Iniciar sesión</h2>\n      <div class="auth-fields">\n        <input id="authEmail" type="email" inputmode="email" autocomplete="email" placeholder="Correo electrónico" />\n        <input id="authPassword" type="password" autocomplete="current-password" placeholder="Contraseña" />\n      </div>\n      <button class="auth-submit" id="authSubmit">Entrar</button>\n      <p class="auth-note" id="authMessage"></p>\n      <div class="auth-switch"><span id="authSwitchText">¿No tienes cuenta?</span> <button id="authSwitchBtn">Crear una</button></div>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
+  );
+}
 
 html = html.replace(
   "init();\n</script>",
   "document.documentElement.dataset.runtime=(window.Capacitor&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform())?'native':'web';\ninit();\n</script>"
 );
 
-html = html.replace(
-  "</head>",
-  '<link rel="stylesheet" href="./account.css">\n</head>'
-);
-html = html.replace(
-  "  <script src="./cloud-config.js"></script>
-  <script src="./account.js"></script>
-</body>",
-  '<script src="./account-config.js"></script>\n<script src="./account.js"></script>\n</body>'
-);
-
-fs.copyFileSync(path.join(nativeDir, "account.css"), path.join(www, "account.css"));
-fs.copyFileSync(path.join(nativeDir, "account.js"), path.join(www, "account.js"));
-
-const accountConfig = {
-  supabaseUrl: process.env.BLUEQUEST_SUPABASE_URL || "",
-  supabaseAnonKey: process.env.BLUEQUEST_SUPABASE_ANON_KEY || "",
-  functionsBase: process.env.BLUEQUEST_FUNCTIONS_BASE || "",
-  discordOAuthStart: process.env.BLUEQUEST_DISCORD_OAUTH_START || "",
-  youtubeOAuthStart: process.env.BLUEQUEST_YOUTUBE_OAUTH_START || ""
-};
-fs.writeFileSync(
-  path.join(www, "account-config.js"),
-  "window.BLUEQUEST_ACCOUNT_CONFIG=" + JSON.stringify(accountConfig) + ";\n"
-);
+if (!html.includes('src="./cloud-config.js"')) {
+  html = html.replace(
+    "</body>",
+    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n</body>'
+  );
+}
 
 fs.writeFileSync(path.join(www, "index.html"), html);
 
