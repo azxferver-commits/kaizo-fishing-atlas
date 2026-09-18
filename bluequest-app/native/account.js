@@ -90,6 +90,7 @@ function renderAccount(){
   moduleState(q('[data-cloud-module="fishing_tools"]'),'fishing_tools');
   moduleState(q('[data-cloud-module="gold_saucer"]'),'gold_saucer');
   emitSession();
+  document.dispatchEvent(new CustomEvent('bluequest:access',{detail:{community:has('community')}}));
 }
 function openAuth(which='login'){
   mode=which; q('#authTitle').textContent=mode==='login'?'Iniciar sesión':'Crear cuenta';
