@@ -29,7 +29,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.6 · SYNC PROGRESS")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.7 · FINAL")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -167,7 +167,7 @@ if (!html.includes('id="ffxivLinkDialog"')) {
 if (!html.includes('id="bluequestAuthDialog"')) {
   html = html.replace(
     '  <div id="toast" class="toast" role="status"></div>',
-    '  <dialog id="bluequestAuthDialog" class="quest-dialog">\n    <div class="dialog-sheet auth-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="authClose" aria-label="Cerrar">×</button>\n      <p class="eyebrow">BLUEQUEST ACCOUNT</p>\n      <h2 id="authTitle">Iniciar sesión</h2>\n      <div class="auth-fields">\n        <input id="authEmail" type="email" inputmode="email" autocomplete="email" placeholder="Correo electrónico" />\n        <input id="authPassword" type="password" autocomplete="current-password" placeholder="Contraseña" />\n      </div>\n      <button class="auth-submit" id="authSubmit">Entrar</button>\n      <p class="auth-note" id="authMessage"></p>\n      <div class="auth-switch"><span id="authSwitchText">¿No tienes cuenta?</span> <button id="authSwitchBtn">Crear una</button></div>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
+    '  <dialog id="bluequestAuthDialog" class="quest-dialog">\n    <div class="dialog-sheet auth-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="authClose" aria-label="Cerrar">×</button>\n      <div class="auth-brand"><img src="./bluequest_icon.webp" alt=""><span>BLUEQUEST</span></div>\n      <p class="eyebrow">BLUEQUEST ACCOUNT</p>\n      <h2 id="authTitle">Iniciar sesión</h2>\n      <p class="auth-lead" id="authLead">Continúa tu aventura desde cualquier dispositivo.</p>\n      <div class="auth-fields">\n        <input id="authEmail" type="email" inputmode="email" autocomplete="email" placeholder="Correo electrónico" />\n        <input id="authPassword" type="password" autocomplete="current-password" placeholder="Contraseña" />\n      </div>\n      <button class="auth-submit" id="authSubmit">Entrar</button>\n      <p class="auth-note" id="authMessage"></p>\n      <div class="auth-switch"><span id="authSwitchText">¿No tienes cuenta?</span> <button id="authSwitchBtn">Crear una</button></div>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
   );
 }
 
