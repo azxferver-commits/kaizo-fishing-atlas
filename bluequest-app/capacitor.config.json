@@ -1,0 +1,15 @@
+{
+  "appId": "com.kaizo.bluequest",
+  "appName": "BlueQuest Atlas",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#050b12"
+  },
+  "ios": {
+    "backgroundColor": "#050b12",
+    "contentInset": "automatic"
+  }
+}
