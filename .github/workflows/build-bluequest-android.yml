@@ -57,6 +57,9 @@ jobs:
       - name: Generate Android project
         run: npx cap add android
 
+      - name: Patch BlueQuest deep link
+        run: node scripts/patch-android-deeplink.js
+
       - name: Sync BlueQuest into Android
         run: npx cap sync android
 
