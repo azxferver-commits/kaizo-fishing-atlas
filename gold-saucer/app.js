@@ -7,6 +7,16 @@
   const numberFormat = new Intl.NumberFormat("es-ES");
   const dateFormat = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", year: "numeric" });
   const timeFormat = new Intl.DateTimeFormat("es-ES", { weekday: "short", hour: "2-digit", minute: "2-digit" });
+  const ACTIVITY_ASSETS = {
+    cactpot: "assets/activity/cactpot.png",
+    chocobo: "assets/activity/chocobo-racing.png",
+    mahjong: "assets/activity/doman-mahjong.png",
+    fashion: "assets/activity/fashion-report.png",
+    gate: "assets/activity/gate.png",
+    minigames: "assets/activity/minigames.png",
+    verminion: "assets/activity/lord-of-verminion.png",
+    triad: "assets/activity/triple-triad.png"
+  };
 
   const embeddedFashionFallback = {
     week: 451,
@@ -40,7 +50,9 @@
       activities: ["Gold Saucer Attendant", "Canje inicial de gil por MGP", "Ascensor a Chocobo Square", "Aetheryte principal"],
       tip: "Registra el aetheryte y habla con el Gold Saucer Attendant antes de explorar.",
       gameZone: "all",
-      button: "Ver todas las actividades"
+      button: "Ver todas las actividades",
+      asset: ACTIVITY_ASSETS.minigames,
+      assetAlt: "Mini-games del Gold Saucer"
     },
     card: {
       number: "02",
@@ -51,7 +63,9 @@
       activities: ["Triple Triad", "Torneos regulares", "Open Tournaments", "Vendedores de cartas"],
       tip: "Empieza con NPC sencillos y vende las cartas repetidas para recuperar MGP.",
       gameZone: "card",
-      button: "Ver juegos de Card Square"
+      button: "Ver juegos de Card Square",
+      asset: ACTIVITY_ASSETS.triad,
+      assetAlt: "Triple Triad"
     },
     wonder: {
       number: "03",
@@ -62,7 +76,9 @@
       activities: ["Mini Cactpot", "Fashion Report", "Máquinas arcade", "Intercambio de premios"],
       tip: "Haz primero los tres Mini Cactpot; cuesta muy poco y puede dar una ganancia excelente.",
       gameZone: "wonder",
-      button: "Ver juegos de Wonder Square"
+      button: "Ver juegos de Wonder Square",
+      asset: ACTIVITY_ASSETS.cactpot,
+      assetAlt: "Cactpot"
     },
     event: {
       number: "04",
@@ -73,7 +89,9 @@
       activities: ["Any Way the Wind Blows", "Cliffhanger", "Avisos de GATE", "Espectáculos del recinto"],
       tip: "Llega unos minutos antes del aviso; algunas inscripciones se cierran poco después del inicio.",
       gameZone: "event",
-      button: "Ver GATEs de Event Square"
+      button: "Ver GATEs de Event Square",
+      asset: ACTIVITY_ASSETS.gate,
+      assetAlt: "GATEs del Gold Saucer"
     },
     round: {
       number: "05",
@@ -84,7 +102,9 @@
       activities: ["The Slice Is Right", "Air Force One", "GATE Client", "Puntos de observación"],
       tip: "No persigas cada recompensa si te obliga a arriesgar una eliminación temprana.",
       gameZone: "round",
-      button: "Ver GATEs de Round Square"
+      button: "Ver GATEs de Round Square",
+      asset: ACTIVITY_ASSETS.gate,
+      assetAlt: "GATEs del Gold Saucer"
     },
     chocobo: {
       number: "06",
@@ -95,7 +115,9 @@
       activities: ["Chocobo Racing", "Registro de chocobo", "Entrenamiento y alimento", "Challenge Races"],
       tip: "Las primeras carreras sirven para aprender stamina y trazadas; luego el pedigree importa mucho más.",
       gameZone: "chocobo",
-      button: "Ver Chocobo Racing"
+      button: "Ver Chocobo Racing",
+      asset: ACTIVITY_ASSETS.chocobo,
+      assetAlt: "Chocobo Racing"
     },
     minion: {
       number: "07",
@@ -106,7 +128,9 @@
       activities: ["Lord of Verminion", "Tutoriales y desafíos", "Partidas contra NPC", "Partidas contra jugadores"],
       tip: "Los cinco combates semanales del Challenge Log suman 27.000 MGP sólo en bonificaciones.",
       gameZone: "minion",
-      button: "Ver Lord of Verminion"
+      button: "Ver Lord of Verminion",
+      asset: ACTIVITY_ASSETS.verminion,
+      assetAlt: "Lord of Verminion"
     }
   };
 
@@ -264,9 +288,72 @@
   ];
 
   const timePlans = {
-    15: { estimate: "60.000+ MGP", steps: [["Fashion Report", "60.000"], ["Mini Cactpot ×3", "variable"], ["Jumbo Cactpot ×3", "boletos"]] },
-    30: { estimate: "65.000+ MGP", steps: [["Fashion Report", "60.000"], ["Minijuegos ×3 + 100 MGP", "2.500"], ["Una GATE cercana", "premio"], ["Cactpot diario/semanal", "variable"]] },
-    60: { estimate: "75.000–100.000+ MGP", steps: [["Fashion Report", "60.000"], ["Retos rápidos", "2.500"], ["GATEs y sus retos", "hasta 13.000"], ["Verminion o Triple Triad", "progreso log"], ["Cactpot", "variable"]] }
+    fashion: {
+      label: "Ruta inicial con Fashion Report",
+      note: "Empieza por el premio semanal de mayor valor. Las cifras suponen que todavía puedes cobrar la recompensa de 80 puntos.",
+      15: { estimate: "60.000+ MGP", total: "≈ 15 min", steps: [
+        { title: "Fashion Report · objetivo 80+", duration: "8–10 min", reward: "+60.000", target: "fashion" },
+        { title: "Mini Cactpot ×3", duration: "4–5 min", reward: "premio variable", game: "mini-cactpot" },
+        { title: "Jumbo Cactpot ×3", duration: "1 min", reward: "3 boletos", game: "jumbo-cactpot" }
+      ] },
+      30: { estimate: "62.500–80.000+ MGP", total: "≈ 30 min", steps: [
+        { title: "Fashion Report · objetivo 80+", duration: "8–10 min", reward: "+60.000", target: "fashion" },
+        { title: "Cactpot diario y semanal", duration: "5–6 min", reward: "variable", game: "mini-cactpot" },
+        { title: "3 minijuegos + 100 MGP", duration: "5–7 min", reward: "+2.500 log", filter: "arcade" },
+        { title: "GATE si empieza pronto", duration: "10–15 min", reward: "premio de GATE", filter: "gate" }
+      ] },
+      60: { estimate: "89.500+ MGP", total: "≈ 55–65 min", steps: [
+        { title: "Fashion Report · objetivo 80+", duration: "8–10 min", reward: "+60.000", target: "fashion" },
+        { title: "Cactpot + retos de minijuegos", duration: "10–12 min", reward: "+2.500 y premios", game: "mini-cactpot" },
+        { title: "Lord of Verminion ×5", duration: "35–45 min", reward: "+27.000 log", game: "lord-of-verminion" }
+      ] },
+      90: { estimate: "97.500–120.000+ MGP", total: "≈ 85–100 min", steps: [
+        { title: "Fashion Report · objetivo 80+", duration: "8–10 min", reward: "+60.000", target: "fashion" },
+        { title: "Cactpot + retos rápidos", duration: "10–12 min", reward: "+2.500 y premios", game: "mini-cactpot" },
+        { title: "Lord of Verminion ×5", duration: "35–45 min", reward: "+27.000 log", game: "lord-of-verminion" },
+        { title: "3 carreras chocobo", duration: "15–25 min", reward: "+5.000 log", game: "chocobo-racing" },
+        { title: "Una GATE", duration: "10–15 min", reward: "premio + progreso", filter: "gate" }
+      ] },
+      120: { estimate: "110.000–145.000+ MGP", total: "≈ 110–130 min", steps: [
+        { title: "Fashion Report · objetivo 80+", duration: "8–10 min", reward: "+60.000", target: "fashion" },
+        { title: "Cactpot + retos rápidos", duration: "10–12 min", reward: "+2.500 y premios", game: "mini-cactpot" },
+        { title: "Lord of Verminion ×5", duration: "35–45 min", reward: "+27.000 log", game: "lord-of-verminion" },
+        { title: "Triple Triad ×10", duration: "30–45 min", reward: "+5.000 log", game: "triple-triad" },
+        { title: "3 carreras + una GATE", duration: "25–35 min", reward: "+5.000 y premios", game: "chocobo-racing" }
+      ] }
+    },
+    continue: {
+      label: "Ruta para seguir ganando MGP",
+      note: "Fashion Report ya está hecho. Esta ruta invierte todo el tiempo en actividades repetibles y bonificaciones pendientes del Challenge Log.",
+      15: { estimate: "2.500–12.000+ MGP", total: "≈ 15 min", steps: [
+        { title: "Mini Cactpot ×3", duration: "4–5 min", reward: "premio variable", game: "mini-cactpot" },
+        { title: "3 minijuegos + 100 MGP", duration: "5–7 min", reward: "+2.500 log", filter: "arcade" },
+        { title: "Compra Jumbo Cactpot", duration: "1 min", reward: "3 boletos", game: "jumbo-cactpot" }
+      ] },
+      30: { estimate: "4.000–20.000+ MGP", total: "≈ 25–35 min", steps: [
+        { title: "Cactpot diario y semanal", duration: "5–6 min", reward: "variable", game: "mini-cactpot" },
+        { title: "Retos de minijuegos", duration: "5–7 min", reward: "+2.500 log", filter: "arcade" },
+        { title: "Siguiente GATE", duration: "10–20 min", reward: "premio + progreso", filter: "gate" }
+      ] },
+      60: { estimate: "29.500–45.000+ MGP", total: "≈ 50–65 min", steps: [
+        { title: "Lord of Verminion ×5", duration: "35–45 min", reward: "+27.000 log", game: "lord-of-verminion" },
+        { title: "Cactpot + minijuegos", duration: "10–12 min", reward: "+2.500 y premios", game: "mini-cactpot" },
+        { title: "GATE si coincide", duration: "10–15 min", reward: "premio + progreso", filter: "gate" }
+      ] },
+      90: { estimate: "39.500–65.000+ MGP", total: "≈ 80–100 min", steps: [
+        { title: "Lord of Verminion ×5", duration: "35–45 min", reward: "+27.000 log", game: "lord-of-verminion" },
+        { title: "3 carreras chocobo + 1 victoria", duration: "20–30 min", reward: "hasta +10.000 log", game: "chocobo-racing" },
+        { title: "Cactpot + minijuegos", duration: "10–12 min", reward: "+2.500 y premios", game: "mini-cactpot" },
+        { title: "Una GATE", duration: "10–15 min", reward: "premio + progreso", filter: "gate" }
+      ] },
+      120: { estimate: "45.000–80.000+ MGP", total: "≈ 110–130 min", steps: [
+        { title: "Lord of Verminion ×5", duration: "35–45 min", reward: "+27.000 log", game: "lord-of-verminion" },
+        { title: "Triple Triad ×10", duration: "30–45 min", reward: "+5.000 log", game: "triple-triad" },
+        { title: "3 carreras chocobo + 1 victoria", duration: "20–30 min", reward: "hasta +10.000 log", game: "chocobo-racing" },
+        { title: "Cactpot + minijuegos", duration: "10–12 min", reward: "+2.500 y premios", game: "mini-cactpot" },
+        { title: "Una GATE", duration: "10–15 min", reward: "premio + progreso", filter: "gate" }
+      ] }
+    }
   };
 
   const guideTabs = {
@@ -289,12 +376,33 @@
   let activeZone = "entrance";
   let activeGameFilter = "all";
   let activeZoneGameFilter = null;
+  let activeRouteMode = "fashion";
+  let activeRouteMinutes = 15;
+  let mapZoom = 1;
   let currentFashionData = embeddedFashionFallback;
   let toastTimer = null;
   let lastDialogZone = "entrance";
 
   const $ = (selector, scope = document) => scope.querySelector(selector);
   const $$ = (selector, scope = document) => Array.from(scope.querySelectorAll(selector));
+
+  function assetForGame(game) {
+    if (!game) return ACTIVITY_ASSETS.minigames;
+    if (game.id === "triple-triad") return ACTIVITY_ASSETS.triad;
+    if (game.id === "chocobo-racing") return ACTIVITY_ASSETS.chocobo;
+    if (game.id === "lord-of-verminion") return ACTIVITY_ASSETS.verminion;
+    if (game.id === "doman-mahjong") return ACTIVITY_ASSETS.mahjong;
+    if (game.id.includes("cactpot")) return ACTIVITY_ASSETS.cactpot;
+    if (game.category === "gate") return ACTIVITY_ASSETS.gate;
+    return ACTIVITY_ASSETS.minigames;
+  }
+
+  function assetForMethod(method) {
+    if (method.title === "Fashion Report") return ACTIVITY_ASSETS.fashion;
+    if (method.title === "Challenge Log") return ACTIVITY_ASSETS.minigames;
+    if (method.title === "GATEs") return ACTIVITY_ASSETS.gate;
+    return assetForGame(games.find((game) => game.id === method.gameId));
+  }
 
   function safeParse(value, fallback) {
     try { return value ? JSON.parse(value) : fallback; } catch { return fallback; }
@@ -429,6 +537,8 @@
     $("#zoneCoords").textContent = zone.coords;
     $("#zoneDescription").textContent = zone.description;
     $("#zoneTip").textContent = zone.tip;
+    $("#zoneHero").src = zone.asset;
+    $("#zoneHero").alt = zone.assetAlt;
     $("#zoneGamesButton").innerHTML = `${zone.button} <span aria-hidden="true">→</span>`;
     const list = $("#zoneActivities");
     list.innerHTML = "";
@@ -440,10 +550,48 @@
     if (options.scroll) $(".zone-panel").scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
+  function updateMapZoom(value, options = {}) {
+    const viewport = $("#mapViewport");
+    const canvas = $("#mapCanvas");
+    const previousWidth = Math.max(viewport.scrollWidth, 1);
+    const previousHeight = Math.max(viewport.scrollHeight, 1);
+    const centerX = (viewport.scrollLeft + viewport.clientWidth / 2) / previousWidth;
+    const centerY = (viewport.scrollTop + viewport.clientHeight / 2) / previousHeight;
+    mapZoom = Math.min(2, Math.max(1, Math.round(value * 4) / 4));
+    canvas.style.width = `${mapZoom * 100}%`;
+    $("#mapZoomReset").textContent = `${Math.round(mapZoom * 100)}%`;
+    $("#mapZoomOut").disabled = mapZoom <= 1;
+    $("#mapZoomIn").disabled = mapZoom >= 2;
+    requestAnimationFrame(() => {
+      if (options.resetPan || mapZoom === 1) {
+        viewport.scrollTo({ left: 0, top: 0, behavior: options.instant ? "auto" : "smooth" });
+        return;
+      }
+      viewport.scrollTo({
+        left: centerX * viewport.scrollWidth - viewport.clientWidth / 2,
+        top: centerY * viewport.scrollHeight - viewport.clientHeight / 2,
+        behavior: "auto"
+      });
+    });
+  }
+
   function bindMap() {
     $$(".map-node").forEach((node) => node.addEventListener("click", () => selectZone(node.dataset.zone)));
     $$('[data-zone-route]').forEach((button) => button.addEventListener("click", () => selectZone(button.dataset.zoneRoute, { scroll: true })));
-    $("#mapResetButton").addEventListener("click", () => selectZone("entrance", { scroll: true }));
+    $("#mapResetButton").addEventListener("click", () => {
+      updateMapZoom(1, { resetPan: true });
+      selectZone("entrance", { scroll: true });
+    });
+    $("#mapZoomOut").addEventListener("click", () => updateMapZoom(mapZoom - 0.25));
+    $("#mapZoomIn").addEventListener("click", () => updateMapZoom(mapZoom + 0.25));
+    $("#mapZoomReset").addEventListener("click", () => updateMapZoom(1, { resetPan: true }));
+    $("#mapViewport").addEventListener("keydown", (event) => {
+      if (!["+", "=", "-", "0"].includes(event.key)) return;
+      event.preventDefault();
+      if (event.key === "-" ) updateMapZoom(mapZoom - 0.25);
+      else if (event.key === "0") updateMapZoom(1, { resetPan: true });
+      else updateMapZoom(mapZoom + 0.25);
+    });
     $("#zoneGamesButton").addEventListener("click", () => {
       const filter = zones[activeZone].gameZone;
       activeZoneGameFilter = filter === "all" ? null : filter;
@@ -454,6 +602,7 @@
       setView("juegos");
       showToast(filter === "all" ? "Mostrando todas las actividades." : `Actividades relacionadas con ${zones[activeZone].name}.`);
     });
+    updateMapZoom(1, { resetPan: true, instant: true });
   }
 
   function loadGoal() {
@@ -498,18 +647,50 @@
     });
   }
 
-  function renderTimePlan(minutes) {
-    const plan = timePlans[minutes] || timePlans[15];
+  function openRouteStep(step) {
+    if (step.target === "fashion") {
+      setView("fashion");
+      return;
+    }
+    if (step.game) {
+      const game = games.find((item) => item.id === step.game);
+      if (game) openGame(game);
+      return;
+    }
+    if (step.filter) {
+      activeGameFilter = step.filter;
+      activeZoneGameFilter = null;
+      $("#gameSearch").value = "";
+      updateGameFilterButtons();
+      renderGames();
+      setView("juegos");
+    }
+  }
+
+  function renderTimePlan(minutes, mode = activeRouteMode) {
+    activeRouteMode = mode in timePlans ? mode : "fashion";
+    activeRouteMinutes = Number(minutes) in timePlans[activeRouteMode] ? Number(minutes) : 15;
+    const group = timePlans[activeRouteMode];
+    const plan = group[activeRouteMinutes];
     const wrap = $("#timeRoute");
     wrap.innerHTML = "";
-    plan.steps.forEach(([title, reward], index) => {
-      const row = document.createElement("div");
+    plan.steps.forEach((step, index) => {
+      const row = document.createElement("button");
+      row.type = "button";
       row.className = "time-step";
-      row.innerHTML = `<span>${index + 1}</span><strong>${title}</strong><small>${reward}</small>`;
+      row.setAttribute("aria-label", `Abrir ${step.title}; ${step.duration}; ${step.reward}`);
+      row.innerHTML = `<span>${index + 1}</span><span class="time-step-copy"><strong>${step.title}</strong><small>${step.duration}</small></span><span class="time-reward">${step.reward}<i aria-hidden="true">↗</i></span>`;
+      row.addEventListener("click", () => openRouteStep(step));
       wrap.appendChild(row);
     });
+    $("#routeSummary").innerHTML = `<div><span>${group.label}</span><strong>${plan.total}</strong></div><p>${group.note}</p>`;
     $("#timeEstimate").textContent = plan.estimate;
-    $$("[data-time]").forEach((button) => button.classList.toggle("is-active", Number(button.dataset.time) === Number(minutes)));
+    $$("[data-time]").forEach((button) => button.classList.toggle("is-active", Number(button.dataset.time) === activeRouteMinutes));
+    $$("[data-route-mode]").forEach((button) => {
+      const active = button.dataset.routeMode === activeRouteMode;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
   }
 
   function renderMethods() {
@@ -519,7 +700,7 @@
       const button = document.createElement("button");
       button.type = "button";
       button.className = "method-card";
-      button.innerHTML = `<span class="method-rank">${method.rank}</span><h3>${method.title}</h3><p>${method.summary}</p><footer><strong>${method.reward}</strong><span aria-hidden="true">↗</span></footer>`;
+      button.innerHTML = `<span class="method-art" aria-hidden="true"><img src="${assetForMethod(method)}" alt=""></span><span class="method-rank">${method.rank}</span><h3>${method.title}</h3><p>${method.summary}</p><footer><strong>${method.reward}</strong><span aria-hidden="true">↗</span></footer>`;
       button.addEventListener("click", () => openMethod(method));
       grid.appendChild(button);
     });
@@ -553,6 +734,7 @@
 
   function bindMgp() {
     $$("[data-time]").forEach((button) => button.addEventListener("click", () => renderTimePlan(Number(button.dataset.time))));
+    $$("[data-route-mode]").forEach((button) => button.addEventListener("click", () => renderTimePlan(activeRouteMinutes, button.dataset.routeMode)));
     $$("[data-challenge-filter]").forEach((button) => button.addEventListener("click", () => {
       $$("[data-challenge-filter]").forEach((item) => item.classList.toggle("is-active", item === button));
       renderChallengeList(button.dataset.challengeFilter);
@@ -591,7 +773,7 @@
       button.type = "button";
       button.className = "game-card";
       button.dataset.gameId = game.id;
-      button.innerHTML = `<span class="game-card-top"><span class="game-icon" aria-hidden="true">${game.icon}</span><span class="game-category">${game.categoryLabel}</span></span><h2>${game.name}</h2><p>${game.summary}</p><footer><span>${game.location}</span><span aria-hidden="true">↗</span></footer>`;
+      button.innerHTML = `<span class="game-art" aria-hidden="true"><img src="${assetForGame(game)}" alt=""></span><span class="game-card-top"><span class="game-icon" aria-hidden="true">${game.icon}</span><span class="game-category">${game.categoryLabel}</span></span><h2>${game.name}</h2><p>${game.summary}</p><footer><span>${game.location}</span><span aria-hidden="true">↗</span></footer>`;
       button.addEventListener("click", () => openGame(game));
       grid.appendChild(button);
     });
@@ -623,13 +805,13 @@
   function openGame(game) {
     openDialog({
       title: game.name, icon: game.icon, category: game.categoryLabel, location: game.location,
-      summary: game.summary, steps: game.steps, tip: game.tip, meta: game.meta, zone: game.zone
+      summary: game.summary, steps: game.steps, tip: game.tip, meta: game.meta, zone: game.zone, asset: assetForGame(game)
     });
   }
 
   function openMethod(method) {
     if (method.detail) {
-      openDialog({ title: method.title, zone: method.zone, ...method.detail });
+      openDialog({ title: method.title, zone: method.zone, asset: assetForMethod(method), ...method.detail });
       return;
     }
     const game = games.find((item) => item.id === method.gameId);
@@ -640,7 +822,17 @@
     lastDialogZone = data.zone || "entrance";
     $("#dialogCategory").textContent = data.category || "Actividad";
     $("#dialogLocation").textContent = data.location || "Gold Saucer";
-    $("#dialogIcon").textContent = data.icon || "✦";
+    const dialogIcon = $("#dialogIcon");
+    dialogIcon.innerHTML = "";
+    dialogIcon.classList.toggle("has-art", Boolean(data.asset));
+    if (data.asset) {
+      const image = document.createElement("img");
+      image.src = data.asset;
+      image.alt = "";
+      dialogIcon.appendChild(image);
+    } else {
+      dialogIcon.textContent = data.icon || "✦";
+    }
     $("#dialogTitle").textContent = data.title;
     $("#dialogSummary").textContent = data.summary;
     $("#dialogTip").textContent = data.tip;

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#090d1b">
+  <meta name="theme-color" content="#17091f">
   <meta name="description" content="Guía interactiva del Manderville Gold Saucer: mapa, métodos de MGP, juegos, GATEs y Fashion Report semanal.">
   <meta property="og:title" content="KAIZO Gold Saucer — Guía interactiva">
   <meta property="og:description" content="Planifica tu semana, sigue el Fashion Report y aprende cada atracción del Gold Saucer.">
@@ -21,7 +21,7 @@
       <span class="brand-orbit" aria-hidden="true"><span>G</span></span>
       <span class="brand-copy">
         <strong>KAIZO</strong>
-        <small>GOLD SAUCER</small>
+        <small>MANDERVILLE GUIDE</small>
       </span>
     </div>
 
@@ -167,32 +167,40 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">ORIENTACIÓN</p>
-          <h1 id="mapa-title">Mapa práctico del Gold Saucer</h1>
-          <p class="lede">Pulsa cualquier zona para ver sus atracciones, coordenadas y la mejor razón para visitarla. Es un esquema de navegación, no un mapa a escala.</p>
+          <h1 id="mapa-title">Mapa original del Gold Saucer</h1>
+          <p class="lede">Explora el mapa ilustrado del juego. Pulsa los emblemas para identificar cada plaza, sus atracciones y la mejor razón para visitarla.</p>
         </div>
         <button class="secondary-button" id="mapResetButton" type="button">Volver a Entrada</button>
       </div>
 
       <div class="map-layout">
-        <div class="saucer-map" id="saucerMap" role="group" aria-label="Zonas seleccionables del Gold Saucer">
-          <div class="map-ring map-ring--outer" aria-hidden="true"></div>
-          <div class="map-ring map-ring--inner" aria-hidden="true"></div>
-          <div class="map-line map-line--vertical" aria-hidden="true"></div>
-          <div class="map-line map-line--middle" aria-hidden="true"></div>
-          <div class="map-line map-line--upper" aria-hidden="true"></div>
-          <div class="map-core" aria-hidden="true"><span>MANDERVILLE</span><strong>GOLD<br>SAUCER</strong></div>
+        <div class="saucer-map" id="saucerMap" role="group" aria-label="Mapa original con zonas seleccionables del Gold Saucer">
+          <div class="map-toolbar" aria-label="Controles del mapa">
+            <span><strong>MAPA DEL RECINTO</strong><small>Arrastra al ampliar</small></span>
+            <div>
+              <button id="mapZoomOut" type="button" aria-label="Alejar mapa" title="Alejar">−</button>
+              <button id="mapZoomReset" type="button" aria-label="Restablecer zoom" title="Zoom original">100%</button>
+              <button id="mapZoomIn" type="button" aria-label="Ampliar mapa" title="Ampliar">+</button>
+            </div>
+          </div>
+          <div class="map-viewport" id="mapViewport" tabindex="0" aria-label="Mapa desplazable">
+            <div class="map-canvas" id="mapCanvas">
+              <img class="original-map" src="assets/gold-saucer-map.webp" width="1000" height="1000" alt="Mapa ilustrado original del Manderville Gold Saucer de FINAL FANTASY XIV">
 
-          <button class="map-node map-node--entrance is-active" type="button" data-zone="entrance"><span class="node-icon">◎</span><span>Entrance<br>Square</span></button>
-          <button class="map-node map-node--card" type="button" data-zone="card"><span class="node-icon">▣</span><span>Card<br>Square</span></button>
-          <button class="map-node map-node--wonder" type="button" data-zone="wonder"><span class="node-icon">✦</span><span>Wonder<br>Square</span></button>
-          <button class="map-node map-node--event" type="button" data-zone="event"><span class="node-icon">☆</span><span>Event<br>Square</span></button>
-          <button class="map-node map-node--round" type="button" data-zone="round"><span class="node-icon">◉</span><span>Round<br>Square</span></button>
-          <button class="map-node map-node--chocobo" type="button" data-zone="chocobo"><span class="node-icon">♞</span><span>Chocobo<br>Square</span></button>
-          <button class="map-node map-node--minion" type="button" data-zone="minion"><span class="node-icon">♟</span><span>Minion<br>Square</span></button>
-          <p class="map-help"><span aria-hidden="true">●</span> Pulsa una zona</p>
+              <button class="map-node map-node--entrance is-active" type="button" data-zone="entrance"><span class="node-icon"><img src="assets/activity/minigames.png" alt=""></span><span>Entrance<br>Square</span></button>
+              <button class="map-node map-node--card" type="button" data-zone="card"><span class="node-icon"><img src="assets/activity/triple-triad.png" alt=""></span><span>Card<br>Square</span></button>
+              <button class="map-node map-node--wonder" type="button" data-zone="wonder"><span class="node-icon"><img src="assets/activity/cactpot.png" alt=""></span><span>Wonder<br>Square</span></button>
+              <button class="map-node map-node--event" type="button" data-zone="event"><span class="node-icon"><img src="assets/activity/gate.png" alt=""></span><span>Event<br>Square</span></button>
+              <button class="map-node map-node--round" type="button" data-zone="round"><span class="node-icon"><img src="assets/activity/gate.png" alt=""></span><span>Round<br>Square</span></button>
+              <button class="map-node map-node--chocobo" type="button" data-zone="chocobo"><span class="node-icon"><img src="assets/activity/chocobo-racing.png" alt=""></span><span>Chocobo<br>Square</span></button>
+              <button class="map-node map-node--minion" type="button" data-zone="minion"><span class="node-icon"><img src="assets/activity/lord-of-verminion.png" alt=""></span><span>Minion<br>Square</span></button>
+            </div>
+          </div>
+          <div class="map-footnote"><span><i aria-hidden="true"></i> Pulsa un emblema para explorar</span><a href="https://na.finalfantasyxiv.com/lodestone/topics/detail/e4d2de634dcf0c7cba2d789e53265a528316c11e" target="_blank" rel="noreferrer">Ver mapa en las notas oficiales ↗</a></div>
         </div>
 
         <aside class="zone-panel panel" aria-live="polite">
+          <img class="zone-hero" id="zoneHero" src="assets/activity/minigames.png" alt="Mini-games del Gold Saucer">
           <div class="zone-kicker"><span id="zoneNumber">01</span><span id="zoneType">PUNTO DE LLEGADA</span></div>
           <h2 id="zoneName">Entrance Square</h2>
           <p class="zone-coords" id="zoneCoords">X:4.8 · Y:6.7</p>
@@ -256,15 +264,22 @@
 
         <section class="panel time-planner" aria-labelledby="time-title">
           <div class="panel-heading">
-            <div><p class="eyebrow">RUTA POR TIEMPO</p><h2 id="time-title">¿Cuánto tiempo tienes?</h2></div>
+            <div><p class="eyebrow">RUTA POR TIEMPO</p><h2 id="time-title">¿Cuánto tiempo quieres jugar?</h2></div>
+          </div>
+          <div class="route-mode-control" role="group" aria-label="Tipo de ruta">
+            <button type="button" class="is-active" data-route-mode="fashion"><span>01</span> Con Fashion Report</button>
+            <button type="button" data-route-mode="continue"><span>02</span> Seguir ganando MGP</button>
           </div>
           <div class="segmented-control" role="group" aria-label="Tiempo disponible">
             <button type="button" data-time="15" class="is-active">15 min</button>
             <button type="button" data-time="30">30 min</button>
-            <button type="button" data-time="60">60+ min</button>
+            <button type="button" data-time="60">60 min</button>
+            <button type="button" data-time="90">90 min</button>
+            <button type="button" data-time="120">2 h</button>
           </div>
+          <div class="route-summary" id="routeSummary" aria-live="polite"></div>
           <div class="time-route" id="timeRoute" aria-live="polite"></div>
-          <div class="estimate-row"><span>Estimación conservadora</span><strong id="timeEstimate">60.000+ MGP</strong></div>
+          <div class="estimate-row"><span>Estimación de la ruta</span><strong id="timeEstimate">60.000+ MGP</strong></div>
         </section>
       </div>
 
@@ -400,11 +415,11 @@
   <footer class="site-footer">
     <div><strong>KAIZO カイゾ</strong><span>Guía comunitaria no oficial de FFXIV.</span></div>
     <nav aria-label="Fuentes y enlaces">
-      <a href="https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/goldsaucer/" target="_blank" rel="noreferrer">Guía oficial ↗</a>
+      <a href="https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/goldsaucer/" target="_blank" rel="noreferrer">Guía e imágenes oficiales ↗</a>
       <a href="https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2" target="_blank" rel="noreferrer">Datos Fashion Report ↗</a>
       <button type="button" data-view-jump="inicio">Volver arriba ↑</button>
     </nav>
-    <p>FINAL FANTASY XIV © SQUARE ENIX. Este sitio no está afiliado ni respaldado por Square Enix.</p>
+    <p>Mapa e imágenes de las atracciones: materiales oficiales de FINAL FANTASY XIV © SQUARE ENIX. Guía comunitaria no afiliada ni respaldada por Square Enix.</p>
   </footer>
 
   <dialog class="detail-dialog" id="detailDialog" aria-labelledby="dialogTitle">
