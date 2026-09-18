@@ -29,7 +29,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.5 · JOB ROUTES")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.6 · SYNC PROGRESS")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -118,8 +118,12 @@ if (!html.includes('id="ffxivCharacterCard"')) {
           </div>
           <div class="ffxiv-jobs" id="ffxivJobs"></div>
           <div class="ffxiv-atlas-progress" id="ffxivAtlasProgress" hidden>
-            <div><div><b>Progreso total BlueQuest</b><small id="ffxivAtlasCount">0 / 433 confirmadas</small></div><strong id="ffxivAtlasPct">0%</strong></div>
-            <div class="progress-track"><i id="ffxivAtlasBar"></i></div>
+            <div><div><b>Progreso conocido BlueQuest</b><small id="ffxivAtlasCount">0 / 433 conocidas</small></div><strong id="ffxivAtlasPct">0%</strong></div>
+            <div class="sync-track"><span class="manual" id="ffxivAtlasManualBar"></span><span class="detected" id="ffxivAtlasDetectedBar"></span></div>
+            <div class="sync-legend">
+              <span><i class="manual"></i><b id="ffxivManualCount">0</b> marcadas por ti</span>
+              <span><i class="detected"></i><b id="ffxivDetectedCount">0</b> detectadas por FFXIV</span>
+            </div>
           </div>
           <div class="ffxiv-actions">
             <button id="ffxivSyncBtn" type="button">Sincronizar</button>
@@ -149,7 +153,7 @@ html = html
 if (!html.includes('id="ffxivJobDialog"')) {
   html = html.replace(
     '  <div id="toast" class="toast" role="status"></div>',
-    '  <dialog id="ffxivJobDialog" class="quest-dialog">\n    <div class="dialog-sheet ffxiv-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="ffxivJobClose" aria-label="Cerrar">×</button>\n      <div class="route-head"><div><p class="eyebrow" id="jobRouteEyebrow">RUTA BLUEQUEST</p><h2 id="jobRouteTitle">Job</h2></div><div class="route-percent"><strong id="jobRoutePct">0%</strong><small>RUTA ACTUAL</small></div></div>\n      <div class="route-meter"><div class="progress-track"><i id="jobRouteBar"></i></div><p id="jobRouteSummary">0 de 0 misiones elegibles cubiertas</p></div>\n      <div class="route-stats"><div class="route-stat"><b id="jobRouteManual">0</b><small>Marcadas por ti</small></div><div class="route-stat"><b id="jobRouteDetected">0</b><small>Detectadas por sync</small></div><div class="route-stat"><b id="jobRoutePending">0</b><small>Pendientes</small></div></div>\n      <section class="route-section"><h3>✦ BlueQuest recomienda ahora</h3><p>Prioriza desbloqueos útiles que ya puedes hacer con tu nivel.</p><div class="route-list" id="jobRouteRecommended"></div></section>\n      <section class="route-section"><h3>Próximos desbloqueos</h3><div class="route-list" id="jobRouteFuture"></div></section>\n      <section class="route-section"><h3>Ruta disponible a tu nivel</h3><div class="route-list" id="jobRouteAll"></div></section>\n      <p class="route-note">✓ Hecha = la marcaste en BlueQuest. ◆ Detectada = Lodestone demuestra el desbloqueo del job/clase. El nivel por sí solo no marca otras misiones como completadas.</p>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
+    '  <dialog id="ffxivJobDialog" class="quest-dialog">\n    <div class="dialog-sheet ffxiv-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="ffxivJobClose" aria-label="Cerrar">×</button>\n      <div class="route-head"><div><p class="eyebrow" id="jobRouteEyebrow">RUTA BLUEQUEST</p><h2 id="jobRouteTitle">Job</h2></div><div class="route-percent"><strong id="jobRoutePct">0%</strong><small>RUTA ACTUAL</small></div></div>\n      <div class="route-meter"><div class="progress-track"><i id="jobRouteBar"></i></div><p id="jobRouteSummary">0 de 0 misiones elegibles cubiertas</p></div>\n      <div class="route-stats"><div class="route-stat"><b id="jobRouteManual">0</b><small>Marcadas por ti</small></div><div class="route-stat"><b id="jobRouteDetected">0</b><small>Detectadas por sync</small></div><div class="route-stat"><b id="jobRoutePending">0</b><small>Pendientes</small></div></div>\n      <section class="route-section"><h3>✦ BlueQuest recomienda ahora</h3><p>Prioriza desbloqueos útiles que ya puedes hacer con tu nivel.</p><div class="route-list" id="jobRouteRecommended"></div></section>\n      <section class="route-section"><h3>Próximos desbloqueos</h3><div class="route-list" id="jobRouteFuture"></div></section>\n      <section class="route-section"><h3>Ruta disponible a tu nivel</h3><div class="route-list" id="jobRouteAll"></div></section>\n      <p class="route-note">✓ Hecha = la marcaste en BlueQuest. ◆ Detectada = la sincronización demuestra ese desbloqueo. El aviso azul significa que BlueQuest encontró pendientes para revisar; no representa un porcentaje del Job.</p>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
   );
 }
 
