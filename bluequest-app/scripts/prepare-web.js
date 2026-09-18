@@ -55,7 +55,7 @@ fs.rmSync(nexusDir, { recursive: true, force: true });
 fs.cpSync(path.join(repoRoot, "eorzea-codex"), nexusDir, { recursive: true });
 
 
-for (const file of ["cloud-config.js", "account.css", "account.js", "ffxiv-sync.js", "modules.js"]) {
+for (const file of ["cloud-config.js", "account.css", "account.js", "ffxiv-sync.js", "modules.js", "analytics.js"]) {
   fs.copyFileSync(path.join(nativeDir, file), path.join(www, file));
 }
 
@@ -63,7 +63,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.9 · ECOSYSTEM")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.10 · ANALYTICS")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -134,6 +134,33 @@ const moreReplacement = '<section class="view" id="view-more" data-view="more">\
 
 if (!html.includes('id="bluequestAccountCard"')) {
   html = html.replace(moreNeedle, moreReplacement);
+}
+
+if (!html.includes('id="adminAnalyticsCard"')) {
+  const analyticsCard = `
+      <section class="analytics-card" id="adminAnalyticsCard" hidden>
+        <div class="analytics-head">
+          <div><p class="eyebrow">SOLO ADMINISTRADOR</p><h3>BlueQuest Analytics</h3><p id="anUpdated">Esperando datos…</p></div>
+          <button id="adminAnalyticsRefresh" type="button">↻</button>
+        </div>
+        <div class="analytics-grid">
+          <div><small>CUENTAS</small><b id="anAccounts">0</b></div>
+          <div><small>INSTALACIONES</small><b id="anInstalls">0</b></div>
+          <div class="online"><small>ONLINE AHORA</small><b><i></i><span id="anOnline">0</span></b></div>
+          <div><small>ACTIVOS HOY</small><b id="anToday">0</b></div>
+          <div><small>ACTIVOS 7 DÍAS</small><b id="an7d">0</b></div>
+          <div><small>ACTIVOS 30 DÍAS</small><b id="an30d">0</b></div>
+          <div><small>COMMUNITY</small><b id="anCommunity">0</b></div>
+        </div>
+        <div class="analytics-modules">
+          <span>Uso hoy</span>
+          <div><b>🎣 <i id="anFishing">0</i></b><small>Fishing</small></div>
+          <div><b>✦ <i id="anGold">0</i></b><small>Gold Saucer</small></div>
+          <div><b>◆ <i id="anNexus">0</i></b><small>Nexus</small></div>
+        </div>
+        <p class="analytics-note">Online = instalación con señal recibida en los últimos 2 minutos. Las instalaciones usan un identificador aleatorio; no se recopila ubicación.</p>
+      </section>`;
+  html = html.replace(/(<section class="account-card" id="bluequestAccountCard">[\s\S]*?<\/section>)/, '$1' + analyticsCard);
 }
 
 if (!html.includes('id="ffxivCharacterCard"')) {
@@ -234,7 +261,7 @@ html = html.replace(
 if (!html.includes('src="./cloud-config.js"')) {
   html = html.replace(
     "</body>",
-    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n  <script src="./ffxiv-sync.js"></script>\n  <script src="./modules.js"></script>\n</body>'
+    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n  <script src="./ffxiv-sync.js"></script>\n  <script src="./modules.js"></script>\n  <script src="./analytics.js"></script>\n</body>'
   );
 }
 
