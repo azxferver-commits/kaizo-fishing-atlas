@@ -1,7 +1,10 @@
-BlueQuest Atlas Native App 1.0
+BlueQuest Atlas Native App 1.1
 Android: Capacitor
 iOS: Capacitor
 Atlas 1-80: 274
 Atlas 80-100: 159
 Total offline: 433
+Account architecture: ready
+Secure backend: Supabase schema + RLS prepared
+Social verification: Discord + YouTube server functions prepared
 App ID: com.kaizo.bluequest
