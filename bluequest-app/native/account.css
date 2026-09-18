@@ -15,3 +15,16 @@
 .auth-switch{margin-top:10px;text-align:center}.auth-switch button{border:0;background:none;color:var(--cyan);font-weight:800}
 .auth-note{margin:10px 0 0;color:var(--muted);font-size:10px}
 .module-lock{margin-top:7px;display:inline-block;border:1px solid #4a3c59;border-radius:999px;padding:2px 7px;color:#c9aeea;font-size:8px;font-weight:900}
+
+.ffxiv-card{margin:0 0 14px;padding:16px;border:1px solid #324a67;border-radius:18px;background:linear-gradient(145deg,#101927,#101426);position:relative;overflow:hidden}
+.ffxiv-card:before{content:"";position:absolute;inset:auto -70px -90px auto;width:190px;height:190px;border-radius:50%;background:radial-gradient(circle,#7c67d72b,transparent 68%);pointer-events:none}
+.ffxiv-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.ffxiv-head h3{margin:0}.ffxiv-head p{margin:4px 0 0;color:var(--muted);font-size:10px}
+.ffxiv-profile{display:grid;grid-template-columns:58px 1fr;gap:11px;align-items:center;margin-top:13px}
+.ffxiv-avatar{width:58px;height:58px;border-radius:14px;object-fit:cover;border:1px solid #466782;background:#09131d}
+.ffxiv-profile h4{margin:0 0 4px;font-size:16px}.ffxiv-profile p{margin:0;color:#9fb3c3;font-size:10px}
+.ffxiv-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.ffxiv-actions button,.ffxiv-actions a{border:1px solid #31516a;border-radius:10px;padding:8px 10px;background:#102638;color:#dffcff;font-weight:850;font-size:10px;text-decoration:none}
+.ffxiv-actions .secondary{background:#0b1722;color:#9eb3c3}.ffxiv-actions .danger{border-color:#613d49;color:#e8a8b8;background:#211118}
+.ffxiv-summary{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}.ffxiv-stat{padding:10px;border:1px solid #263d52;border-radius:12px;background:#09141f}.ffxiv-stat small,.ffxiv-stat b{display:block}.ffxiv-stat small{color:#7f96a7;font-size:8px;font-weight:800;letter-spacing:.08em}.ffxiv-stat b{font-size:17px;margin-top:3px}
+.ffxiv-jobs{display:flex;gap:6px;overflow-x:auto;padding:10px 1px 2px;margin-top:8px;scrollbar-width:none}.ffxiv-jobs::-webkit-scrollbar{display:none}.ffxiv-job-chip{white-space:nowrap;border:1px solid #2e4559;border-radius:999px;padding:6px 9px;background:#0a1722;color:#9eb3c3;font-size:9px}.ffxiv-job-chip b{color:#eaf6ff}
+.ffxiv-empty{margin-top:11px;color:#91a5b5;font-size:10px;line-height:1.5}.ffxiv-empty button{margin-top:10px;border:1px solid #4a748f;border-radius:11px;padding:10px 12px;background:#123248;color:#e6fbff;font-weight:900}
+.ffxiv-sheet .auth-fields{display:grid;gap:9px;margin-top:12px}.ffxiv-sheet input{width:100%;height:46px;border:1px solid var(--line);border-radius:12px;padding:0 12px;background:#081722;color:var(--text)}.ffxiv-sheet .hint{margin:8px 0;color:#8197a7;font-size:9px;line-height:1.5}.ffxiv-sheet .hint a{color:var(--cyan)}
