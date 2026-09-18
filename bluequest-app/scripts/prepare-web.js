@@ -192,9 +192,14 @@ html = html
     '<button class="module-card live" type="button" data-cloud-module="gold_saucer" data-module-open="gold_saucer" style="color:inherit;text-decoration:none;text-align:left"><span>✦</span><div><small>COMMUNITY</small><h3>Gold Saucer</h3><p>Mapa, MGP y Fashion Report semanal →</p></div></button>'
   );
 
+html = html.replace(
+  '<article class="module-card future"><span>☰</span><div><small>SIGUIENTE</small><h3>MSQ / Gear</h3><p>Progreso y equipo.</p></div></article>',
+  '<button class="module-card live" type="button" data-cloud-module="nexus" data-module-open="nexus" style="color:inherit;text-decoration:none;text-align:left"><span>◆</span><div><small>COMMUNITY</small><h3>Nexus</h3><p>Historia, progresión, mundo y Eorzea Codex →</p></div></button>'
+);
+
 if (!html.includes('id="ffxivJobDialog"')) {
   html = html.replace(
-    '  <dialog id="bluequestModuleDialog" class="module-dialog">\n    <div class="module-shell">\n      <header class="module-topbar"><div><span id="bluequestModuleIcon">◆</span><b id="bluequestModuleTitle">BlueQuest Module</b></div><button id="bluequestModuleClose" type="button" aria-label="Cerrar">×</button></header>\n      <iframe id="bluequestModuleFrame" title="BlueQuest module" src="about:blank"></iframe>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>',
+    '  <div id="toast" class="toast" role="status"></div>',
     '  <dialog id="ffxivJobDialog" class="quest-dialog">\n    <div class="dialog-sheet ffxiv-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="ffxivJobClose" aria-label="Cerrar">×</button>\n      <div class="route-head"><div><p class="eyebrow" id="jobRouteEyebrow">RUTA BLUEQUEST</p><h2 id="jobRouteTitle">Job</h2></div><div class="route-flag"><strong id="jobRouteFlag">●</strong><small id="jobRouteFlagLabel">REVISAR</small></div></div>\n      <div class="route-meter"><p id="jobRouteSummary">0 conocidas · 0 pendientes</p></div>\n      <div class="route-stats"><div class="route-stat"><b id="jobRouteManual">0</b><small>Marcadas por ti</small></div><div class="route-stat"><b id="jobRouteDetected">0</b><small>Detectadas por sync</small></div><div class="route-stat"><b id="jobRoutePending">0</b><small>Pendientes</small></div></div>\n      <section class="route-section"><h3>✦ BlueQuest recomienda ahora</h3><p>Prioriza desbloqueos útiles que ya puedes hacer con tu nivel.</p><div class="route-list" id="jobRouteRecommended"></div></section>\n      <section class="route-section"><h3>Próximos desbloqueos</h3><div class="route-list" id="jobRouteFuture"></div></section>\n      <section class="route-section"><h3>Ruta disponible a tu nivel</h3><div class="route-list" id="jobRouteAll"></div></section>\n      <p class="route-note">✓ Hecha = la marcaste en BlueQuest. ◆ Detectada = la sincronización demuestra ese desbloqueo. El aviso azul significa que BlueQuest encontró pendientes para revisar; no representa un porcentaje del Job.</p>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
   );
 }
@@ -210,6 +215,14 @@ if (!html.includes('id="bluequestAuthDialog"')) {
   html = html.replace(
     '  <div id="toast" class="toast" role="status"></div>',
     '  <dialog id="bluequestAuthDialog" class="quest-dialog">\n    <div class="dialog-sheet auth-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="authClose" aria-label="Cerrar">×</button>\n      <div class="auth-brand"><img src="./bluequest_icon.webp" alt=""><span>BLUEQUEST</span></div>\n      <p class="eyebrow">BLUEQUEST ACCOUNT</p>\n      <h2 id="authTitle">Iniciar sesión</h2>\n      <p class="auth-lead" id="authLead">Continúa tu aventura desde cualquier dispositivo.</p>\n      <div class="auth-fields">\n        <input id="authEmail" type="email" inputmode="email" autocomplete="email" placeholder="Correo electrónico" />\n        <input id="authPassword" type="password" autocomplete="current-password" placeholder="Contraseña" />\n      </div>\n      <button class="auth-submit" id="authSubmit">Entrar</button>\n      <p class="auth-note" id="authMessage"></p>\n      <div class="auth-switch"><span id="authSwitchText">¿No tienes cuenta?</span> <button id="authSwitchBtn">Crear una</button></div>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
+  );
+}
+
+// Integrated ecosystem module viewer.
+if (!html.includes('id="bluequestModuleDialog"')) {
+  html = html.replace(
+    '  <div id="toast" class="toast" role="status"></div>',
+    '  <dialog id="bluequestModuleDialog" class="module-dialog">\n    <div class="module-shell">\n      <header class="module-topbar"><div><span id="bluequestModuleIcon">◆</span><b id="bluequestModuleTitle">BlueQuest Module</b></div><button id="bluequestModuleClose" type="button" aria-label="Cerrar">×</button></header>\n      <iframe id="bluequestModuleFrame" title="BlueQuest module" src="about:blank"></iframe>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
   );
 }
 
