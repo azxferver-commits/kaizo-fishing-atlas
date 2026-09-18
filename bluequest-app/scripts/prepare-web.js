@@ -29,7 +29,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.7 · FINAL")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.8 · COMMUNITY")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -81,6 +81,14 @@ html = html.replace(
 );
 
 html = html.replace(/if\('serviceWorker'in navigator\)[^;]*;/g, "");
+
+// Community access gate: Lv. 1-50 free; Lv. 51+ requires the server-backed "community" entitlement.
+html = html.replace(/function card\(q\)\{[\s\S]*?\}\nfunction renderQuestList/, "function hasCommunityAccess(){return !!window.BlueQuestCloud?.has?.('community')}\nfunction isCommunityLocked(q){return Number(q?.level||0)>50&&!hasCommunityAccess()}\nfunction card(q){const k=key(q),done=!!state.done[k],fav=!!state.favorites[k],locked=isCommunityLocked(q);return `<article class=\"quest-card ${locked?'community-locked':''}\" data-key=\"${esc(k)}\" tabindex=\"0\"><span class=\"level-pill\">Lv ${q.level}</span><div class=\"quest-main\"><h3>${esc(q.name)}</h3><p>${locked?'🔒 Contenido Community':esc(q.location||q.unlock||'')}</p><div class=\"quest-tags\"><span class=\"tag\">${esc(q.type||'Quest')}</span><span class=\"tag high\">${rangeOf(q)}</span>${locked?'<span class=\"tag community-lock\">🔒 Community</span>':''}${done?'<span class=\"tag done\">✓ Hecha</span>':''}</div></div><button class=\"fav-btn ${fav?'on':''}\" data-fav=\"${esc(k)}\" aria-label=\"Favorito\">${fav?'★':'☆'}</button></article>`}\nfunction renderQuestList");
+html = html.replace(/function openQuest\(q\)\{[\s\S]*?\}\nfunction toggleFavorite/, "function openQuest(q){if(!q)return;if(isCommunityLocked(q)){pushRecent(q);const logged=!!window.BlueQuestCloud?.getSession?.()?.user;$('#dialogContent').innerHTML=`<span class=\"dialog-level\">Lv ${q.level}</span><h2 class=\"dialog-title\">${esc(q.name)}</h2><div class=\"dialog-tags\"><span class=\"tag\">${esc(q.type||'Quest')}</span><span class=\"tag community-lock\">🔒 Community</span></div><div class=\"community-gate\"><div class=\"community-gate-icon\">◆</div><h3>Contenido de comunidad</h3><p>BlueQuest Lv. 1–50 es gratis. Desde Lv. 51, los detalles completos requieren acceso <b>Community</b>.</p><p class=\"community-gate-sub\">${logged?'Tu cuenta está conectada, pero aún no tiene el acceso Community.':'Crea o inicia sesión con tu cuenta BlueQuest para continuar con el desbloqueo Community.'}</p><button class=\"complete-action\" data-community-cta>${logged?'Ver acceso Community':'Crear cuenta / Iniciar sesión'}</button></div>`;$('#questDialog').showModal();return}pushRecent(q);const k=key(q),done=!!state.done[k],fav=!!state.favorites[k], source=q.source||'KAIZO BlueQuest Atlas';$('#dialogContent').innerHTML=`<span class=\"dialog-level\">Lv ${q.level}</span><h2 class=\"dialog-title\">${esc(q.name)}</h2><div class=\"dialog-tags\"><span class=\"tag\">${esc(q.type||'Quest')}</span><span class=\"tag high\">${rangeOf(q)}</span>${q.expansion?`<span class=\"tag\">${esc(q.expansion)}</span>`:''}</div><div class=\"detail-grid\"><div class=\"detail-card\"><small>Dónde / inicio</small><p>${esc(q.location||'—')}</p></div><div class=\"detail-card\"><small>Desbloquea</small><p>${esc(q.unlock||'—')}</p></div><div class=\"detail-card\"><small>Qué abre</small><p>${esc(q.opens||'—')}</p></div><div class=\"detail-card\"><small>Requisitos / notas</small><p>${esc(q.requirements||'Sin requisito adicional documentado.')}</p></div></div><div class=\"dialog-actions\"><button class=\"complete-action ${done?'done':''}\" data-complete=\"${esc(k)}\">${done?'✓ Completada':'Marcar completada'}</button><button class=\"favorite-action ${fav?'on':''}\" data-favorite=\"${esc(k)}\">${fav?'★ Guardada':'☆ Guardar'}</button></div><p class=\"source-line\">Fuente: ${esc(source)} · Estado: ${esc(q.status||'verified')}</p>`;$('#questDialog').showModal()}\nfunction toggleFavorite");
+html = html.replace(
+  "$('#dialogContent').addEventListener('click',e=>{const c=e.target.closest('[data-complete]');if(c)toggleDone(c.dataset.complete);const f=e.target.closest('[data-favorite]');if(f)toggleFavorite(f.dataset.favorite)});",
+  "$('#dialogContent').addEventListener('click',e=>{const u=e.target.closest('[data-community-cta]');if(u){$('#questDialog').close();const logged=!!window.BlueQuestCloud?.getSession?.()?.user;if(!logged)window.BlueQuestCloud?.openAuth?.('signup');else{navigate('more');toast('Tu cuenta necesita acceso Community')}return}const c=e.target.closest('[data-complete]');if(c)toggleDone(c.dataset.complete);const f=e.target.closest('[data-favorite]');if(f)toggleFavorite(f.dataset.favorite)});"
+);
 
 html = html.replace(
   "function saveState(){localStorage.setItem(STATE_KEY,JSON.stringify(state));updateGlobalStats()}",
@@ -173,7 +181,7 @@ if (!html.includes('id="bluequestAuthDialog"')) {
 
 html = html.replace(
   "init();\n</script>",
-  "document.documentElement.dataset.runtime=(window.Capacitor&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform())?'native':'web';\nwindow.BlueQuestAtlas={getData:()=>DATA,getState:()=>state,key:q=>key(q),isDone:q=>!!state.done[key(q)],findByKey:k=>findByKey(k),openQuest:q=>openQuest(q)};\ninit().then(()=>document.dispatchEvent(new CustomEvent('bluequest:ready')));\n</script>"
+  "document.documentElement.dataset.runtime=(window.Capacitor&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform())?'native':'web';\nwindow.BlueQuestAtlas={getData:()=>DATA,getState:()=>state,key:q=>key(q),isDone:q=>!!state.done[key(q)],findByKey:k=>findByKey(k),openQuest:q=>openQuest(q)};\ndocument.addEventListener('bluequest:access',()=>{renderExplore();renderFavorites();renderRecent();renderProgress()});\ninit().then(()=>document.dispatchEvent(new CustomEvent('bluequest:ready')));\n</script>"
 );
 
 if (!html.includes('src="./cloud-config.js"')) {
