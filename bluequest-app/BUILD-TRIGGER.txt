@@ -1,1 +1,3 @@
-BlueQuest Native App 1.4\nFFXIV Lodestone character sync\nBuild revision: 10\n
+BlueQuest Native App 1.4
+FFXIV Lodestone character sync
+Build revision: 11 - retry after transient Maven fetch failure
