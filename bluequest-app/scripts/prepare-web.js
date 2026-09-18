@@ -21,7 +21,7 @@ if (atlas80100.length !== 159) throw new Error("Atlas 80-100 incompleto: " + atl
 fs.writeFileSync(path.join(dataDir, "atlas-1-80.json"), JSON.stringify(atlas180, null, 2));
 fs.writeFileSync(path.join(dataDir, "atlas-80-100.json"), JSON.stringify(atlas80100, null, 2));
 
-for (const file of ["cloud-config.js", "account.css", "account.js"]) {
+for (const file of ["cloud-config.js", "account.css", "account.js", "ffxiv-sync.js"]) {
   fs.copyFileSync(path.join(nativeDir, file), path.join(www, file));
 }
 
@@ -29,7 +29,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.3 · CONFIRM FLOW")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.4 · FFXIV SYNC")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -89,6 +89,40 @@ if (!html.includes('id="bluequestAccountCard"')) {
   html = html.replace(moreNeedle, moreReplacement);
 }
 
+if (!html.includes('id="ffxivCharacterCard"')) {
+  const ffxivCard = `
+      <section class="ffxiv-card" id="ffxivCharacterCard">
+        <div class="ffxiv-head">
+          <div><h3>Mi personaje FFXIV</h3><p>Sincronización pública con The Lodestone</p></div>
+          <span class="account-badge" id="ffxivStatus">SIN VINCULAR</span>
+        </div>
+        <div class="ffxiv-empty" id="ffxivEmpty">
+          <span id="ffxivEmptyText">Inicia sesión en BlueQuest para vincular tu personaje.</span>
+          <button id="ffxivLinkBtn" type="button">Vincular personaje</button>
+        </div>
+        <div id="ffxivLinked" hidden>
+          <div class="ffxiv-profile">
+            <img class="ffxiv-avatar" id="ffxivAvatar" alt="" hidden />
+            <div><h4 id="ffxivName">Personaje FFXIV</h4><p id="ffxivWorld"></p><p id="ffxivSynced"></p></div>
+          </div>
+          <div class="ffxiv-summary">
+            <div class="ffxiv-stat"><small>COMBATE MÁX.</small><b id="ffxivCombat">—</b></div>
+            <div class="ffxiv-stat"><small>CRAFTEO MÁX.</small><b id="ffxivCraft">—</b></div>
+            <div class="ffxiv-stat"><small>RECOLECCIÓN MÁX.</small><b id="ffxivGather">—</b></div>
+            <div class="ffxiv-stat"><small>JOBS CON NIVEL</small><b id="ffxivUnlocked">—</b></div>
+          </div>
+          <div class="ffxiv-jobs" id="ffxivJobs"></div>
+          <div class="ffxiv-actions">
+            <button id="ffxivSyncBtn" type="button">Sincronizar</button>
+            <button id="ffxivChangeBtn" class="secondary" type="button">Cambiar personaje</button>
+            <a id="ffxivLodestone" class="secondary" target="_blank" rel="noopener">Lodestone ↗</a>
+            <button id="ffxivUnlinkBtn" class="danger" type="button">Desvincular</button>
+          </div>
+        </div>
+      </section>`;
+  html = html.replace(/(<section class="account-card" id="bluequestAccountCard">[\s\S]*?<\/section>)/, '$1' + ffxivCard);
+}
+
 html = html
   .replace(
     '<article class="module-card future"><span>🎣</span><div><small>SIGUIENTE</small><h3>Fishing Atlas</h3><p>Preparado para integrarlo.</p></div></article>',
@@ -102,6 +136,13 @@ html = html
     '<article class="module-card future"><span>✦</span><div><small>SIGUIENTE</small><h3>Gold Saucer</h3><p>Rutas y Fashion Report.</p></div></article>',
     '<article class="module-card future" data-cloud-module="gold_saucer"><span>✦</span><div><small>SIGUIENTE</small><h3>Gold Saucer</h3><p>Rutas y Fashion Report.</p></div></article>'
   );
+
+if (!html.includes('id="ffxivLinkDialog"')) {
+  html = html.replace(
+    '  <div id="toast" class="toast" role="status"></div>',
+    '  <dialog id="ffxivLinkDialog" class="quest-dialog">\n    <div class="dialog-sheet ffxiv-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="ffxivLinkClose" aria-label="Cerrar">×</button>\n      <p class="eyebrow">FINAL FANTASY XIV</p>\n      <h2>Vincular personaje</h2>\n      <p class="hint">Abre tu perfil público en The Lodestone y pega aquí la URL del personaje. BlueQuest nunca te pedirá tu contraseña de Square Enix.</p>\n      <div class="auth-fields"><input id="ffxivLodestoneInput" type="url" inputmode="url" placeholder="https://na.finalfantasyxiv.com/lodestone/character/..." /></div>\n      <p class="hint"><a href="https://na.finalfantasyxiv.com/lodestone/character/" target="_blank" rel="noopener">Buscar mi personaje en Lodestone ↗</a></p>\n      <button class="auth-submit" id="ffxivLinkSubmit">Vincular y sincronizar</button>\n      <p class="auth-note" id="ffxivLinkMessage"></p>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
+  );
+}
 
 if (!html.includes('id="bluequestAuthDialog"')) {
   html = html.replace(
@@ -118,7 +159,7 @@ html = html.replace(
 if (!html.includes('src="./cloud-config.js"')) {
   html = html.replace(
     "</body>",
-    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n</body>'
+    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n  <script src="./ffxiv-sync.js"></script>\n</body>'
   );
 }
 
