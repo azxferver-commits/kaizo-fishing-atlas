@@ -24,7 +24,7 @@
       <span class="brand-mark">✦</span>
       <span><b>BLUEQUEST</b><small>ATLAS MOBILE</small></span>
     </button>
-    <span style="font-size:9px;font-weight:900;letter-spacing:.12em;color:#63dce8;border:1px solid #25485f;border-radius:999px;padding:5px 8px">V4.6.1 · INTERACTION FIXED</span><div class="top-actions">
+    <span style="font-size:9px;font-weight:900;letter-spacing:.12em;color:#63dce8;border:1px solid #25485f;border-radius:999px;padding:5px 8px">V4.7 · SEARCH RESET FIX</span><div class="top-actions">
       <button class="icon-btn" id="offlineState" aria-label="Estado de conexión" title="Estado de conexión">●</button>
       <button class="icon-btn" id="installBtn" aria-label="Instalar app" title="Instalar app">⇩</button>
     </div>
@@ -41,7 +41,7 @@
         <div class="hero-orb" aria-hidden="true"><span>✦</span></div>
       </div>
 
-      <button class="search-launch" data-nav="explore">
+      <button class="search-launch" data-nav="explore" data-range="all">
         <span>⌕</span>
         <span>Buscar misión, zona o desbloqueo…</span>
         <kbd>1–100</kbd>
@@ -73,7 +73,7 @@
       </section>
 
       <section class="section-block">
-        <div class="section-title"><div><p class="eyebrow">CONTINUAR</p><h2>Últimas vistas</h2></div><button class="text-btn" data-nav="explore">Ver todo</button></div>
+        <div class="section-title"><div><p class="eyebrow">CONTINUAR</p><h2>Últimas vistas</h2></div><button class="text-btn" data-nav="explore" data-range="all">Ver todo</button></div>
         <div id="recentList" class="mini-list"></div>
       </section>
     </section>
@@ -149,7 +149,7 @@
 
   <nav class="bottom-nav" aria-label="Navegación principal">
     <button class="active" data-nav="home"><span>⌂</span><small>Inicio</small></button>
-    <button data-nav="explore"><span>⌕</span><small>Buscar</small></button>
+    <button data-nav="explore" data-range="all"><span>⌕</span><small>Buscar</small></button>
     <button data-nav="explore" data-range="favorites"><span>☆</span><small>Favoritos</small><i id="favBadge" hidden>0</i></button>
     <button data-nav="progress"><span>✓</span><small>Progreso</small></button>
     <button data-nav="more"><span>•••</span><small>Más</small></button>
