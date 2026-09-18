@@ -21,7 +21,41 @@ if (atlas80100.length !== 159) throw new Error("Atlas 80-100 incompleto: " + atl
 fs.writeFileSync(path.join(dataDir, "atlas-1-80.json"), JSON.stringify(atlas180, null, 2));
 fs.writeFileSync(path.join(dataDir, "atlas-80-100.json"), JSON.stringify(atlas80100, null, 2));
 
-for (const file of ["cloud-config.js", "account.css", "account.js", "ffxiv-sync.js"]) {
+// BlueQuest integrated ecosystem modules.
+const modulesRoot = path.join(www, "modules");
+fs.mkdirSync(modulesRoot, { recursive: true });
+
+const fishingDir = path.join(modulesRoot, "fishing");
+fs.rmSync(fishingDir, { recursive: true, force: true });
+fs.mkdirSync(fishingDir, { recursive: true });
+for (const file of ["index.html", "fish.js", "quests.js", "ocean-mini.js"]) {
+  fs.copyFileSync(path.join(repoRoot, file), path.join(fishingDir, file));
+}
+// When a synced Fisher exists, modules.js passes ?level=N.
+const fishingHtmlPath = path.join(fishingDir, "index.html");
+let fishingHtml = fs.readFileSync(fishingHtmlPath, "utf8");
+fishingHtml = fishingHtml.replace("</body>", `<script>
+(() => {
+  const lv = Number(new URLSearchParams(location.search).get('level'));
+  if (!Number.isFinite(lv) || lv < 1) return;
+  const el = document.querySelector('#lvl');
+  if (!el) return;
+  el.value = Math.min(100, Math.max(1, lv));
+  el.dispatchEvent(new Event('input', { bubbles: true }));
+})();
+</script></body>`);
+fs.writeFileSync(fishingHtmlPath, fishingHtml);
+
+const goldDir = path.join(modulesRoot, "gold-saucer");
+fs.rmSync(goldDir, { recursive: true, force: true });
+fs.cpSync(path.join(repoRoot, "gold-saucer"), goldDir, { recursive: true });
+
+const nexusDir = path.join(modulesRoot, "nexus");
+fs.rmSync(nexusDir, { recursive: true, force: true });
+fs.cpSync(path.join(repoRoot, "eorzea-codex"), nexusDir, { recursive: true });
+
+
+for (const file of ["cloud-config.js", "account.css", "account.js", "ffxiv-sync.js", "modules.js"]) {
   fs.copyFileSync(path.join(nativeDir, file), path.join(www, file));
 }
 
@@ -29,7 +63,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.8 · COMMUNITY")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.9 · ECOSYSTEM")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -147,7 +181,7 @@ if (!html.includes('id="ffxivCharacterCard"')) {
 html = html
   .replace(
     '<article class="module-card future"><span>🎣</span><div><small>SIGUIENTE</small><h3>Fishing Atlas</h3><p>Preparado para integrarlo.</p></div></article>',
-    '<article class="module-card future" data-cloud-module="fishing_tools"><span>🎣</span><div><small>SIGUIENTE</small><h3>Fishing Atlas</h3><p>Preparado para integrarlo.</p></div></article>'
+    '<button class="module-card live" type="button" data-cloud-module="fishing_tools" data-module-open="fishing_tools" style="color:inherit;text-decoration:none;text-align:left"><span>🎣</span><div><small>COMMUNITY</small><h3>Fishing Tools</h3><p>Misiones, peces, carnadas y Ocean Fishing →</p></div></button>'
   )
   .replace(
     '<article class="module-card future"><span>⚔</span><div><small>SIGUIENTE</small><h3>Boss Atlas</h3><p>Raids, roles y mecánicas.</p></div></article>',
@@ -155,12 +189,12 @@ html = html
   )
   .replace(
     '<article class="module-card future"><span>✦</span><div><small>SIGUIENTE</small><h3>Gold Saucer</h3><p>Rutas y Fashion Report.</p></div></article>',
-    '<article class="module-card future" data-cloud-module="gold_saucer"><span>✦</span><div><small>SIGUIENTE</small><h3>Gold Saucer</h3><p>Rutas y Fashion Report.</p></div></article>'
+    '<button class="module-card live" type="button" data-cloud-module="gold_saucer" data-module-open="gold_saucer" style="color:inherit;text-decoration:none;text-align:left"><span>✦</span><div><small>COMMUNITY</small><h3>Gold Saucer</h3><p>Mapa, MGP y Fashion Report semanal →</p></div></button>'
   );
 
 if (!html.includes('id="ffxivJobDialog"')) {
   html = html.replace(
-    '  <div id="toast" class="toast" role="status"></div>',
+    '  <dialog id="bluequestModuleDialog" class="module-dialog">\n    <div class="module-shell">\n      <header class="module-topbar"><div><span id="bluequestModuleIcon">◆</span><b id="bluequestModuleTitle">BlueQuest Module</b></div><button id="bluequestModuleClose" type="button" aria-label="Cerrar">×</button></header>\n      <iframe id="bluequestModuleFrame" title="BlueQuest module" src="about:blank"></iframe>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>',
     '  <dialog id="ffxivJobDialog" class="quest-dialog">\n    <div class="dialog-sheet ffxiv-sheet">\n      <div class="dialog-grab"></div>\n      <button class="dialog-close" id="ffxivJobClose" aria-label="Cerrar">×</button>\n      <div class="route-head"><div><p class="eyebrow" id="jobRouteEyebrow">RUTA BLUEQUEST</p><h2 id="jobRouteTitle">Job</h2></div><div class="route-flag"><strong id="jobRouteFlag">●</strong><small id="jobRouteFlagLabel">REVISAR</small></div></div>\n      <div class="route-meter"><p id="jobRouteSummary">0 conocidas · 0 pendientes</p></div>\n      <div class="route-stats"><div class="route-stat"><b id="jobRouteManual">0</b><small>Marcadas por ti</small></div><div class="route-stat"><b id="jobRouteDetected">0</b><small>Detectadas por sync</small></div><div class="route-stat"><b id="jobRoutePending">0</b><small>Pendientes</small></div></div>\n      <section class="route-section"><h3>✦ BlueQuest recomienda ahora</h3><p>Prioriza desbloqueos útiles que ya puedes hacer con tu nivel.</p><div class="route-list" id="jobRouteRecommended"></div></section>\n      <section class="route-section"><h3>Próximos desbloqueos</h3><div class="route-list" id="jobRouteFuture"></div></section>\n      <section class="route-section"><h3>Ruta disponible a tu nivel</h3><div class="route-list" id="jobRouteAll"></div></section>\n      <p class="route-note">✓ Hecha = la marcaste en BlueQuest. ◆ Detectada = la sincronización demuestra ese desbloqueo. El aviso azul significa que BlueQuest encontró pendientes para revisar; no representa un porcentaje del Job.</p>\n    </div>\n  </dialog>\n  <div id="toast" class="toast" role="status"></div>'
   );
 }
@@ -187,7 +221,7 @@ html = html.replace(
 if (!html.includes('src="./cloud-config.js"')) {
   html = html.replace(
     "</body>",
-    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n  <script src="./ffxiv-sync.js"></script>\n</body>'
+    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n  <script src="./ffxiv-sync.js"></script>\n  <script src="./modules.js"></script>\n</body>'
   );
 }
 
