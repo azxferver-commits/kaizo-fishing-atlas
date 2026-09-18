@@ -164,7 +164,7 @@ if (!html.includes('id="bluequestAuthDialog"')) {
 
 html = html.replace(
   "init();\n</script>",
-  "document.documentElement.dataset.runtime=(window.Capacitor&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform())?'native':'web';\nwindow.BlueQuestAtlas={getData:()=>DATA,getState:()=>state,key:q=>key(q),isDone:q=>!!state.done[key(q)],findByKey:k=>findByKey(k),openQuest:q=>openQuest(q)};\ninit();\n</script>"
+  "document.documentElement.dataset.runtime=(window.Capacitor&&window.Capacitor.isNativePlatform&&window.Capacitor.isNativePlatform())?'native':'web';\nwindow.BlueQuestAtlas={getData:()=>DATA,getState:()=>state,key:q=>key(q),isDone:q=>!!state.done[key(q)],findByKey:k=>findByKey(k),openQuest:q=>openQuest(q)};\ninit().then(()=>document.dispatchEvent(new CustomEvent('bluequest:ready')));\n</script>"
 );
 
 if (!html.includes('src="./cloud-config.js"')) {
