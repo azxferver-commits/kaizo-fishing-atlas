@@ -90,6 +90,7 @@ function renderAccount(){
   moduleState(q('[data-cloud-module="boss_atlas"]'),'boss_atlas');
   moduleState(q('[data-cloud-module="fishing_tools"]'),'fishing_tools');
   moduleState(q('[data-cloud-module="gold_saucer"]'),'gold_saucer');
+  moduleState(q('[data-cloud-module="nexus"]'),'nexus');
   emitSession();
   document.dispatchEvent(new CustomEvent('bluequest:access',{detail:{community:has('community')}}));
 }
