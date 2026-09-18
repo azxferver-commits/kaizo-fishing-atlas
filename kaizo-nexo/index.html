@@ -2,147 +2,264 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#05050a">
-  <meta name="description" content="KAIZO NEXO — portal social de KAIZO para la comunidad de Final Fantasy XIV.">
-  <title>KAIZO NEXO · FFXIV Social Hub</title>
-  <link rel="stylesheet" href="styles.css?v=4">
+  <meta name="description" content="KAIZO NEXO — tu portal central para explorar Final Fantasy XIV.">
+  <title>KAIZO NEXO · FFXIV HUB</title>
+  <link rel="stylesheet" href="styles.css?v=20260918-full-social">
 </head>
-<body class="js-ready">
+<body>
   <canvas id="particleCanvas" aria-hidden="true"></canvas>
   <div class="ambient-grid" aria-hidden="true"></div>
-  <div class="ambient ambient-a" aria-hidden="true"></div>
-  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-a" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-b" aria-hidden="true"></div>
 
   <div class="system-bar">
-    <div class="container system-inner">
+    <div class="container system-bar__inner">
       <span>NEXUS SYSTEM</span>
-      <i></i>
+      <span class="system-bar__divider"></span>
       <span>CONNECTION: <b>STABLE</b></span>
-      <i></i>
-      <span>COMMUNITY LINK: <b>ONLINE</b></span>
+      <span class="system-bar__divider"></span>
+      <span>DATA NETWORK: <b>ONLINE</b></span>
     </div>
   </div>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#inicio"><span>KAIZO</span><strong>NEXO</strong></a>
-      <div class="online"><span></span>ONLINE</div>
+      <a class="brand" href="#inicio" aria-label="KAIZO NEXO - Inicio">
+        <span class="brand-kaizo">KAIZO</span>
+        <span class="brand-nexo">NEXO</span>
+      </a>
+
+      <div class="online-badge" aria-label="Estado online">
+        <span class="online-dot"></span>
+        ONLINE
+      </div>
+
       <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
-        <b></b><b></b><b></b>
+        <span></span><span></span><span></span>
       </button>
-      <nav class="nav">
+
+      <nav class="main-nav" aria-label="Navegación principal">
         <a href="#inicio">INICIO</a>
+        <a href="#atlas">ATLAS</a>
         <a href="#guias">GUÍAS</a>
+        <a href="#herramientas">HERRAMIENTAS</a>
         <a href="#social">SOCIAL</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero" id="inicio">
+    <section class="hero section-shell" id="inicio">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <div class="eyebrow"><span></span>KAIZO COMMUNITY UPLINK</div>
-          <h1>TODO EMPIEZA<br>EN EL <em>NEXO</em></h1>
-          <p class="lead">El punto de conexión de KAIZO para la comunidad de Final Fantasy XIV.</p>
-          <p class="sub">Aquí encontrarás mis redes oficiales y las próximas guías que irán llegando al proyecto.</p>
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span>
+            KAIZO FFXIV HUB
+          </div>
+          <h1>TODO EMPIEZA<br>EN EL <span>NEXO</span></h1>
+          <p class="hero-subtitle">Tu portal central para explorar Final Fantasy XIV.</p>
+          <p class="hero-text">
+            Atlas, guías y herramientas reunidas en una sola interfaz diseñada para que tu progreso
+            en Eorzea sea más claro, rápido y conectado.
+          </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#social">CONECTAR</a>
-            <a class="btn" href="#guias">PRÓXIMAS GUÍAS</a>
+            <a class="button button-primary" href="#atlas">ENTRAR AL NEXO</a>
+            <a class="button button-ghost" href="#herramientas">VER HERRAMIENTAS</a>
           </div>
         </div>
 
-        <div class="msq-stage reveal" data-msq-stage>
-          <div class="hud-frame">
-            <span class="corner c1"></span><span class="corner c2"></span>
-            <span class="corner c3"></span><span class="corner c4"></span>
-            <div class="hud-line hud-line-a"></div>
-            <div class="hud-line hud-line-b"></div>
-            <div class="scanline"></div>
-            <div class="msq-glow"></div>
-            <div class="msq-icon-wrap">
-              <div class="msq-fallback">!</div>
-              <img
-                src="https://ffxiv.consolegameswiki.com/mediawiki/images/8/87/Main_Scenario_Quest_icon.png"
-                alt="Icono de Main Scenario Quest de Final Fantasy XIV"
-                class="msq-icon"
-                onerror="this.style.display='none'">
+        <div class="portal-stage reveal" data-portal-stage>
+          <div class="portal-aura"></div>
+          <div class="portal-orbit portal-orbit--outer">
+            <span class="orbit-node orbit-node--1"></span>
+            <span class="orbit-node orbit-node--2"></span>
+            <span class="orbit-node orbit-node--3"></span>
+            <span class="orbit-node orbit-node--4"></span>
+          </div>
+          <div class="portal-ring portal-ring--outer"></div>
+          <div class="portal-ring portal-ring--mid"></div>
+          <div class="portal-ring portal-ring--inner"></div>
+          <div class="portal-energy"></div>
+          <div class="portal-core">
+            <div class="portal-core__depth"></div>
+            <div class="portal-core__text">
+              <span>ENTER THE</span>
+              <strong>NEXUS</strong>
             </div>
-            <div class="hud-label top">MAIN SCENARIO LINK</div>
-            <div class="hud-label bottom">KAIZO NEXO // SOCIAL NODE</div>
-            <span class="data-dot d1"></span><span class="data-dot d2"></span><span class="data-dot d3"></span>
+          </div>
+          <div class="portal-particles" aria-hidden="true">
+            <i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i>
+            <i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i>
+            <i style="--i:8"></i><i style="--i:9"></i><i style="--i:10"></i><i style="--i:11"></i>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="guias">
+    <section class="content-section section-shell" id="atlas">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="kicker">KNOWLEDGE ARCHIVE</span>
-          <h2>PRÓXIMAMENTE</h2>
-          <p>Estas serán algunas de las guías que irán formando parte del universo KAIZO.</p>
+        <div class="section-heading reveal">
+          <span class="section-kicker">CORE DATABASE</span>
+          <h2>EXPLORA EL ATLAS</h2>
+          <p>Accede a los recursos principales del KAIZO FFXIV HUB.</p>
         </div>
 
-        <div class="guide-grid">
-          <article class="guide-card reveal"><span>01</span><h3>LEVELING</h3><p>COMING SOON</p></article>
-          <article class="guide-card reveal"><span>02</span><h3>MSQ</h3><p>COMING SOON</p></article>
-          <article class="guide-card reveal"><span>03</span><h3>DUNGEONS</h3><p>COMING SOON</p></article>
-          <article class="guide-card reveal"><span>04</span><h3>TRIALS</h3><p>COMING SOON</p></article>
-          <article class="guide-card reveal"><span>05</span><h3>RAIDS</h3><p>COMING SOON</p></article>
-          <article class="guide-card reveal"><span>06</span><h3>JOBS</h3><p>COMING SOON</p></article>
-          <article class="guide-card reveal"><span>07</span><h3>GLAMOUR</h3><p>COMING SOON</p></article>
-          <article class="guide-card reveal"><span>08</span><h3>CRAFTING</h3><p>COMING SOON</p></article>
-          <article class="guide-card reveal"><span>09</span><h3>GATHERING</h3><p>COMING SOON</p></article>
+        <div class="card-grid card-grid--featured">
+          <article class="premium-card reveal">
+            <div class="premium-card__glow"></div>
+            <div class="card-icon">◆</div>
+            <div class="card-tag">ATLAS</div>
+            <h3>BLUE QUEST ATLAS</h3>
+            <h4>LEVEL 1–80</h4>
+            <p>Misiones de desbloqueo, sistemas, contenido opcional, jobs, raids y Aether Currents.</p>
+            <a class="card-button" href="https://azxferver-commits.github.io/kaizo-fishing-atlas/blue-quest-atlas-1-80/" target="_blank" rel="noopener">
+              ABRIR <span>↗</span>
+            </a>
+          </article>
+
+          <article class="premium-card reveal">
+            <div class="premium-card__glow"></div>
+            <div class="card-icon">◇</div>
+            <div class="card-tag">ATLAS</div>
+            <h3>BLUE QUEST ATLAS</h3>
+            <h4>LEVEL 80–100</h4>
+            <p>Endwalker y Dawntrail con Aether Currents, Role Quests, raids, hunts y progresión.</p>
+            <a class="card-button" href="https://azxferver-commits.github.io/kaizo-fishing-atlas/blue-quest-atlas-80-100/" target="_blank" rel="noopener">
+              ABRIR <span>↗</span>
+            </a>
+          </article>
+
+          <article class="premium-card reveal">
+            <div class="premium-card__glow"></div>
+            <div class="card-icon">◉</div>
+            <div class="card-tag">TOOL</div>
+            <h3>FISHING ATLAS</h3>
+            <h4>FISHER HUB</h4>
+            <p>Misiones, peces, progresión y Ocean Fishing en una herramienta enfocada en Fisher.</p>
+            <a class="card-button" href="https://azxferver-commits.github.io/kaizo-fishing-atlas/" target="_blank" rel="noopener">
+              ABRIR <span>↗</span>
+            </a>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section social-section" id="social">
+    <section class="content-section section-shell" id="guias">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="kicker">COMMUNITY NETWORK</span>
-          <h2>CONECTA CON KAIZO</h2>
-          <p>Mis redes oficiales. Entra directamente desde el Nexo.</p>
+        <div class="section-heading reveal">
+          <span class="section-kicker">KNOWLEDGE ARCHIVE</span>
+          <h2>GUÍAS</h2>
+          <p>Próximos módulos para ampliar el Nexo.</p>
+        </div>
+
+        <div class="mini-grid">
+          <article class="mini-card reveal"><span>01</span><h3>LEVELING</h3><p>COMING SOON</p></article>
+          <article class="mini-card reveal"><span>02</span><h3>MSQ</h3><p>COMING SOON</p></article>
+          <article class="mini-card reveal"><span>03</span><h3>DUNGEONS</h3><p>COMING SOON</p></article>
+          <article class="mini-card reveal"><span>04</span><h3>TRIALS</h3><p>COMING SOON</p></article>
+          <article class="mini-card reveal"><span>05</span><h3>RAIDS</h3><p>COMING SOON</p></article>
+          <article class="mini-card reveal"><span>06</span><h3>JOBS</h3><p>COMING SOON</p></article>
+          <article class="mini-card reveal"><span>07</span><h3>GLAMOUR</h3><p>COMING SOON</p></article>
+          <article class="mini-card reveal"><span>08</span><h3>CRAFTING</h3><p>COMING SOON</p></article>
+          <article class="mini-card reveal"><span>09</span><h3>GATHERING</h3><p>COMING SOON</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="herramientas">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">UTILITY NETWORK</span>
+          <h2>HERRAMIENTAS</h2>
+          <p>Paneles pensados para convertir el Nexo en tu centro de progreso.</p>
+        </div>
+
+        <div class="tool-grid">
+          <article class="tool-card reveal">
+            <span class="tool-index">01</span>
+            <div>
+              <h3>FISHING TRACKER</h3>
+              <p>Seguimiento de capturas, objetivos y progreso de Fisher.</p>
+            </div>
+            <span class="tool-status">COMING SOON</span>
+          </article>
+          <article class="tool-card reveal">
+            <span class="tool-index">02</span>
+            <div>
+              <h3>BLUE QUEST TRACKER</h3>
+              <p>Control rápido de desbloqueos y misiones completadas.</p>
+            </div>
+            <span class="tool-status">COMING SOON</span>
+          </article>
+          <article class="tool-card reveal">
+            <span class="tool-index">03</span>
+            <div>
+              <h3>LEVEL PROGRESS</h3>
+              <p>Vista resumida de jobs y progreso por nivel.</p>
+            </div>
+            <span class="tool-status">COMING SOON</span>
+          </article>
+          <article class="tool-card reveal">
+            <span class="tool-index">04</span>
+            <div>
+              <h3>GEAR CHECK</h3>
+              <p>Panel para revisar piezas, objetivos y próximos upgrades.</p>
+            </div>
+            <span class="tool-status">COMING SOON</span>
+          </article>
+          <article class="tool-card reveal">
+            <span class="tool-index">05</span>
+            <div>
+              <h3>DAILY CHECKLIST</h3>
+              <p>Rutina diaria y semanal centralizada dentro del Nexo.</p>
+            </div>
+            <span class="tool-status">COMING SOON</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell social-section" id="social">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">COMMUNITY UPLINK</span>
+          <h2>SOCIAL</h2>
+          <p>Conecta directamente con las redes oficiales de KAIZO.</p>
         </div>
 
         <div class="social-grid">
-          <a class="social-card discord reveal" href="https://discord.gg/PHQHM9Xvjm">
-            <div class="social-mark">⌁</div>
-            <span class="network">COMMUNITY</span>
-            <h3>DISCORD</h3>
-            <p>Únete al servidor y conecta con la comunidad.</p>
-            <strong>ENTRAR <i>↗</i></strong>
+          <a class="social-card reveal" href="https://www.twitch.tv/kaizommo">
+            <span class="social-symbol">◈</span>
+            <strong>Twitch</strong>
+            <small>KAIZOMMO · ABRIR CANAL</small>
           </a>
-
-          <a class="social-card twitch reveal" href="https://www.twitch.tv/kaizommo">
-            <div class="social-mark">◈</div>
-            <span class="network">LIVE</span>
-            <h3>TWITCH</h3>
-            <p>Directos, progreso y aventuras en Eorzea.</p>
-            <strong>VER CANAL <i>↗</i></strong>
+          <a class="social-card reveal" href="https://discord.gg/PHQHM9Xvjm">
+            <span class="social-symbol">⌁</span>
+            <strong>Discord</strong>
+            <small>UNIRSE A LA COMUNIDAD</small>
           </a>
-
-          <a class="social-card instagram reveal" href="https://www.instagram.com/kaizo_tv/">
-            <div class="social-mark">◎</div>
-            <span class="network">SOCIAL</span>
-            <h3>INSTAGRAM</h3>
-            <p>Clips, publicaciones y novedades de KAIZO.</p>
-            <strong>SEGUIR <i>↗</i></strong>
+          <a class="social-card reveal" href="https://www.instagram.com/kaizo_tv/">
+            <span class="social-symbol">◎</span>
+            <strong>Instagram</strong>
+            <small>@KAIZO_TV · SEGUIR</small>
           </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="container footer-inner">
-      <div><strong>KAIZO NEXO</strong><p>Built for Warriors of Light.</p></div>
-      <span>© 2026 KAIZO · FFXIV community project</span>
+      <div>
+        <strong>KAIZO NEXO</strong>
+        <p>Built for Warriors of Light.</p>
+      </div>
+      <span>© 2026 KAIZO</span>
     </div>
   </footer>
 
-  <script src="script.js?v=4"></script>
+  <script src="script.js?v=20260918-full-social"></script>
 </body>
 </html>
