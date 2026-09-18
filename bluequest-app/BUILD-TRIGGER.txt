@@ -1,3 +1,1 @@
-BlueQuest Native App 1.3
-Explicit confirmation redirect to BlueQuest welcome page
-Build revision: 9
+BlueQuest Native App 1.4\nFFXIV Lodestone character sync\nBuild revision: 10\n
