@@ -1,3 +1,3 @@
-BlueQuest Native App 1.7
-Final crystal icon + redesigned auth/confirmation + automatic confirmed-session handoff
-Build revision: 14
+BlueQuest Native App 1.8
+Community access gate: Lv 1-50 free, Lv 51+ requires community entitlement
+Build revision: 15
