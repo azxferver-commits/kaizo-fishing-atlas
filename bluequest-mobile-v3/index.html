@@ -1,0 +1,2215 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#071018" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="BlueQuest" />
+  <meta name="description" content="BlueQuest Atlas Mobile — guía FFXIV con búsqueda, filtros, favoritos y progreso offline." />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" />
+  <link rel="apple-touch-icon" href="icons/icon.svg" />
+  <style>:root{--bg:#050b12;--bg2:#08121c;--panel:#0b1722e8;--panel2:#0f1f2c;--line:#1c3445;--line2:#25485f;--text:#f5f8fb;--muted:#91a6b7;--cyan:#63dce8;--blue:#6b9eff;--violet:#a88cff;--pink:#ff77c8;--gold:#e6c66c;--green:#67dca8;--red:#ff6f78;--safe-bottom:env(safe-area-inset-bottom,0px)}*{box-sizing:border-box}html{background:var(--bg);color-scheme:dark}body{margin:0;min-height:100vh;background:radial-gradient(circle at 15% -10%,#12344a 0,transparent 28rem),radial-gradient(circle at 100% 18%,#2a1442 0,transparent 30rem),linear-gradient(180deg,#06101a,#050b12 58%);color:var(--text);font:15px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;overflow-x:hidden}button,input,select{font:inherit}button{color:inherit}button,.quest-card,.quick-card{-webkit-tap-highlight-color:transparent}button{cursor:pointer}.aether{position:fixed;border-radius:999px;filter:blur(80px);opacity:.18;pointer-events:none;z-index:-1}.aether-one{width:260px;height:260px;background:var(--cyan);top:20%;left:-180px}.aether-two{width:320px;height:320px;background:var(--violet);right:-230px;bottom:12%}.topbar{height:62px;padding:8px 14px;display:flex;align-items:center;justify-content:space-between;position:fixed;inset:0 0 auto 0;z-index:50;background:#06101ae6;border-bottom:1px solid #172a38;backdrop-filter:blur(16px)}.brand{display:flex;align-items:center;gap:10px;background:none;border:0;padding:0;text-align:left}.brand-mark{display:grid;place-items:center;width:34px;height:34px;border:1px solid #3c728d;border-radius:11px;background:linear-gradient(145deg,#0d2836,#101427);color:var(--cyan);box-shadow:0 0 24px #4fd9e62c}.brand b{display:block;letter-spacing:.12em;font-size:13px}.brand small{display:block;color:var(--muted);font-size:8px;letter-spacing:.18em;margin-top:1px}.top-actions{display:flex;gap:7px}.icon-btn{width:38px;height:38px;border-radius:11px;border:1px solid var(--line);background:#0b1722;color:var(--cyan);font-weight:900}.icon-btn.offline{color:var(--red)}.app-shell{max-width:860px;margin:0 auto;padding:75px 14px calc(88px + var(--safe-bottom))}.view{display:none;animation:viewIn .18s ease}.view.active{display:block}@keyframes viewIn{from{opacity:.25;transform:translateY(4px)}to{opacity:1;transform:none}}.hero-card{position:relative;min-height:245px;padding:26px 20px;display:grid;grid-template-columns:1fr 90px;align-items:center;overflow:hidden;border:1px solid #234358;border-radius:24px;background:linear-gradient(145deg,#0b1b28e8,#0c1322e8);box-shadow:0 18px 60px #0005}.hero-card:after{content:"";position:absolute;width:240px;height:240px;border:1px solid #5adfe52e;border-radius:50%;right:-100px;top:-80px;box-shadow:0 0 70px #6d8fff26 inset}.eyebrow{margin:0 0 6px;color:var(--cyan);font-size:10px;font-weight:900;letter-spacing:.18em}.hero-card h1{font-size:clamp(31px,8vw,54px);line-height:.98;letter-spacing:-.045em;margin:8px 0 14px}.hero-card h1 span{background:linear-gradient(90deg,var(--cyan),var(--violet),var(--pink));-webkit-background-clip:text;color:transparent}.sub{max-width:480px;color:var(--muted);margin:0}.hero-orb{display:grid;place-items:center;width:82px;height:82px;border:1px solid #41748d;border-radius:50%;background:radial-gradient(circle,#224562,#0d1928 62%);box-shadow:0 0 50px #59d6e83a}.hero-orb span{font-size:28px;color:var(--cyan);text-shadow:0 0 16px #74ecff}.search-launch{width:100%;display:flex;align-items:center;gap:10px;margin:14px 0;border:1px solid var(--line);border-radius:16px;padding:14px 15px;background:#0a1621;color:var(--muted);text-align:left}.search-launch>span:first-child{font-size:21px;color:var(--cyan)}.search-launch>span:nth-child(2){flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.search-launch kbd{border:1px solid #31506a;border-radius:7px;padding:3px 7px;background:#0d2030;color:#b9cce0;font:800 10px inherit}.quick-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.quick-card{min-width:0;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:10px;border:1px solid var(--line);border-radius:17px;padding:14px 12px;background:linear-gradient(155deg,#0c1924,#09131d);text-align:left}.quick-card:active{transform:scale(.985)}.quick-icon{display:grid;place-items:center;width:35px;height:35px;border-radius:11px;background:#10283a;color:var(--cyan);font-size:18px}.quick-card small,.quick-card b{display:block}.quick-card small{font-size:8px;letter-spacing:.13em;color:var(--muted);margin-bottom:2px}.quick-card b{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.quick-card em{font-style:normal;color:var(--gold);font-weight:900;font-size:13px}.panel{border:1px solid var(--line);border-radius:20px;background:var(--panel);box-shadow:0 12px 45px #0003}.progress-panel{margin-top:12px;padding:16px}.panel-head,.section-title{display:flex;align-items:end;justify-content:space-between;gap:12px}.panel-head h2,.section-title h2{margin:0;font-size:21px}.panel-head strong{font-size:25px;color:var(--cyan)}.progress-track{height:8px;border-radius:999px;margin:14px 0;background:#061019;border:1px solid #183143;overflow:hidden}.progress-track i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan),var(--violet));transition:width .25s ease}.progress-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.progress-stats span{padding:8px;border-left:1px solid var(--line)}.progress-stats span:first-child{border-left:0}.progress-stats b,.progress-stats small{display:block}.progress-stats b{font-size:18px}.progress-stats small{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.section-block{padding:24px 0 6px}.text-btn{border:0;background:none;color:var(--cyan);font-weight:800}.mini-list{display:grid;gap:8px;margin-top:11px}.mini-item{width:100%;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:10px;padding:12px;border:1px solid var(--line);border-radius:14px;background:#0a151f;text-align:left}.mini-level{display:grid;place-items:center;width:42px;height:34px;border-radius:9px;background:#0d2635;color:var(--cyan);font-weight:900}.mini-item b,.mini-item small{display:block}.mini-item small{color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.mini-arrow{color:var(--muted)}.screen-head{padding:12px 4px 16px}.screen-head h2{font-size:32px;line-height:1;margin:3px 0 8px;letter-spacing:-.035em}.screen-head>p:last-child{margin:0;color:var(--muted)}.sticky-tools{position:sticky;top:70px;z-index:20;padding:6px 0 10px;background:linear-gradient(#07111bf2 78%,transparent);backdrop-filter:blur(10px)}.search-box{height:48px;display:flex;align-items:center;gap:9px;border:1px solid #29485e;border-radius:15px;padding:0 11px;background:#091722}.search-box>span{font-size:20px;color:var(--cyan)}.search-box input{flex:1;min-width:0;border:0;outline:none;background:transparent;color:var(--text)}.search-box input::placeholder{color:#6f8596}.search-box button{border:0;background:#152634;width:27px;height:27px;border-radius:50%;color:var(--muted)}.chip-scroll{display:flex;gap:7px;overflow:auto;padding:9px 1px 3px;scrollbar-width:none}.chip-scroll::-webkit-scrollbar{display:none}.chip{white-space:nowrap;border:1px solid var(--line);border-radius:999px;padding:7px 11px;background:#0a151f;color:var(--muted);font-size:12px;font-weight:750}.chip.active{background:#123249;border-color:#39708c;color:#dffcff}.filter-row{display:grid;grid-template-columns:1fr 1fr auto;gap:7px;margin-top:7px}.filter-row select,.filter-reset{min-width:0;height:39px;border:1px solid var(--line);border-radius:11px;padding:0 9px;background:#091722;color:#bdcbd7;font-size:12px}.filter-reset{font-weight:800;color:var(--cyan)}.results-meta{display:flex;justify-content:space-between;gap:10px;padding:4px 3px 10px;color:var(--muted);font-size:12px}.quest-list{display:grid;gap:9px}.quest-card{position:relative;display:grid;grid-template-columns:auto 1fr auto;gap:11px;align-items:start;width:100%;border:1px solid var(--line);border-radius:17px;padding:13px;background:linear-gradient(150deg,#0c1924,#08131c);text-align:left}.quest-card:active{transform:scale(.993)}.level-pill{display:grid;place-items:center;min-width:46px;height:37px;border-radius:10px;background:#0c2938;color:var(--cyan);font-weight:950;font-size:13px}.quest-main{min-width:0}.quest-main h3{font-size:14px;margin:0 0 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.quest-main p{margin:0;color:var(--muted);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.quest-tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:7px}.tag{border:1px solid #263c4c;border-radius:999px;padding:2px 7px;color:#8fa5b6;font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.05em}.tag.done{background:#14392d;border-color:#285e48;color:#aef4d2}.tag.high{color:#e9dcac;border-color:#5c4f2d}.fav-btn{width:34px;height:34px;border:0;border-radius:10px;background:#101e29;color:#667d8f;font-size:18px}.fav-btn.on{color:var(--gold)}.load-more{display:block;margin:16px auto 4px;border:1px solid #31516a;border-radius:12px;padding:11px 18px;background:#0d2030;color:#dbeefa;font-weight:850}.empty-state{text-align:center;padding:55px 20px;color:var(--muted)}.empty-state span{display:block;font-size:32px;color:var(--cyan);margin-bottom:8px}.empty-state h3{color:var(--text);margin:0 0 5px}.empty-state p{margin:0}.big-progress{display:flex;align-items:center;gap:20px;padding:18px}.ring{--p:0deg;width:118px;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--cyan) var(--p),#152432 0);position:relative}.ring:before{content:"";position:absolute;inset:9px;border-radius:50%;background:#08131d;border:1px solid #1a3343}.ring>div{position:relative;text-align:center}.ring strong,.ring small{display:block}.ring strong{font-size:23px}.ring small{font-size:9px;color:var(--muted);text-transform:uppercase}.progress-copy{display:grid;gap:4px}.progress-copy>b{font-size:20px}.progress-copy>span{color:var(--muted);font-size:12px}.progress-copy button{justify-self:start;margin-top:7px;border:1px solid #32516a;border-radius:10px;padding:8px 10px;background:#102638;color:var(--cyan);font-weight:800}.range-progress{display:grid;gap:10px;margin-top:12px}.range-row{padding:14px;border:1px solid var(--line);border-radius:15px;background:#0a151f}.range-row>div:first-child{display:flex;justify-content:space-between;margin-bottom:9px}.range-row small{color:var(--muted)}.danger-zone{margin-top:24px;padding:15px;border:1px solid var(--line);border-radius:17px;background:#09141d}.danger-zone h3{margin:0 0 4px}.danger-zone p{color:var(--muted);margin:0 0 13px}.danger-zone button,.import-label{display:inline-flex;align-items:center;margin:3px 3px 3px 0;border:1px solid var(--line);border-radius:10px;padding:9px 11px;background:#10202c;color:#dbe8f1;font-weight:800;font-size:12px}.danger-zone .danger{border-color:#5b2930;color:#ffadb3;background:#241419}.module-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.module-card{min-height:132px;padding:15px;border:1px solid var(--line);border-radius:18px;background:#0b1721;display:flex;gap:11px}.module-card>span{font-size:21px;color:var(--cyan)}.module-card small{font-size:8px;letter-spacing:.13em;color:var(--muted)}.module-card.live small{color:var(--green)}.module-card h3{margin:4px 0 3px;font-size:15px}.module-card p{margin:0;color:var(--muted);font-size:11px}.module-card.future{opacity:.62}.install-card{margin-top:12px;padding:17px;display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid #38516a;border-radius:18px;background:linear-gradient(135deg,#112438,#191730)}.install-card h3{margin:0 0 5px}.install-card p:last-child{margin:0;color:var(--muted);font-size:12px}.install-card button{border:1px solid #4e7b94;border-radius:12px;padding:10px 12px;background:#14364b;color:#dffcff;font-weight:900}.app-footer{text-align:center;color:#607687;font-size:10px;padding:28px 10px 4px}.bottom-nav{position:fixed;z-index:60;left:0;right:0;bottom:0;height:calc(68px + var(--safe-bottom));padding:6px 8px var(--safe-bottom);display:grid;grid-template-columns:repeat(5,1fr);background:#071019f2;border-top:1px solid #1b2e3d;backdrop-filter:blur(18px)}.bottom-nav button{position:relative;display:grid;place-items:center;align-content:center;gap:1px;border:0;background:none;color:#6e8495}.bottom-nav button>span{font-size:20px;line-height:1}.bottom-nav small{font-size:9px}.bottom-nav button.active{color:var(--cyan)}.bottom-nav i{position:absolute;top:2px;right:21%;min-width:17px;height:17px;border-radius:999px;display:grid;place-items:center;background:var(--pink);color:#190b15;font:bold 9px inherit;font-style:normal}.quest-dialog{width:100%;max-width:none;height:100%;max-height:none;margin:0;border:0;padding:0;background:#0000}.quest-dialog::backdrop{background:#02060bd9;backdrop-filter:blur(5px)}.dialog-sheet{position:absolute;left:0;right:0;bottom:0;max-height:88vh;overflow:auto;padding:12px 16px calc(22px + var(--safe-bottom));border:1px solid #29465b;border-radius:24px 24px 0 0;background:linear-gradient(180deg,#0d1d2a,#07111a);box-shadow:0 -20px 80px #000a}.dialog-grab{width:42px;height:4px;border-radius:999px;background:#3a5161;margin:0 auto 13px}.dialog-close{position:absolute;top:15px;right:15px;width:34px;height:34px;border:1px solid var(--line);border-radius:50%;background:#0c1822;color:var(--muted);font-size:20px}.dialog-level{display:inline-flex;border:1px solid #28536a;border-radius:9px;padding:5px 9px;background:#0b2838;color:var(--cyan);font-weight:900}.dialog-title{font-size:29px;line-height:1.03;margin:12px 45px 8px 0;letter-spacing:-.035em}.dialog-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:15px}.detail-grid{display:grid;gap:8px}.detail-card{padding:12px;border:1px solid var(--line);border-radius:14px;background:#091722}.detail-card small{display:block;color:var(--cyan);font-size:9px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}.detail-card p{margin:0;color:#d9e3ea}.dialog-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.dialog-actions button{padding:12px;border:1px solid #31516a;border-radius:12px;background:#102638;font-weight:850}.dialog-actions .complete-action.done{background:#15382e;border-color:#2c6d51;color:#bdf5dd}.dialog-actions .favorite-action.on{color:var(--gold)}.source-line{margin:12px 2px 0;color:#63798a;font-size:10px}.install-sheet h2{font-size:27px;margin:8px 40px 12px 0}.install-sheet ol{padding-left:23px;color:#d7e3ec}.install-sheet li{margin:11px 0}.muted{color:var(--muted)}.toast{position:fixed;z-index:100;left:50%;bottom:calc(82px + var(--safe-bottom));transform:translate(-50%,20px);padding:10px 14px;border:1px solid #35566e;border-radius:12px;background:#0e2130;color:#dff9ff;font-weight:800;font-size:12px;opacity:0;pointer-events:none;transition:.2s}.toast.show{opacity:1;transform:translate(-50%,0)}@media(min-width:700px){.app-shell{padding-left:22px;padding-right:22px}.bottom-nav{left:50%;right:auto;width:560px;transform:translateX(-50%);border:1px solid #1b2e3d;border-bottom:0;border-radius:18px 18px 0 0}.dialog-sheet{left:50%;right:auto;width:min(620px,100%);transform:translateX(-50%)}.quick-grid,.module-grid{grid-template-columns:repeat(4,1fr)}.hero-card{grid-template-columns:1fr 160px}.hero-orb{width:120px;height:120px}.quest-list{grid-template-columns:1fr 1fr}.sticky-tools{top:70px}}@media(max-width:430px){.hero-card{min-height:220px;padding:22px 17px;grid-template-columns:1fr 68px}.hero-orb{width:61px;height:61px}.hero-card h1{font-size:32px}.quick-card{grid-template-columns:auto 1fr;padding:12px 10px}.quick-card em{display:none}.filter-row{grid-template-columns:1fr 1fr}.filter-reset{grid-column:1/-1}.module-grid{grid-template-columns:1fr 1fr}.big-progress{gap:14px}.ring{width:100px}.dialog-title{font-size:26px}}
+</style>
+  <title>BlueQuest Atlas Mobile V3</title>
+</head>
+<body>
+  <div class="aether aether-one"></div>
+  <div class="aether aether-two"></div>
+
+  <header class="topbar">
+    <button class="brand" data-nav="home" aria-label="Inicio">
+      <span class="brand-mark">✦</span>
+      <span><b>BLUEQUEST</b><small>ATLAS MOBILE</small></span>
+    </button>
+    <span style="font-size:9px;font-weight:900;letter-spacing:.12em;color:#63dce8;border:1px solid #25485f;border-radius:999px;padding:5px 8px">V3 LIVE</span><div class="top-actions">
+      <button class="icon-btn" id="offlineState" aria-label="Estado de conexión" title="Estado de conexión">●</button>
+      <button class="icon-btn" id="installBtn" aria-label="Instalar app" title="Instalar app">⇩</button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="view active" id="view-home" data-view="home">
+      <div class="hero-card">
+        <div>
+          <p class="eyebrow">KAIZO · FFXIV COMPANION</p>
+          <h1>Tu Atlas de desbloqueos<br><span>en el bolsillo.</span></h1>
+          <p class="sub">Busca una misión, filtra por nivel o tipo y guarda tu progreso desde el móvil.</p>
+        </div>
+        <div class="hero-orb" aria-hidden="true"><span>✦</span></div>
+      </div>
+
+      <button class="search-launch" data-nav="explore">
+        <span>⌕</span>
+        <span>Buscar misión, zona o desbloqueo…</span>
+        <kbd>1–100</kbd>
+      </button>
+
+      <div class="quick-grid">
+        <button class="quick-card" data-range="1-80" data-nav="explore">
+          <span class="quick-icon">◆</span><span><small>FREE TRIAL</small><b>Atlas 1–80</b></span><em>274</em>
+        </button>
+        <button class="quick-card" data-range="80-100" data-nav="explore">
+          <span class="quick-icon">◇</span><span><small>ENDGAME</small><b>Atlas 80–100</b></span><em>159</em>
+        </button>
+        <button class="quick-card" data-filter="favorites" data-nav="favorites">
+          <span class="quick-icon">★</span><span><small>GUARDADAS</small><b>Favoritas</b></span><em id="favHome">0</em>
+        </button>
+        <button class="quick-card" data-nav="progress">
+          <span class="quick-icon">✓</span><span><small>SEGUIMIENTO</small><b>Mi progreso</b></span><em id="doneHome">0</em>
+        </button>
+      </div>
+
+      <section class="panel progress-panel">
+        <div class="panel-head"><div><p class="eyebrow">PROGRESO TOTAL</p><h2>Tu recorrido</h2></div><strong id="progressPercent">0%</strong></div>
+        <div class="progress-track"><i id="progressBar"></i></div>
+        <div class="progress-stats">
+          <span><b id="doneStat">0</b><small>Completadas</small></span>
+          <span><b id="todoStat">433</b><small>Pendientes</small></span>
+          <span><b id="totalStat">433</b><small>Total</small></span>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <div class="section-title"><div><p class="eyebrow">CONTINUAR</p><h2>Últimas vistas</h2></div><button class="text-btn" data-nav="explore">Ver todo</button></div>
+        <div id="recentList" class="mini-list"></div>
+      </section>
+    </section>
+
+    <section class="view" id="view-explore" data-view="explore">
+      <div class="screen-head">
+        <p class="eyebrow">EXPLORADOR</p>
+        <h2>Blue Quests 1–100</h2>
+        <p>433 desbloqueos en una sola búsqueda.</p>
+      </div>
+
+      <div class="sticky-tools">
+        <label class="search-box">
+          <span>⌕</span>
+          <input id="searchInput" type="search" inputmode="search" placeholder="Misión, zona, requisito…" autocomplete="off" />
+          <button id="clearSearch" aria-label="Limpiar búsqueda">×</button>
+        </label>
+        <div class="chip-scroll" id="rangeChips">
+          <button class="chip active" data-range-chip="all">Todos</button>
+          <button class="chip" data-range-chip="1-80">1–80</button>
+          <button class="chip" data-range-chip="80-100">80–100</button>
+          <button class="chip" data-range-chip="done">✓ Hechas</button>
+          <button class="chip" data-range-chip="pending">Pendientes</button>
+        </div>
+        <div class="filter-row">
+          <select id="typeFilter"><option value="">Todos los tipos</option></select>
+          <select id="levelFilter">
+            <option value="">Todos los niveles</option>
+            <option value="1-20">Lv 1–20</option><option value="21-40">Lv 21–40</option><option value="41-60">Lv 41–60</option>
+            <option value="61-80">Lv 61–80</option><option value="81-90">Lv 81–90</option><option value="91-100">Lv 91–100</option>
+          </select>
+          <button id="resetFilters" class="filter-reset">Reiniciar</button>
+        </div>
+      </div>
+
+      <div class="results-meta"><span id="resultCount">Cargando…</span><span id="activeHint"></span></div>
+      <div id="questList" class="quest-list"></div>
+      <button id="loadMore" class="load-more" hidden>Mostrar más</button>
+      <div id="emptyState" class="empty-state" hidden><span>✦</span><h3>No encontré nada</h3><p>Prueba con otro nombre, zona o filtro.</p></div>
+    </section>
+
+    <section class="view" id="view-favorites" data-view="favorites">
+      <div class="screen-head"><p class="eyebrow">GUARDADAS</p><h2>Favoritas</h2><p>Las misiones que quieres tener a mano.</p></div>
+      <div id="favoritesList" class="quest-list"></div>
+      <div id="favoritesEmpty" class="empty-state"><span>☆</span><h3>Aún no tienes favoritas</h3><p>Toca la estrella de cualquier misión para guardarla aquí.</p></div>
+    </section>
+
+    <section class="view" id="view-progress" data-view="progress">
+      <div class="screen-head"><p class="eyebrow">SEGUIMIENTO</p><h2>Mi progreso</h2><p>Todo queda guardado en este dispositivo.</p></div>
+      <section class="panel big-progress">
+        <div class="ring" id="progressRing"><div><strong id="ringPercent">0%</strong><small>completado</small></div></div>
+        <div class="progress-copy"><b id="progressDone">0 de 433</b><span>misiones completadas</span><button id="showPending" data-nav="explore">Ver pendientes</button></div>
+      </section>
+      <div class="range-progress" id="rangeProgress"></div>
+      <section class="danger-zone"><h3>Datos locales</h3><p>Tu progreso y favoritos viven en este navegador/app.</p><button id="exportBtn">Exportar copia</button><label class="import-label">Importar copia<input id="importInput" type="file" accept="application/json" hidden /></label><button id="resetDataBtn" class="danger">Borrar progreso</button></section>
+    </section>
+
+    <section class="view" id="view-more" data-view="more">
+      <div class="screen-head"><p class="eyebrow">BLUEQUEST NEXO</p><h2>Más herramientas</h2><p>La base móvil está preparada para crecer con el resto del ecosistema.</p></div>
+      <div class="module-grid">
+        <article class="module-card live"><span>◆</span><div><small>DISPONIBLE</small><h3>Blue Quest 1–80</h3><p>274 entradas.</p></div></article>
+        <article class="module-card live"><span>◇</span><div><small>DISPONIBLE</small><h3>Blue Quest 80–100</h3><p>159 entradas.</p></div></article>
+        <article class="module-card future"><span>🎣</span><div><small>SIGUIENTE</small><h3>Fishing Atlas</h3><p>Preparado para integrarlo.</p></div></article>
+        <article class="module-card future"><span>⚔</span><div><small>SIGUIENTE</small><h3>Boss Atlas</h3><p>Raids, roles y mecánicas.</p></div></article>
+        <article class="module-card future"><span>✦</span><div><small>SIGUIENTE</small><h3>Gold Saucer</h3><p>Rutas y Fashion Report.</p></div></article>
+        <article class="module-card future"><span>☰</span><div><small>SIGUIENTE</small><h3>MSQ / Gear</h3><p>Progreso y equipo.</p></div></article>
+      </div>
+      <section class="install-card"><div><p class="eyebrow">INSTALAR</p><h3>Úsalo como una app</h3><p>En iPhone: Safari → Compartir → Añadir a pantalla de inicio.</p></div><button id="installBtn2">Instalar</button></section>
+      <footer class="app-footer">Guía comunitaria no oficial de FINAL FANTASY XIV · KAIZO / BlueQuest Atlas</footer>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Navegación principal">
+    <button class="active" data-nav="home"><span>⌂</span><small>Inicio</small></button>
+    <button data-nav="explore"><span>⌕</span><small>Buscar</small></button>
+    <button data-nav="favorites"><span>☆</span><small>Favoritos</small><i id="favBadge" hidden>0</i></button>
+    <button data-nav="progress"><span>✓</span><small>Progreso</small></button>
+    <button data-nav="more"><span>•••</span><small>Más</small></button>
+  </nav>
+
+  <dialog id="questDialog" class="quest-dialog">
+    <div class="dialog-sheet">
+      <div class="dialog-grab"></div>
+      <button class="dialog-close" id="dialogClose" aria-label="Cerrar">×</button>
+      <div id="dialogContent"></div>
+    </div>
+  </dialog>
+
+  <dialog id="installDialog" class="quest-dialog">
+    <div class="dialog-sheet install-sheet">
+      <div class="dialog-grab"></div><button class="dialog-close" id="installClose">×</button>
+      <p class="eyebrow">INSTALAR EN IPHONE</p><h2>BlueQuest en tu pantalla de inicio</h2>
+      <ol><li>Abre esta página en <b>Safari</b>.</li><li>Toca el botón <b>Compartir</b> ⎋.</li><li>Elige <b>Añadir a pantalla de inicio</b>.</li><li>Confirma con <b>Añadir</b>.</li></ol>
+      <p class="muted">Después se abrirá a pantalla completa como una app.</p>
+    </div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script>window.BLUEQUEST_DATA_1_80=[
+  {
+    "level": 1,
+    "name": "Way of the Arcanist",
+    "type": "Clase",
+    "location": "Limsa Lominsa - Arcanists' Guild",
+    "unlock": "Desbloquea Arcanist.",
+    "opens": "A nivel 30 puede evolucionar a Summoner y Scholar.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Archer",
+    "type": "Clase",
+    "location": "Gridania - Archers' Guild",
+    "unlock": "Desbloquea Archer y entrega arco inicial.",
+    "opens": "Permite subir Archer; a nivel 30 conduce a Bard.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Conjurer",
+    "type": "Clase",
+    "location": "Gridania - Conjurers' Guild",
+    "unlock": "Desbloquea Conjurer.",
+    "opens": "Permite subir Conjurer; a nivel 30 conduce a White Mage.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Gladiator",
+    "type": "Clase",
+    "location": "Ul'dah - Gladiators' Guild",
+    "unlock": "Desbloquea Gladiator y entrega arma inicial.",
+    "opens": "Permite subir Gladiator y acceder a sus class quests; a nivel 30 conduce a Paladin.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Lancer",
+    "type": "Clase",
+    "location": "Gridania - Lancers' Guild",
+    "unlock": "Desbloquea Lancer y entrega arma inicial.",
+    "opens": "Permite subir Lancer; a nivel 30 conduce a Dragoon.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Marauder",
+    "type": "Clase",
+    "location": "Limsa Lominsa - Marauders' Guild",
+    "unlock": "Desbloquea Marauder y entrega arma inicial.",
+    "opens": "Permite subir Marauder; a nivel 30 conduce a Warrior.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Pugilist",
+    "type": "Clase",
+    "location": "Ul'dah - Pugilists' Guild",
+    "unlock": "Desbloquea Pugilist y entrega arma inicial.",
+    "opens": "Permite subir Pugilist; a nivel 30 conduce a Monk.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Rogue",
+    "type": "Clase",
+    "location": "Limsa Lominsa - Rogues' Guild",
+    "unlock": "Desbloquea Rogue.",
+    "opens": "Permite subir Rogue; a nivel 30 conduce a Ninja.",
+    "requirements": "Requiere acceso a Limsa y haber alcanzado nivel 10 con otra clase de combate.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Thaumaturge",
+    "type": "Clase",
+    "location": "Ul'dah - Thaumaturges' Guild",
+    "unlock": "Desbloquea Thaumaturge.",
+    "opens": "Permite subir Thaumaturge; a nivel 30 conduce a Black Mage.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Alchemist",
+    "type": "Crafting",
+    "location": "Ul'dah - Alchemists' Guild",
+    "unlock": "Desbloquea Alchemist.",
+    "opens": "Abre la progresión de Alchemist.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Armorer",
+    "type": "Crafting",
+    "location": "Limsa Lominsa - Armorers' Guild",
+    "unlock": "Desbloquea Armorer.",
+    "opens": "Abre la progresión de Armorer.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Blacksmith",
+    "type": "Crafting",
+    "location": "Limsa Lominsa - Blacksmiths' Guild",
+    "unlock": "Desbloquea Blacksmith.",
+    "opens": "Abre la progresión de Blacksmith.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Carpenter",
+    "type": "Crafting",
+    "location": "Gridania - Carpenters' Guild",
+    "unlock": "Desbloquea Carpenter.",
+    "opens": "Abre la progresión de crafting de Carpenter y sus recetas/clase quests.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Culinarian",
+    "type": "Crafting",
+    "location": "Limsa Lominsa - Culinarians' Guild",
+    "unlock": "Desbloquea Culinarian.",
+    "opens": "Abre la progresión de Culinarian.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Goldsmith",
+    "type": "Crafting",
+    "location": "Ul'dah - Goldsmiths' Guild",
+    "unlock": "Desbloquea Goldsmith.",
+    "opens": "Abre la progresión de Goldsmith.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Leatherworker",
+    "type": "Crafting",
+    "location": "Gridania - Leatherworkers' Guild",
+    "unlock": "Desbloquea Leatherworker.",
+    "opens": "Abre la progresión de Leatherworker.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Weaver",
+    "type": "Crafting",
+    "location": "Ul'dah - Weavers' Guild",
+    "unlock": "Desbloquea Weaver.",
+    "opens": "Abre la progresión de Weaver.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Botanist",
+    "type": "Gathering",
+    "location": "Gridania - Botanists' Guild",
+    "unlock": "Desbloquea Botanist.",
+    "opens": "Permite recolectar madera/plantas y progresar en gathering.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Fisher",
+    "type": "Gathering",
+    "location": "Limsa Lominsa - Fishermen's Guild",
+    "unlock": "Desbloquea Fisher.",
+    "opens": "Permite pescar y acceder a contenido de pesca.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 1,
+    "name": "Way of the Miner",
+    "type": "Gathering",
+    "location": "Ul'dah - Miners' Guild",
+    "unlock": "Desbloquea Miner.",
+    "opens": "Permite recolectar minerales y progresar en gathering.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 5,
+    "name": "Where the Heart Is (Mist)",
+    "type": "Housing",
+    "location": "Lower La Noscea",
+    "unlock": "Acceso al distrito residencial Mist.",
+    "opens": "Permite visitar parcelas y apartamentos de Mist; comprar depende de las reglas de housing.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 5,
+    "name": "Where the Heart Is (The Goblet)",
+    "type": "Housing",
+    "location": "Western Thanalan",
+    "unlock": "Acceso a The Goblet.",
+    "opens": "Permite visitar/comprar vivienda en The Goblet según disponibilidad.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 10,
+    "name": "Simply the Hest (Gridania)",
+    "type": "Guildhest",
+    "location": "Central Shroud",
+    "unlock": "Desbloquea Guildhests.",
+    "opens": "Abre los ejercicios de grupo Guildhest y sus recompensas iniciales.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 10,
+    "name": "Simply the Hest (Limsa Lominsa)",
+    "type": "Guildhest",
+    "location": "Western La Noscea",
+    "unlock": "Desbloquea Guildhests.",
+    "opens": "Versión para personajes que avanzan por la ruta de Limsa.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 10,
+    "name": "Simply the Hest (Ul'dah)",
+    "type": "Guildhest",
+    "location": "Western Thanalan",
+    "unlock": "Desbloquea Guildhests.",
+    "opens": "Versión para la ruta de Ul'dah.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 10,
+    "name": "Where the Heart Is (The Lavender Beds)",
+    "type": "Housing",
+    "location": "Central Shroud",
+    "unlock": "Acceso a The Lavender Beds.",
+    "opens": "Permite visitar/comprar vivienda en Lavender Beds según disponibilidad.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 10,
+    "name": "Leves of Bentbranch",
+    "type": "Levequests",
+    "location": "Central Shroud",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 10,
+    "name": "Leves of Horizon",
+    "type": "Levequests",
+    "location": "Western Thanalan",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 10,
+    "name": "Leves of Swiftperch",
+    "type": "Levequests",
+    "location": "Western La Noscea",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 14,
+    "name": "Good for What Ales You",
+    "type": "Emote",
+    "location": "Limsa Lominsa",
+    "unlock": "Desbloquea Step Dance.",
+    "opens": "Añade el emote de baile a tu lista.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 14,
+    "name": "Help Me, Lord of the Dance",
+    "type": "Emote",
+    "location": "Ul'dah",
+    "unlock": "Desbloquea Ball Dance.",
+    "opens": "Añade el emote de baile a tu lista.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 14,
+    "name": "Saw That One Coming",
+    "type": "Emote",
+    "location": "Gridania",
+    "unlock": "Desbloquea Harvest Dance.",
+    "opens": "Añade el emote de baile a tu lista.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "Color Your World",
+    "type": "Glamour",
+    "location": "Vesper Bay, Western Thanalan",
+    "unlock": "Desbloquea Dye.",
+    "opens": "Permite teñir equipo compatible.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "If I Had a Glamour",
+    "type": "Glamour",
+    "location": "Vesper Bay, Western Thanalan",
+    "unlock": "Desbloquea Cast Glamour y Glamour Plates.",
+    "opens": "Permite cambiar la apariencia del equipo usando glamour prisms.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "Absolutely Glamourous",
+    "type": "Glamour/Crafting",
+    "location": "Vesper Bay",
+    "unlock": "Desbloquea recetas de glamour.",
+    "opens": "Permite fabricar determinados prismas/objetos relacionados con glamour.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "It Could Happen to You",
+    "type": "Gold Saucer",
+    "location": "Ul'dah - Steps of Nald",
+    "unlock": "Desbloquea Manderville Gold Saucer.",
+    "opens": "Abre MGP, Triple Triad, Chocobo Racing, Fashion Report, GATEs y minijuegos.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "Leves of Aleport",
+    "type": "Levequests",
+    "location": "Western La Noscea",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "Leves of Camp Drybone",
+    "type": "Levequests",
+    "location": "Eastern Thanalan",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "Leves of Hawthorne",
+    "type": "Levequests",
+    "location": "East Shroud",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "Beauty Is Only Scalp Deep",
+    "type": "Personalización",
+    "location": "Limsa Lominsa Upper Decks",
+    "unlock": "Desbloquea Aesthetician.",
+    "opens": "Permite cambiar peinado y ciertos rasgos cosméticos pagando gil en una posada.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 15,
+    "name": "Rising to the Challenge",
+    "type": "Sistema",
+    "location": "Limsa Lominsa Upper Decks",
+    "unlock": "Desbloquea Challenge Log.",
+    "opens": "Abre objetivos semanales con EXP, gil y otras recompensas; muy útil para levear jobs.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 17,
+    "name": "The House That Death Built",
+    "type": "Deep Dungeon",
+    "location": "New Gridania",
+    "unlock": "Desbloquea Palace of the Dead.",
+    "opens": "Abre Deep Dungeon niveles 1-200; excelente para levear jobs y obtener recompensas.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 17,
+    "name": "An Ill-conceived Venture",
+    "type": "Retainers",
+    "location": "Ciudad inicial / retainer vocate",
+    "unlock": "Desbloquea Retainer Ventures.",
+    "opens": "Permite enviar retainers a expediciones para materiales, equipo y experiencia.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 19,
+    "name": "Forging the Spirit",
+    "type": "Materia",
+    "location": "Central Thanalan - The Bonfire",
+    "unlock": "Desbloquea Materia Extraction.",
+    "opens": "Permite extraer materia de equipo con spiritbond al 100%.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 19,
+    "name": "Marvelously Mutable Materia",
+    "type": "Materia",
+    "location": "Central Thanalan - The Bonfire",
+    "unlock": "Desbloquea Materia Transmutation.",
+    "opens": "Permite convertir grupos de materias en otra materia aleatoria.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 19,
+    "name": "Waking the Spirit",
+    "type": "Materia",
+    "location": "Central Thanalan - The Bonfire",
+    "unlock": "Desbloquea Materia Melding.",
+    "opens": "Permite insertar materia en equipo si tu crafter cumple requisitos.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 20,
+    "name": "Hallo Halatali",
+    "type": "Dungeon",
+    "location": "Western Thanalan - Nedrick Ironheart",
+    "unlock": "Desbloquea Halatali.",
+    "opens": "Añade la mazmorra opcional al Duty Finder.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 20,
+    "name": "Leves of Moraby",
+    "type": "Levequests",
+    "location": "Lower La Noscea",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 20,
+    "name": "Leves of Quarrymill",
+    "type": "Levequests",
+    "location": "South Shroud",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 20,
+    "name": "My Little Chocobo (Immortal Flames)",
+    "type": "Montura",
+    "location": "Ul'dah - Immortal Flames",
+    "unlock": "Entrega Chocobo Whistle y desbloquea monturas.",
+    "opens": "Permite montar tu chocobo y usar monturas.",
+    "requirements": "Requiere Immortal Flames.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 20,
+    "name": "My Little Chocobo (Maelstrom)",
+    "type": "Montura",
+    "location": "Limsa Lominsa - Maelstrom",
+    "unlock": "Entrega Chocobo Whistle y desbloquea monturas.",
+    "opens": "Permite montar tu chocobo y usar monturas.",
+    "requirements": "Requiere haberte unido a Maelstrom y Company Seals.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 20,
+    "name": "My Little Chocobo (Twin Adder)",
+    "type": "Montura",
+    "location": "Gridania - Twin Adder",
+    "unlock": "Entrega Chocobo Whistle y desbloquea monturas.",
+    "opens": "Permite montar tu chocobo y usar monturas.",
+    "requirements": "Requiere Twin Adder.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 20,
+    "name": "A Sight to Behold",
+    "type": "Sightseeing",
+    "location": "New Gridania",
+    "unlock": "Desbloquea Sightseeing Log de A Realm Reborn.",
+    "opens": "Abre vistas/entradas de exploración y logros asociados.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 25,
+    "name": "Leves of Little Ala Mhigo",
+    "type": "Levequests",
+    "location": "Southern Thanalan",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 25,
+    "name": "Melding Materia Muchly",
+    "type": "Materia",
+    "location": "Central Thanalan - Mutamix",
+    "unlock": "Desbloquea Advanced Materia Melding (overmelding).",
+    "opens": "Permite insertar materia más allá de las ranuras normales en equipo compatible.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 29,
+    "name": "Broadening Horizons",
+    "type": "Acceso",
+    "location": "New Gridania",
+    "unlock": "Desbloquea White Wolf Gate.",
+    "opens": "Abre un acceso adicional de Gridania hacia Central Shroud.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Plucking the Heartstrings",
+    "type": "Bard",
+    "location": "Old Gridania",
+    "unlock": "Desbloquea Performance Actions.",
+    "opens": "Permite tocar instrumentos como Bard fuera de combate.",
+    "requirements": "Requiere Bard.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Bird in Hand",
+    "type": "Chocobo",
+    "location": "Central Shroud",
+    "unlock": "Desbloquea Chocobo Raising.",
+    "opens": "Permite entrenar/alimentar chocobos en establo y gestionar color/estadísticas relacionadas.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "My Feisty Little Chocobo",
+    "type": "Compañero",
+    "location": "South Shroud - Camp Tranquil",
+    "unlock": "Desbloquea Chocobo Companion y Chocobo Saddlebag.",
+    "opens": "Permite invocar al chocobo para combatir, curar o tanquear en mundo abierto.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Gone to Pieces",
+    "type": "Crafting",
+    "location": "Ul'dah - Steps of Thal",
+    "unlock": "Desbloquea Desynthesis.",
+    "opens": "Permite desmantelar ciertos objetos para materiales y subir desynthesis skill.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "A Song of Bards and Bowmen",
+    "type": "Job",
+    "location": "Gridania",
+    "unlock": "Desbloquea Bard y entrega Soul of the Bard.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Bard.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Austerities of Flame",
+    "type": "Job",
+    "location": "Limsa Lominsa",
+    "unlock": "Desbloquea Summoner y entrega Soul of the Summoner.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Summoner.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Brother from Another Mother",
+    "type": "Job",
+    "location": "Ul'dah",
+    "unlock": "Desbloquea Monk y entrega Soul of the Monk.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Monk.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Eye of the Dragon",
+    "type": "Job",
+    "location": "Gridania",
+    "unlock": "Desbloquea Dragoon y entrega Soul of the Dragoon.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Dragoon.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Forgotten but Not Gone",
+    "type": "Job",
+    "location": "Limsa Lominsa",
+    "unlock": "Desbloquea Scholar y entrega Soul of the Scholar.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Scholar.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Paladin's Pledge",
+    "type": "Job",
+    "location": "Ul'dah",
+    "unlock": "Desbloquea Paladin y entrega Soul of the Paladin.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Paladin.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Peasants by Day, Ninjas by Night",
+    "type": "Job",
+    "location": "Lower La Noscea",
+    "unlock": "Desbloquea Ninja y entrega Soul of the Ninja.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Ninja.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Pride and Duty (Will Take You from the Mountain)",
+    "type": "Job",
+    "location": "Limsa Lominsa",
+    "unlock": "Desbloquea Warrior y entrega Soul of the Warrior.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Warrior.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Seer Folly",
+    "type": "Job",
+    "location": "Gridania",
+    "unlock": "Desbloquea White Mage y entrega Soul of the White Mage.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de White Mage.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Taking the Black",
+    "type": "Job",
+    "location": "Ul'dah",
+    "unlock": "Desbloquea Black Mage y entrega Soul of the Black Mage.",
+    "opens": "Permite equipar el job crystal y continuar las job quests de Black Mage.",
+    "requirements": "Requiere la clase base a 30 y el progreso MSQ correspondiente.",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Leves of Camp Tranquil",
+    "type": "Levequests",
+    "location": "South Shroud",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Leves of Costa del Sol",
+    "type": "Levequests",
+    "location": "Eastern La Noscea",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "A Pup No Longer (Immortal Flames)",
+    "type": "PvP",
+    "location": "Ul'dah",
+    "unlock": "Desbloquea Wolves' Den Pier y PvP.",
+    "opens": "Abre acciones PvP y colas compatibles.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "A Pup No Longer (Maelstrom)",
+    "type": "PvP",
+    "location": "Limsa Lominsa",
+    "unlock": "Desbloquea Wolves' Den Pier y PvP.",
+    "opens": "Abre acciones PvP y colas compatibles.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "A Pup No Longer (Twin Adder)",
+    "type": "PvP",
+    "location": "Gridania",
+    "unlock": "Desbloquea Wolves' Den Pier y PvP.",
+    "opens": "Abre acciones PvP y colas compatibles.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Earning Your Wings",
+    "type": "PvP",
+    "location": "Wolves' Den Pier",
+    "unlock": "Desbloquea Rival Wings.",
+    "opens": "Abre el modo PvP Rival Wings.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Like Civilized Men and Women (Immortal Flames)",
+    "type": "PvP",
+    "location": "Ul'dah",
+    "unlock": "Desbloquea Frontline.",
+    "opens": "Abre PvP masivo de 72 jugadores y la ruleta Frontline.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Like Civilized Men and Women (Maelstrom)",
+    "type": "PvP",
+    "location": "Limsa Lominsa",
+    "unlock": "Desbloquea Frontline.",
+    "opens": "Abre PvP masivo de 72 jugadores y la ruleta Frontline.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "Like Civilized Men and Women (Twin Adder)",
+    "type": "PvP",
+    "location": "Gridania",
+    "unlock": "Desbloquea Frontline.",
+    "opens": "Abre PvP masivo de 72 jugadores y la ruleta Frontline.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 30,
+    "name": "The Crystal (Line's) Call",
+    "type": "PvP",
+    "location": "Wolves' Den Pier",
+    "unlock": "Desbloquea Crystalline Conflict.",
+    "opens": "Abre el modo PvP 5v5 Crystalline Conflict.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 35,
+    "name": "Braving New Depths",
+    "type": "Dungeon",
+    "location": "Western Thanalan - Nedrick Ironheart",
+    "unlock": "Desbloquea The Sunken Temple of Qarn.",
+    "opens": "Añade Qarn al Duty Finder.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 35,
+    "name": "Leves of Wineport",
+    "type": "Levequests",
+    "location": "Eastern La Noscea",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 35,
+    "name": "Leves of the Observatorium",
+    "type": "Levequests",
+    "location": "Coerthas Central Highlands",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 36,
+    "name": "Toss Fit Workout",
+    "type": "Emote",
+    "location": "Coerthas Central Highlands",
+    "unlock": "Desbloquea Throw.",
+    "opens": "Añade el emote Throw.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 36,
+    "name": "Treasures and Tribulations",
+    "type": "Treasure Hunt",
+    "location": "Eastern La Noscea",
+    "unlock": "Desbloquea Decipher y Dig.",
+    "opens": "Permite usar mapas del tesoro y localizar cofres; más tarde abre portales de treasure dungeons según mapa.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 38,
+    "name": "Dishonor Before Death",
+    "type": "Dungeon",
+    "location": "Ul'dah",
+    "unlock": "Desbloquea Cutter's Cry.",
+    "opens": "Añade la mazmorra opcional al Duty Finder.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 40,
+    "name": "Leves of Camp Bluefog",
+    "type": "Levequests",
+    "location": "Northern Thanalan",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 40,
+    "name": "Leves of Whitebrim",
+    "type": "Levequests",
+    "location": "Coerthas Central Highlands",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 44,
+    "name": "Fort of Fear",
+    "type": "Dungeon",
+    "location": "Coerthas Central Highlands",
+    "unlock": "Desbloquea Dzemael Darkhold.",
+    "opens": "Añade Dzemael Darkhold al Duty Finder.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 45,
+    "name": "Leves of Saint Coinach's Find",
+    "type": "Levequests",
+    "location": "Mor Dhona",
+    "unlock": "Habilita levequests de esa zona.",
+    "opens": "Abre encargos repetibles para EXP, gil y recompensas de oficio/combate.",
+    "requirements": "",
+    "status": "verified",
+    "source": "KAIZO Blue Quest Guide 1-80 (2026)"
+  },
+  {
+    "level": 47,
+    "name": "Going for Gold",
+    "type": "Dungeon",
+    "location": "Western Thanalan - Nedrick Ironheart",
+    "unlock": "Desbloquea The Aurum Vale.",
+    "opens": "Añade Aurum Vale al Duty Finder.",
+    "requirements": "",
+    "status": "verified",;window.BLUEQUEST_DATA_80_100=[
+  {
+    "level": 80,
+    "name": "Lost Little Troll",
+    "type": "Aether Current",
+    "location": "Labyrinthos (X:30.3, Y:19.3)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Labyrinthos.",
+    "requirements": "After The Full Report, Warts and All",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Let the Good Times Troll",
+    "type": "Aether Current",
+    "location": "Labyrinthos (X:21.0, Y:21.5)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Labyrinthos.",
+    "requirements": "After starting No Job Too Small",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "The Lad in Labyrinthos",
+    "type": "Aether Current",
+    "location": "Labyrinthos (X:20.8, Y:21.0)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Labyrinthos.",
+    "requirements": "After starting Hither and Yarns",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Gleaner's Wish",
+    "type": "Aether Current",
+    "location": "Labyrinthos (X:23.2, Y:19.9)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Labyrinthos.",
+    "requirements": "After starting Hither and Yarns",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Steppe Child",
+    "type": "Aether Current",
+    "location": "Thavnair (X:25.5, Y:35.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Thavnair.",
+    "requirements": "After A Fisherman's Friend",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Alchemist or Dancer",
+    "type": "Aether Current",
+    "location": "Thavnair (X:11.0, Y:21.0)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Thavnair.",
+    "requirements": "After Shadowed Footsteps",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Radiant Patrol",
+    "type": "Aether Current",
+    "location": "Thavnair (X:29.1, Y:17.3)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Thavnair.",
+    "requirements": "After Simple Pleasures",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "In Agama's Foosteps",
+    "type": "Aether Current",
+    "location": "Thavnair (X:30.7, Y:17.0)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Thavnair.",
+    "requirements": "After Simple Pleasures",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "In Pursuit of Power",
+    "type": "Aether Current",
+    "location": "Garlemald (X:14.9, Y:29.9)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Garlemald.",
+    "requirements": "After starting Strange Bedfellows",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Children Are Our Future",
+    "type": "Aether Current",
+    "location": "Garlemald (X:31.4, Y:13.1)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Garlemald.",
+    "requirements": "During Strange Bedfellows",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Best Delivered Cold",
+    "type": "Aether Current",
+    "location": "Garlemald (X:12.8, Y:30.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Garlemald.",
+    "requirements": "After starting In from the Cold",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Stranded at the Station",
+    "type": "Aether Current",
+    "location": "Garlemald (X:15.0, Y:31.2)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Garlemald.",
+    "requirements": "After starting In from the Cold",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "True Carrot Crimes",
+    "type": "Aether Current",
+    "location": "Mare Lamentorum (X:15.4, Y:11.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Mare Lamentorum.",
+    "requirements": "After Styled a Hero",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Carrots: It's What's for Dinner",
+    "type": "Aether Current",
+    "location": "Mare Lamentorum (X:15.7, Y:11.0)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Mare Lamentorum.",
+    "requirements": "After Styled a Hero",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Alluring Allag",
+    "type": "Aether Current",
+    "location": "Mare Lamentorum (X:19.8, Y:11.0)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Mare Lamentorum.",
+    "requirements": "After Setting Things Straight",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Name That Way",
+    "type": "Aether Current",
+    "location": "Mare Lamentorum (X:22.0, Y:10.7)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Mare Lamentorum.",
+    "requirements": "After Setting Things Straight",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Touring Anagnorisis, Part I",
+    "type": "Aether Current",
+    "location": "Elpis (X:24.8, Y:26.2)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Elpis.",
+    "requirements": "After Their Greatest Contribution",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "You and the Ailouros",
+    "type": "Aether Current",
+    "location": "Elpis (X:9.2, Y:31.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Elpis.",
+    "requirements": "After A Sentimental Gift",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "The Perks of Being a Lost Flower",
+    "type": "Aether Current",
+    "location": "Elpis (X:11.7, Y:19.5)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Elpis.",
+    "requirements": "After starting A Flower upon Your Return",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "An Expected Guest",
+    "type": "Aether Current",
+    "location": "Elpis (X:8.6, Y:17.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Elpis.",
+    "requirements": "After starting A Flower upon Your Return",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "A Most Stimulating Discussion",
+    "type": "Aether Current",
+    "location": "Ultima Thule (X:23.5, Y:12.3)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Ultima Thule.",
+    "requirements": "After Where Kn∞wledge Leads",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Ending as One",
+    "type": "Aether Current",
+    "location": "Ultima Thule (X:22.4, Y:11.0)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Ultima Thule.",
+    "requirements": "After Where Kn∞wledge Leads",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Combat Evolved",
+    "type": "Aether Current",
+    "location": "Ultima Thule (X:30.8, Y:27.7)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Ultima Thule.",
+    "requirements": "After the relevant Ultima Thule MSQ progression",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 80,
+    "name": "Learn to Love",
+    "type": "Aether Current",
+    "location": "Ultima Thule (X:31.6, Y:27.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Ultima Thule.",
+    "requirements": "After the relevant Ultima Thule MSQ progression",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "A Crisis of Corruption",
+    "type": "Aether Current",
+    "location": "Urqopacha (X:29.1, Y:13.0)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Urqopacha.",
+    "requirements": "After Knowing the Pelupelu",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "A Traveler to the Rescue",
+    "type": "Aether Current",
+    "location": "Urqopacha (X:29.3, Y:13.7)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Urqopacha.",
+    "requirements": "After Knowing the Pelupelu",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "The Flame Burns No More",
+    "type": "Aether Current",
+    "location": "Urqopacha (X:29.9, Y:33.5)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Urqopacha.",
+    "requirements": "After The Feat of Ice",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "An Illuminating Ritual",
+    "type": "Aether Current",
+    "location": "Urqopacha (X:29.4, Y:32.3)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Urqopacha.",
+    "requirements": "After The Feat of Ice",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Rite of the Wind's Chosen",
+    "type": "Aether Current",
+    "location": "Kozama'uka (X:18.8, Y:13.0)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Kozama'uka.",
+    "requirements": "After Knowing the Hanuhanu",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Ripe for the Offering",
+    "type": "Aether Current",
+    "location": "Kozama'uka (X:20.0, Y:11.7)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Kozama'uka.",
+    "requirements": "After Knowing the Hanuhanu",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "All Good Potpacts Must Come to an End",
+    "type": "Aether Current",
+    "location": "Kozama'uka (X:11.0, Y:27.8)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Kozama'uka.",
+    "requirements": "During The Shape of Peace",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Divine Inspiration",
+    "type": "Aether Current",
+    "location": "Kozama'uka (X:11.6, Y:26.9)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Kozama'uka.",
+    "requirements": "During The Shape of Peace",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Aiming High",
+    "type": "Aether Current",
+    "location": "Yak T'el (X:13.3, Y:13.5)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Yak T'el.",
+    "requirements": "After Taking a Stand",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Secrets in the Cinderfield",
+    "type": "Aether Current",
+    "location": "Yak T'el (X:22.2, Y:8.8)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Yak T'el.",
+    "requirements": "After Taking a Stand",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Beast of the Heartland",
+    "type": "Aether Current",
+    "location": "Yak T'el (X:33.1, Y:31.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Yak T'el.",
+    "requirements": "After The Feat of the Brotherhood",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Lost and Powerless",
+    "type": "Aether Current",
+    "location": "Yak T'el (X:32.1, Y:31.3)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Yak T'el.",
+    "requirements": "After The Feat of the Brotherhood",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "When the Bill Comes Due",
+    "type": "Aether Current",
+    "location": "Shaaloani (X:28.9, Y:30.2)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Shaaloani.",
+    "requirements": "After Law of the Land",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Meeting of the Spirits",
+    "type": "Aether Current",
+    "location": "Shaaloani (X:19.2, Y:27.8)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Shaaloani.",
+    "requirements": "After Law of the Land",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Rroneek Seeker",
+    "type": "Aether Current",
+    "location": "Shaaloani (X:27.2, Y:11.8)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Shaaloani.",
+    "requirements": "After One with Nature",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "A Bad Case of the Blue Devils",
+    "type": "Aether Current",
+    "location": "Shaaloani (X:13.9, Y:19.1)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Shaaloani.",
+    "requirements": "During In Yyasulani's Shadow",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Stressed Testing",
+    "type": "Aether Current",
+    "location": "Heritage Found (X:17.9, Y:9.4)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Heritage Found.",
+    "requirements": "After Gone and Forgotten",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Aunty Knows Best",
+    "type": "Aether Current",
+    "location": "Heritage Found (X:18.4, Y:9.8)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Heritage Found.",
+    "requirements": "After Gone and Forgotten",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "He Who Remembers",
+    "type": "Aether Current",
+    "location": "Heritage Found (X:17.2, Y:33.4)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Heritage Found.",
+    "requirements": "After Memories of a Knight",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Phyt for Survival",
+    "type": "Aether Current",
+    "location": "Heritage Found (X:9.4, Y:11.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Heritage Found.",
+    "requirements": "After Memories of a Knight",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Well-wishing at the Wishing Well",
+    "type": "Aether Current",
+    "location": "Living Memory (X:8.7, Y:31.4)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Living Memory.",
+    "requirements": "After In Serenity and Sorrow",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Perplexing Puzzles, Endless Fun",
+    "type": "Aether Current",
+    "location": "Living Memory (X:30.9, Y:35.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Living Memory.",
+    "requirements": "After A Knight of Alexandria",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Volcanic Disruptions",
+    "type": "Aether Current",
+    "location": "Living Memory (X:34.0, Y:15.8)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Living Memory.",
+    "requirements": "After Leafing through the Past",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 90,
+    "name": "Blueprint Protocol",
+    "type": "Aether Current",
+    "location": "Living Memory (X:32.2, Y:17.6)",
+    "unlock": "Aether Current",
+    "opens": "Contributes to unlocking flight in Living Memory.",
+    "requirements": "After Leafing through the Past",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Aether Currents"
+  },
+  {
+    "level": 85,
+    "name": "Shrouded in Peril",
+    "type": "Role Quest · Tank",
+    "location": "Gridanian Delegate",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 86,
+    "name": "To Give Voice",
+    "type": "Role Quest · Tank",
+    "location": "Keeper of the Entwined Serpents",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 87,
+    "name": "A Gift Undone",
+    "type": "Role Quest · Tank",
+    "location": "Keeper of the Entwined Serpents",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 88,
+    "name": "A Pact Proven",
+    "type": "Role Quest · Tank",
+    "location": "Keeper of the Entwined Serpents",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 89,
+    "name": "Hearts True",
+    "type": "Role Quest · Tank",
+    "location": "Keeper of the Entwined Serpents",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "A Path Unveiled",
+    "type": "Role Quest · Tank",
+    "location": "Keeper of the Entwined Serpents",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Completing the role chain unlocks dyeing for Endwalker Artifact Armor for that role.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 85,
+    "name": "Storm Clouds Brewing",
+    "type": "Role Quest · Melee DPS",
+    "location": "Lominsan Delegate",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 86,
+    "name": "The Crushing Tide",
+    "type": "Role Quest · Melee DPS",
+    "location": "Maelstrom Secretariat",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 87,
+    "name": "Old Heroes Never Die",
+    "type": "Role Quest · Melee DPS",
+    "location": "Maelstrom Secretariat",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 88,
+    "name": "A Mother's Suffering",
+    "type": "Role Quest · Melee DPS",
+    "location": "Maelstrom Secretariat",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 89,
+    "name": "Out of the Shadows",
+    "type": "Role Quest · Melee DPS",
+    "location": "Maelstrom Secretariat",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "To Calmer Seas",
+    "type": "Role Quest · Melee DPS",
+    "location": "Maelstrom Secretariat",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Completing the role chain unlocks dyeing for Endwalker Artifact Armor for that role.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 85,
+    "name": "Seeds of Disquiet",
+    "type": "Role Quest · Physical Ranged DPS",
+    "location": "Doman Delegate",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 86,
+    "name": "When the Kami Answer",
+    "type": "Role Quest · Physical Ranged DPS",
+    "location": "Yugiri",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 87,
+    "name": "Home No Longer",
+    "type": "Role Quest · Physical Ranged DPS",
+    "location": "Yugiri",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 88,
+    "name": "The Devoted Daughter",
+    "type": "Role Quest · Physical Ranged DPS",
+    "location": "Yugiri",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 89,
+    "name": "A Singular Gift",
+    "type": "Role Quest · Physical Ranged DPS",
+    "location": "Yugiri",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "Laid to Rest",
+    "type": "Role Quest · Physical Ranged DPS",
+    "location": "Yugiri",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Completing the role chain unlocks dyeing for Endwalker Artifact Armor for that role.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 85,
+    "name": "Our Aching Souls",
+    "type": "Role Quest · Magical Ranged DPS",
+    "location": "Ishgardian Delegate",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 86,
+    "name": "No Forgiveness, No Deliverance",
+    "type": "Role Quest · Magical Ranged DPS",
+    "location": "Artoirel",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 87,
+    "name": "Only Justice, Only Vengeance",
+    "type": "Role Quest · Magical Ranged DPS",
+    "location": "Artoirel",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 88,
+    "name": "Wills Unending, Faith Unbending",
+    "type": "Role Quest · Magical Ranged DPS",
+    "location": "Artoirel",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 89,
+    "name": "O Mighty Fury, Guide Us to Victory",
+    "type": "Role Quest · Magical Ranged DPS",
+    "location": "Artoirel",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "Ever March Heavensward",
+    "type": "Role Quest · Magical Ranged DPS",
+    "location": "Artoirel",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Completing the role chain unlocks dyeing for Endwalker Artifact Armor for that role.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 85,
+    "name": "Far from Free",
+    "type": "Role Quest · Healer",
+    "location": "Ala Mhigan Delegate",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 86,
+    "name": "The Butcher's Blade",
+    "type": "Role Quest · Healer",
+    "location": "Blasphemy Hunter",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 87,
+    "name": "A New Battleground",
+    "type": "Role Quest · Healer",
+    "location": "Blasphemy Hunter",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 88,
+    "name": "Laying the Past to Rest",
+    "type": "Role Quest · Healer",
+    "location": "Blasphemy Hunter",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 89,
+    "name": "Trail of Skulls",
+    "type": "Role Quest · Healer",
+    "location": "Blasphemy Hunter",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Advances the Endwalker role quest chain.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "The Gift of Mercy",
+    "type": "Role Quest · Healer",
+    "location": "Blasphemy Hunter",
+    "unlock": "Endwalker Role Quest progression",
+    "opens": "Completing the role chain unlocks dyeing for Endwalker Artifact Armor for that role.",
+    "requirements": "Requires Endwalker role quests to be unlocked after At World's End.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "Bitter Snow",
+    "type": "Role Master",
+    "location": "Endwalker master role quest chain",
+    "unlock": "Endwalker Role Master progression",
+    "opens": "Completing the chain closes the Endwalker all-role story.",
+    "requirements": "Complete Endwalker and all five Endwalker role quest chains.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "Frozen Hope",
+    "type": "Role Master",
+    "location": "Endwalker master role quest chain",
+    "unlock": "Endwalker Role Master progression",
+    "opens": "Completing the chain closes the Endwalker all-role story.",
+    "requirements": "Complete Endwalker and all five Endwalker role quest chains.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "Misguided Few",
+    "type": "Role Master",
+    "location": "Endwalker master role quest chain",
+    "unlock": "Endwalker Role Master progression",
+    "opens": "Completing the chain closes the Endwalker all-role story.",
+    "requirements": "Complete Endwalker and all five Endwalker role quest chains.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "Forlorn Glory",
+    "type": "Role Master",
+    "location": "Endwalker master role quest chain",
+    "unlock": "Endwalker Role Master progression",
+    "opens": "Completing the chain closes the Endwalker all-role story.",
+    "requirements": "Complete Endwalker and all five Endwalker role quest chains.",
+    "expansion": "Endwalker",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Endwalker Role Quests"
+  },
+  {
+    "level": 90,
+    "name": "The Narwhal Beckons",
+    "type": "Role Quest · Tank",
+    "location": "Loazenikwe",
+    "unlock": "Dawntrail Role Quest progression",
+    "opens": "Advances the Dawntrail role quest chain.",
+    "requirements": "Requires Uncouth Customers / Dawntrail role quest unlock.",
+    "expansion": "Dawntrail",
+    "status": "verified",
+    "source": "FFXIV Community Wiki · Dawntrail Role Quests"
+  },
+  {
+    "level": 92,
+    "name": "Sleepless in Ishgard",;</script><script>const DATA_FILES=['../blue-quest-atlas-1-80/data.json','../blue-quest-atlas-80-100/data.json'];
+const STATE_KEY='bluequest-mobile-v1';
+const RECENT_KEY='bluequest-mobile-recent-v1';
+let DATA=[], filtered=[], displayLimit=50, currentRange='all', deferredPrompt=null;
+let state={done:{},favorites:{}};
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const key=q=>`${q.level}|${q.name}`;
+const rangeOf=q=>q.__range;
+function loadState(){try{state={done:{},favorites:{},...JSON.parse(localStorage.getItem(STATE_KEY)||'{}')}}catch{state={done:{},favorites:{}}}}
+function saveState(){localStorage.setItem(STATE_KEY,JSON.stringify(state));updateGlobalStats()}
+function getRecent(){try{return JSON.parse(localStorage.getItem(RECENT_KEY)||'[]')}catch{return[]}}
+function pushRecent(q){let arr=getRecent().filter(x=>x!==key(q));arr.unshift(key(q));localStorage.setItem(RECENT_KEY,JSON.stringify(arr.slice(0,6)));renderRecent()}
+function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('show'),1700)}
+async function loadData(){let sets;if(Array.isArray(window.BLUEQUEST_DATA_1_80)&&Array.isArray(window.BLUEQUEST_DATA_80_100)){sets=[window.BLUEQUEST_DATA_1_80.map(x=>({...x,__range:'1-80'})),window.BLUEQUEST_DATA_80_100.map(x=>({...x,__range:'80-100'}))]}else{sets=await Promise.all(DATA_FILES.map(async(f,i)=>{const r=await fetch(f);if(!r.ok)throw new Error(`No se pudo cargar ${f}`);return (await r.json()).map(x=>({...x,__range:i===0?'1-80':'80-100'}))}))}DATA=sets.flat();populateTypes();updateGlobalStats();renderExplore();renderRecent();renderFavorites();renderProgress()}
+function populateTypes(){const sel=$('#typeFilter');[...new Set(DATA.map(q=>q.type).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'es')).forEach(v=>sel.insertAdjacentHTML('beforeend',`<option value="${esc(v)}">${esc(v)}</option>`))}
+function navigate(view){$$('.view').forEach(v=>v.classList.toggle('active',v.dataset.view===view));$$('.bottom-nav button').forEach(b=>b.classList.toggle('active',b.dataset.nav===view));window.scrollTo({top:0,behavior:'instant'});if(view==='favorites')renderFavorites();if(view==='progress')renderProgress();if(view==='explore')setTimeout(()=>$('#searchInput')?.focus({preventScroll:true}),80);history.replaceState(null,'',`#${view}`)}
+function matchesLevel(q,val){if(!val)return true;const [a,b]=val.split('-').map(Number);return q.level>=a&&q.level<=b}
+function applyFilters(){const term=$('#searchInput').value.trim().toLowerCase(), type=$('#typeFilter').value, lv=$('#levelFilter').value;filtered=DATA.filter(q=>{if(currentRange==='1-80'&&rangeOf(q)!=='1-80')return false;if(currentRange==='80-100'&&rangeOf(q)!=='80-100')return false;if(currentRange==='done'&&!state.done[key(q)])return false;if(currentRange==='pending'&&state.done[key(q)])return false;if(type&&q.type!==type)return false;if(!matchesLevel(q,lv))return false;if(term&&!Object.values(q).join(' ').toLowerCase().includes(term))return false;return true});renderQuestList(filtered.slice(0,displayLimit),$('#questList'));$('#resultCount').textContent=`${filtered.length} resultado${filtered.length===1?'':'s'}`;$('#loadMore').hidden=displayLimit>=filtered.length;$('#emptyState').hidden=!!filtered.length;const labels={all:'1–100','1-80':'Free Trial · 1–80','80-100':'80–100',done:'Completadas',pending:'Pendientes'};$('#activeHint').textContent=labels[currentRange]||''}
+function renderExplore(){if(!DATA.length)return;applyFilters()}
+function card(q){const k=key(q),done=!!state.done[k],fav=!!state.favorites[k];return `<article class="quest-card" data-key="${esc(k)}" tabindex="0"><span class="level-pill">Lv ${q.level}</span><div class="quest-main"><h3>${esc(q.name)}</h3><p>${esc(q.location||q.unlock||'')}</p><div class="quest-tags"><span class="tag">${esc(q.type||'Quest')}</span><span class="tag high">${rangeOf(q)}</span>${done?'<span class="tag done">✓ Hecha</span>':''}</div></div><button class="fav-btn ${fav?'on':''}" data-fav="${esc(k)}" aria-label="Favorito">${fav?'★':'☆'}</button></article>`}
+function renderQuestList(list,target){target.innerHTML=list.map(card).join('')}
+function findByKey(k){return DATA.find(q=>key(q)===k)}
+function openQuest(q){if(!q)return;pushRecent(q);const k=key(q),done=!!state.done[k],fav=!!state.favorites[k], source=q.source||'KAIZO BlueQuest Atlas';$('#dialogContent').innerHTML=`<span class="dialog-level">Lv ${q.level}</span><h2 class="dialog-title">${esc(q.name)}</h2><div class="dialog-tags"><span class="tag">${esc(q.type||'Quest')}</span><span class="tag high">${rangeOf(q)}</span>${q.expansion?`<span class="tag">${esc(q.expansion)}</span>`:''}</div><div class="detail-grid"><div class="detail-card"><small>Dónde / inicio</small><p>${esc(q.location||'—')}</p></div><div class="detail-card"><small>Desbloquea</small><p>${esc(q.unlock||'—')}</p></div><div class="detail-card"><small>Qué abre</small><p>${esc(q.opens||'—')}</p></div><div class="detail-card"><small>Requisitos / notas</small><p>${esc(q.requirements||'Sin requisito adicional documentado.')}</p></div></div><div class="dialog-actions"><button class="complete-action ${done?'done':''}" data-complete="${esc(k)}">${done?'✓ Completada':'Marcar completada'}</button><button class="favorite-action ${fav?'on':''}" data-favorite="${esc(k)}">${fav?'★ Guardada':'☆ Guardar'}</button></div><p class="source-line">Fuente: ${esc(source)} · Estado: ${esc(q.status||'verified')}</p>`;$('#questDialog').showModal()}
+function toggleFavorite(k){state.favorites[k]?delete state.favorites[k]:state.favorites[k]=true;saveState();renderExplore();renderFavorites();renderRecent();const q=findByKey(k);if($('#questDialog').open&&q)openDialogRefresh(q);toast(state.favorites[k]?'Guardada en favoritas':'Eliminada de favoritas')}
+function toggleDone(k){state.done[k]?delete state.done[k]:state.done[k]=true;saveState();renderExplore();renderFavorites();renderRecent();renderProgress();const q=findByKey(k);if($('#questDialog').open&&q)openDialogRefresh(q);toast(state.done[k]?'Marcada como completada':'Marcada como pendiente')}
+function openDialogRefresh(q){const d=$('#questDialog');d.close();openQuest(q)}
+function renderFavorites(){if(!DATA.length)return;const list=DATA.filter(q=>state.favorites[key(q)]);renderQuestList(list,$('#favoritesList'));$('#favoritesEmpty').hidden=!!list.length}
+function renderRecent(){if(!DATA.length)return;const qs=getRecent().map(findByKey).filter(Boolean).slice(0,4);$('#recentList').innerHTML=qs.length?qs.map(q=>`<button class="mini-item" data-recent="${esc(key(q))}"><span class="mini-level">${q.level}</span><span><b>${esc(q.name)}</b><small>${esc(q.location||q.type||'')}</small></span><span class="mini-arrow">›</span></button>`).join(''):`<div class="empty-state" style="padding:24px 10px"><p>Aún no has abierto ninguna misión.</p></div>`}
+function updateGlobalStats(){if(!DATA.length)return;const done=DATA.filter(q=>state.done[key(q)]).length,favs=DATA.filter(q=>state.favorites[key(q)]).length,total=DATA.length,pct=Math.round(done/total*100);$('#favHome').textContent=favs;$('#doneHome').textContent=done;$('#doneStat').textContent=done;$('#todoStat').textContent=total-done;$('#totalStat').textContent=total;$('#progressPercent').textContent=`${pct}%`;$('#progressBar').style.width=`${pct}%`;$('#favBadge').hidden=!favs;$('#favBadge').textContent=favs>99?'99+':favs}
+function renderProgress(){if(!DATA.length)return;const done=DATA.filter(q=>state.done[key(q)]).length,total=DATA.length,pct=Math.round(done/total*100);$('#ringPercent').textContent=`${pct}%`;$('#progressRing').style.setProperty('--p',`${pct*3.6}deg`);$('#progressDone').textContent=`${done} de ${total}`;const ranges=[['1–80','1-80'],['80–100','80-100']];$('#rangeProgress').innerHTML=ranges.map(([label,r])=>{const arr=DATA.filter(q=>rangeOf(q)===r),d=arr.filter(q=>state.done[key(q)]).length,p=Math.round(d/arr.length*100);return `<div class="range-row"><div><b>Atlas ${label}</b><small>${d} / ${arr.length}</small></div><div class="progress-track"><i style="width:${p}%"></i></div></div>`}).join('')}
+function setRange(r){currentRange=r;displayLimit=50;$$('[data-range-chip]').forEach(b=>b.classList.toggle('active',b.dataset.rangeChip===r));applyFilters()}
+function resetFilters(){currentRange='all';$('#searchInput').value='';$('#typeFilter').value='';$('#levelFilter').value='';$$('[data-range-chip]').forEach(b=>b.classList.toggle('active',b.dataset.rangeChip==='all'));displayLimit=50;applyFilters()}
+function exportData(){const blob=new Blob([JSON.stringify({version:1,exportedAt:new Date().toISOString(),state,recent:getRecent()},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='bluequest-atlas-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('Copia exportada')}
+async function importData(file){try{const obj=JSON.parse(await file.text());if(!obj.state)throw new Error();state={done:{},favorites:{},...obj.state};saveState();if(Array.isArray(obj.recent))localStorage.setItem(RECENT_KEY,JSON.stringify(obj.recent));renderExplore();renderFavorites();renderRecent();renderProgress();toast('Copia importada')}catch{toast('Archivo de copia no válido')}}
+function installAction(){if(deferredPrompt){deferredPrompt.prompt();deferredPrompt.userChoice.finally(()=>deferredPrompt=null)}else $('#installDialog').showModal()}
+function connectionState(){const b=$('#offlineState');b.classList.toggle('offline',!navigator.onLine);b.title=navigator.onLine?'En línea':'Modo sin conexión';b.setAttribute('aria-label',b.title)}
+function bind(){document.addEventListener('click',e=>{const nav=e.target.closest('[data-nav]');if(nav){if(nav.dataset.range){setRange(nav.dataset.range)}navigate(nav.dataset.nav);if(nav.dataset.range){setTimeout(()=>setRange(nav.dataset.range),0)}return}const fav=e.target.closest('[data-fav]');if(fav){e.stopPropagation();toggleFavorite(fav.dataset.fav);return}const cardEl=e.target.closest('.quest-card');if(cardEl){openQuest(findByKey(cardEl.dataset.key));return}const recent=e.target.closest('[data-recent]');if(recent){openQuest(findByKey(recent.dataset.recent));return}});document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('quest-card'))openQuest(findByKey(e.target.dataset.key))});$('#dialogContent').addEventListener('click',e=>{const c=e.target.closest('[data-complete]');if(c)toggleDone(c.dataset.complete);const f=e.target.closest('[data-favorite]');if(f)toggleFavorite(f.dataset.favorite)});$('#dialogClose').onclick=()=>$('#questDialog').close();$('#questDialog').addEventListener('click',e=>{if(e.target===$('#questDialog'))$('#questDialog').close()});$('#searchInput').addEventListener('input',()=>{displayLimit=50;applyFilters()});$('#clearSearch').onclick=()=>{$('#searchInput').value='';applyFilters()};$('#typeFilter').onchange=()=>{displayLimit=50;applyFilters()};$('#levelFilter').onchange=()=>{displayLimit=50;applyFilters()};$('#resetFilters').onclick=resetFilters;$$('[data-range-chip]').forEach(b=>b.onclick=()=>setRange(b.dataset.rangeChip));$('#loadMore').onclick=()=>{displayLimit+=50;applyFilters()};$('#showPending').onclick=()=>{setTimeout(()=>setRange('pending'),0)};$('#exportBtn').onclick=exportData;$('#importInput').onchange=e=>{if(e.target.files[0])importData(e.target.files[0]);e.target.value=''};$('#resetDataBtn').onclick=()=>{if(confirm('¿Borrar todas las misiones completadas y favoritas guardadas en este dispositivo?')){state={done:{},favorites:{}};localStorage.removeItem(RECENT_KEY);saveState();renderExplore();renderFavorites();renderRecent();renderProgress();toast('Datos locales borrados')}};$('#installBtn').onclick=installAction;$('#installBtn2').onclick=installAction;$('#installClose').onclick=()=>$('#installDialog').close();window.addEventListener('online',connectionState);window.addEventListener('offline',connectionState);window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e});connectionState()}
+async function init(){loadState();bind();try{await loadData()}catch(err){console.error(err);$('#questList').innerHTML=`<div class="empty-state"><span>!</span><h3>Error cargando el Atlas</h3><p>${esc(err.message)}</p></div>`}const hash=location.hash.replace('#','');if(['home','explore','favorites','progress','more'].includes(hash))navigate(hash);}
+init();
+</script>
+</body>
+</html>
