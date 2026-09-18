@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KAIZO Boss Atlas · Preview</title>
+<style>
+:root{--bg:#050812;--p:#0b1222;--line:#293654;--t:#f7f9ff;--m:#9eabc8;--c:#70e8ff;--v:#a97cff;--r:#ff5d6c;--y:#ffd36b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,#2f245e 0,transparent 32rem),linear-gradient(#070b14,#03050a 72%);color:var(--t);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+button,input{font:inherit}.wrap{width:min(1160px,calc(100% - 28px));margin:auto}.top{position:sticky;top:0;z-index:30;background:#050812e8;border-bottom:1px solid #222c48;backdrop-filter:blur(14px)}.topin{min-height:62px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:950;letter-spacing:.13em}.brand b{color:var(--r)}.test{font-size:10px;font-weight:950;background:linear-gradient(90deg,var(--c),#b08aff);color:#07101a;padding:6px 9px;border-radius:999px}
+.hero{padding:50px 0 22px}.ey{font-size:10px;font-weight:950;letter-spacing:.2em;color:var(--c)}h1{font-size:clamp(42px,7vw,76px);line-height:.92;letter-spacing:-.05em;margin:8px 0 14px}.grad{background:linear-gradient(90deg,var(--c),#b08aff,#ff71cc);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:var(--m);font-size:18px;max-width:850px}.notice{margin-top:18px;border:1px solid #493a68;border-radius:14px;padding:13px 15px;background:#18112aaa}
+.controls{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}.box{border:1px solid var(--line);background:#091221;border-radius:15px;padding:13px}.label{font-size:10px;font-weight:950;letter-spacing:.1em;color:#9faeca;margin-bottom:8px}.row{display:flex;gap:7px;flex-wrap:wrap}.btn,.filter{border:1px solid var(--line);background:#10192c;color:#edf1ff;border-radius:10px;padding:9px 11px;font-weight:900;cursor:pointer}.btn.on,.filter.on{border-color:var(--c);background:#182744}.all.on{border-color:var(--y);color:#ffe7a0}
+.navbox{border:1px solid #3a4a70;border-radius:16px;background:#0b1425;margin:16px 0}.navhead{padding:14px;display:flex;justify-content:space-between;cursor:pointer}.navbody{display:none;padding:0 14px 14px}.navbox.open .navbody{display:block}.subbox{border:1px solid #344467;border-radius:13px;background:#0e182b}.subhead{padding:12px;display:flex;justify-content:space-between;cursor:pointer}.subbody{display:none;padding:0 12px 12px}.subbox.open .subbody{display:block}.filters{display:flex;gap:7px;flex-wrap:wrap}
+.tools{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin:16px 0}.search{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#091326;color:white;outline:none}.count{font-size:12px;color:#adb8d1;font-weight:900}
+.area{margin:26px 0}.area h2{font-size:28px;margin:3px 0}.area p{color:var(--m);margin:0 0 11px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}.card{padding:0;text-align:left;overflow:hidden;border:1px solid var(--line);border-radius:17px;background:linear-gradient(145deg,#0d1729,#080e19);color:var(--t);cursor:pointer;min-height:238px}.card:hover{border-color:#6f87bd;transform:translateY(-2px)}.pic{height:128px;display:grid;place-items:center;background:radial-gradient(circle,#273663,#10192d 55%,#080e1a)}.pic img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 10px #0009)}.cb{padding:11px 12px 13px}.meta{font-size:9px;color:#8f9bb8}.card h3{font-size:17px;margin:4px 0 6px}.key{font-size:11px;color:#bbc5dc;min-height:34px}.go{margin-top:9px;color:var(--c);font-size:11px;font-weight:900}
+.modal{position:fixed;inset:0;z-index:80;display:none;background:#01040add;padding:14px;overflow:auto}.modal.open{display:block}.shell{width:min(1000px,100%);margin:14px auto;background:#08101d;border:1px solid #354568;border-radius:20px;overflow:hidden}.mh{display:grid;grid-template-columns:120px 1fr auto;gap:13px;align-items:center;padding:15px;border-bottom:1px solid var(--line)}.mpic{height:100px;border-radius:13px;background:#101a30;display:grid;place-items:center;overflow:hidden}.mpic img{width:100%;height:100%;object-fit:contain}.mh h2{font-size:28px;margin:3px 0}.sub{font-size:11px;color:var(--m)}.close{width:40px;height:40px;border:1px solid var(--line);border-radius:10px;background:#101a2e;color:white;font-size:20px;cursor:pointer}.mb{padding:15px}.mcontrols{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}.tactical{display:grid;grid-template-columns:1.2fr .8fr;gap:13px}.arenaBox{border:1px solid #334260;border-radius:16px;background:#060c16;padding:10px}.arena{position:relative;aspect-ratio:1;border-radius:50%;overflow:hidden;border:2px solid #536785;background:linear-gradient(90deg,transparent 49.7%,#34425d44 50%,transparent 50.3%),linear-gradient(0deg,transparent 49.7%,#34425d44 50%,transparent 50.3%),radial-gradient(circle,#17223b 0 16%,#111a2d 16.5% 36%,#0c1424 36.5% 55%,#070d17 55.5%)}.arena:after{content:"N";position:absolute;top:6px;left:50%;transform:translateX(-50%);color:#7181a4;font-weight:950;font-size:10px}.mk{position:absolute;transform:translate(-50%,-50%);display:grid;place-items:center;text-align:center;min-width:38px;min-height:38px;padding:5px 7px;border-radius:10px;border:1px solid #687995;background:#14203a;font-size:8px;font-weight:950;line-height:1.05}.mk.boss{background:#4b1520;border-color:#ff6774}.mk.obj{background:#33284f;border-color:#bd8cff}.mk.zone{background:#3b3114;border-color:#ffd362;color:#fff0b0}.mk.you{min-width:58px;min-height:58px;border-radius:50%;z-index:5;color:#06101a;border:4px solid var(--c);box-shadow:0 0 0 6px #70e8ff22,0 0 30px #70e8ff99;font-size:9px}.mk.you.tank{background:#9fc7ff;border-color:#6fa7ff}.mk.you.healer{background:#a8f4cf;border-color:#69dfa7}.mk.you.dps{background:#ffb2b9;border-color:#ff7580}.side{display:grid;gap:9px;align-content:start}.info{border:1px solid #2b3955;border-radius:12px;padding:11px;background:#0b1424}.info.youinfo{border-color:#3e6578;background:#0a1a22}.info small{display:block;color:var(--c);font-size:9px;font-weight:950;letter-spacing:.1em;margin-bottom:3px}.info b{font-size:16px}.info p{color:#adb9d2;margin:5px 0 0}.steps{display:grid;gap:6px;margin-top:7px}.step{display:grid;grid-template-columns:25px 1fr;gap:8px;color:#adb9d2;font-size:12px}.num{width:25px;height:25px;border-radius:7px;background:#172845;color:var(--c);display:grid;place-items:center;font-weight:950}.empty{display:none;text-align:center;color:var(--m);padding:35px}
+@media(max-width:950px){.grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:760px){.controls{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.tactical{grid-template-columns:1fr}.mh{grid-template-columns:80px 1fr auto}.mpic{height:76px}}@media(max-width:520px){.grid{grid-template-columns:1fr 1fr;gap:8px}.pic{height:98px}.card{min-height:205px}.card h3{font-size:14px}.key{font-size:10px}.tools{grid-template-columns:1fr}.count{display:none}.modal{padding:0}.shell{margin:0;min-height:100vh;border-radius:0}.mh{grid-template-columns:60px 1fr auto;padding:9px}.mpic{height:60px}.mh h2{font-size:20px}.mb{padding:9px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap topin"><div class="brand">KAIZO <b>BOSS ATLAS</b></div><div class="test">PRUEBA V2 · ROL VISIBLE</div></div></header>
+<main class="wrap">
+<section class="hero"><div class="ey">FFXIV · MECÁNICAS + POSICIONAMIENTO</div><h1>Reconoce la mecánica.<br><span class="grad">Mira dónde colocarte.</span></h1><p class="lead">Prueba del futuro Boss Atlas organizada por nivel → cadena → raid → jefe. Abre un jefe para ver un mapa táctico que cambia con tu rol y Alliance.</p><div class="notice"><b>Esta rama no sustituye el NEXO.</b> Esta V2 usa una ruta nueva para evitar que Safari muestre la versión anterior desde caché.</div></section>
+<section class="controls"><div class="box"><div class="label">TU ROL</div><div class="row"><button class="btn role on" data-role="tank">🛡 Tank</button><button class="btn role" data-role="healer">✚ Healer</button><button class="btn role" data-role="dps">⚔ DPS</button></div></div><div class="box"><div class="label">TU ALLIANCE</div><div class="row"><button class="btn all" data-al="A">A</button><button class="btn all on" data-al="B">B</button><button class="btn all" data-al="C">C</button></div></div></section>
+<div id="level" class="navbox open"><div class="navhead"><div><b>Nivel 50</b><br><span class="sub">A Realm Reborn</span></div><b>▾</b></div><div class="navbody"><div id="series" class="subbox open"><div class="subhead"><div><b>Crystal Tower</b><br><span class="sub">3 Alliance Raids · 12 jefes</span></div><b>▾</b></div><div class="subbody"><div class="filters"><button class="filter on" data-area="all">Toda Crystal Tower</button><button class="filter" data-area="lab">Labyrinth</button><button class="filter" data-area="syr">Syrcus Tower</button><button class="filter" data-area="wod">World of Darkness</button></div></div></div></div></div>
+<div class="tools"><input id="search" class="search" placeholder="Buscar: Ancient Flare, Meteor, Doom, Curtain Call…"><div id="count" class="count"></div></div><div id="content"></div><div id="empty" class="empty">No encontré ningún jefe.</div>
+</main>
+<div id="modal" class="modal"><div class="shell"><div class="mh"><div class="mpic"><img id="mimg" alt=""></div><div><div id="mpath" class="sub"></div><h2 id="mtitle"></h2><div id="mkey" class="sub"></div></div><button id="close" class="close">×</button></div><div class="mb"><div id="mcontrols" class="mcontrols"></div><div id="roleStatus" style="margin:0 0 10px;padding:10px 12px;border:1px solid #36506d;border-radius:11px;background:#0c1928;font-weight:900"></div><div class="tactical"><div class="arenaBox"><div id="arena" class="arena"></div></div><div class="side"><div class="info youinfo"><small>LO QUE HACES TÚ</small><b id="ytitle"></b><p id="ytext"></p></div><div class="info"><small>SEÑAL</small><b id="signal"></b><p id="signaltext"></p></div><div class="info"><small>PASOS</small><div id="steps" class="steps"></div></div></div></div></div></div></div>
+<script>
+var IMG={bone:"https://lds-img.finalfantasyxiv.com/promo/h/_/IjbCg3yfGK1U-NjdikcSyo1P9E.png",than:"https://lds-img.finalfantasyxiv.com/promo/h/2/pwYnWI_xIxA57rQIVIFmVS1lMk.png",behe:"https://lds-img.finalfantasyxiv.com/promo/h/u/FAim8Qfzh6BZD-LlmPbTogUIIM.png",phle:"https://lds-img.finalfantasyxiv.com/promo/h/-/l3sQkbzhyurMUgFU8TyDQe7hJk.png",scy:"https://lds-img.finalfantasyxiv.com/promo/h/f/G_9u2vJMMqENsLdVu0LVLKFQTk.png",glas:"https://www.kindpng.com/picc/m/168-1684861_glasya-labolas-hd-png-download.png",amon:"https://lds-img.finalfantasyxiv.com/promo/h/T/RUyKxz6Mo4evK8JbAgzskst3e0.png",xande:"https://lds-img.finalfantasyxiv.com/promo/h/n/lhahet9E7mJyliuvJTZJZY8V6E.png",angra:"https://models.spriters-resource.com/media/preview_icons/341/344481.png?updated=1755512524",five:"https://lds-img.finalfantasyxiv.com/promo/h/W/fl4nHaaX4wACMSHHu0mrR4pD80.png",cerb:"https://lds-img.finalfantasyxiv.com/promo/h/a/1uWT5DtcZhHx_f2snFX4T5vHDo.png",cloud:"https://lds-img.finalfantasyxiv.com/promo/h/U/ChdYlqN_qJ-hYG3kMswElmhuiM.png"};
+var AREAS={lab:["Labyrinth of the Ancients","Crystal Tower · Parte I"],syr:["Syrcus Tower","Crystal Tower · Parte II"],wod:["World of Darkness","Crystal Tower · Parte III"]};
+var BOSSES=[
+["bone","Bone Dragon","lab",IMG.bone,"Skeletons reviven y corren al dragón.","Platinal Skeletons","Mata los esqueletos antes de que alcancen el cuerpo.",["Gira hacia los skeletons.","Prioriza los más cercanos.","Evita las zonas bajas con veneno."]],
+["than","Thanatos","lab",IMG.than,"Astral Realignment decide quién pega.","Astral Realignment","Con buff: boss. Sin buff: adds y Magic Pots.",["Comprueba tu buff.","Con buff ataca a Thanatos.","Sin buff protege los Pots."]],
+["behe","King Behemoth","lab",IMG.behe,"Ecliptic Meteor → detrás de un cometa.","Ecliptic Meteor","Pon un cometa exactamente entre tú y Behemoth.",["Busca un cometa.","Colócate detrás.","No salgas hasta resolver."]],
+["phle","Phlegethon","lab",IMG.phle,"Ancient Flare → plataforma A/B/C.","Ancient Flare","Corre a la plataforma de tu Alliance y espera la barrera.",["Deja de pegar.","Corre a tu plataforma.","Quédate hasta la barrera."]],
+["scy","Scylla","syr",IMG.scy,"Orbes elementales y pilares.","Daybreak","Ve al sector/plataforma de tu Alliance.",["Identifica tu sector.","Agrúpate con tu Alliance.","Espera la protección."]],
+["glas","Glasya Labolas","syr",IMG.glas,"Intermission → plataformas exteriores.","Intermission","Toma el launch pad de tu Alliance.",["Ve al pad asignado.","Salta al anillo exterior.","Mata adds y avanza."]],
+["amon","Amon","syr",IMG.amon,"Curtain Call → detrás de hielo.","Curtain Call","Usa un bloque de hielo como línea de visión.",["No derritas el hielo.","Busca un bloque.","Escóndete detrás."]],
+["xande","Xande","syr",IMG.xande,"Ancient Quaga → Null Gravity.","Ancient Quaga","Entra en Null Gravity y permanece flotando.",["Resuelve el stack.","Entra en Null Gravity.","Espera el cast."]],
+["angra","Angra Mainyu","wod",IMG.angra,"Mortal Gaze / Doom / Double Vision.","Mortal Gaze","Mira hacia fuera; con Doom ve al círculo iluminado.",["Gira tu personaje.","Comprueba Doom.","Límpialo en una plataforma."]],
+["five","Five-headed Dragon","wod",IMG.five,"Discordance → matar las cinco cabezas.","Discordance","Cambia todo el daño a las cinco cabezas.",["Deja el cuerpo.","Ataca cabezas.","Mata las cinco antes del final."]],
+["cerb","Cerberus","wod",IMG.cerb,"A adds · B belly · C chains.","ABC clásico","Tu posición depende de la Alliance seleccionada.",["A: Wolfsbane adds.","B: Mini → puddle → Belly.","C: Cerberus + cadenas."]],
+["cloud","Cloud of Darkness","wod",IMG.cloud,"Towers + nubes encerradas.","Towers","Ocupa un círculo amarillo vacío.",["Busca una tower vacía.","Entra y permanece.","Después vuelve al objetivo."]]
+];
+var state={role:"tank",al:"B",area:"all",boss:null};
+function qs(s){return document.querySelector(s)}function qsa(s){return Array.from(document.querySelectorAll(s))}
+function render(){var q=qs("#search").value.toLowerCase().trim(),host=qs("#content"),total=0;host.innerHTML="";["lab","syr","wod"].forEach(function(a){if(state.area!=="all"&&state.area!==a)return;var list=BOSSES.filter(function(b){return b[2]===a&&(!q||(b[1]+" "+b[4]+" "+b[5]).toLowerCase().indexOf(q)>=0)});if(!list.length)return;total+=list.length;var sec=document.createElement("section");sec.className="area";var cards=list.map(function(b){return '<button class="card" data-id="'+b[0]+'"><div class="pic"><img src="'+b[3]+'" alt="'+b[1]+'" referrerpolicy="no-referrer"></div><div class="cb"><div class="meta">LV 50 · '+AREAS[a][0]+'</div><h3>'+b[1]+'</h3><div class="key">'+b[4]+'</div><div class="go">Abrir mapa táctico →</div></div></button>'}).join("");sec.innerHTML='<div class="ey">'+AREAS[a][1]+'</div><h2>'+AREAS[a][0]+'</h2><p>'+list.length+' jefes principales.</p><div class="grid">'+cards+'</div>';host.appendChild(sec)});qs("#count").textContent=total+" jefes";qs("#empty").style.display=total?"none":"block";qsa(".card").forEach(function(c){c.onclick=function(){openBoss(c.dataset.id)}})}
+function sync(){qsa(".role").forEach(function(x){x.classList.toggle("on",x.dataset.role===state.role)});qsa(".all").forEach(function(x){x.classList.toggle("on",x.dataset.al===state.al)});if(state.boss)showBoss()}
+qsa(".role").forEach(function(x){x.onclick=function(){state.role=x.dataset.role;sync()}});qsa(".all").forEach(function(x){x.onclick=function(){state.al=x.dataset.al;sync()}});
+qsa(".filter").forEach(function(x){x.onclick=function(){state.area=x.dataset.area;qsa(".filter").forEach(function(y){y.classList.toggle("on",y===x)});render()}});
+qs("#search").oninput=render;qs("#level .navhead").onclick=function(){qs("#level").classList.toggle("open")};qs("#series .subhead").onclick=function(){qs("#series").classList.toggle("open")};
+function mark(x,y,t,c){return '<div class="mk '+(c||"")+'" style="left:'+x+'%;top:'+y+'%">'+t+'</div>'}
+function ax(){return state.al==="A"?24:state.al==="B"?50:76}
+function roleShift(){
+  if(state.role==="tank") return {x:0,y:-16};
+  if(state.role==="healer") return {x:-10,y:5};
+  return {x:12,y:12};
+}
+function place(baseX,baseY,title,text){
+  var s=roleShift();
+  return {x:Math.max(8,Math.min(92,baseX+s.x)),y:Math.max(8,Math.min(92,baseY+s.y)),title:title,text:text};
+}
+function roleText(tank,healer,dps){
+  return state.role==="tank"?tank:state.role==="healer"?healer:dps;
+}
+function tactical(id){
+  var m=[],you={x:ax(),y:70,title:"Quédate con tu grupo",text:"Sigue la mecánica desde tu sector."};
+  if(id==="phle"){
+    m=[mark(50,40,"PHLEGETHON","boss"),mark(22,79,"PAD A","zone"),mark(50,86,"PAD B","zone"),mark(78,79,"PAD C","zone")];
+    var py=state.al==="B"?84:78;
+    you=place(ax(),py,
+      "Ancient Flare · "+state.role.toUpperCase(),
+      roleText("Corre a la plataforma de tu Alliance; entra por el borde interior y mantente listo para retomar al boss.","Corre a la plataforma y colócate hacia el centro del grupo para cubrir curas de área.","Corre a la plataforma; entra bien dentro y deja espacio alrededor del grupo.")
+    );
+  } else if(id==="behe"){
+    m=[mark(50,25,"BEHEMOTH","boss"),mark(50,58,"COMET","obj"),mark(28,62,"COMET","obj")];
+    var bx=state.role==="tank"?42:state.role==="healer"?50:62;
+    var by=state.role==="tank"?62:state.role==="healer"?75:86;
+    you={x:bx,y:by,title:"Ecliptic Meteor · "+state.role.toUpperCase(),text:roleText("Escóndete tras el cometa sin arrastrar al boss ni al Iron Giant hacia la cobertura.","Ponte detrás del cometa con línea de visión al grupo cuando termine el cast.","Ponte detrás del cometa; no salgas antes de que Ecliptic Meteor resuelva.")};
+  } else if(id==="amon"){
+    m=[mark(50,27,"AMON","boss"),mark(50,58,"ICE","obj"),mark(28,62,"ICE","obj"),mark(72,62,"ICE","obj")];
+    you=state.role==="tank"?{x:39,y:65,title:"Curtain Call · TANK",text:"Usa el hielo como cobertura y vuelve al frente del boss solo después del cast."}:state.role==="healer"?{x:50,y:79,title:"Curtain Call · HEALER",text:"Escóndete detrás del hielo manteniéndote cerca del grupo para recuperar la raid después."}:{x:64,y:72,title:"Curtain Call · DPS",text:"Escóndete detrás del hielo y no lo destruyas antes del cast."};
+  } else if(id==="cerb"){
+    m=[mark(50,41,"CERBERUS","boss"),mark(22,64,"A · ADDS","zone"),mark(50,76,"B · BELLY","zone"),mark(78,64,"C · CHAINS","zone")];
+    var base=state.al==="A"?{x:22,y:62}:state.al==="B"?{x:50,y:74}:{x:76,y:61};
+    var duties={
+      A:{tank:"A · TANK: toma/agrupa Wolfsbane lejos de la raid.",healer:"A · HEALER: quédate detrás de los tanks y mantén vivo al grupo de adds.",dps:"A · DPS: enfócate en Wolfsbane y quémalos rápido."},
+      B:{tank:"B · TANK: entra al Belly con el grupo y ayuda a controlar los adds internos.",healer:"B · HEALER: entra al Belly y mantén al grupo vivo mientras destruye el estómago.",dps:"B · DPS: Mini → puddle morado → Belly; prioridad absoluta al objetivo interno."},
+      C:{tank:"C · TANK: controla Cerberus fuera del Belly y evita cleaves sobre la raid.",healer:"C · HEALER: mantén al grupo exterior estable y apoya el re-chain.",dps:"C · DPS: ayuda con Cerberus y corre por cadena cuando quede vulnerable."}
+    };
+    you=place(base.x,base.y,"Cerberus · Alliance "+state.al+" · "+state.role.toUpperCase(),duties[state.al][state.role]);
+  } else if(id==="angra"){
+    m=[mark(50,35,"ANGRA","boss"),mark(22,78,"CLEANSE","zone"),mark(50,85,"CLEANSE","zone"),mark(78,78,"CLEANSE","zone")];
+    you=place(ax(),61,"Mortal Gaze · "+state.role.toUpperCase(),roleText("Mantén al boss estable, gira la mirada en Mortal Gaze y pisa cleanse si recibes Doom.","Juega detrás/lateral, gira la mirada y prioriza sobrevivir para poder recuperar al grupo.","Gira la mirada y corre al cleanse si aparece Doom; vuelve a posición después."));
+  } else if(id==="five"){
+    m=[mark(50,48,"BODY","boss"),mark(30,31,"HEAD","obj"),mark(42,23,"HEAD","obj"),mark(58,23,"HEAD","obj"),mark(70,31,"HEAD","obj"),mark(50,16,"HEAD","obj")];
+    you=place(ax(),70,"Discordance · "+state.role.toUpperCase(),roleText("Mantén estable el cuerpo/los adds necesarios y ayuda a que las cabezas queden accesibles.","Colócate entre tu grupo y las cabezas para curar mientras todos cambian de objetivo.","Muévete hacia las cabezas y dedica todo el daño a destruir las cinco."));
+  } else if(id==="glas"){
+    m=[mark(50,50,"CENTRO","obj"),mark(24,27,"A START","zone"),mark(50,83,"B START","zone"),mark(76,27,"C START","zone")];
+    var gy=state.al==="B"?81:29;
+    you=place(ax(),gy,"Intermission · "+state.role.toUpperCase(),roleText("Toma el launch pad con tu Alliance y recoge/controla los adds exteriores.","Salta con tu Alliance y quédate centrado para cubrir curas entre plataformas.","Salta con tu Alliance y prioriza Spanner-rooks/añadidos del recorrido."));
+  } else if(id==="bone"){
+    m=[mark(50,24,"DRAGON","boss"),mark(25,62,"SKEL →","obj"),mark(50,66,"SKEL ↑","obj"),mark(75,62,"← SKEL","obj")];
+    you=place(ax(),51,"Skeleton Rush · "+state.role.toUpperCase(),roleText("Quédate más cerca del dragón y corta skeletons que se acerquen demasiado.","Mantente a media distancia para curar la raid mientras ayudas con los skeletons.","Acércate a la ruta de los skeletons y prioriza eliminarlos antes de que lleguen."));
+  } else if(id==="than"){
+    m=[mark(50,30,"THANATOS","boss"),mark(18,74,"POT A","zone"),mark(50,84,"POT B","zone"),mark(82,74,"POT C","zone"),mark(69,54,"ADD","obj")];
+    if(state.role==="tank"){
+      you={x:50,y:40,title:"Astral Realignment · TANK",text:"Con buff, toma Thanatos y oriéntalo lejos de la raid; sin buff, intercepta adds."};
+    } else if(state.role==="healer"){
+      you=place(ax(),66,"Astral Realignment · HEALER","Quédate entre tu grupo y el Magic Pot para curar ambos; con buff puedes ayudar al boss.");
+    } else {
+      you=place(ax(),57,"Astral Realignment · DPS","Con buff ataca a Thanatos; sin buff cambia inmediatamente a los adds que amenazan los Pots.");
+    }
+  } else if(id==="scy"){
+    m=[mark(50,38,"SCYLLA","boss"),mark(22,78,"A","zone"),mark(50,86,"B","zone"),mark(78,78,"C","zone")];
+    you=place(ax(),state.al==="B"?82:74,"Daybreak · "+state.role.toUpperCase(),roleText("Entra en la protección de tu Alliance y colócate hacia el borde interior para retomar al boss.","Quédate en el centro de tu Alliance para cubrir curas mientras se activa la protección.","Entra bien en la plataforma de tu Alliance y mantén daño solo si es seguro."));
+  } else if(id==="xande"){
+    m=[mark(50,37,"XANDE","boss"),mark(24,76,"NULL A","zone"),mark(50,84,"NULL B","zone"),mark(76,76,"NULL C","zone")];
+    you=place(ax(),state.al==="B"?80:72,"Ancient Quaga · "+state.role.toUpperCase(),roleText("Entra en Null Gravity y prepárate para retomar al boss al aterrizar.","Entra en Null Gravity cerca del grupo para cubrir curas al terminar.","Entra en Null Gravity y permanece flotando hasta resolver Quaga."));
+  } else if(id==="cloud"){
+    m=[mark(50,30,"CLOUD","boss"),mark(24,74,"TOWER A","zone"),mark(50,84,"TOWER B","zone"),mark(76,74,"TOWER C","zone")];
+    you=place(ax(),state.al==="B"?80:70,"Tower · "+state.role.toUpperCase(),roleText("Ocupa una tower libre sin arrastrar ataques del boss sobre otros jugadores.","Ocupa una tower y mantente a alcance del grupo mientras resuelve el impacto.","Ocupa una tower vacía y vuelve al objetivo en cuanto resuelva."));
+  } else {
+    m=[mark(50,37,"BOSS","boss"),mark(24,75,"A","zone"),mark(50,84,"B","zone"),mark(76,75,"C","zone")];
+    you=place(ax(),state.al==="B"?80:70,"Posición · "+state.role.toUpperCase(),roleText("Juega más cerca del boss y controla su orientación.","Mantente a media distancia con visión del grupo.","Colócate detrás/lateral o a rango según tu job."));
+  }
+  m.push(mark(you.x,you.y,"TÚ<br>"+state.role.toUpperCase(),"you "+state.role));
+  return{html:m.join(""),you:you}
+}
+function openBoss(id){state.boss=id;qs("#modal").classList.add("open");document.body.style.overflow="hidden";showBoss()}
+function showBoss(){var b=BOSSES.find(function(z){return z[0]===state.boss}),t=tactical(b[0]);qs("#mimg").src=b[3];qs("#mtitle").textContent=b[1];qs("#mpath").textContent="Nivel 50 · Crystal Tower · "+AREAS[b[2]][0];qs("#mkey").textContent=b[4];qs("#mcontrols").innerHTML='<button class="btn role '+(state.role==="tank"?"on":"")+'" data-mrole="tank">🛡 Tank</button><button class="btn role '+(state.role==="healer"?"on":"")+'" data-mrole="healer">✚ Healer</button><button class="btn role '+(state.role==="dps"?"on":"")+'" data-mrole="dps">⚔ DPS</button><button class="btn all '+(state.al==="A"?"on":"")+'" data-mal="A">A</button><button class="btn all '+(state.al==="B"?"on":"")+'" data-mal="B">B</button><button class="btn all '+(state.al==="C"?"on":"")+'" data-mal="C">C</button>';qsa("[data-mrole]").forEach(function(x){x.onclick=function(){state.role=x.dataset.mrole;sync()}});qsa("[data-mal]").forEach(function(x){x.onclick=function(){state.al=x.dataset.mal;sync()}});qs("#roleStatus").textContent="MOSTRANDO POSICIÓN: "+state.role.toUpperCase()+" · ALLIANCE "+state.al;qs("#arena").innerHTML=t.html;qs("#ytitle").textContent=t.you.title;qs("#ytext").textContent=t.you.text;qs("#signal").textContent=b[5];qs("#signaltext").textContent=b[6];qs("#steps").innerHTML=b[7].map(function(s,i){return '<div class="step"><div class="num">'+(i+1)+'</div><div>'+s+'</div></div>'}).join("")}
+function closeModal(){state.boss=null;qs("#modal").classList.remove("open");document.body.style.overflow=""}qs("#close").onclick=closeModal;qs("#modal").onclick=function(e){if(e.target===qs("#modal"))closeModal()};document.onkeydown=function(e){if(e.key==="Escape")closeModal()};render();sync();
+</script>
+</body></html>
