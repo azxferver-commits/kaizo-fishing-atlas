@@ -89,3 +89,8 @@
 .discord-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.discord-actions button{border:1px solid #45537f;border-radius:12px;padding:10px 11px;background:#111a30;color:#dfe5ff;font-weight:900;font-size:10px}.discord-actions button.primary{background:#5865f2;border-color:#7080ff;color:white}.discord-actions button:disabled{opacity:.58}
 .discord-unlocks{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.discord-unlocks span{border:1px solid #2d395e;border-radius:999px;padding:4px 7px;background:#0c1426;color:#8fa0cb;font-size:7px;font-weight:850}
 @media(max-width:420px){.discord-actions{grid-template-columns:1fr}.discord-head{align-items:flex-start}.discord-status{max-width:48%;overflow:hidden;text-overflow:ellipsis}}
+
+.auth-forgot{display:block;margin:8px auto 0;border:0;background:none;color:var(--cyan);font-size:9px;font-weight:850;text-decoration:underline;text-underline-offset:3px}
+.auth-forgot[hidden]{display:none}
+.auth-forgot:disabled{opacity:.55}
+#bluequestPasswordDialog .auth-note{min-height:14px}
