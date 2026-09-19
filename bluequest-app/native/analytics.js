@@ -133,49 +133,67 @@ async function loadAdminUsers() {
     }
 
     container.innerHTML = users.map((user) => {
-      const banned =
-        user.banned_until &&
-        new Date(user.banned_until).getTime() > Date.now();
+  const isAdmin = user.is_admin === true;
 
-      const created = user.created_at
-        ? new Date(user.created_at).toLocaleString()
-        : "—";
+  const banned =
+    user.banned_until &&
+    new Date(user.banned_until).getTime() > Date.now();
 
-      const lastLogin = user.last_sign_in_at
-        ? new Date(user.last_sign_in_at).toLocaleString()
-        : "Nunca";
+  const created = user.created_at
+    ? new Date(user.created_at).toLocaleString()
+    : "—";
 
-      return `
-        <div class="admin-user-card" data-user-id="${user.id}">
-          <div class="admin-user-main">
-            <strong>${escapeAdminHtml(user.email || "Sin email")}</strong>
-            <span class="admin-user-status ${banned ? "is-banned" : "is-active"}">
-              ${banned ? "BLOQUEADA" : "ACTIVA"}
-            </span>
-          </div>
+  const lastLogin = user.last_sign_in_at
+    ? new Date(user.last_sign_in_at).toLocaleString()
+    : "Nunca";
 
-          <div class="admin-user-info">
-            <div>Creada: ${created}</div>
-            <div>Último acceso: ${lastLogin}</div>
-          </div>
+  return `
+    <div class="admin-user-card ${isAdmin ? "is-admin" : ""}" data-user-id="${user.id}">
+      <div class="admin-user-main">
+        <strong>
+          ${escapeAdminHtml(user.email || "Sin email")}
+          ${isAdmin ? `<span class="admin-crown">👑 ADMIN</span>` : ""}
+        </strong>
 
-          <div class="admin-user-actions">
-            ${
-              banned
-                ? `<button type="button" data-admin-action="unban">Reactivar</button>`
-                : `<button type="button" data-admin-action="ban">Bloquear</button>`
-            }
+        <span class="admin-user-status ${
+          isAdmin ? "is-admin" : banned ? "is-banned" : "is-active"
+        }">
+          ${isAdmin ? "ADMINISTRADOR" : banned ? "BLOQUEADA" : "ACTIVA"}
+        </span>
+      </div>
 
-            <button
-              type="button"
-              class="admin-user-delete"
-              data-admin-action="delete">
-              Eliminar
-            </button>
-          </div>
-        </div>
-      `;
-    }).join("");
+      <div class="admin-user-info">
+        <div>Creada: ${created}</div>
+        <div>Último acceso: ${lastLogin}</div>
+      </div>
+
+      ${
+        isAdmin
+          ? `
+            <div class="admin-user-protected">
+              🛡️ Cuenta administrativa protegida
+            </div>
+          `
+          : `
+            <div class="admin-user-actions">
+              ${
+                banned
+                  ? `<button type="button" data-admin-action="unban">Reactivar</button>`
+                  : `<button type="button" data-admin-action="ban">Bloquear</button>`
+              }
+
+              <button
+                type="button"
+                class="admin-user-delete"
+                data-admin-action="delete">
+                Eliminar
+              </button>
+            </div>
+          `
+      }
+    </div>
+  `;
+}).join("");
 
   } catch (error) {
     console.error("BlueQuest admin users:", error);
