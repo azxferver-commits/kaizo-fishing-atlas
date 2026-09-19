@@ -2,6 +2,7 @@
 const CFG=window.BLUEQUEST_CLOUD||null;
 const SESSION_KEY='bluequest-cloud-session-v1';
 const BLUEQUEST_WELCOME_URL='https://azxferver-commits.github.io/kaizo-fishing-atlas/bluequest-welcome/';
+const PASSWORD_MIN_LENGTH=8;
 let session=null, entitlements=new Set(), mode='login';
 
 const q=s=>document.querySelector(s);
@@ -17,6 +18,7 @@ async function acceptAuthUrl(rawUrl){
     const hs=new URLSearchParams((u.hash||'').replace(/^#/,''));
     const pick=k=>qs.get(k)||hs.get(k);
     const discordStatus=pick('discord');
+    const authType=pick('type')||'';
     if(discordStatus){
       try{await window.Capacitor?.Plugins?.Browser?.close?.()}catch{}
       if(discordStatus==='verified'){
@@ -44,7 +46,12 @@ async function acceptAuthUrl(rawUrl){
     session={access_token,refresh_token,token_type,expires_in,expires_at:Date.now()+expires_in*1000,user};
     saveSession();
     await loadAccess();
-    window.toast?.('Cuenta confirmada · sesión iniciada ✓');
+    if(authType==='recovery'){
+      setTimeout(()=>openPasswordReset(),80);
+      window.toast?.('Enlace de recuperación válido ✓');
+    }else{
+      window.toast?.('Cuenta confirmada · sesión iniciada ✓');
+    }
     return true;
   }catch(e){
     console.error('BlueQuest auth deeplink',e);
@@ -118,6 +125,7 @@ function openAuth(which='login'){
   q('#authSwitchText').textContent=mode==='login'?'¿No tienes cuenta?':'¿Ya tienes cuenta?';
   q('#authSwitchBtn').textContent=mode==='login'?'Crear una':'Iniciar sesión';
   const lead=q('#authLead');if(lead)lead.textContent=mode==='login'?'Continúa tu aventura desde cualquier dispositivo.':'Crea tu cuenta. Confirma el correo y BlueQuest abrirá tu sesión automáticamente.';
+  const forgot=q('#authForgotBtn');if(forgot)forgot.hidden=mode!=='login';
   q('#authMessage').textContent='';
   q('#bluequestAuthDialog').showModal();
 }
@@ -141,6 +149,55 @@ async function submitAuth(){
   }catch(e){q('#authMessage').textContent=e.message}
   finally{q('#authSubmit').disabled=false}
 }
+
+async function requestPasswordReset(){
+  if(!CFG)return;
+  const email=q('#authEmail')?.value.trim()||'';
+  if(!email||!email.includes('@')){q('#authMessage').textContent='Escribe primero el correo de tu cuenta.';return}
+  const btn=q('#authForgotBtn'); if(btn)btn.disabled=true;
+  q('#authMessage').textContent='Enviando enlace seguro…';
+  try{
+    const r=await fetch(CFG.url+'/auth/v1/recover?redirect_to='+encodeURIComponent(BLUEQUEST_WELCOME_URL),{
+      method:'POST',
+      headers:{'apikey':CFG.publishableKey,'Content-Type':'application/json'},
+      body:JSON.stringify({email})
+    });
+    const d=await safeJson(r);
+    if(!r.ok)throw new Error(d.msg||d.error_description||d.message||'No pude enviar el correo de recuperación.');
+    q('#authMessage').textContent='Si ese correo pertenece a una cuenta BlueQuest, recibirás un enlace para cambiar la contraseña.';
+  }catch(e){
+    q('#authMessage').textContent=e.message||'No pude enviar el correo de recuperación.';
+  }finally{if(btn)btn.disabled=false}
+}
+function openPasswordReset(){
+  const d=q('#bluequestPasswordDialog');if(!d)return;
+  const p1=q('#newPassword'),p2=q('#newPasswordConfirm'),msg=q('#passwordResetMessage');
+  if(p1)p1.value='';if(p2)p2.value='';if(msg)msg.textContent='Elige una contraseña nueva de al menos '+PASSWORD_MIN_LENGTH+' caracteres.';
+  if(!d.open)d.showModal();
+}
+async function updateRecoveredPassword(){
+  const p1=q('#newPassword')?.value||'',p2=q('#newPasswordConfirm')?.value||'',msg=q('#passwordResetMessage'),btn=q('#passwordResetSubmit');
+  if(p1.length<PASSWORD_MIN_LENGTH){msg.textContent='Usa al menos '+PASSWORD_MIN_LENGTH+' caracteres.';return}
+  if(p1!==p2){msg.textContent='Las contraseñas no coinciden.';return}
+  if(!session?.access_token){msg.textContent='El enlace de recuperación ya no es válido. Solicita uno nuevo.';return}
+  btn.disabled=true;msg.textContent='Actualizando contraseña…';
+  try{
+    const r=await fetch(CFG.url+'/auth/v1/user',{
+      method:'PUT',
+      headers:authHeaders(session.access_token),
+      body:JSON.stringify({password:p1})
+    });
+    const d=await safeJson(r);
+    if(!r.ok)throw new Error(d.msg||d.error_description||d.message||'No pude cambiar la contraseña.');
+    if(d?.id)session.user=d;
+    saveSession();
+    q('#bluequestPasswordDialog').close();
+    await loadAccess();
+    window.toast?.('Contraseña actualizada ✓');
+  }catch(e){msg.textContent=e.message||'No pude cambiar la contraseña.'}
+  finally{btn.disabled=false}
+}
+
 async function logout(){
   try{if(session?.access_token)await fetch(CFG.url+'/auth/v1/logout',{method:'POST',headers:authHeaders(session.access_token)})}catch{}
   session=null;entitlements.clear();saveSession();renderAccount();window.toast?.('Sesión cerrada');
@@ -151,9 +208,13 @@ function bind(){
   q('#accountRefreshBtn')?.addEventListener('click',loadAccess);
   q('#authClose')?.addEventListener('click',()=>q('#bluequestAuthDialog').close());
   q('#authSubmit')?.addEventListener('click',submitAuth);
+  q('#authForgotBtn')?.addEventListener('click',requestPasswordReset);
+  q('#passwordResetClose')?.addEventListener('click',()=>q('#bluequestPasswordDialog').close());
+  q('#passwordResetSubmit')?.addEventListener('click',updateRecoveredPassword);
+  q('#newPasswordConfirm')?.addEventListener('keydown',e=>{if(e.key==='Enter')updateRecoveredPassword()});
   q('#authSwitchBtn')?.addEventListener('click',()=>openAuth(mode==='login'?'signup':'login'));
   q('#authPassword')?.addEventListener('keydown',e=>{if(e.key==='Enter')submitAuth()});
 }
-window.BlueQuestCloud={has,hasModule,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;},acceptAuthUrl};
+window.BlueQuestCloud={has,hasModule,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;},acceptAuthUrl,requestPasswordReset};
 document.addEventListener('DOMContentLoaded',async()=>{loadSession();bind();renderAccount();await bindNativeAuthLinks();if(session)await loadAccess()});
 })();
