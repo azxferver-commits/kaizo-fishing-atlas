@@ -76,6 +76,28 @@ if (!html.includes('href="./account.css"')) {
   html = html.replace("</head>", '<link rel="stylesheet" href="./account.css" />\n</head>');
 }
 
+if (!html.includes('id="adminUsersCard"')) {
+  const adminUsersCard = `
+      <section class="admin-users-panel" id="adminUsersCard" hidden>
+        <div class="admin-users-header">
+          <div>
+            <p class="eyebrow">SOLO ADMINISTRADOR</p>
+            <h3>Gestión de cuentas</h3>
+          </div>
+          <button id="adminUsersRefresh" type="button">↻</button>
+        </div>
+
+        <div id="adminUsersList">
+          <div class="admin-users-loading">Cargando cuentas...</div>
+        </div>
+      </section>`;
+
+  html = html.replace(
+    /(<section class="analytics-card" id="adminAnalyticsCard"[\s\S]*?<\/section>)/,
+    '$1' + adminUsersCard
+  );
+}
+
 html = html.replace(
   /<a class="quick-card" href="\.\.\/blue-quest-atlas-1-80\/"[^>]*>([\s\S]*?<em>274<\/em>)\s*<\/a>/,
   '<button class="quick-card" data-range="1-80" data-nav="explore">$1</button>'
