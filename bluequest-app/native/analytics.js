@@ -81,7 +81,7 @@ function bind(){
 }
 window.BlueQuestAnalytics={refresh:()=>loadAdmin(true),trackModule:key=>send('module_open',key)};
 document.addEventListener('DOMContentLoaded',()=>{bind();startPresence();setTimeout(()=>loadAdmin(true),800)});
-})();async function adminUsersRequest(method = "GET", body = null) {
+async function adminUsersRequest(method = "GET", body = null) {
   const session = await window.BlueQuestCloud?.getSession?.();
 
   if (!session?.access_token) {
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded',()=>{bind();startPresence();setTime
   const options = {
     method,
     headers: {
-      apikey: window.BlueQuestCloud.anonKey,
+     apikey: CFG.publishableKey,
       Authorization: `Bearer ${session.access_token}`,
       "Content-Type": "application/json"
     }
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded',()=>{bind();startPresence();setTime
   }
 
   const response = await fetch(
-    `${window.BlueQuestCloud.url}/functions/v1/admin-users`,
+    `${CFG.url}/functions/v1/admin-users`,
     options
   );
 
@@ -285,3 +285,5 @@ document.addEventListener("click", (event) => {
 window.BlueQuestAdminUsers = {
   load: loadAdminUsers
 };
+
+})();
