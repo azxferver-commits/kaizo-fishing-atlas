@@ -16,6 +16,24 @@ async function acceptAuthUrl(rawUrl){
     const qs=new URLSearchParams(u.search||'');
     const hs=new URLSearchParams((u.hash||'').replace(/^#/,''));
     const pick=k=>qs.get(k)||hs.get(k);
+    const discordStatus=pick('discord');
+    if(discordStatus){
+      try{await window.Capacitor?.Plugins?.Browser?.close?.()}catch{}
+      if(discordStatus==='verified'){
+        await loadAccess();
+        window.toast?.('Discord verificado · Community desbloqueado ✓');
+      }else if(discordStatus==='not_member'){
+        window.toast?.('Únete a Nexus y vuelve a verificar Discord.');
+      }else if(discordStatus==='already_linked'){
+        window.toast?.('Esa cuenta de Discord ya está vinculada a otra cuenta BlueQuest.');
+      }else if(discordStatus==='cancelled'){
+        window.toast?.('Verificación de Discord cancelada.');
+      }else{
+        window.toast?.('No se pudo completar la verificación de Discord.');
+      }
+      document.dispatchEvent(new CustomEvent('bluequest:discord',{detail:{status:discordStatus}}));
+      return true;
+    }
     const access_token=pick('access_token'), refresh_token=pick('refresh_token');
     if(!access_token||!refresh_token)return false;
     const expires_in=Number(pick('expires_in')||3600);
