@@ -55,7 +55,7 @@ fs.rmSync(nexusDir, { recursive: true, force: true });
 fs.cpSync(path.join(repoRoot, "eorzea-codex"), nexusDir, { recursive: true });
 
 
-for (const file of ["cloud-config.js", "account.css", "account.js", "ffxiv-sync.js", "modules.js", "analytics.js"]) {
+for (const file of ["cloud-config.js", "account.css", "account.js", "ffxiv-sync.js", "modules.js", "analytics.js", "discord.js"]) {
   fs.copyFileSync(path.join(nativeDir, file), path.join(www, file));
 }
 
@@ -63,7 +63,7 @@ let html = fs.readFileSync(sourceHtml, "utf8");
 
 html = html
   .replace(/<title>[^<]*<\/title>/, "<title>BlueQuest Atlas</title>")
-  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.10 · ANALYTICS")
+  .replace(/V4\.\d+(?:\.\d+)?[^<]*/g, "APP 1.11 · DISCORD")
   .replace(/<link rel="manifest"[^>]*>/g, "")
   .replace(/<link rel="icon"[^>]*>/g, "")
   .replace(/<link rel="apple-touch-icon"[^>]*>/g, "")
@@ -134,6 +134,23 @@ const moreReplacement = '<section class="view" id="view-more" data-view="more">\
 
 if (!html.includes('id="bluequestAccountCard"')) {
   html = html.replace(moreNeedle, moreReplacement);
+}
+
+if (!html.includes('id="discordCommunityCard"')) {
+  const discordCard = `
+      <section class="discord-card" id="discordCommunityCard">
+        <div class="discord-head">
+          <div><p class="eyebrow">NEXUS COMMUNITY</p><h3>Desbloquea con Discord</h3></div>
+          <span class="discord-status" id="discordCommunityStatus">DISCORD REQUERIDO</span>
+        </div>
+        <p id="discordCommunityMessage">Únete al servidor Nexus y verifica tu Discord para desbloquear Community.</p>
+        <div class="discord-actions">
+          <button id="discordJoinBtn" type="button">Unirme a Nexus</button>
+          <button id="discordVerifyBtn" class="primary" type="button">Verificar Discord</button>
+        </div>
+        <div class="discord-unlocks"><span>◆ BlueQuest 51–100</span><span>🎣 Fishing Tools</span><span>✦ Gold Saucer</span><span>◆ Nexus</span></div>
+      </section>`;
+  html = html.replace(/(<section class="account-card" id="bluequestAccountCard">[\s\S]*?<\/section>)/, '$1' + discordCard);
 }
 
 if (!html.includes('id="adminAnalyticsCard"')) {
@@ -261,7 +278,7 @@ html = html.replace(
 if (!html.includes('src="./cloud-config.js"')) {
   html = html.replace(
     "</body>",
-    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n  <script src="./ffxiv-sync.js"></script>\n  <script src="./modules.js"></script>\n  <script src="./analytics.js"></script>\n</body>'
+    '  <script src="./cloud-config.js"></script>\n  <script src="./account.js"></script>\n  <script src="./ffxiv-sync.js"></script>\n  <script src="./modules.js"></script>\n  <script src="./analytics.js"></script>\n  <script src="./discord.js"></script>\n</body>'
   );
 }
 
