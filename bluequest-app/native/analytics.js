@@ -241,10 +241,46 @@ document.addEventListener("click", async (event) => {
     button.disabled = false;
   }
 });
+async function adminUsersRequest(method = "GET", body = null) {
+  if (!CFG) throw new Error("Configuración de BlueQuest no disponible.");
 
-document
-  .querySelector("#adminUsersRefresh")
-  ?.addEventListener("click", loadAdminUsers);
+  const session = window.BlueQuestCloud?.getSession?.();
+
+  if (!session?.access_token) {
+    throw new Error("No hay sesión activa.");
+  }
+
+  const options = {
+    method,
+    headers: {
+      apikey: CFG.publishableKey,
+      Authorization: `Bearer ${session.access_token}`,
+      "Content-Type": "application/json"
+    }
+  };
+
+  if (body) {
+    options.body = JSON.stringify(body);
+  }
+
+  const response = await fetch(
+    CFG.url + "/functions/v1/admin-users",
+    options
+  );
+
+  const data = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    throw new Error(data?.error || `Error ${response.status}`);
+  }
+
+  return data;
+}
+document.addEventListener("click", (event) => {
+  const refreshButton = event.target.closest("#adminUsersRefresh");
+  if (!refreshButton) return;
+  loadAdminUsers();
+});
 
 window.BlueQuestAdminUsers = {
   load: loadAdminUsers
