@@ -125,6 +125,40 @@ Deno.serve(async (req) => {
     is_admin: adminUserIds.has(u.id),
   }));
 
+  if (req.method === "GET") {
+  const { data, error } = await admin.auth.admin.listUsers({
+    page: 1,
+    perPage: 200,
+  });
+
+  if (error) {
+    throw error;
+  }
+
+  const { data: adminEntitlements, error: adminEntitlementsError } =
+    await admin
+      .from("user_entitlements")
+      .select("user_id")
+      .eq("module_key", "admin_dashboard");
+
+  if (adminEntitlementsError) {
+    throw adminEntitlementsError;
+  }
+
+  const adminUserIds = new Set(
+    (adminEntitlements ?? []).map((item) => item.user_id)
+  );
+
+  const users = data.users.map((u) => ({
+    id: u.id,
+    email: u.email ?? "",
+    created_at: u.created_at,
+    last_sign_in_at: u.last_sign_in_at ?? null,
+    email_confirmed_at: u.email_confirmed_at ?? null,
+    banned_until: u.banned_until ?? null,
+    is_admin: adminUserIds.has(u.id),
+  }));
+
   return json({
     users,
     total: users.length,
