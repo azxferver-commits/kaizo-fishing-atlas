@@ -79,3 +79,13 @@
 .analytics-modules{display:grid;grid-template-columns:1fr repeat(3,1fr);gap:7px;align-items:center;margin-top:9px}.analytics-modules>span{color:#7f96a7;font-size:8px}.analytics-modules>div{padding:8px;border:1px solid #263f52;border-radius:11px;background:#08141e;text-align:center}
 .analytics-modules b,.analytics-modules small{display:block}.analytics-modules b{font-size:11px}.analytics-modules b i{font-style:normal}.analytics-modules small{margin-top:2px;color:#7f96a7;font-size:7px}
 .analytics-note{margin:10px 0 0;color:#688092;font-size:8px;line-height:1.45}
+
+.discord-card{margin:0 0 14px;padding:15px;border:1px solid #465285;border-radius:18px;background:linear-gradient(145deg,#10162b,#0a1220);position:relative;overflow:hidden}
+.discord-card:before{content:"";position:absolute;inset:-80px -110px auto auto;width:210px;height:210px;border-radius:50%;background:radial-gradient(circle,#5865f237,transparent 68%);pointer-events:none}
+.discord-card>*{position:relative;z-index:1}
+.discord-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.discord-head h3{margin:2px 0 0;font-size:16px}
+.discord-status{white-space:nowrap;border:1px solid #4b5b96;border-radius:999px;padding:5px 8px;background:#101a33;color:#b8c3ff;font-size:8px;font-weight:950;letter-spacing:.04em}.discord-status.ok{border-color:#315f4a;background:#10261e;color:#aef4d2}
+.discord-card>p{margin:10px 0;color:#9baac2;font-size:10px;line-height:1.5}
+.discord-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.discord-actions button{border:1px solid #45537f;border-radius:12px;padding:10px 11px;background:#111a30;color:#dfe5ff;font-weight:900;font-size:10px}.discord-actions button.primary{background:#5865f2;border-color:#7080ff;color:white}.discord-actions button:disabled{opacity:.58}
+.discord-unlocks{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.discord-unlocks span{border:1px solid #2d395e;border-radius:999px;padding:4px 7px;background:#0c1426;color:#8fa0cb;font-size:7px;font-weight:850}
+@media(max-width:420px){.discord-actions{grid-template-columns:1fr}.discord-head{align-items:flex-start}.discord-status{max-width:48%;overflow:hidden;text-overflow:ellipsis}}
