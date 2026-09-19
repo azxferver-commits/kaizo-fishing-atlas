@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#06101a">
+<title>BlueQuest · Discord</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#050b12;color:#edf8ff;font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+body{min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 50% 0,#17344a,transparent 30rem),#050b12}
+.card{width:min(460px,100%);padding:26px;border:1px solid #31556d;border-radius:24px;background:linear-gradient(155deg,#0b1a27,#08111c);box-shadow:0 24px 80px #0008}
+.brand{display:flex;align-items:center;justify-content:center;gap:9px;color:#9edfff;font-weight:900;letter-spacing:.15em;font-size:11px;margin-bottom:18px}
+.mark{width:62px;height:62px;display:grid;place-items:center;margin:0 auto 16px;border:1px solid #46738e;border-radius:19px;background:#0e2939;color:#72e8ff;font-size:28px;box-shadow:0 0 34px #72e8ff2c}
+.mark.ok{color:#6ee7ad;box-shadow:0 0 34px #6ee7ad28}
+h1{font-size:23px;margin:0 0 10px;text-align:center}p{margin:0 auto 20px;max-width:365px;color:#9fb2c1;font-size:13px;line-height:1.6;text-align:center}
+.actions{display:grid;gap:10px}.actions a{display:block;text-align:center;text-decoration:none;border-radius:13px;padding:13px 14px;font-weight:900}
+.primary{background:#123f55;border:1px solid #4d86a3;color:#e9fbff}.secondary{background:#0a1722;border:1px solid #304c60;color:#b9d2e2}
+.hint{margin-top:15px;color:#667f90;font-size:10px;text-align:center;line-height:1.5}
+</style>
+</head>
+<body>
+<main class="card">
+<div class="brand">◆ BLUEQUEST · NEXUS</div>
+<div class="mark" id="mark">◆</div>
+<h1 id="title">Comprobando Discord…</h1>
+<p id="message">Un momento.</p>
+<div class="actions">
+<a class="primary" id="back" href="bluequest://welcome?discord=error">Volver a BlueQuest</a>
+<a class="secondary" id="join" href="https://discord.gg/PHQHM9Xvjm" target="_blank" rel="noopener" hidden>Unirme a Nexus</a>
+</div>
+<div class="hint">Puedes cerrar esta página después de volver a la app.</div>
+</main>
+<script>
+const q=new URLSearchParams(location.search);
+const status=q.get('discord')||'error';
+const states={
+ verified:{title:'Community desbloqueado ✓',message:'BlueQuest confirmó que estás dentro de Nexus. Ya tienes acceso Community.',ok:true},
+ not_member:{title:'Aún no estás en Nexus',message:'Tu cuenta de Discord se verificó, pero todavía no aparece como miembro del servidor Nexus. Únete al servidor y después vuelve a BlueQuest para verificar otra vez.',join:true},
+ already_linked:{title:'Discord ya vinculado',message:'Esta cuenta de Discord ya está vinculada a otra cuenta BlueQuest.'},
+ cancelled:{title:'Verificación cancelada',message:'Discord no autorizó la verificación. Puedes intentarlo de nuevo desde BlueQuest.'},
+ expired:{title:'Verificación expirada',message:'Este enlace ya expiró. Vuelve a BlueQuest y pulsa Verificar Discord otra vez.'},
+ invalid:{title:'Enlace no válido',message:'La verificación no contiene los datos necesarios. Vuelve a BlueQuest e inténtalo otra vez.'},
+ config_error:{title:'Discord no configurado',message:'Falta terminar la configuración privada de Discord en BlueQuest.'},
+ error:{title:'No pude verificar Discord',message:'BlueQuest no pudo completar la verificación. Vuelve a la app e inténtalo otra vez.'}
+};
+const s=states[status]||states.error;
+document.getElementById('title').textContent=s.title;
+document.getElementById('message').textContent=s.message;
+const mark=document.getElementById('mark');
+if(s.ok){mark.textContent='✓';mark.classList.add('ok')}
+if(s.join)document.getElementById('join').hidden=false;
+const deep='bluequest://welcome?discord='+encodeURIComponent(status);
+document.getElementById('back').href=deep;
+setTimeout(()=>{location.href=deep},1100);
+</script>
+</body>
+</html>
