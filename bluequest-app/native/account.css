@@ -94,3 +94,121 @@
 .auth-forgot[hidden]{display:none}
 .auth-forgot:disabled{opacity:.55}
 #bluequestPasswordDialog .auth-note{min-height:14px}
+/* ===== BlueQuest Admin — Gestión de cuentas ===== */
+
+.admin-users-panel {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 18px;
+  background: rgba(8,12,22,.72);
+}
+
+.admin-users-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.admin-users-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+#adminUsersRefresh {
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 12px;
+  padding: 9px 13px;
+  background: rgba(255,255,255,.06);
+  color: inherit;
+  cursor: pointer;
+}
+
+#adminUsersList {
+  display: grid;
+  gap: 12px;
+}
+
+.admin-user-card {
+  padding: 14px;
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 15px;
+  background: rgba(255,255,255,.035);
+}
+
+.admin-user-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.admin-user-main strong {
+  overflow-wrap: anywhere;
+}
+
+.admin-user-status {
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+
+.admin-user-status.is-active {
+  background: rgba(50,200,120,.14);
+}
+
+.admin-user-status.is-banned {
+  background: rgba(255,70,70,.14);
+}
+
+.admin-user-info {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  opacity: .72;
+}
+
+.admin-user-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-user-actions button {
+  flex: 1;
+  min-width: 105px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255,255,255,.13);
+  border-radius: 11px;
+  background: rgba(255,255,255,.06);
+  color: inherit;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.admin-user-actions button:disabled {
+  opacity: .45;
+  cursor: wait;
+}
+
+.admin-user-delete {
+  background: rgba(255,60,60,.10) !important;
+}
+
+.admin-users-loading,
+.admin-users-empty,
+.admin-users-error {
+  padding: 18px 10px;
+  text-align: center;
+  opacity: .72;
+}
+
+.admin-users-error {
+  opacity: 1;
+}
