@@ -255,3 +255,12 @@
   font-weight: 700;
   text-align: center;
 }
+/* ===== Fix scroll inferior Gestión de cuentas ===== */
+
+.admin-users-panel {
+  margin-bottom: 120px;
+}
+
+#adminUsersList {
+  padding-bottom: 40px;
+}
