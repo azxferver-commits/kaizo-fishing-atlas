@@ -93,11 +93,10 @@ if (!html.includes('id="adminUsersCard"')) {
       </section>`;
 
   html = html.replace(
-    /(<section class="account-card" id="bluequestAccountCard">[\s\S]*?<\/section>)/,
-    '$1' + adminUsersCard
+    "</body>",
+    adminUsersCard + "\n</body>"
   );
 }
-
 html = html.replace(
   /<a class="quick-card" href="\.\.\/blue-quest-atlas-1-80\/"[^>]*>([\s\S]*?<em>274<\/em>)\s*<\/a>/,
   '<button class="quick-card" data-range="1-80" data-nav="explore">$1</button>'
