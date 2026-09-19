@@ -1,7 +1,7 @@
 (()=>{
 const CFG=window.BLUEQUEST_CLOUD||null;
 const INSTALL_KEY='bluequest-installation-id-v1';
-const APP_VERSION='1.10';
+const APP_VERSION='1.12';
 let timer=null,lastAdminLoad=0;
 const q=s=>document.querySelector(s);
 function installationId(){
