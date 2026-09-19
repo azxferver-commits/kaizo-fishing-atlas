@@ -1,3 +1,5 @@
-BlueQuest Native App 1.12
-Password recovery: forgot password -> recovery email -> BlueQuest deep link -> set new password
-Build revision: 19
+BlueQuest Native App 1.13
+Security panel: change password with current-password verification
+Recovery: forgot password by email
+Session safety: revoke active sessions after password change or recovery
+Build revision: 20
