@@ -75,4 +75,171 @@ function bind(){
 }
 window.BlueQuestAnalytics={refresh:()=>loadAdmin(true),trackModule:key=>send('module_open',key)};
 document.addEventListener('DOMContentLoaded',()=>{bind();startPresence();setTimeout(()=>loadAdmin(true),800)});
-})();
+})();async function adminUsersRequest(method = "GET", body = null) {
+  const session = await window.BlueQuestCloud?.getSession?.();
+
+  if (!session?.access_token) {
+    throw new Error("No hay sesión activa.");
+  }
+
+  const options = {
+    method,
+    headers: {
+      apikey: window.BlueQuestCloud.anonKey,
+      Authorization: `Bearer ${session.access_token}`,
+      "Content-Type": "application/json"
+    }
+  };
+
+  if (body) {
+    options.body = JSON.stringify(body);
+  }
+
+  const response = await fetch(
+    `${window.BlueQuestCloud.url}/functions/v1/admin-users`,
+    options
+  );
+
+  const data = await response.json().catch(() => ({}));
+
+  if (!response.ok) {
+    throw new Error(data?.error || `Error ${response.status}`);
+  }
+
+  return data;
+}
+
+async function loadAdminUsers() {
+  const container = document.querySelector("#adminUsersList");
+
+  if (!container) return;
+
+  container.innerHTML = `<div class="admin-users-loading">Cargando cuentas...</div>`;
+
+  try {
+    const data = await adminUsersRequest("GET");
+    const users = Array.isArray(data?.users) ? data.users : [];
+
+    if (!users.length) {
+      container.innerHTML =
+        `<div class="admin-users-empty">No hay cuentas registradas.</div>`;
+      return;
+    }
+
+    container.innerHTML = users.map((user) => {
+      const banned =
+        user.banned_until &&
+        new Date(user.banned_until).getTime() > Date.now();
+
+      const created = user.created_at
+        ? new Date(user.created_at).toLocaleString()
+        : "—";
+
+      const lastLogin = user.last_sign_in_at
+        ? new Date(user.last_sign_in_at).toLocaleString()
+        : "Nunca";
+
+      return `
+        <div class="admin-user-card" data-user-id="${user.id}">
+          <div class="admin-user-main">
+            <strong>${escapeAdminHtml(user.email || "Sin email")}</strong>
+            <span class="admin-user-status ${banned ? "is-banned" : "is-active"}">
+              ${banned ? "BLOQUEADA" : "ACTIVA"}
+            </span>
+          </div>
+
+          <div class="admin-user-info">
+            <div>Creada: ${created}</div>
+            <div>Último acceso: ${lastLogin}</div>
+          </div>
+
+          <div class="admin-user-actions">
+            ${
+              banned
+                ? `<button type="button" data-admin-action="unban">Reactivar</button>`
+                : `<button type="button" data-admin-action="ban">Bloquear</button>`
+            }
+
+            <button
+              type="button"
+              class="admin-user-delete"
+              data-admin-action="delete">
+              Eliminar
+            </button>
+          </div>
+        </div>
+      `;
+    }).join("");
+
+  } catch (error) {
+    console.error("BlueQuest admin users:", error);
+
+    container.innerHTML = `
+      <div class="admin-users-error">
+        No se pudieron cargar las cuentas.
+        <br>
+        ${escapeAdminHtml(error?.message || "Error desconocido")}
+      </div>
+    `;
+  }
+}
+
+function escapeAdminHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+document.addEventListener("click", async (event) => {
+  const button = event.target.closest("[data-admin-action]");
+
+  if (!button) return;
+
+  const card = button.closest(".admin-user-card");
+  const userId = card?.dataset?.userId;
+  const action = button.dataset.adminAction;
+
+  if (!userId || !action) return;
+
+  if (action === "delete") {
+    const confirmed = confirm(
+      "¿Seguro que quieres eliminar esta cuenta? Esta acción no se puede deshacer."
+    );
+
+    if (!confirmed) return;
+  }
+
+  if (action === "ban") {
+    const confirmed = confirm(
+      "¿Quieres bloquear esta cuenta?"
+    );
+
+    if (!confirmed) return;
+  }
+
+  try {
+    button.disabled = true;
+
+    await adminUsersRequest("POST", {
+      action,
+      user_id: userId
+    });
+
+    await loadAdminUsers();
+
+  } catch (error) {
+    alert(error?.message || "No se pudo completar la acción.");
+    button.disabled = false;
+  }
+});
+
+document
+  .querySelector("#adminUsersRefresh")
+  ?.addEventListener("click", loadAdminUsers);
+
+window.BlueQuestAdminUsers = {
+  load: loadAdminUsers
+};
