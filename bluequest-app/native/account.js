@@ -189,11 +189,17 @@ async function updateRecoveredPassword(){
     });
     const d=await safeJson(r);
     if(!r.ok)throw new Error(d.msg||d.error_description||d.message||'No pude cambiar la contraseña.');
-    if(d?.id)session.user=d;
-    saveSession();
+    // Recovery is also treated as a security event: revoke all refresh-token sessions.
+    try{
+      await fetch(CFG.url+'/auth/v1/logout',{
+        method:'POST',
+        headers:authHeaders(session.access_token)
+      });
+    }catch{}
     q('#bluequestPasswordDialog').close();
-    await loadAccess();
-    window.toast?.('Contraseña actualizada ✓');
+    session=null;entitlements.clear();saveSession();renderAccount();
+    window.toast?.('Contraseña actualizada · sesiones cerradas ✓');
+    setTimeout(()=>openAuth('login'),250);
   }catch(e){msg.textContent=e.message||'No pude cambiar la contraseña.'}
   finally{btn.disabled=false}
 }
