@@ -103,12 +103,12 @@ function renderAccount(){
     status.textContent='CONECTADO';
     name.textContent=session.user.user_metadata?.display_name||session.user.email?.split('@')[0]||'BlueQuest User';
     email.textContent=session.user.email||'';
-    q('#accountLoginBtn').hidden=true;q('#accountLogoutBtn').hidden=false;q('#accountRefreshBtn').hidden=false;
+    q('#accountLoginBtn').hidden=true;q('#accountLogoutBtn').hidden=false;q('#accountRefreshBtn').hidden=false;q('#accountPasswordBtn').hidden=false;
   }else{
     status.textContent='CORE GRATIS';
     name.textContent='Cuenta BlueQuest';
     email.textContent='El Core funciona sin cuenta. Inicia sesión para beneficios online.';
-    q('#accountLoginBtn').hidden=false;q('#accountLogoutBtn').hidden=true;q('#accountRefreshBtn').hidden=true;
+    q('#accountLoginBtn').hidden=false;q('#accountLogoutBtn').hidden=true;q('#accountRefreshBtn').hidden=true;q('#accountPasswordBtn').hidden=true;
   }
   const map={community:'accCommunity',boss_atlas:'accBoss',fishing_tools:'accFishing',gold_saucer:'accGold',nexus:'accNexus',cloud_sync:'accCloud',supporter:'accSupporter'};
   Object.entries(map).forEach(([k,id])=>{const e=q('#'+id);if(!e)return;e.classList.toggle('ok',hasModule(k));e.classList.toggle('locked',!hasModule(k));const s=e.querySelector('small');if(s)s.textContent=hasModule(k)?(k==='community'?'Disponible en tu cuenta':'Incluido con Community'):'Bloqueado'});
@@ -198,6 +198,62 @@ async function updateRecoveredPassword(){
   finally{btn.disabled=false}
 }
 
+
+function openChangePassword(){
+  if(!session?.user){openAuth('login');return}
+  const d=q('#bluequestChangePasswordDialog');if(!d)return;
+  ['#currentPassword','#changeNewPassword','#changeNewPasswordConfirm'].forEach(id=>{const e=q(id);if(e)e.value=''});
+  const msg=q('#changePasswordMessage');if(msg)msg.textContent='Usa al menos '+PASSWORD_MIN_LENGTH+' caracteres.';
+  if(!d.open)d.showModal();
+}
+async function changePassword(){
+  if(!CFG||!session?.user?.email)return;
+  const current=q('#currentPassword')?.value||'';
+  const next=q('#changeNewPassword')?.value||'';
+  const confirm=q('#changeNewPasswordConfirm')?.value||'';
+  const msg=q('#changePasswordMessage');
+  const btn=q('#changePasswordSubmit');
+  if(!current){msg.textContent='Escribe tu contraseña actual.';return}
+  if(next.length<PASSWORD_MIN_LENGTH){msg.textContent='La nueva contraseña debe tener al menos '+PASSWORD_MIN_LENGTH+' caracteres.';return}
+  if(next!==confirm){msg.textContent='Las contraseñas nuevas no coinciden.';return}
+  if(current===next){msg.textContent='La contraseña nueva debe ser diferente de la actual.';return}
+  btn.disabled=true;msg.textContent='Verificando contraseña actual…';
+  try{
+    const loginRes=await fetch(CFG.url+'/auth/v1/token?grant_type=password',{
+      method:'POST',
+      headers:{'apikey':CFG.publishableKey,'Content-Type':'application/json'},
+      body:JSON.stringify({email:session.user.email,password:current})
+    });
+    const fresh=await safeJson(loginRes);
+    if(!loginRes.ok||!fresh.access_token)throw new Error('La contraseña actual no es correcta.');
+
+    msg.textContent='Actualizando contraseña…';
+    const updateRes=await fetch(CFG.url+'/auth/v1/user',{
+      method:'PUT',
+      headers:authHeaders(fresh.access_token),
+      body:JSON.stringify({password:next})
+    });
+    const updated=await safeJson(updateRes);
+    if(!updateRes.ok)throw new Error(updated.msg||updated.error_description||updated.message||'No pude cambiar la contraseña.');
+
+    // Revoke every refresh-token session after a security-sensitive password change.
+    // Existing short-lived access tokens may remain usable only until they expire.
+    try{
+      await fetch(CFG.url+'/auth/v1/logout',{
+        method:'POST',
+        headers:authHeaders(fresh.access_token)
+      });
+    }catch{}
+
+    q('#bluequestChangePasswordDialog').close();
+    session=null;entitlements.clear();saveSession();renderAccount();
+    window.toast?.('Contraseña cambiada · sesiones cerradas ✓');
+    setTimeout(()=>openAuth('login'),250);
+  }catch(e){
+    msg.textContent=e.message||'No pude cambiar la contraseña.';
+  }finally{btn.disabled=false}
+}
+
 async function logout(){
   try{if(session?.access_token)await fetch(CFG.url+'/auth/v1/logout',{method:'POST',headers:authHeaders(session.access_token)})}catch{}
   session=null;entitlements.clear();saveSession();renderAccount();window.toast?.('Sesión cerrada');
@@ -206,15 +262,19 @@ function bind(){
   q('#accountLoginBtn')?.addEventListener('click',()=>openAuth('login'));
   q('#accountLogoutBtn')?.addEventListener('click',logout);
   q('#accountRefreshBtn')?.addEventListener('click',loadAccess);
+  q('#accountPasswordBtn')?.addEventListener('click',openChangePassword);
   q('#authClose')?.addEventListener('click',()=>q('#bluequestAuthDialog').close());
   q('#authSubmit')?.addEventListener('click',submitAuth);
   q('#authForgotBtn')?.addEventListener('click',requestPasswordReset);
   q('#passwordResetClose')?.addEventListener('click',()=>q('#bluequestPasswordDialog').close());
   q('#passwordResetSubmit')?.addEventListener('click',updateRecoveredPassword);
+  q('#changePasswordClose')?.addEventListener('click',()=>q('#bluequestChangePasswordDialog').close());
+  q('#changePasswordSubmit')?.addEventListener('click',changePassword);
+  q('#changeNewPasswordConfirm')?.addEventListener('keydown',e=>{if(e.key==='Enter')changePassword()});
   q('#newPasswordConfirm')?.addEventListener('keydown',e=>{if(e.key==='Enter')updateRecoveredPassword()});
   q('#authSwitchBtn')?.addEventListener('click',()=>openAuth(mode==='login'?'signup':'login'));
   q('#authPassword')?.addEventListener('keydown',e=>{if(e.key==='Enter')submitAuth()});
 }
-window.BlueQuestCloud={has,hasModule,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;},acceptAuthUrl,requestPasswordReset};
+window.BlueQuestCloud={has,hasModule,openAuth,refresh:loadAccess,getSession:()=>session,ensureSession:async()=>{await refreshIfNeeded();return session;},acceptAuthUrl,requestPasswordReset,openChangePassword};
 document.addEventListener('DOMContentLoaded',async()=>{loadSession();bind();renderAccount();await bindNativeAuthLinks();if(session)await loadAccess()});
 })();
