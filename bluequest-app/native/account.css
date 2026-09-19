@@ -212,3 +212,46 @@
 .admin-users-error {
   opacity: 1;
 }
+/* ===== BlueQuest Admin — Cuenta administrativa ===== */
+
+.admin-user-card.is-admin {
+  border: 1px solid rgba(255, 205, 70, 0.45);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 205, 70, 0.08),
+      rgba(255, 255, 255, 0.025)
+    );
+  box-shadow: 0 0 20px rgba(255, 205, 70, 0.06);
+}
+
+.admin-crown {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(255, 205, 70, 0.14);
+  border: 1px solid rgba(255, 205, 70, 0.25);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.admin-user-status.is-admin {
+  background: rgba(255, 205, 70, 0.14);
+  border: 1px solid rgba(255, 205, 70, 0.25);
+  font-weight: 900;
+}
+
+.admin-user-protected {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 11px;
+  background: rgba(255, 205, 70, 0.08);
+  border: 1px solid rgba(255, 205, 70, 0.16);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
