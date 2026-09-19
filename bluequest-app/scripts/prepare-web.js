@@ -93,7 +93,7 @@ if (!html.includes('id="adminUsersCard"')) {
       </section>`;
 
   html = html.replace(
-    /(<section class="analytics-card" id="adminAnalyticsCard"[\s\S]*?<\/section>)/,
+    /(<section class="account-card" id="bluequestAccountCard">[\s\S]*?<\/section>)/,
     '$1' + adminUsersCard
   );
 }
