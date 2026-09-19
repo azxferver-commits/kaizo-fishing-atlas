@@ -37,6 +37,12 @@ function fmt(n){return new Intl.NumberFormat('es-ES').format(Number(n||0))}
 function renderAdmin(data){
   const card=q('#adminAnalyticsCard'); if(!card)return;
   card.hidden=false;
+  const usersCard=q('#adminUsersCard');
+if(usersCard) usersCard.hidden=false;
+
+if(window.BlueQuestAdminUsers?.load) {
+  window.BlueQuestAdminUsers.load();
+}
   const set=(id,v)=>{const e=q('#'+id);if(e)e.textContent=fmt(v)};
   set('anAccounts',data.accounts); set('anInstalls',data.installations); set('anOnline',data.online_now);
   set('anToday',data.active_today); set('an7d',data.active_7d); set('an30d',data.active_30d); set('anCommunity',data.community);
