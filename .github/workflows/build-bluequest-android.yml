@@ -81,6 +81,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.12.apk
-          gh release view bluequest-android-v1.12.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.12.0 --title "BlueQuest Atlas Android 1.12" --notes "BlueQuest Atlas Android 1.12. Adds synced known-progress, separate manual/detected counts, and pending alerts on FFXIV jobs instead of misleading percentages."
-          gh release upload bluequest-android-v1.12.0 BlueQuest-Atlas-Android-1.12.apk --clobber
+          cp android/app/build/outputs/apk/debug/app-debug.apk BlueQuest-Atlas-Android-1.13.apk
+          gh release view bluequest-android-v1.13.0 >/dev/null 2>&1 || gh release create bluequest-android-v1.13.0 --title "BlueQuest Atlas Android 1.13" --notes "BlueQuest Atlas Android 1.13. Adds account security controls: change password from the app, verify the current password, revoke active sessions after a security change, and keep the email recovery flow."
+          gh release upload bluequest-android-v1.13.0 BlueQuest-Atlas-Android-1.13.apk --clobber
