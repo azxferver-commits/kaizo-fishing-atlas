@@ -1,0 +1,2 @@
+{"key":"dataset","value":{"counts":{"jobs":21,"steps":502,"bosses":313,"guides":47,"phases":95,"content":103,"visuals":416,"dungeons":100,"mechanics":213,"alliance_raids":3},"generated_at":"2026-09-20T20:05:12.687345+00:00","schema_version":2},"updated_at":"2026-09-20T20:05:12.687345+00:00"}
+{"key":"ui_assets","value":{"source":"XIVAPI v2 official game assets","job_icons":21,"arena_maps":103,"role_icons":5},"updated_at":"2026-09-21T03:35:51.846188+00:00"}
