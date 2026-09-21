@@ -1,0 +1,1105 @@
+{
+  "table": "boss_master_arena_elements",
+  "offset": 1200,
+  "row_count": 47,
+  "rows": [
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare",
+        "orientation": null,
+        "source_text": "Covers the arena in purple circle AoEs that shrink over time, gradually exposing safe area(s). The attack can leave four safe areas along the edge of the arena, or a single safe area in the direct center, but not both at the same time.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+      "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation",
+        "orientation": null,
+        "source_text": "Creates five small puddles on the floor that inflict Bleeding and Heavy to players standing in them. Sweep: After a short delay, the Magicked Brooms on the edges of the room will move in straight lines to a puddle in their 'lane'. While moving, the brooms will damage and knock back players in their path, inflicting a stack of Vulnerability Up. When each broom reaches its respective puddle, Sweep's area of effect will increase and the puddle will be removed.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock",
+        "orientation": null,
+        "source_text": "Large Circle AoEs beneath two random players.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "stack",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "player"
+        },
+        "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse",
+        "orientation": null,
+        "source_text": "Stack marker on a random player.",
+        "element_type": "marker",
+        "arena_element_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse--marker--stack",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "stack",
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse",
+      "element_type": "marker",
+      "arena_element_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse--marker--stack",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well",
+        "orientation": null,
+        "source_text": "Circle AoEs targeted on all four players.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": "high"
+        },
+        "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn",
+        "orientation": null,
+        "source_text": "A cast immediately after Direct Seeding. At the end of the long cast, the Leannan Seeds will sprout into Lover's Ring adds. Seeds that sprout on barren tiles immediately die, while seeds sprouting on grass tiles must be killed through combat. Toxic Sprout: If left alive for too long, the Lover's Rings will self-destruct to deal high damage to the entire party while also inflicting Slow and a stack of Poison.",
+        "element_type": "add",
+        "arena_element_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn",
+      "element_type": "add",
+      "arena_element_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds",
+        "orientation": null,
+        "source_text": "Eight ground-targeted Circle AoEs and four player-targeted AoEs with very little room to avoid taking two hits from the attack.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind",
+        "orientation": null,
+        "source_text": "Subsequent casts of Direct Seeding will cause a Djinn to appear on one edge of the arena that will knock all players and seeds over one tile directly away from the add just as Gardener's Hymn casts.",
+        "element_type": "add",
+        "arena_element_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind",
+      "element_type": "add",
+      "arena_element_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind",
+        "orientation": null,
+        "source_text": "Subsequent casts of Direct Seeding will cause a Djinn to appear on one edge of the arena that will knock all players and seeds over one tile directly away from the add just as Gardener's Hymn casts.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain",
+        "orientation": "toward_target",
+        "source_text": "Proximity-based tethers to each player in sequence, charging at them for moderate damage. Move away to turn the tether purple to avoid being inflicted with a stack of Vulnerability Up. Standing in Lugus's path as he charges causes moderate damage. Fire's Ire: After each charge, casts a short but wide cone attack at the targeted player. This attack can destroy the furniture around the room.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+        "position": null,
+        "parameters": {
+          "endpoints": [
+            "source",
+            "target"
+          ]
+        },
+        "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain",
+        "orientation": "toward_target",
+        "source_text": "Proximity-based tethers to each player in sequence, charging at them for moderate damage. Move away to turn the tether purple to avoid being inflicted with a stack of Vulnerability Up. Standing in Lugus's path as he charges causes moderate damage. Fire's Ire: After each charge, casts a short but wide cone attack at the targeted player. This attack can destroy the furniture around the room.",
+        "element_type": "tether",
+        "arena_element_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain--tether--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+      "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain",
+      "element_type": "tether",
+      "arena_element_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain--tether--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife",
+        "orientation": "toward_target",
+        "source_text": "Line AoEs from each corner targeting each party member. Trust NPCs will stack in the center.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash",
+        "orientation": null,
+        "source_text": "Will teleport to marked location just before unleashing a circle AoE. Inflicts vuln stacks.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash",
+        "orientation": null,
+        "source_text": "Will teleport self and shadow to two marked locations and both unleash either a circle AoE or a line AoE. AoEs are marked, just remember that he's going to move first. Inflicts vuln stacks.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash",
+        "orientation": "toward_target",
+        "source_text": "Will teleport self and shadow to two marked locations and both unleash either a circle AoE or a line AoE. AoEs are marked, just remember that he's going to move first. Inflicts vuln stacks.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii",
+        "orientation": "toward_target",
+        "source_text": "Giant cone AoE. Inflicts cleanseable Doom. Dodge.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy",
+        "orientation": null,
+        "source_text": "Summons four zombies, one tethered to each party member. Summons walking zombies first, crawling zombies second, then both in succession. Walking, light tether: These zombies auto you for a few seconds, then drop dead in preparation for Necroburst. Crawling, smoky tether: These zombies will inflict Rigor Mortis when they catch you -- they slowly approach at first, but will instantly close the gap after an AoE marker if they haven't caught you by then.",
+        "element_type": "add",
+        "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy",
+      "element_type": "add",
+      "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "position": null,
+        "parameters": {
+          "endpoints": [
+            "source",
+            "target"
+          ]
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy",
+        "orientation": "toward_target",
+        "source_text": "Summons four zombies, one tethered to each party member. Summons walking zombies first, crawling zombies second, then both in succession. Walking, light tether: These zombies auto you for a few seconds, then drop dead in preparation for Necroburst. Crawling, smoky tether: These zombies will inflict Rigor Mortis when they catch you -- they slowly approach at first, but will instantly close the gap after an AoE marker if they haven't caught you by then.",
+        "element_type": "tether",
+        "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy--tether--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy",
+      "element_type": "tether",
+      "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy--tether--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst",
+        "orientation": null,
+        "source_text": "Zombies explode, inflicting heavy damage and (if they were summoned walking) vuln stacks.",
+        "element_type": "add",
+        "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst",
+      "element_type": "add",
+      "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire",
+        "orientation": null,
+        "source_text": "Five giant circle AoEs that inflict vuln stacks and leave behind bleed puddles.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge",
+        "orientation": null,
+        "source_text": "Drops a circle AoE on each player that inflicts vuln stacks. Dodge.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "spread",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "players"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge",
+        "orientation": null,
+        "source_text": "Drops a circle AoE on each player that inflicts vuln stacks. Dodge.",
+        "element_type": "marker",
+        "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge--marker--spread",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "spread",
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge",
+      "element_type": "marker",
+      "arena_element_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge--marker--spread",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury",
+        "orientation": null,
+        "source_text": "Raidwide damage. First use will fill the arena's edges and corners with bleed puddles, causing the arena to become a plus shape.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice",
+        "orientation": "toward_target",
+        "source_text": "Line AoE in front inflicting vuln stacks. Always casts several in a row -- two the first time, then three for the rest of the fight.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+      "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss",
+        "orientation": null,
+        "source_text": "Circle AoE below a random player.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics",
+        "orientation": null,
+        "source_text": "Batsquatch stomps the ground several times in quick succession, dealing low damage (though this quickly stacks up) while also causing rocks to fall into the arena as circle AoEs of various sizes. The largest AoEs leave behind pillars. Pillars: If there are any pillars on the field when Batsquatch casts Soundwave, they will topple over, dealing massive damage and inflicting Vulnerability Up in a narrow cone in the direction they fell. The pillars will always collapse in a way that results in their entire damage area to be within the arena.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "position": null,
+        "parameters": {
+          "endpoints": [
+            "source",
+            "target"
+          ]
+        },
+        "mechanic_id": "shb-the-qitana-ravel--03-eros--m002--hound-out-of-heaven",
+        "orientation": "toward_target",
+        "source_text": "Proximity tether on a random non-Tank player. Eros charges at the targeted player for high damage. If the player was not far away enough to turn the tether purple, the attack also inflicts a stack of Vulnerability Up.",
+        "element_type": "tether",
+        "arena_element_id": "shb-the-qitana-ravel--03-eros--m002--hound-out-of-heaven--tether--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--03-eros--m002--hound-out-of-heaven",
+      "element_type": "tether",
+      "arena_element_id": "shb-the-qitana-ravel--03-eros--m002--hound-out-of-heaven--tether--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison",
+        "orientation": null,
+        "source_text": "Several circle AoEs will appear on the platform, dealing damage and leaving behind a poison puddle that inflicts a Poison debuff. Occasionally, one of the puddles will be targeted on a player instead.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison",
+        "orientation": null,
+        "source_text": "Several circle AoEs will appear on the platform, dealing damage and leaving behind a poison puddle that inflicts a Poison debuff. Occasionally, one of the puddles will be targeted on a player instead.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith",
+        "orientation": null,
+        "source_text": "Eros moves to an edge of the arena and performs one of two attacks: Lightning Breath: If Eros's two side heads gain electrical orbs near their mouths, the attack resolves as a stack marker on a random player along with each of the side heads firing off a large cone attack to the sides, leaving the area directly in front of Eros safe. Fire Breath: If Eros's center head gains a fiery orb in its mouth, the attack resolves as player-targeted circle AoEs on two random players along with a large cone attack from the center head. Stand directly next to Eros's sides to avoid the attack.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith",
+        "orientation": "toward_target",
+        "source_text": "Eros moves to an edge of the arena and performs one of two attacks: Lightning Breath: If Eros's two side heads gain electrical orbs near their mouths, the attack resolves as a stack marker on a random player along with each of the side heads firing off a large cone attack to the sides, leaving the area directly in front of Eros safe. Fire Breath: If Eros's center head gains a fiery orb in its mouth, the attack resolves as player-targeted circle AoEs on two random players along with a large cone attack from the center head. Stand directly next to Eros's sides to avoid the attack.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith",
+        "orientation": null,
+        "source_text": "Eros moves to an edge of the arena and performs one of two attacks: Lightning Breath: If Eros's two side heads gain electrical orbs near their mouths, the attack resolves as a stack marker on a random player along with each of the side heads firing off a large cone attack to the sides, leaving the area directly in front of Eros safe. Fire Breath: If Eros's center head gains a fiery orb in its mouth, the attack resolves as player-targeted circle AoEs on two random players along with a large cone attack from the center head. Stand directly next to Eros's sides to avoid the attack.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "stack",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "player"
+        },
+        "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith",
+        "orientation": null,
+        "source_text": "Eros moves to an edge of the arena and performs one of two attacks: Lightning Breath: If Eros's two side heads gain electrical orbs near their mouths, the attack resolves as a stack marker on a random player along with each of the side heads firing off a large cone attack to the sides, leaving the area directly in front of Eros safe. Fire Breath: If Eros's center head gains a fiery orb in its mouth, the attack resolves as player-targeted circle AoEs on two random players along with a large cone attack from the center head. Stand directly next to Eros's sides to avoid the attack.",
+        "element_type": "marker",
+        "arena_element_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith--marker--stack",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "stack",
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith",
+      "element_type": "marker",
+      "arena_element_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith--marker--stack",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant",
+        "orientation": null,
+        "source_text": "Large player-targeted circle AoEs on each player. Alpha Zaghnal will jump to each player in sequence, dealing damage to players in the area.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "spread",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "players"
+        },
+        "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant",
+        "orientation": null,
+        "source_text": "Large player-targeted circle AoEs on each player. Alpha Zaghnal will jump to each player in sequence, dealing damage to players in the area.",
+        "element_type": "marker",
+        "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant--marker--spread",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "spread",
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant",
+      "element_type": "marker",
+      "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant--marker--spread",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m004--forlorn-impact",
+        "orientation": "toward_target",
+        "source_text": "Marks each player with a number one through four, then fires a line attack at each player in sequence, dealing damage to all players in the line.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m004--forlorn-impact--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m004--forlorn-impact",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m004--forlorn-impact--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated",
+        "orientation": null,
+        "source_text": "Stack marker on one player. Afterwards, a large fire puddle will spawn where the attack hit, inflicting Burns to players standing in it. Once the first attack hits, a second stack marker will appear on another player with the same effects.",
+        "element_type": "add",
+        "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated",
+      "element_type": "add",
+      "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "stack",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "player"
+        },
+        "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated",
+        "orientation": null,
+        "source_text": "Stack marker on one player. Afterwards, a large fire puddle will spawn where the attack hit, inflicting Burns to players standing in it. Once the first attack hits, a second stack marker will appear on another player with the same effects.",
+        "element_type": "marker",
+        "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated--marker--stack",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "stack",
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated",
+      "element_type": "marker",
+      "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated--marker--stack",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m006--beta-zaghnal",
+        "orientation": null,
+        "source_text": "The east and west sides of the platform each have four containment units. If one of the Alpha Zaghnal's player-targeted attacks also hits a containment unit, it will shatter and free the Beta Zaghnal held inside. Once freed, a Beta Zaghnal will aggro onto the player who freed it.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m006--beta-zaghnal--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m006--beta-zaghnal",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-the-twinning--01-alpha-zaghnal--m006--beta-zaghnal--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-twinning--02-mithridates--m004--allagan-thunder",
+        "orientation": null,
+        "source_text": "Circle AoE centered on each player. Eventually, Mithridates will begin using all of its non tankbuster abilities simultaneously. When this happens, Allagan Thunder will only target the Tank and Healer.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-twinning--02-mithridates--m004--allagan-thunder--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+      "mechanic_id": "shb-the-twinning--02-mithridates--m004--allagan-thunder",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-twinning--02-mithridates--m004--allagan-thunder--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray",
+        "orientation": null,
+        "source_text": "Four rectangular laser AoEs in the cardinal directions from the boss. After a few seconds, the areas will be released from Temporal Stasis and become line attacks travelling outward. Causes very high damage and inflicts a stack of Vulnerability Up. The Tycoon telegraphs the lasers firing by counting down in a text box. Note that these lasers spawn on the outside of the Tycoon's hitbox and shoot toward the edge, leaving the spot where it was standing safe.",
+        "element_type": "add",
+        "arena_element_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray",
+      "element_type": "add",
+      "arena_element_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray",
+        "orientation": "toward_target",
+        "source_text": "Four rectangular laser AoEs in the cardinal directions from the boss. After a few seconds, the areas will be released from Temporal Stasis and become line attacks travelling outward. Causes very high damage and inflicts a stack of Vulnerability Up. The Tycoon telegraphs the lasers firing by counting down in a text box. Note that these lasers spawn on the outside of the Tycoon's hitbox and shoot toward the edge, leaving the spot where it was standing safe.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray",
+        "orientation": null,
+        "source_text": "Four rectangular laser AoEs in the cardinal directions from the boss. After a few seconds, the areas will be released from Temporal Stasis and become line attacks travelling outward. Causes very high damage and inflicts a stack of Vulnerability Up. The Tycoon telegraphs the lasers firing by counting down in a text box. Note that these lasers spawn on the outside of the Tycoon's hitbox and shoot toward the edge, leaving the spot where it was standing safe.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array",
+        "orientation": null,
+        "source_text": "Similar to Magitek Crossray, except the AoEs appear from the outside and shoot in toward the center of the platform. Temporal Stasis: Running into a time-stopped laser will cause a Temporal Paradox, spreading the laser's damage to the entire party while also inflicting Vulnerability Up on the offending player.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "mechanic_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity",
+        "orientation": null,
+        "source_text": "Black and red circle AoEs that grow in size after a few seconds before finally going off, dealing high damage.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "mechanic_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal",
+        "orientation": null,
+        "source_text": "Circle AoEs targeted on each player.",
+        "element_type": "danger_zone",
+        "arena_element_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal",
+      "element_type": "danger_zone",
+      "arena_element_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "spread",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "players"
+        },
+        "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal",
+        "orientation": null,
+        "source_text": "Circle AoEs targeted on each player.",
+        "element_type": "marker",
+        "arena_element_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal--marker--spread",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "spread",
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal",
+      "element_type": "marker",
+      "arena_element_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal--marker--spread",
+      "verification_status": "derived_from_source"
+    }
+  ]
+}
