@@ -1,0 +1,98 @@
+{
+  "table": "boss_atlas_encounters",
+  "offset": 300,
+  "row_count": 13,
+  "rows": [
+    {
+      "id": "shb-paglth-an--03-lunar-bahamut",
+      "name": "Lunar Bahamut",
+      "dungeon_id": "shb-paglth-an",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+      "name": "Seeker of Solitude",
+      "dungeon_id": "shb-the-grand-cosmos",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-the-grand-cosmos--02-leannan-sith",
+      "name": "Leannan Sith",
+      "dungeon_id": "shb-the-grand-cosmos",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-the-grand-cosmos--03-lugus",
+      "name": "Lugus",
+      "dungeon_id": "shb-the-grand-cosmos",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-the-heroes-gauntlet--01-spectral-thief",
+      "name": "Spectral Thief",
+      "dungeon_id": "shb-the-heroes-gauntlet",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+      "name": "Spectral Necromancer",
+      "dungeon_id": "shb-the-heroes-gauntlet",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+      "name": "Spectral Berserker",
+      "dungeon_id": "shb-the-heroes-gauntlet",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-the-qitana-ravel--01-lozatl",
+      "name": "Lozatl",
+      "dungeon_id": "shb-the-qitana-ravel",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-the-qitana-ravel--02-batsquatch",
+      "name": "Batsquatch",
+      "dungeon_id": "shb-the-qitana-ravel",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-the-qitana-ravel--03-eros",
+      "name": "Eros",
+      "dungeon_id": "shb-the-qitana-ravel",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-the-twinning--01-alpha-zaghnal",
+      "name": "Alpha Zaghnal",
+      "dungeon_id": "shb-the-twinning",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-the-twinning--02-mithridates",
+      "name": "Mithridates",
+      "dungeon_id": "shb-the-twinning",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-the-twinning--03-the-tycoon",
+      "name": "The Tycoon",
+      "dungeon_id": "shb-the-twinning",
+      "guide_status": false,
+      "encounter_order": 3
+    }
+  ]
+}
