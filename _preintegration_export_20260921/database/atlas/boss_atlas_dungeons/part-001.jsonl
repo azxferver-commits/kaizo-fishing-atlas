@@ -1,0 +1,103 @@
+{"id":"arr-sastasha","name":"Sastasha","expansion":"ARR","level":15,"source_url":"https://ffxiv.consolegameswiki.com/wiki/Sastasha","sort_order":1,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-tam-tara-deepcroft","name":"The Tam-Tara Deepcroft","expansion":"ARR","level":16,"source_url":"https://ffxiv.consolegameswiki.com/wiki/The_Tam-Tara_Deepcroft","sort_order":2,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-copperbell-mines","name":"Copperbell Mines","expansion":"ARR","level":17,"source_url":"https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines","sort_order":3,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-halatali","name":"Halatali","expansion":"ARR","level":20,"source_url":"https://ffxiv.consolegameswiki.com/wiki/Halatali","sort_order":4,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-thousand-maws-of-toto-rak","name":"The Thousand Maws of Toto-Rak","expansion":"ARR","level":24,"source_url":"https://ffxiv.consolegameswiki.com/wiki/The_Thousand_Maws_of_Toto-Rak","sort_order":5,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-haukke-manor","name":"Haukke Manor","expansion":"ARR","level":28,"source_url":"https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor","sort_order":6,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-brayflox-s-longstop","name":"Brayflox's Longstop","expansion":"ARR","level":32,"source_url":"https://ffxiv.consolegameswiki.com/wiki/Brayflox%27s_Longstop","sort_order":7,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-sunken-temple-of-qarn","name":"The Sunken Temple of Qarn","expansion":"ARR","level":35,"source_url":"https://ffxiv.consolegameswiki.com/wiki/The_Sunken_Temple_of_Qarn","sort_order":8,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-cutter-s-cry","name":"Cutter's Cry","expansion":"ARR","level":38,"source_url":"https://ffxiv.consolegameswiki.com/wiki/Cutter%27s_Cry","sort_order":9,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-stone-vigil","name":"The Stone Vigil","expansion":"ARR","level":41,"source_url":"https://ffxiv.consolegameswiki.com/wiki/The_Stone_Vigil","sort_order":10,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-dzemael-darkhold","name":"Dzemael Darkhold","expansion":"ARR","level":44,"source_url":"https://ffxiv.consolegameswiki.com/wiki/Dzemael_Darkhold","sort_order":11,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-aurum-vale","name":"The Aurum Vale","expansion":"ARR","level":47,"source_url":"https://ffxiv.consolegameswiki.com/wiki/The_Aurum_Vale","sort_order":12,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-wanderer-s-palace","name":"The Wanderer's Palace","expansion":"ARR","level":50,"source_url":null,"sort_order":13,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-castrum-meridianum","name":"Castrum Meridianum","expansion":"ARR","level":50,"source_url":null,"sort_order":14,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-praetorium","name":"The Praetorium","expansion":"ARR","level":50,"source_url":null,"sort_order":15,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-amdapor-keep","name":"Amdapor Keep","expansion":"ARR","level":50,"source_url":null,"sort_order":16,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-pharos-sirius","name":"Pharos Sirius","expansion":"ARR","level":50,"source_url":null,"sort_order":17,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-copperbell-mines-hard","name":"Copperbell Mines (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":18,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-haukke-manor-hard","name":"Haukke Manor (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":19,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-lost-city-of-amdapor","name":"The Lost City of Amdapor","expansion":"ARR","level":50,"source_url":null,"sort_order":20,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-halatali-hard","name":"Halatali (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":21,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-brayflox-s-longstop-hard","name":"Brayflox's Longstop (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":22,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-hullbreaker-isle","name":"Hullbreaker Isle","expansion":"ARR","level":50,"source_url":null,"sort_order":23,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-tam-tara-deepcroft-hard","name":"The Tam-Tara Deepcroft (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":24,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-stone-vigil-hard","name":"The Stone Vigil (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":25,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-snowcloak","name":"Snowcloak","expansion":"ARR","level":50,"source_url":null,"sort_order":26,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-sastasha-hard","name":"Sastasha (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":27,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-sunken-temple-of-qarn-hard","name":"The Sunken Temple of Qarn (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":28,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-keeper-of-the-lake","name":"The Keeper of the Lake","expansion":"ARR","level":50,"source_url":null,"sort_order":29,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-the-wanderer-s-palace-hard","name":"The Wanderer's Palace (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":30,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-amdapor-keep-hard","name":"Amdapor Keep (Hard)","expansion":"ARR","level":50,"source_url":null,"sort_order":31,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-dusk-vigil","name":"The Dusk Vigil","expansion":"HW","level":51,"source_url":null,"sort_order":35,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-sohm-al","name":"Sohm Al","expansion":"HW","level":53,"source_url":null,"sort_order":36,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-aery","name":"The Aery","expansion":"HW","level":55,"source_url":null,"sort_order":37,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-vault","name":"The Vault","expansion":"HW","level":57,"source_url":null,"sort_order":38,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-great-gubal-library","name":"The Great Gubal Library","expansion":"HW","level":59,"source_url":null,"sort_order":39,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-aetherochemical-research-facility","name":"The Aetherochemical Research Facility","expansion":"HW","level":60,"source_url":null,"sort_order":40,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-neverreap","name":"Neverreap","expansion":"HW","level":60,"source_url":null,"sort_order":41,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-fractal-continuum","name":"The Fractal Continuum","expansion":"HW","level":60,"source_url":null,"sort_order":42,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-saint-mocianne-s-arboretum","name":"Saint Mocianne's Arboretum","expansion":"HW","level":60,"source_url":null,"sort_order":43,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-pharos-sirius-hard","name":"Pharos Sirius (Hard)","expansion":"HW","level":60,"source_url":null,"sort_order":44,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-antitower","name":"The Antitower","expansion":"HW","level":60,"source_url":null,"sort_order":45,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-lost-city-of-amdapor-hard","name":"The Lost City of Amdapor (Hard)","expansion":"HW","level":60,"source_url":null,"sort_order":46,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-sohr-khai","name":"Sohr Khai","expansion":"HW","level":60,"source_url":null,"sort_order":47,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-hullbreaker-isle-hard","name":"Hullbreaker Isle (Hard)","expansion":"HW","level":60,"source_url":null,"sort_order":48,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-xelphatol","name":"Xelphatol","expansion":"HW","level":60,"source_url":null,"sort_order":49,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-the-great-gubal-library-hard","name":"The Great Gubal Library (Hard)","expansion":"HW","level":60,"source_url":null,"sort_order":50,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-baelsar-s-wall","name":"Baelsar's Wall","expansion":"HW","level":60,"source_url":null,"sort_order":51,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"hw-sohm-al-hard","name":"Sohm Al (Hard)","expansion":"HW","level":60,"source_url":null,"sort_order":52,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-the-sirensong-sea","name":"The Sirensong Sea","expansion":"SB","level":61,"source_url":null,"sort_order":53,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-shisui-of-the-violet-tides","name":"Shisui of the Violet Tides","expansion":"SB","level":63,"source_url":null,"sort_order":54,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-bardam-s-mettle","name":"Bardam's Mettle","expansion":"SB","level":65,"source_url":null,"sort_order":55,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-doma-castle","name":"Doma Castle","expansion":"SB","level":67,"source_url":null,"sort_order":56,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-castrum-abania","name":"Castrum Abania","expansion":"SB","level":69,"source_url":null,"sort_order":57,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-ala-mhigo","name":"Ala Mhigo","expansion":"SB","level":70,"source_url":null,"sort_order":58,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-kugane-castle","name":"Kugane Castle","expansion":"SB","level":70,"source_url":null,"sort_order":59,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-the-temple-of-the-fist","name":"The Temple of the Fist","expansion":"SB","level":70,"source_url":null,"sort_order":60,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-the-drowned-city-of-skalla","name":"The Drowned City of Skalla","expansion":"SB","level":70,"source_url":null,"sort_order":61,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-hells-lid","name":"Hells' Lid","expansion":"SB","level":70,"source_url":null,"sort_order":62,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-the-fractal-continuum-hard","name":"The Fractal Continuum (Hard)","expansion":"SB","level":70,"source_url":null,"sort_order":63,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-the-swallow-s-compass","name":"The Swallow's Compass","expansion":"SB","level":70,"source_url":null,"sort_order":64,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-the-burn","name":"The Burn","expansion":"SB","level":70,"source_url":null,"sort_order":65,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-saint-mocianne-s-arboretum-hard","name":"Saint Mocianne's Arboretum (Hard)","expansion":"SB","level":70,"source_url":null,"sort_order":66,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"sb-the-ghimlyt-dark","name":"The Ghimlyt Dark","expansion":"SB","level":70,"source_url":null,"sort_order":67,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-holminster-switch","name":"Holminster Switch","expansion":"SHB","level":71,"source_url":null,"sort_order":68,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-dohn-mheg","name":"Dohn Mheg","expansion":"SHB","level":73,"source_url":null,"sort_order":69,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-the-qitana-ravel","name":"The Qitana Ravel","expansion":"SHB","level":75,"source_url":null,"sort_order":70,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-malikah-s-well","name":"Malikah's Well","expansion":"SHB","level":77,"source_url":null,"sort_order":71,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-mt-gulg","name":"Mt. Gulg","expansion":"SHB","level":79,"source_url":null,"sort_order":72,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-amaurot","name":"Amaurot","expansion":"SHB","level":80,"source_url":null,"sort_order":73,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-the-twinning","name":"The Twinning","expansion":"SHB","level":80,"source_url":null,"sort_order":74,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-akadaemia-anyder","name":"Akadaemia Anyder","expansion":"SHB","level":80,"source_url":null,"sort_order":75,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-the-grand-cosmos","name":"The Grand Cosmos","expansion":"SHB","level":80,"source_url":null,"sort_order":76,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-anamnesis-anyder","name":"Anamnesis Anyder","expansion":"SHB","level":80,"source_url":null,"sort_order":77,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-the-heroes-gauntlet","name":"The Heroes' Gauntlet","expansion":"SHB","level":80,"source_url":null,"sort_order":78,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-matoya-s-relict","name":"Matoya's Relict","expansion":"SHB","level":80,"source_url":null,"sort_order":79,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"shb-paglth-an","name":"Paglth'an","expansion":"SHB","level":80,"source_url":null,"sort_order":80,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-the-tower-of-zot","name":"The Tower of Zot","expansion":"EW","level":81,"source_url":null,"sort_order":81,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-the-tower-of-babil","name":"The Tower of Babil","expansion":"EW","level":83,"source_url":null,"sort_order":82,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-vanaspati","name":"Vanaspati","expansion":"EW","level":85,"source_url":null,"sort_order":83,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-ktisis-hyperboreia","name":"Ktisis Hyperboreia","expansion":"EW","level":87,"source_url":null,"sort_order":84,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-the-aitiascope","name":"The Aitiascope","expansion":"EW","level":89,"source_url":null,"sort_order":85,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-the-dead-ends","name":"The Dead Ends","expansion":"EW","level":90,"source_url":null,"sort_order":86,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-smileton","name":"Smileton","expansion":"EW","level":90,"source_url":null,"sort_order":87,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-the-stigma-dreamscape","name":"The Stigma Dreamscape","expansion":"EW","level":90,"source_url":null,"sort_order":88,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-alzadaal-s-legacy","name":"Alzadaal's Legacy","expansion":"EW","level":90,"source_url":null,"sort_order":89,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-the-fell-court-of-troia","name":"The Fell Court of Troia","expansion":"EW","level":90,"source_url":null,"sort_order":90,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-lapis-manalis","name":"Lapis Manalis","expansion":"EW","level":90,"source_url":null,"sort_order":91,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-the-aetherfont","name":"The Aetherfont","expansion":"EW","level":90,"source_url":null,"sort_order":92,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"ew-the-lunar-subterrane","name":"The Lunar Subterrane","expansion":"EW","level":90,"source_url":null,"sort_order":93,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-ihuykatumu","name":"Ihuykatumu","expansion":"DT","level":91,"source_url":null,"sort_order":94,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-worqor-zormor","name":"Worqor Zormor","expansion":"DT","level":93,"source_url":null,"sort_order":95,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-the-skydeep-cenote","name":"The Skydeep Cenote","expansion":"DT","level":95,"source_url":null,"sort_order":96,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-vanguard","name":"Vanguard","expansion":"DT","level":97,"source_url":null,"sort_order":97,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-origenics","name":"Origenics","expansion":"DT","level":99,"source_url":null,"sort_order":98,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-alexandria","name":"Alexandria","expansion":"DT","level":100,"source_url":null,"sort_order":99,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-tender-valley","name":"Tender Valley","expansion":"DT","level":100,"source_url":null,"sort_order":100,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-the-strayborough-deadwalk","name":"The Strayborough Deadwalk","expansion":"DT","level":100,"source_url":null,"sort_order":101,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-yuweyawata-field-station","name":"Yuweyawata Field Station","expansion":"DT","level":100,"source_url":null,"sort_order":102,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"dt-the-underkeep","name":"The Underkeep","expansion":"DT","level":100,"source_url":null,"sort_order":103,"content_type":"Dungeon","series_name":null,"party_size":4}
+{"id":"arr-labyrinth-of-the-ancients","name":"The Labyrinth of the Ancients","expansion":"ARR","level":50,"source_url":"https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients","sort_order":32,"content_type":"Alliance Raid","series_name":"Crystal Tower","party_size":24}
+{"id":"arr-syrcus-tower","name":"Syrcus Tower","expansion":"ARR","level":50,"source_url":"https://ffxiv.consolegameswiki.com/wiki/Syrcus_Tower","sort_order":33,"content_type":"Alliance Raid","series_name":"Crystal Tower","party_size":24}
+{"id":"arr-world-of-darkness","name":"The World of Darkness","expansion":"ARR","level":50,"source_url":"https://ffxiv.consolegameswiki.com/wiki/The_World_of_Darkness","sort_order":34,"content_type":"Alliance Raid","series_name":"Crystal Tower","party_size":24}
