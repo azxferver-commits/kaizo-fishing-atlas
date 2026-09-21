@@ -1,0 +1,2013 @@
+{
+  "table": "boss_master_assets",
+  "offset": 300,
+  "row_count": 100,
+  "rows": [
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-paglth-an--03-lunar-bahamut:primary",
+        "owner_id": "shb-paglth-an--03-lunar-bahamut",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/paglth-an-lunar-bahamut-3-5409f1a8.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/a/ae/Lunar_Bahamut.jpg/720px-Lunar_Bahamut.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lunar_Bahamut.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-paglth-an--03-lunar-bahamut:primary",
+      "owner_id": "shb-paglth-an--03-lunar-bahamut",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lunar_Bahamut.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-grand-cosmos--01-seeker-of-solitude:primary",
+        "owner_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-grand-cosmos-seeker-of-solitude-1-e54c468d.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/37/Seeker_Of_Solitude.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Seeker_of_Solitude",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-grand-cosmos--01-seeker-of-solitude:primary",
+      "owner_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Seeker_of_Solitude",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-grand-cosmos--02-leannan-sith:primary",
+        "owner_id": "shb-the-grand-cosmos--02-leannan-sith",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-grand-cosmos-leannan-sith-2-85ed57e2.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3a/Leannan_Sith.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Leannan_Sith.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-grand-cosmos--02-leannan-sith:primary",
+      "owner_id": "shb-the-grand-cosmos--02-leannan-sith",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Leannan_Sith.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-grand-cosmos--03-lugus:primary",
+        "owner_id": "shb-the-grand-cosmos--03-lugus",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-grand-cosmos-lugus-3-2e11be77.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/7/7a/Lugus.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lugus.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-grand-cosmos--03-lugus:primary",
+      "owner_id": "shb-the-grand-cosmos--03-lugus",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lugus.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-heroes-gauntlet--01-spectral-thief:primary",
+        "owner_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-heroes-gauntlet-spectral-thief-1-62bae202.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/9/9e/Spectral_Thief.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Spectral_Thief.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-heroes-gauntlet--01-spectral-thief:primary",
+      "owner_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Spectral_Thief.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-heroes-gauntlet--02-spectral-necromancer:primary",
+        "owner_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-heroes-gauntlet-spectral-necromancer-2-02b634e8.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/2/22/Spectral_Necromancer_render.png/560px-Spectral_Necromancer_render.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Spectral_Necromancer",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-heroes-gauntlet--02-spectral-necromancer:primary",
+      "owner_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Spectral_Necromancer",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-heroes-gauntlet--03-spectral-berserker:primary",
+        "owner_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-heroes-gauntlet-spectral-berserker-3-239ed779.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/1/10/Spectral_Berserker.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Spectral_Berserker.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-heroes-gauntlet--03-spectral-berserker:primary",
+      "owner_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Spectral_Berserker.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-qitana-ravel--01-lozatl:primary",
+        "owner_id": "shb-the-qitana-ravel--01-lozatl",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-qitana-ravel-lozatl-1-a780e594.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/7/70/Lozatl.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lozatl.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-qitana-ravel--01-lozatl:primary",
+      "owner_id": "shb-the-qitana-ravel--01-lozatl",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lozatl.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-qitana-ravel--02-batsquatch:primary",
+        "owner_id": "shb-the-qitana-ravel--02-batsquatch",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-qitana-ravel-batsquatch-2-2a321657.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/c/c7/Batsquatch.jpg/720px-Batsquatch.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Batsquatch.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-qitana-ravel--02-batsquatch:primary",
+      "owner_id": "shb-the-qitana-ravel--02-batsquatch",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Batsquatch.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-qitana-ravel--03-eros:primary",
+        "owner_id": "shb-the-qitana-ravel--03-eros",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-qitana-ravel-eros-3-c2e9ac50.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/fd/Eros.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Eros.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-qitana-ravel--03-eros:primary",
+      "owner_id": "shb-the-qitana-ravel--03-eros",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Eros.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-twinning--01-alpha-zaghnal:primary",
+        "owner_id": "shb-the-twinning--01-alpha-zaghnal",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-twinning-alpha-zaghnal-1-b006d972.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/9/9a/Alpha_Zaghnal.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Alpha_Zaghnal.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-twinning--01-alpha-zaghnal:primary",
+      "owner_id": "shb-the-twinning--01-alpha-zaghnal",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Alpha_Zaghnal.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-twinning--02-mithridates:primary",
+        "owner_id": "shb-the-twinning--02-mithridates",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-twinning-mithridates-2-9fc8c7a6.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f5/Mithridates.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Mithridates.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-twinning--02-mithridates:primary",
+      "owner_id": "shb-the-twinning--02-mithridates",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Mithridates.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-the-twinning--03-the-tycoon:primary",
+        "owner_id": "shb-the-twinning--03-the-tycoon",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-twinning-the-tycoon-3-82d0f632.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/2/2c/The_Tycoon.jpg/720px-The_Tycoon.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Tycoon.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-the-twinning--03-the-tycoon:primary",
+      "owner_id": "shb-the-twinning--03-the-tycoon",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Tycoon.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-amdapor-keep-hard:primary",
+        "owner_id": "arr-amdapor-keep-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/amdapor-keep-hard-23b567e2.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/8b/Amdapor_Keep_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amdapor_Keep_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-amdapor-keep-hard:primary",
+      "owner_id": "arr-amdapor-keep-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amdapor_Keep_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-amdapor-keep:primary",
+        "owner_id": "arr-amdapor-keep",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/amdapor-keep-11918396.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/f/ff/Amdapor_Keep.png/720px-Amdapor_Keep.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amdapor_Keep.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-amdapor-keep:primary",
+      "owner_id": "arr-amdapor-keep",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amdapor_Keep.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-brayflox-s-longstop-hard:primary",
+        "owner_id": "arr-brayflox-s-longstop-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/brayflox-s-longstop-hard-e6737d72.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/e/eb/Brayflox%27s_Longstop_%28Hard%29.png/720px-Brayflox%27s_Longstop_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Brayflox%27s_Longstop_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-brayflox-s-longstop-hard:primary",
+      "owner_id": "arr-brayflox-s-longstop-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Brayflox%27s_Longstop_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-brayflox-s-longstop:primary",
+        "owner_id": "arr-brayflox-s-longstop",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/brayflox-s-longstop-9a6b0d2a.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/0/09/Brayflox%27s_Longstop.png/720px-Brayflox%27s_Longstop.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Brayflox%27s_Longstop.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-brayflox-s-longstop:primary",
+      "owner_id": "arr-brayflox-s-longstop",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Brayflox%27s_Longstop.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-castrum-meridianum:primary",
+        "owner_id": "arr-castrum-meridianum",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/castrum-meridianum-b70deaa2.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/7/7e/Castrum_Meridianum.png/720px-Castrum_Meridianum.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Castrum_Meridianum.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-castrum-meridianum:primary",
+      "owner_id": "arr-castrum-meridianum",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Castrum_Meridianum.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-copperbell-mines-hard:primary",
+        "owner_id": "arr-copperbell-mines-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/copperbell-mines-hard-364fac10.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/5/56/Copperbell_Mines_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Copperbell_Mines_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-copperbell-mines-hard:primary",
+      "owner_id": "arr-copperbell-mines-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Copperbell_Mines_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-copperbell-mines:primary",
+        "owner_id": "arr-copperbell-mines",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/copperbell-mines-2c428ad2.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/0a/Copperbell_Mines_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Copperbell_Mines_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-copperbell-mines:primary",
+      "owner_id": "arr-copperbell-mines",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Copperbell_Mines_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-cutter-s-cry:primary",
+        "owner_id": "arr-cutter-s-cry",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/cutter-s-cry-cd9cb0a2.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/7/7c/Cutter%27s_Cry_Image.png/720px-Cutter%27s_Cry_Image.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Cutter%27s_Cry_Image.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-cutter-s-cry:primary",
+      "owner_id": "arr-cutter-s-cry",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Cutter%27s_Cry_Image.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-dzemael-darkhold:primary",
+        "owner_id": "arr-dzemael-darkhold",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/dzemael-darkhold-e72d3d0d.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/c/c8/Dzemael_Darkhold.png/720px-Dzemael_Darkhold.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Dzemael_Darkhold.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-dzemael-darkhold:primary",
+      "owner_id": "arr-dzemael-darkhold",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Dzemael_Darkhold.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-halatali-hard:primary",
+        "owner_id": "arr-halatali-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/halatali-hard-643dc594.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/8/85/Halatali_%28Hard%29.png/720px-Halatali_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Halatali_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-halatali-hard:primary",
+      "owner_id": "arr-halatali-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Halatali_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-halatali:primary",
+        "owner_id": "arr-halatali",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/halatali-3c361873.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/f/f8/Halatali_%28image%29.png/720px-Halatali_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Halatali_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-halatali:primary",
+      "owner_id": "arr-halatali",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Halatali_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-haukke-manor-hard:primary",
+        "owner_id": "arr-haukke-manor-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/haukke-manor-hard-b161304b.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/c/c2/Haukke_Manor_%28Hard%29.png/720px-Haukke_Manor_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Haukke_Manor_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-haukke-manor-hard:primary",
+      "owner_id": "arr-haukke-manor-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Haukke_Manor_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-haukke-manor:primary",
+        "owner_id": "arr-haukke-manor",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/haukke-manor-93c264ab.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/0/0a/Haukke_Manor.png/720px-Haukke_Manor.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Haukke_Manor.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-haukke-manor:primary",
+      "owner_id": "arr-haukke-manor",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Haukke_Manor.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-hullbreaker-isle:primary",
+        "owner_id": "arr-hullbreaker-isle",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/hullbreaker-isle-dd487b10.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a4/Hullbreaker_Isle.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hullbreaker_Isle.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-hullbreaker-isle:primary",
+      "owner_id": "arr-hullbreaker-isle",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hullbreaker_Isle.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": "fd42e51ca590981eeef6983392ce2fe6366f0ce41560fa2eee3dcef0a84fd22c",
+      "payload": {
+        "sha256": "fd42e51ca590981eeef6983392ce2fe6366f0ce41560fa2eee3dcef0a84fd22c",
+        "asset_id": "dungeon:arr-labyrinth-of-the-ancients:primary",
+        "owner_id": "arr-labyrinth-of-the-ancients",
+        "byte_size": 5588,
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "crystal-tower/labyrinth.webp",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d6/Labyrinthoftheancients.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-labyrinth-of-the-ancients:primary",
+      "owner_id": "arr-labyrinth-of-the-ancients",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-pharos-sirius:primary",
+        "owner_id": "arr-pharos-sirius",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/pharos-sirius-28a9d671.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/e/e9/Pharos_Sirius.png/720px-Pharos_Sirius.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Pharos_Sirius.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-pharos-sirius:primary",
+      "owner_id": "arr-pharos-sirius",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Pharos_Sirius.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-sastasha-hard:primary",
+        "owner_id": "arr-sastasha-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/sastasha-hard-1d07a674.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3c/Sastasha_%28Hard%29_Image.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sastasha_(Hard)_Image.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-sastasha-hard:primary",
+      "owner_id": "arr-sastasha-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sastasha_(Hard)_Image.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-sastasha:primary",
+        "owner_id": "arr-sastasha",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/sastasha-51cd5346.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/4d/Sastasha_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sastasha_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-sastasha:primary",
+      "owner_id": "arr-sastasha",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sastasha_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-snowcloak:primary",
+        "owner_id": "arr-snowcloak",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/snowcloak-6a72410d.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/08/Snowcloak_Image.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Snowcloak_Image.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-snowcloak:primary",
+      "owner_id": "arr-snowcloak",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Snowcloak_Image.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": "4afbec73dc42548976dc40280048b44169bc7be2cde6e66c9ffb225653fbf2a5",
+      "payload": {
+        "sha256": "4afbec73dc42548976dc40280048b44169bc7be2cde6e66c9ffb225653fbf2a5",
+        "asset_id": "dungeon:arr-syrcus-tower:primary",
+        "owner_id": "arr-syrcus-tower",
+        "byte_size": 9238,
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "crystal-tower/syrcus.webp",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/0d/Syrcustower.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Syrcus_Tower",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-syrcus-tower:primary",
+      "owner_id": "arr-syrcus-tower",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Syrcus_Tower",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-aurum-vale:primary",
+        "owner_id": "arr-the-aurum-vale",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-aurum-vale-770ef840.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/3/32/The_Aurum_Vale.png/720px-The_Aurum_Vale.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Aurum_Vale.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-aurum-vale:primary",
+      "owner_id": "arr-the-aurum-vale",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Aurum_Vale.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-keeper-of-the-lake:primary",
+        "owner_id": "arr-the-keeper-of-the-lake",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-keeper-of-the-lake-729d1e95.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/e/e0/The_Keeper_of_the_Lake.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Keeper_of_the_Lake.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-keeper-of-the-lake:primary",
+      "owner_id": "arr-the-keeper-of-the-lake",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Keeper_of_the_Lake.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-lost-city-of-amdapor:primary",
+        "owner_id": "arr-the-lost-city-of-amdapor",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-lost-city-of-amdapor-dff2ea03.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/3/3b/The_Lost_City_of_Amdapor_%28image%29.png/720px-The_Lost_City_of_Amdapor_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Lost_City_of_Amdapor_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-lost-city-of-amdapor:primary",
+      "owner_id": "arr-the-lost-city-of-amdapor",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Lost_City_of_Amdapor_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-praetorium:primary",
+        "owner_id": "arr-the-praetorium",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-praetorium-8e38dddf.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/7/73/The_Praetorium.png/720px-The_Praetorium.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Praetorium.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-praetorium:primary",
+      "owner_id": "arr-the-praetorium",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Praetorium.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-stone-vigil-hard:primary",
+        "owner_id": "arr-the-stone-vigil-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-stone-vigil-hard-19422282.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/05/The_Stone_Vigil_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Stone_Vigil_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-stone-vigil-hard:primary",
+      "owner_id": "arr-the-stone-vigil-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Stone_Vigil_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-stone-vigil:primary",
+        "owner_id": "arr-the-stone-vigil",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-stone-vigil-d4874015.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3f/Stone_Vigil_Image.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Stone_Vigil",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-stone-vigil:primary",
+      "owner_id": "arr-the-stone-vigil",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Stone_Vigil",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-sunken-temple-of-qarn-hard:primary",
+        "owner_id": "arr-the-sunken-temple-of-qarn-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-sunken-temple-of-qarn-hard-54914c87.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/a/ab/The_Sunken_Temple_of_Qarn_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Sunken_Temple_of_Qarn_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-sunken-temple-of-qarn-hard:primary",
+      "owner_id": "arr-the-sunken-temple-of-qarn-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Sunken_Temple_of_Qarn_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-sunken-temple-of-qarn:primary",
+        "owner_id": "arr-the-sunken-temple-of-qarn",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-sunken-temple-of-qarn-5b1d4d9f.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/d/d0/The_Sunken_Temple_of_Qarn.png/720px-The_Sunken_Temple_of_Qarn.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Sunken_Temple_of_Qarn.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-sunken-temple-of-qarn:primary",
+      "owner_id": "arr-the-sunken-temple-of-qarn",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Sunken_Temple_of_Qarn.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-tam-tara-deepcroft-hard:primary",
+        "owner_id": "arr-the-tam-tara-deepcroft-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-tam-tara-deepcroft-hard-a18233c0.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/41/The_Tam-Tara_Deepcrot_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Tam-Tara_Deepcroft_%28Hard%29",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-tam-tara-deepcroft-hard:primary",
+      "owner_id": "arr-the-tam-tara-deepcroft-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Tam-Tara_Deepcroft_%28Hard%29",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-tam-tara-deepcroft:primary",
+        "owner_id": "arr-the-tam-tara-deepcroft",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-tam-tara-deepcroft-5013c808.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/4f/The_Tam-Tara_Deepcroft_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Tam-Tara_Deepcroft_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-tam-tara-deepcroft:primary",
+      "owner_id": "arr-the-tam-tara-deepcroft",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Tam-Tara_Deepcroft_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-thousand-maws-of-toto-rak:primary",
+        "owner_id": "arr-the-thousand-maws-of-toto-rak",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-thousand-maws-of-toto-rak-a0ef4c29.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/7/7f/The_Thousand_Maws_of_Toto-Rak_Image.png/720px-The_Thousand_Maws_of_Toto-Rak_Image.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Thousand_Maws_of_Toto-Rak_Image.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-thousand-maws-of-toto-rak:primary",
+      "owner_id": "arr-the-thousand-maws-of-toto-rak",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Thousand_Maws_of_Toto-Rak_Image.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-wanderer-s-palace-hard:primary",
+        "owner_id": "arr-the-wanderer-s-palace-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-wanderer-s-palace-hard-c3614937.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d1/The_Wanderer%27s_Palace_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Wanderer%27s_Palace_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-wanderer-s-palace-hard:primary",
+      "owner_id": "arr-the-wanderer-s-palace-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Wanderer%27s_Palace_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:arr-the-wanderer-s-palace:primary",
+        "owner_id": "arr-the-wanderer-s-palace",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-wanderer-s-palace-1402c95b.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/e/ed/The_Wanderer%27s_Palace.png/720px-The_Wanderer%27s_Palace.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Wanderer%27s_Palace.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-the-wanderer-s-palace:primary",
+      "owner_id": "arr-the-wanderer-s-palace",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Wanderer%27s_Palace.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": "702ffe3a4fef36024379c5ab20a84a0da60858ed252c984f74869b439d4068b4",
+      "payload": {
+        "sha256": "702ffe3a4fef36024379c5ab20a84a0da60858ed252c984f74869b439d4068b4",
+        "asset_id": "dungeon:arr-world-of-darkness:primary",
+        "owner_id": "arr-world-of-darkness",
+        "byte_size": 5386,
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "crystal-tower/world-of-darkness.webp",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/e/e9/TheWorldofDarkness.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_World_of_Darkness",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:arr-world-of-darkness:primary",
+      "owner_id": "arr-world-of-darkness",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_World_of_Darkness",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-alexandria:primary",
+        "owner_id": "dt-alexandria",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/alexandria-1ccb283e.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/bb/Alexandria.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Alexandria.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-alexandria:primary",
+      "owner_id": "dt-alexandria",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Alexandria.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-ihuykatumu:primary",
+        "owner_id": "dt-ihuykatumu",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/ihuykatumu-833ccc45.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/28/Ihuykatumu.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ihuykatumu.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-ihuykatumu:primary",
+      "owner_id": "dt-ihuykatumu",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ihuykatumu.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-origenics:primary",
+        "owner_id": "dt-origenics",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/origenics-c15e4692.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/dc/Origenics.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Origenics.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-origenics:primary",
+      "owner_id": "dt-origenics",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Origenics.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-tender-valley:primary",
+        "owner_id": "dt-tender-valley",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/tender-valley-2e0ee0e7.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/81/Tender_Valley.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Tender_Valley.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-tender-valley:primary",
+      "owner_id": "dt-tender-valley",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Tender_Valley.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-the-skydeep-cenote:primary",
+        "owner_id": "dt-the-skydeep-cenote",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-skydeep-cenote-2232eda9.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/5/5e/The_Skydeep_Cenote.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Skydeep_Cenote.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-the-skydeep-cenote:primary",
+      "owner_id": "dt-the-skydeep-cenote",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Skydeep_Cenote.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-the-strayborough-deadwalk:primary",
+        "owner_id": "dt-the-strayborough-deadwalk",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-strayborough-deadwalk-cf2c4e2e.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/ff/The_Strayborough_Deadwalk.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Strayborough_Deadwalk.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-the-strayborough-deadwalk:primary",
+      "owner_id": "dt-the-strayborough-deadwalk",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Strayborough_Deadwalk.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-the-underkeep:primary",
+        "owner_id": "dt-the-underkeep",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-underkeep-df2083c8.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/5/52/The_Underkeep.png/720px-The_Underkeep.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Underkeep.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-the-underkeep:primary",
+      "owner_id": "dt-the-underkeep",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Underkeep.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-vanguard:primary",
+        "owner_id": "dt-vanguard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/vanguard-27b6cf79.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/fd/Vanguard.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Vanguard.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-vanguard:primary",
+      "owner_id": "dt-vanguard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Vanguard.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-worqor-zormor:primary",
+        "owner_id": "dt-worqor-zormor",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/worqor-zormor-e9cd3009.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d1/Worqor_Zormor.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Worqor_Zormor.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-worqor-zormor:primary",
+      "owner_id": "dt-worqor-zormor",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Worqor_Zormor.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:dt-yuweyawata-field-station:primary",
+        "owner_id": "dt-yuweyawata-field-station",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/yuweyawata-field-station-2f9d096e.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/c/c7/Yuweyawata_Field_Station.png/720px-Yuweyawata_Field_Station.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Yuweyawata_Field_Station.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:dt-yuweyawata-field-station:primary",
+      "owner_id": "dt-yuweyawata-field-station",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Yuweyawata_Field_Station.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-alzadaal-s-legacy:primary",
+        "owner_id": "ew-alzadaal-s-legacy",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/alzadaal-s-legacy-4f742779.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/6d/Alzadaal%27s_Legacy.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Alzadaal%27s_Legacy.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-alzadaal-s-legacy:primary",
+      "owner_id": "ew-alzadaal-s-legacy",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Alzadaal%27s_Legacy.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-ktisis-hyperboreia:primary",
+        "owner_id": "ew-ktisis-hyperboreia",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/ktisis-hyperboreia-7c7a9976.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/4c/Ktisis_Hyperboreia.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ktisis_Hyperboreia.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-ktisis-hyperboreia:primary",
+      "owner_id": "ew-ktisis-hyperboreia",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ktisis_Hyperboreia.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-lapis-manalis:primary",
+        "owner_id": "ew-lapis-manalis",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/lapis-manalis-eadb6f56.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/85/Lapis_Manalis.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lapis_Manalis.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-lapis-manalis:primary",
+      "owner_id": "ew-lapis-manalis",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lapis_Manalis.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-smileton:primary",
+        "owner_id": "ew-smileton",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/smileton-c42ee7b4.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/7/77/Smileton.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Smileton.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-smileton:primary",
+      "owner_id": "ew-smileton",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Smileton.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-the-aetherfont:primary",
+        "owner_id": "ew-the-aetherfont",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-aetherfont-4117bbf1.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/bc/The_Aetherfont.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Aetherfont.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-the-aetherfont:primary",
+      "owner_id": "ew-the-aetherfont",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Aetherfont.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-the-aitiascope:primary",
+        "owner_id": "ew-the-aitiascope",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-aitiascope-045ae778.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/1/1e/The_Atiascope.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Aitiascope",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-the-aitiascope:primary",
+      "owner_id": "ew-the-aitiascope",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Aitiascope",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-the-dead-ends:primary",
+        "owner_id": "ew-the-dead-ends",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-dead-ends-cc305b78.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/04/The_Dead_Ends.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Dead_Ends.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-the-dead-ends:primary",
+      "owner_id": "ew-the-dead-ends",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Dead_Ends.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-the-fell-court-of-troia:primary",
+        "owner_id": "ew-the-fell-court-of-troia",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-fell-court-of-troia-e765fbcf.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/2d/The_Fell_Court_of_Troia.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Fell_Court_of_Troia.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-the-fell-court-of-troia:primary",
+      "owner_id": "ew-the-fell-court-of-troia",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Fell_Court_of_Troia.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-the-lunar-subterrane:primary",
+        "owner_id": "ew-the-lunar-subterrane",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-lunar-subterrane-f2be5077.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/06/The_Lunar_Subterrane.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Lunar_Subterrane.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-the-lunar-subterrane:primary",
+      "owner_id": "ew-the-lunar-subterrane",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Lunar_Subterrane.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-the-stigma-dreamscape:primary",
+        "owner_id": "ew-the-stigma-dreamscape",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-stigma-dreamscape-63956618.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/7/70/The_Stigma_Dreamscape.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Stigma_Dreamscape.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-the-stigma-dreamscape:primary",
+      "owner_id": "ew-the-stigma-dreamscape",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Stigma_Dreamscape.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-the-tower-of-babil:primary",
+        "owner_id": "ew-the-tower-of-babil",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-tower-of-babil-678ba063.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3e/The_Tower_of_Babil.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Tower_of_Babil.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-the-tower-of-babil:primary",
+      "owner_id": "ew-the-tower-of-babil",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Tower_of_Babil.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-the-tower-of-zot:primary",
+        "owner_id": "ew-the-tower-of-zot",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-tower-of-zot-e7c6a56a.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/df/Tower_of_Zot_image1.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Tower_of_Zot",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-the-tower-of-zot:primary",
+      "owner_id": "ew-the-tower-of-zot",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Tower_of_Zot",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:ew-vanaspati:primary",
+        "owner_id": "ew-vanaspati",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/vanaspati-fe9e7c30.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/04/Vanaspati.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Vanaspati.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:ew-vanaspati:primary",
+      "owner_id": "ew-vanaspati",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Vanaspati.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-baelsar-s-wall:primary",
+        "owner_id": "hw-baelsar-s-wall",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/baelsar-s-wall-c00d08fb.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/cc/Baelsar%27s_Wall.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Baelsar%27s_Wall.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-baelsar-s-wall:primary",
+      "owner_id": "hw-baelsar-s-wall",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Baelsar%27s_Wall.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-hullbreaker-isle-hard:primary",
+        "owner_id": "hw-hullbreaker-isle-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/hullbreaker-isle-hard-f3bbfb18.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/fb/Hullbreaker_Isle_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hullbreaker_Isle_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-hullbreaker-isle-hard:primary",
+      "owner_id": "hw-hullbreaker-isle-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hullbreaker_Isle_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-neverreap:primary",
+        "owner_id": "hw-neverreap",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/neverreap-1e2d0a31.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/32/Neverreap.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Neverreap.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-neverreap:primary",
+      "owner_id": "hw-neverreap",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Neverreap.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-pharos-sirius-hard:primary",
+        "owner_id": "hw-pharos-sirius-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/pharos-sirius-hard-e7465a88.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/46/Pharos_Sirius_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Pharos_Sirius_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-pharos-sirius-hard:primary",
+      "owner_id": "hw-pharos-sirius-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Pharos_Sirius_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-saint-mocianne-s-arboretum:primary",
+        "owner_id": "hw-saint-mocianne-s-arboretum",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/saint-mocianne-s-arboretum-fa879984.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/82/Saint_Mocianne%27s_Arboretum.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Saint_Mocianne%27s_Arboretum.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-saint-mocianne-s-arboretum:primary",
+      "owner_id": "hw-saint-mocianne-s-arboretum",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Saint_Mocianne%27s_Arboretum.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-sohm-al-hard:primary",
+        "owner_id": "hw-sohm-al-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/sohm-al-hard-644c2c20.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/46/Sohm_Al_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sohm_Al_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-sohm-al-hard:primary",
+      "owner_id": "hw-sohm-al-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sohm_Al_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-sohm-al:primary",
+        "owner_id": "hw-sohm-al",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/sohm-al-fddb66b8.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/be/Sohm_Al.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sohm_Al.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-sohm-al:primary",
+      "owner_id": "hw-sohm-al",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sohm_Al.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-sohr-khai:primary",
+        "owner_id": "hw-sohr-khai",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/sohr-khai-4206a869.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/67/Sohr_Khai.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sohr_Khai.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-sohr-khai:primary",
+      "owner_id": "hw-sohr-khai",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Sohr_Khai.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-aery:primary",
+        "owner_id": "hw-the-aery",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-aery-caf52745.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a4/The_Aery.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Aery.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-aery:primary",
+      "owner_id": "hw-the-aery",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Aery.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-aetherochemical-research-facility:primary",
+        "owner_id": "hw-the-aetherochemical-research-facility",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-aetherochemical-research-facility-e44640ea.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/5/54/The_Aetherochemical_Research_Facility.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Aetherochemical_Research_Facility.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-aetherochemical-research-facility:primary",
+      "owner_id": "hw-the-aetherochemical-research-facility",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Aetherochemical_Research_Facility.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-antitower:primary",
+        "owner_id": "hw-the-antitower",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-antitower-d87766eb.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f1/The_Antitower.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Antitower.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-antitower:primary",
+      "owner_id": "hw-the-antitower",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Antitower.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-dusk-vigil:primary",
+        "owner_id": "hw-the-dusk-vigil",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-dusk-vigil-ba3e4865.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/c5/The_Dusk_Vigil.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Dusk_Vigil.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-dusk-vigil:primary",
+      "owner_id": "hw-the-dusk-vigil",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Dusk_Vigil.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-fractal-continuum:primary",
+        "owner_id": "hw-the-fractal-continuum",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-fractal-continuum-7824a81d.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/2d/The_Fractal_Continuum.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Fractal_Continuum.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-fractal-continuum:primary",
+      "owner_id": "hw-the-fractal-continuum",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Fractal_Continuum.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-great-gubal-library-hard:primary",
+        "owner_id": "hw-the-great-gubal-library-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-great-gubal-library-hard-32646f9a.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/47/The_Great_Gubal_Library_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Great_Gubal_Library_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-great-gubal-library-hard:primary",
+      "owner_id": "hw-the-great-gubal-library-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Great_Gubal_Library_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-great-gubal-library:primary",
+        "owner_id": "hw-the-great-gubal-library",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-great-gubal-library-696f1477.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/c3/The_Great_Gubal_Library.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Great_Gubal_Library.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-great-gubal-library:primary",
+      "owner_id": "hw-the-great-gubal-library",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Great_Gubal_Library.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-lost-city-of-amdapor-hard:primary",
+        "owner_id": "hw-the-lost-city-of-amdapor-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-lost-city-of-amdapor-hard-4bf41e1d.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/8e/The_Lost_City_of_Amdapor_%28Hard%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Lost_City_of_Amdapor_(Hard).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-lost-city-of-amdapor-hard:primary",
+      "owner_id": "hw-the-lost-city-of-amdapor-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Lost_City_of_Amdapor_(Hard).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-the-vault:primary",
+        "owner_id": "hw-the-vault",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-vault-71fe0141.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d8/The_Vault.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Vault.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-the-vault:primary",
+      "owner_id": "hw-the-vault",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Vault.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:hw-xelphatol:primary",
+        "owner_id": "hw-xelphatol",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/xelphatol-334e9d49.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/b4/Xelphatol.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Xelphatol.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:hw-xelphatol:primary",
+      "owner_id": "hw-xelphatol",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Xelphatol.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-ala-mhigo:primary",
+        "owner_id": "sb-ala-mhigo",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/ala-mhigo-f3d46cb0.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/5/55/Ala_Mhigo_%28Duty%29_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Ala_Mhigo_%28Dungeon%29",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-ala-mhigo:primary",
+      "owner_id": "sb-ala-mhigo",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Ala_Mhigo_%28Dungeon%29",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-bardam-s-mettle:primary",
+        "owner_id": "sb-bardam-s-mettle",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/bardam-s-mettle-e7333d47.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/3a/Bardam%27s_Mettle_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Bardam%27s_Mettle_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-bardam-s-mettle:primary",
+      "owner_id": "sb-bardam-s-mettle",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Bardam%27s_Mettle_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-castrum-abania:primary",
+        "owner_id": "sb-castrum-abania",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/castrum-abania-53ea0e66.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/2e/Castrum_Abania_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Castrum_Abania_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-castrum-abania:primary",
+      "owner_id": "sb-castrum-abania",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Castrum_Abania_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-doma-castle:primary",
+        "owner_id": "sb-doma-castle",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/doma-castle-5f9b87c2.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f6/Doma_Castle_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Doma_Castle_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-doma-castle:primary",
+      "owner_id": "sb-doma-castle",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Doma_Castle_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-hells-lid:primary",
+        "owner_id": "sb-hells-lid",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/hells-lid-511d5f82.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/0f/Hells%27_Lid_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hells%27_Lid_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-hells-lid:primary",
+      "owner_id": "sb-hells-lid",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hells%27_Lid_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-kugane-castle:primary",
+        "owner_id": "sb-kugane-castle",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/kugane-castle-af31f7b3.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/9/90/Kugane_Castle_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Kugane_Castle_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-kugane-castle:primary",
+      "owner_id": "sb-kugane-castle",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Kugane_Castle_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-saint-mocianne-s-arboretum-hard:primary",
+        "owner_id": "sb-saint-mocianne-s-arboretum-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/saint-mocianne-s-arboretum-hard-5aaab6ed.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/9/95/Saint_Mocianne%27s_Arboretum_%28Hard%29_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Saint_Mocianne%27s_Arboretum_(Hard)_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-saint-mocianne-s-arboretum-hard:primary",
+      "owner_id": "sb-saint-mocianne-s-arboretum-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Saint_Mocianne%27s_Arboretum_(Hard)_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-shisui-of-the-violet-tides:primary",
+        "owner_id": "sb-shisui-of-the-violet-tides",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/shisui-of-the-violet-tides-6c0e8772.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f9/Shisui_of_the_Violet_Tides_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Shisui_of_the_Violet_Tides_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-shisui-of-the-violet-tides:primary",
+      "owner_id": "sb-shisui-of-the-violet-tides",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Shisui_of_the_Violet_Tides_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-the-burn:primary",
+        "owner_id": "sb-the-burn",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-burn-eda8f146.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/8c/The_Burn_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Burn_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-the-burn:primary",
+      "owner_id": "sb-the-burn",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Burn_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-the-drowned-city-of-skalla:primary",
+        "owner_id": "sb-the-drowned-city-of-skalla",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-drowned-city-of-skalla-0ec84fa0.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/46/The_Drowned_City_of_Skalla_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Drowned_City_of_Skalla_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-the-drowned-city-of-skalla:primary",
+      "owner_id": "sb-the-drowned-city-of-skalla",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Drowned_City_of_Skalla_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-the-fractal-continuum-hard:primary",
+        "owner_id": "sb-the-fractal-continuum-hard",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-fractal-continuum-hard-c6b16283.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/30/The_Fractal_Continuum_%28Hard%29_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Fractal_Continuum_(Hard)_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-the-fractal-continuum-hard:primary",
+      "owner_id": "sb-the-fractal-continuum-hard",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Fractal_Continuum_(Hard)_(image).png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "dungeon:sb-the-ghimlyt-dark:primary",
+        "owner_id": "sb-the-ghimlyt-dark",
+        "mime_type": "image/webp",
+        "asset_type": "duty_banner",
+        "local_path": "kaizo-atlas-assets/dungeons/the-ghimlyt-dark-c7d03407.png",
+        "owner_type": "dungeon",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/e/e8/The_Ghimlyt_Dark_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Ghimlyt_Dark_(image).png",
+        "verification_status": "verified"
+      },
+      "asset_id": "dungeon:sb-the-ghimlyt-dark:primary",
+      "owner_id": "sb-the-ghimlyt-dark",
+      "asset_type": "duty_banner",
+      "owner_type": "dungeon",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Ghimlyt_Dark_(image).png",
+      "verification_status": "verified"
+    }
+  ]
+}
