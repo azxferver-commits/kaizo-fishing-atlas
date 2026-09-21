@@ -1,0 +1,22 @@
+name: KAIZO Preintegration Export
+on:
+  push:
+    branches:
+      - kaizo-preintegration-export-final-20260921
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify export files
+        run: |
+          test -d _preintegration_export_20260921/database/master
+          test -d _preintegration_export_20260921/database/atlas
+          test -f _preintegration_export_20260921/database/schema/boss_master_and_atlas_schema.sql
+      - name: Upload database export
+        uses: actions/upload-artifact@v4
+        with:
+          name: kaizo-preintegration-database-export
+          path: _preintegration_export_20260921
+          if-no-files-found: error
+          retention-days: 1
