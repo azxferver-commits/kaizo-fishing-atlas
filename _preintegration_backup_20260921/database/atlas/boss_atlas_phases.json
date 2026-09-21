@@ -1,0 +1,766 @@
+{
+  "table": "boss_atlas_phases",
+  "row_count": 95,
+  "rows": [
+    {
+      "id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "cue": "La pelea empieza con adds y aparecen más durante el encuentro.",
+      "title": "Violet Backs",
+      "layout": "adds",
+      "boss_id": "arr-brayflox-s-longstop--01-great-yellow-pelican",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "cue": "Al 75% entra un add mientras Brayflox provoca al drake.",
+      "title": "Tempest Biast",
+      "layout": "adds",
+      "boss_id": "arr-brayflox-s-longstop--02-inferno-drake",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "cue": "Un jugador queda atrapado dentro de una Queer Bubble.",
+      "title": "Effluvium",
+      "layout": "adds",
+      "boss_id": "arr-brayflox-s-longstop--03-hellbender",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "cue": "Con Hellbender cerca de 15%, el dragón desciende con knockback.",
+      "title": "Entrada de Aiatar",
+      "layout": "safeEdge",
+      "boss_id": "arr-brayflox-s-longstop--03-hellbender",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "cue": "Aparecen cuatro círculos que dejan pods; después llega una segunda tanda.",
+      "title": "Toxic Vomit",
+      "layout": "puddles",
+      "boss_id": "arr-brayflox-s-longstop--04-aiatar",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-copperbell-mines--01-kottos--p1",
+      "cue": "Kottos salta tres veces y aparecen grandes círculos sobre las zonas elegidas.",
+      "title": "Lumbering Leap",
+      "layout": "safeEdge",
+      "boss_id": "arr-copperbell-mines--01-kottos",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-copperbell-mines--01-kottos--p2",
+      "cue": "Kottos prepara un golpe fuerte al tanque o un cono grande.",
+      "title": "Grand / Colossal Slam",
+      "layout": "cone",
+      "boss_id": "arr-copperbell-mines--01-kottos",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-copperbell-mines--02-ichorous-ire--p1",
+      "cue": "Aparece un círculo debajo de cada jugador.",
+      "title": "Syrup",
+      "layout": "spread",
+      "boss_id": "arr-copperbell-mines--02-ichorous-ire",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-copperbell-mines--02-ichorous-ire--p2",
+      "cue": "Alrededor de 50%, Ichorous Ire se parte en muchos Ichorous Drips.",
+      "title": "Divide",
+      "layout": "adds",
+      "boss_id": "arr-copperbell-mines--02-ichorous-ire",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "cue": "El cast crea un donut enorme alrededor del boss.",
+      "title": "Gigantic Swing",
+      "layout": "safeCenter",
+      "boss_id": "arr-copperbell-mines--03-gyges-the-great",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-copperbell-mines--03-gyges-the-great--p2",
+      "cue": "Gyges vuelve al centro y aparecen círculos en el centro y alrededor de la arena.",
+      "title": "Gigantic Smash",
+      "layout": "lanes",
+      "boss_id": "arr-copperbell-mines--03-gyges-the-great",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "cue": "Entran Soldiers, después Guard y finalmente Marshal.",
+      "title": "Oleadas de myrmidons",
+      "layout": "adds",
+      "boss_id": "arr-cutter-s-cry--01-myrmidon-princess",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "cue": "El boss desaparece bajo la arena y comienza a levantar arena.",
+      "title": "Worm burrowed",
+      "layout": "spread",
+      "boss_id": "arr-cutter-s-cry--02-giant-tunnel-worm",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-cutter-s-cry--02-giant-tunnel-worm--p2",
+      "cue": "Un remolino atrae a todos hacia el centro.",
+      "title": "Bottomless Desert",
+      "layout": "safeEdge",
+      "boss_id": "arr-cutter-s-cry--02-giant-tunnel-worm",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-cutter-s-cry--03-chimera--p1",
+      "cue": "El mensaje anuncia que los ojos de la quimera brillan violeta.",
+      "title": "Ojos violetas",
+      "layout": "safeCenter",
+      "boss_id": "arr-cutter-s-cry--03-chimera",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-cutter-s-cry--03-chimera--p2",
+      "cue": "El mensaje anuncia que los ojos brillan azul.",
+      "title": "Ojos azules",
+      "layout": "out",
+      "boss_id": "arr-cutter-s-cry--03-chimera",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-cutter-s-cry--03-chimera--p3",
+      "cue": "Un jugador recibe marcador y una esfera púrpura lo persigue.",
+      "title": "Cacophony",
+      "layout": "spread",
+      "boss_id": "arr-cutter-s-cry--03-chimera",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "cue": "Primero explotan círculos junto a las paredes; después el centro queda marcado.",
+      "title": "Void Matter",
+      "layout": "safeCenter",
+      "boss_id": "arr-dzemael-darkhold--01-all-seeing-eye",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "cue": "Adds sobre plataformas comienzan a disparar círculos a la arena.",
+      "title": "Deepvoid Slaves",
+      "layout": "spread",
+      "boss_id": "arr-dzemael-darkhold--02-taulurd",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-dzemael-darkhold--03-batraal--p1",
+      "cue": "Batraal se conecta a un cristal y deja de recibir daño.",
+      "title": "Tether púrpura",
+      "layout": "tether",
+      "boss_id": "arr-dzemael-darkhold--03-batraal",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-dzemael-darkhold--03-batraal--p2",
+      "cue": "Tras el tercer cristal y cerca de 30%, Batraal gana Damage Up permanente.",
+      "title": "Hellssend",
+      "layout": "line",
+      "boss_id": "arr-dzemael-darkhold--03-batraal",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-halatali--01-firemane--p1",
+      "cue": "Aparece la primera cruz de conos cardinales alrededor de Firemane.",
+      "title": "Fireflow",
+      "layout": "lanes",
+      "boss_id": "arr-halatali--01-firemane",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-halatali--02-thunderclap-guivre--p1",
+      "cue": "La piscina completa brilla de color púrpura mientras el jefe carga electricidad.",
+      "title": "Hydroelectric Shock",
+      "layout": "safeEdge",
+      "boss_id": "arr-halatali--02-thunderclap-guivre",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-halatali--03-tangata--p1",
+      "cue": "Tangata se vuelve invulnerable y dos antorchas empiezan a generar fire wisps.",
+      "title": "Burning Ward",
+      "layout": "adds",
+      "boss_id": "arr-halatali--03-tangata",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-halatali--03-tangata--p2",
+      "cue": "Primero aparece un círculo central y después dos donuts concéntricos.",
+      "title": "Plain Pound",
+      "layout": "out",
+      "boss_id": "arr-halatali--03-tangata",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-haukke-manor--01-manor-claviger--p1",
+      "cue": "Claviger mantiene un cleave frontal sin indicador.",
+      "title": "Sweet Steel",
+      "layout": "cone",
+      "boss_id": "arr-haukke-manor--01-manor-claviger",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-haukke-manor--01-manor-claviger--p2",
+      "cue": "La jefa castea una gran explosión alrededor de sí.",
+      "title": "Dark Mist",
+      "layout": "out",
+      "boss_id": "arr-haukke-manor--01-manor-claviger",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-haukke-manor--02-manor-jester--p1",
+      "cue": "Los dos enemigos están activos al mismo tiempo.",
+      "title": "Jester + Steward",
+      "layout": "adds",
+      "boss_id": "arr-haukke-manor--02-manor-jester",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-haukke-manor--03-lady-amandine--p1",
+      "cue": "Aparece un add con un gran marcador de ojo púrpura.",
+      "title": "Manor Sentry",
+      "layout": "gaze",
+      "boss_id": "arr-haukke-manor--03-lady-amandine",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-haukke-manor--03-lady-amandine--p2",
+      "cue": "Aparece una handmaiden targeteable junto a la jefa.",
+      "title": "Lady's Handmaiden",
+      "layout": "adds",
+      "boss_id": "arr-haukke-manor--03-lady-amandine",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "cue": "Mantén al dragón en una zona elevada; el suelo bajo puede llenarse de veneno.",
+      "title": "Dragón y veneno",
+      "layout": "safeCenter",
+      "boss_id": "arr-labyrinth-of-the-ancients--01-bone-dragon",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "cue": "Cuando cae el dragón, los esqueletos reviven y corren hacia el centro.",
+      "title": "Marcha de Platinals",
+      "layout": "adds",
+      "boss_id": "arr-labyrinth-of-the-ancients--01-bone-dragon",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "cue": "En la tercera vida aparecen Rotting Eyes: concentra daño en el jefe.",
+      "title": "Última resurrección",
+      "layout": "out",
+      "boss_id": "arr-labyrinth-of-the-ancients--01-bone-dragon",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "cue": "Sigue la línea verde del Magic Pot: el buff permite golpear al jefe.",
+      "title": "Astral Realignment",
+      "layout": "tether",
+      "boss_id": "arr-labyrinth-of-the-ancients--02-thanatos",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "cue": "Una línea roja y una cadena indican que un add está arrastrando un Pot.",
+      "title": "Pots encadenados",
+      "layout": "adds",
+      "boss_id": "arr-labyrinth-of-the-ancients--02-thanatos",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "cue": "El buff pasa por A, B y C; cambia de tarea cuando aparezca o expire.",
+      "title": "Rotación de alianzas",
+      "layout": "lanes",
+      "boss_id": "arr-labyrinth-of-the-ancients--02-thanatos",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "cue": "La marca verde indica dónde caerá una roca que después salvará a la alianza.",
+      "title": "Cometas",
+      "layout": "spread",
+      "boss_id": "arr-labyrinth-of-the-ancients--03-king-behemoth",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "cue": "Los Iron Giants intentan destruir los cometas.",
+      "title": "Defender la cobertura",
+      "layout": "adds",
+      "boss_id": "arr-labyrinth-of-the-ancients--03-king-behemoth",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "cue": "Cuando el Behemoth se levanta, rompe línea de visión detrás de un cometa.",
+      "title": "Ecliptic Meteor",
+      "layout": "safeEdge",
+      "boss_id": "arr-labyrinth-of-the-ancients--03-king-behemoth",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "cue": "Antes del pull identifica la plataforma asignada a tu alianza.",
+      "title": "Posiciones A/B/C",
+      "layout": "lanes",
+      "boss_id": "arr-labyrinth-of-the-ancients--04-phlegethon",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "cue": "El jefe vuelve al centro y comienza un cast largo: corre a tu plataforma.",
+      "title": "Ancient Flare",
+      "layout": "safeEdge",
+      "boss_id": "arr-labyrinth-of-the-ancients--04-phlegethon",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "cue": "Tras cerrarse la barrera aparece un Iron Giant en cada plataforma.",
+      "title": "Iron Giants",
+      "layout": "adds",
+      "boss_id": "arr-labyrinth-of-the-ancients--04-phlegethon",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-sastasha--01-chopper--p1",
+      "cue": "El jefe se queda quieto y empieza a cargar electricidad a su alrededor.",
+      "title": "Charged Whisker",
+      "layout": "out",
+      "boss_id": "arr-sastasha--01-chopper",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-sastasha--02-captain-madison--p1",
+      "cue": "Madison entra acompañado por dos piratas.",
+      "title": "Tripulación inicial",
+      "layout": "adds",
+      "boss_id": "arr-sastasha--02-captain-madison",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-sastasha--02-captain-madison--p2",
+      "cue": "Alrededor de 50% de vida aparecen varios perros.",
+      "title": "Scurvy Dogs",
+      "layout": "adds",
+      "boss_id": "arr-sastasha--02-captain-madison",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-sastasha--03-denn-the-orcatoothed--p1",
+      "cue": "Denn gira hacia el tanque y prepara un cono frontal.",
+      "title": "Hydroball",
+      "layout": "cone",
+      "boss_id": "arr-sastasha--03-denn-the-orcatoothed",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-sastasha--03-denn-the-orcatoothed--p2",
+      "cue": "Una o más rejillas de las esquinas comienzan a burbujear.",
+      "title": "Rejillas burbujeando",
+      "layout": "adds",
+      "boss_id": "arr-sastasha--03-denn-the-orcatoothed",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-syrcus-tower--01-scylla--p1",
+      "cue": "Morado a pilar, rojo a jugador congelado; no congeles un charco.",
+      "title": "Orbes elementales",
+      "layout": "tether",
+      "boss_id": "arr-syrcus-tower--01-scylla",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-syrcus-tower--01-scylla--p2",
+      "cue": "Entra en un charco de agua creado al descongelar a un jugador.",
+      "title": "Ancient Flare",
+      "layout": "safeCenter",
+      "boss_id": "arr-syrcus-tower--01-scylla",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-syrcus-tower--01-scylla--p3",
+      "cue": "Cuando aparezca Daybreak, cada alianza se apila en su plataforma energizada.",
+      "title": "Daybreak",
+      "layout": "lanes",
+      "boss_id": "arr-syrcus-tower--01-scylla",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "cue": "Un jugador debe interceptar la línea entre cada Wright y Glasya.",
+      "title": "Clockwork Wrights",
+      "layout": "tether",
+      "boss_id": "arr-syrcus-tower--02-glasya-labolas",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "cue": "Los Squires deben absorber líneas de los nodos para retirar el reflejo.",
+      "title": "Squires y nodos",
+      "layout": "adds",
+      "boss_id": "arr-syrcus-tower--02-glasya-labolas",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "cue": "Usa el salto de tu alianza y mata Spanner-rooks plataforma por plataforma.",
+      "title": "Anillo exterior",
+      "layout": "lanes",
+      "boss_id": "arr-syrcus-tower--02-glasya-labolas",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-syrcus-tower--03-amon--p1",
+      "cue": "Evita Blizzaga/Thundaga Forte y mata los adds antes de que alcancen a Amon.",
+      "title": "Forte y adds",
+      "layout": "adds",
+      "boss_id": "arr-syrcus-tower--03-amon",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-syrcus-tower--03-amon--p2",
+      "cue": "Lleva Dimensional Compression a Kum Kum; los sapos descongelan jugadores.",
+      "title": "Mini y sapos",
+      "layout": "tether",
+      "boss_id": "arr-syrcus-tower--03-amon",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-syrcus-tower--03-amon--p3",
+      "cue": "Amon empieza Curtain Call: escóndete detrás de un bloque de hielo alejado del jefe.",
+      "title": "Curtain Call",
+      "layout": "safeEdge",
+      "boss_id": "arr-syrcus-tower--03-amon",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-syrcus-tower--04-xande--p1",
+      "cue": "Cada círculo dorado necesita al menos un jugador.",
+      "title": "Aetherochemical Explosion",
+      "layout": "spread",
+      "boss_id": "arr-syrcus-tower--04-xande",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-syrcus-tower--04-xande--p2",
+      "cue": "Xande deja la arena: mata primero los attractors exteriores y luego el central.",
+      "title": "Meteor Attractors",
+      "layout": "adds",
+      "boss_id": "arr-syrcus-tower--04-xande",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-syrcus-tower--04-xande--p3",
+      "cue": "Comparte el marcador de stack y entra en la zona flotante para Ancient Quaga.",
+      "title": "Null Gravity",
+      "layout": "safeCenter",
+      "boss_id": "arr-syrcus-tower--04-xande",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-the-aurum-vale--01-locksmith--p1",
+      "cue": "Gold Rush añade un stack de Gold Lung a toda la party.",
+      "title": "Gold Lung",
+      "layout": "fruit",
+      "boss_id": "arr-the-aurum-vale--01-locksmith",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-aurum-vale--02-coincounter--p1",
+      "cue": "Coincounter levanta la maza con una mano.",
+      "title": "100-Tonze Swipe",
+      "layout": "cone",
+      "boss_id": "arr-the-aurum-vale--02-coincounter",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-aurum-vale--02-coincounter--p2",
+      "cue": "Coincounter sostiene la maza con las dos manos.",
+      "title": "100-Tonze Swing",
+      "layout": "out",
+      "boss_id": "arr-the-aurum-vale--02-coincounter",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-aurum-vale--02-coincounter--p3",
+      "cue": "Se forma un gran AoE en forma de C alrededor del cyclops.",
+      "title": "Eye of the Beholder",
+      "layout": "safeCenter",
+      "boss_id": "arr-the-aurum-vale--02-coincounter",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-the-aurum-vale--03-miser-s-mistress--p1",
+      "cue": "El debuff Burrs se acumula y el boss prepara un cono frontal.",
+      "title": "Burrs / Bad Breath",
+      "layout": "fruit",
+      "boss_id": "arr-the-aurum-vale--03-miser-s-mistress",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-aurum-vale--03-miser-s-mistress--p2",
+      "cue": "Alrededor de 50% aparecen cinco frutas extra en la arena.",
+      "title": "Strange Morbol Fruits",
+      "layout": "adds",
+      "boss_id": "arr-the-aurum-vale--03-miser-s-mistress",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-stone-vigil--01-chudo-yudo--p1",
+      "cue": "Chudo-Yudo prepara un ataque frontal mientras mira al tanque.",
+      "title": "Breath / Swinge",
+      "layout": "cone",
+      "boss_id": "arr-the-stone-vigil--01-chudo-yudo",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-stone-vigil--02-koshchei--p1",
+      "cue": "Tres tornados aparecen al fondo dejando un carril vacío.",
+      "title": "Primer Typhoon",
+      "layout": "lanes",
+      "boss_id": "arr-the-stone-vigil--02-koshchei",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-stone-vigil--02-koshchei--p2",
+      "cue": "Aparecen cuatro tornados; dos se mueven antes que los otros.",
+      "title": "Typhoon doble",
+      "layout": "lanes",
+      "boss_id": "arr-the-stone-vigil--02-koshchei",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-stone-vigil--03-isgebind--p1",
+      "cue": "Isgebind vuela y una franja de un tercio de la arena se ilumina azul.",
+      "title": "Cauterize",
+      "layout": "lanes",
+      "boss_id": "arr-the-stone-vigil--03-isgebind",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-stone-vigil--03-isgebind--p2",
+      "cue": "Después del vuelo, Isgebind cae en el centro de la arena.",
+      "title": "Touchdown",
+      "layout": "safeEdge",
+      "boss_id": "arr-the-stone-vigil--03-isgebind",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--01-teratotaur--p1",
+      "cue": "El mensaje anuncia dos wespes entrando en la arena.",
+      "title": "Dung Wespes",
+      "layout": "adds",
+      "boss_id": "arr-the-sunken-temple-of-qarn--01-teratotaur",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--01-teratotaur--p2",
+      "cue": "Todo el grupo recibe Doom y una de las tres placas se ilumina en naranja.",
+      "title": "Mortal Ray / Doom",
+      "layout": "doom",
+      "boss_id": "arr-the-sunken-temple-of-qarn--01-teratotaur",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--02-temple-guardian--p1",
+      "cue": "Aparece una piedra targeteable en el pecho del golem.",
+      "title": "Golem Soulstone",
+      "layout": "adds",
+      "boss_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--02-temple-guardian--p2",
+      "cue": "El Guardian gira hacia jugadores aleatorios para lanzar columnas y conos.",
+      "title": "Ataques frontales",
+      "layout": "cone",
+      "boss_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--03-adjudicator--p1",
+      "cue": "Aparecen dos Mythril Verges y comienzan a ganar Haste.",
+      "title": "Primera invocación",
+      "layout": "adds",
+      "boss_id": "arr-the-sunken-temple-of-qarn--03-adjudicator",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--03-adjudicator--p2",
+      "cue": "Cuatro Verges, uno por esquina, atan a cada jugador y preparan un disparo letal.",
+      "title": "Cadenas y Verge Pulse",
+      "layout": "tether",
+      "boss_id": "arr-the-sunken-temple-of-qarn--03-adjudicator",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft--01-void-soulcounter--p1",
+      "cue": "El Soulcounter no aparece hasta que muere el grupo inicial.",
+      "title": "Enemigos de la arena",
+      "layout": "adds",
+      "boss_id": "arr-the-tam-tara-deepcroft--01-void-soulcounter",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft--01-void-soulcounter--p2",
+      "cue": "El enemigo empieza a castear Enthunder o dibuja un cono frontal.",
+      "title": "Enthunder / Condemnation",
+      "layout": "cone",
+      "boss_id": "arr-the-tam-tara-deepcroft--01-void-soulcounter",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator--p1",
+      "cue": "Galvanth carga una explosión alrededor de su cuerpo.",
+      "title": "Mind Blast",
+      "layout": "out",
+      "boss_id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator--p2",
+      "cue": "Aparecen Inconspicuous Imps conectados al boss por líneas.",
+      "title": "Tethers de los imps",
+      "layout": "tether",
+      "boss_id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-the-thousand-maws-of-toto-rak--01-coeurl-o-nine-tails--p1",
+      "cue": "El coeurl libera veneno alrededor de su cuerpo.",
+      "title": "Acid Mist",
+      "layout": "out",
+      "boss_id": "arr-the-thousand-maws-of-toto-rak--01-coeurl-o-nine-tails",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-thousand-maws-of-toto-rak--02-graffias--p1",
+      "cue": "Un jugador recibe el impacto y deja un Fleshy Pod en su posición.",
+      "title": "Sticky Web",
+      "layout": "spread",
+      "boss_id": "arr-the-thousand-maws-of-toto-rak--02-graffias",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-the-thousand-maws-of-toto-rak--02-graffias--p2",
+      "cue": "Al 50% aparecen cuatro Comesmites y la cola queda expuesta.",
+      "title": "Comesmites y cola",
+      "layout": "adds",
+      "boss_id": "arr-the-thousand-maws-of-toto-rak--02-graffias",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-world-of-darkness--01-angra-mainyu--p1",
+      "cue": "Alterna rojo y blanco en cada golpe para reiniciar la acumulación.",
+      "title": "Double Vision",
+      "layout": "lanes",
+      "boss_id": "arr-world-of-darkness--01-angra-mainyu",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-world-of-darkness--01-angra-mainyu--p2",
+      "cue": "Mira lejos del ojo; si recibes Doom, pisa la placa iluminada.",
+      "title": "Mortal Gaze",
+      "layout": "gaze",
+      "boss_id": "arr-world-of-darkness--01-angra-mainyu",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-world-of-darkness--01-angra-mainyu--p3",
+      "cue": "Mata los cuatro Final Hourglasses y sal del cuarto iluminado.",
+      "title": "Roulette y niveles",
+      "layout": "safeEdge",
+      "boss_id": "arr-world-of-darkness--01-angra-mainyu",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-world-of-darkness--02-five-headed-dragon--p1",
+      "cue": "Aléjate del remolino blanco y controla el charco venenoso.",
+      "title": "Hielo y veneno",
+      "layout": "puddles",
+      "boss_id": "arr-world-of-darkness--02-five-headed-dragon",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-world-of-darkness--02-five-headed-dragon--p2",
+      "cue": "Aparecen cinco cabezas: destrúyelas antes de terminar el canal.",
+      "title": "Discordance",
+      "layout": "adds",
+      "boss_id": "arr-world-of-darkness--02-five-headed-dragon",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-world-of-darkness--02-five-headed-dragon--p3",
+      "cue": "Cuando aparezca Heatwave, deja de moverte y atacar durante cinco segundos.",
+      "title": "Heatwave",
+      "layout": "spread",
+      "boss_id": "arr-world-of-darkness--02-five-headed-dragon",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-world-of-darkness--03-cerberus--p1",
+      "cue": "Evita Tail Swipe y mantente cerca del grupo para Ululation.",
+      "title": "Control exterior",
+      "layout": "cone",
+      "boss_id": "arr-world-of-darkness--03-cerberus",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-world-of-darkness--03-cerberus--p2",
+      "cue": "Primero recibe Mini de Gastric Juice; luego pisa el charco púrpura para Devour.",
+      "title": "Entrar al estómago",
+      "layout": "fruit",
+      "boss_id": "arr-world-of-darkness--03-cerberus",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-world-of-darkness--03-cerberus--p3",
+      "cue": "Cuando colapse, recoge ambas cadenas y colócalas en los Open Fetters.",
+      "title": "Reencadenar",
+      "layout": "tether",
+      "boss_id": "arr-world-of-darkness--03-cerberus",
+      "phase_order": 3
+    },
+    {
+      "id": "arr-world-of-darkness--04-cloud-of-darkness--p1",
+      "cue": "Con la retícula roja, corre por el borde; si desaparece, sal del centro.",
+      "title": "Particle Beams",
+      "layout": "safeEdge",
+      "boss_id": "arr-world-of-darkness--04-cloud-of-darkness",
+      "phase_order": 1
+    },
+    {
+      "id": "arr-world-of-darkness--04-cloud-of-darkness--p2",
+      "cue": "Ocupa cada círculo amarillo y mata Dark Clouds antes de que lleguen al jefe.",
+      "title": "Torres y nubes",
+      "layout": "adds",
+      "boss_id": "arr-world-of-darkness--04-cloud-of-darkness",
+      "phase_order": 2
+    },
+    {
+      "id": "arr-world-of-darkness--04-cloud-of-darkness--p3",
+      "cue": "A, B y C entran en una caja diferente y matan su nube desde dentro.",
+      "title": "Hypercharged Clouds",
+      "layout": "lanes",
+      "boss_id": "arr-world-of-darkness--04-cloud-of-darkness",
+      "phase_order": 3
+    }
+  ]
+}
