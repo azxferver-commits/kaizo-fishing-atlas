@@ -1,0 +1,191 @@
+{
+  "table": "boss_master_phases",
+  "offset": 400,
+  "row_count": 8,
+  "rows": [
+    {
+      "title": "Full encounter source overview",
+      "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+      "payload": {
+        "title": "Full encounter source overview",
+        "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "safe_zone": null,
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "phase_order": 1,
+        "phase_scope": "full_encounter",
+        "danger_zones": [],
+        "trigger_text": null,
+        "boss_position": null,
+        "legacy_layout": null,
+        "player_position": null,
+        "boss_orientation": null,
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "phase_order": 1,
+      "verification_status": "verified"
+    },
+    {
+      "title": "Full encounter source overview",
+      "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+      "payload": {
+        "title": "Full encounter source overview",
+        "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+        "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+        "safe_zone": null,
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "phase_order": 1,
+        "phase_scope": "full_encounter",
+        "danger_zones": [],
+        "trigger_text": null,
+        "boss_position": null,
+        "legacy_layout": null,
+        "player_position": null,
+        "boss_orientation": null,
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+      "phase_order": 1,
+      "verification_status": "verified"
+    },
+    {
+      "title": "Full encounter source overview",
+      "boss_id": "shb-the-qitana-ravel--01-lozatl",
+      "payload": {
+        "title": "Full encounter source overview",
+        "boss_id": "shb-the-qitana-ravel--01-lozatl",
+        "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+        "safe_zone": null,
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "phase_order": 1,
+        "phase_scope": "full_encounter",
+        "danger_zones": [],
+        "trigger_text": null,
+        "boss_position": null,
+        "legacy_layout": null,
+        "player_position": null,
+        "boss_orientation": null,
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+      "phase_order": 1,
+      "verification_status": "verified"
+    },
+    {
+      "title": "Full encounter source overview",
+      "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+      "payload": {
+        "title": "Full encounter source overview",
+        "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+        "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+        "safe_zone": null,
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "phase_order": 1,
+        "phase_scope": "full_encounter",
+        "danger_zones": [],
+        "trigger_text": null,
+        "boss_position": null,
+        "legacy_layout": null,
+        "player_position": null,
+        "boss_orientation": null,
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+      "phase_order": 1,
+      "verification_status": "verified"
+    },
+    {
+      "title": "Full encounter source overview",
+      "boss_id": "shb-the-qitana-ravel--03-eros",
+      "payload": {
+        "title": "Full encounter source overview",
+        "boss_id": "shb-the-qitana-ravel--03-eros",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "safe_zone": null,
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "phase_order": 1,
+        "phase_scope": "full_encounter",
+        "danger_zones": [],
+        "trigger_text": null,
+        "boss_position": null,
+        "legacy_layout": null,
+        "player_position": null,
+        "boss_orientation": null,
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "phase_order": 1,
+      "verification_status": "verified"
+    },
+    {
+      "title": "Full encounter source overview",
+      "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+      "payload": {
+        "title": "Full encounter source overview",
+        "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "safe_zone": null,
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "phase_order": 1,
+        "phase_scope": "full_encounter",
+        "danger_zones": [],
+        "trigger_text": null,
+        "boss_position": null,
+        "legacy_layout": null,
+        "player_position": null,
+        "boss_orientation": null,
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "phase_order": 1,
+      "verification_status": "verified"
+    },
+    {
+      "title": "Full encounter source overview",
+      "boss_id": "shb-the-twinning--02-mithridates",
+      "payload": {
+        "title": "Full encounter source overview",
+        "boss_id": "shb-the-twinning--02-mithridates",
+        "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+        "safe_zone": null,
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "phase_order": 1,
+        "phase_scope": "full_encounter",
+        "danger_zones": [],
+        "trigger_text": null,
+        "boss_position": null,
+        "legacy_layout": null,
+        "player_position": null,
+        "boss_orientation": null,
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+      "phase_order": 1,
+      "verification_status": "verified"
+    },
+    {
+      "title": "Full encounter source overview",
+      "boss_id": "shb-the-twinning--03-the-tycoon",
+      "payload": {
+        "title": "Full encounter source overview",
+        "boss_id": "shb-the-twinning--03-the-tycoon",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "safe_zone": null,
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "phase_order": 1,
+        "phase_scope": "full_encounter",
+        "danger_zones": [],
+        "trigger_text": null,
+        "boss_position": null,
+        "legacy_layout": null,
+        "player_position": null,
+        "boss_orientation": null,
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "phase_order": 1,
+      "verification_status": "verified"
+    }
+  ]
+}
