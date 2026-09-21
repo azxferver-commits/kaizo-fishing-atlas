@@ -1,0 +1,3101 @@
+{
+  "table": "boss_master_arena_elements",
+  "offset": 0,
+  "row_count": 150,
+  "rows": [
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-amdapor-keep--01-lunatic-priest--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-amdapor-keep--01-lunatic-priest--m005--lunatic-priest",
+        "orientation": null,
+        "source_text": "is the add that summons Psycheflayer. Players should dodge his circular AoE spell named Void Fire II. At around half HP, He summons the Psycheflayer.",
+        "element_type": "add",
+        "arena_element_id": "arr-amdapor-keep--01-lunatic-priest--m005--lunatic-priest--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-amdapor-keep--01-lunatic-priest--source-overview",
+      "mechanic_id": "arr-amdapor-keep--01-lunatic-priest--m005--lunatic-priest",
+      "element_type": "add",
+      "arena_element_id": "arr-amdapor-keep--01-lunatic-priest--m005--lunatic-priest--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-amdapor-keep--01-lunatic-priest--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-amdapor-keep--01-lunatic-priest--m005--lunatic-priest",
+        "orientation": null,
+        "source_text": "is the add that summons Psycheflayer. Players should dodge his circular AoE spell named Void Fire II. At around half HP, He summons the Psycheflayer.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-amdapor-keep--01-lunatic-priest--m005--lunatic-priest--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-amdapor-keep--01-lunatic-priest--source-overview",
+      "mechanic_id": "arr-amdapor-keep--01-lunatic-priest--m005--lunatic-priest",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-amdapor-keep--01-lunatic-priest--m005--lunatic-priest--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-amdapor-keep--01-lunatic-priest--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-amdapor-keep--01-lunatic-priest--m008--megalith-marionette",
+        "orientation": null,
+        "source_text": "has a very large circular AoE attack that centers around itself. The attack, named Plaincracker, deals massive amount of damage to all players hit.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-amdapor-keep--01-lunatic-priest--m008--megalith-marionette--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-amdapor-keep--01-lunatic-priest--source-overview",
+      "mechanic_id": "arr-amdapor-keep--01-lunatic-priest--m008--megalith-marionette",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-amdapor-keep--01-lunatic-priest--m008--megalith-marionette--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-amdapor-keep--02-demon-wall--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-amdapor-keep--02-demon-wall--m003--liquefy-middle",
+        "orientation": null,
+        "source_text": "is an ability that spawns a long black column in the middle of the boss room. It will do a large amount of damage and inflict the debuff heavy Heavy to all players hit.",
+        "element_type": "add",
+        "arena_element_id": "arr-amdapor-keep--02-demon-wall--m003--liquefy-middle--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-amdapor-keep--02-demon-wall--source-overview",
+      "mechanic_id": "arr-amdapor-keep--02-demon-wall--m003--liquefy-middle",
+      "element_type": "add",
+      "arena_element_id": "arr-amdapor-keep--02-demon-wall--m003--liquefy-middle--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-amdapor-keep--02-demon-wall--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-amdapor-keep--02-demon-wall--m004--liquefy-sides",
+        "orientation": null,
+        "source_text": "is an ability that spawns two long black columns at the sides of the boss room. It will do a large amount of damage and inflict the debuff slow Slow to all players hit.",
+        "element_type": "add",
+        "arena_element_id": "arr-amdapor-keep--02-demon-wall--m004--liquefy-sides--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-amdapor-keep--02-demon-wall--source-overview",
+      "mechanic_id": "arr-amdapor-keep--02-demon-wall--m004--liquefy-sides",
+      "element_type": "add",
+      "arena_element_id": "arr-amdapor-keep--02-demon-wall--m004--liquefy-sides--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-amdapor-keep--02-demon-wall--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-amdapor-keep--02-demon-wall--m005--bloodlapper",
+        "orientation": null,
+        "source_text": "has an ability named Thunderstorm. Thunderstorm is a circular AoE spell that inflicts the debuff paralysis Paralysis to all targets caught within. The spell should be interrupted with a stun because it is difficult to avoid the ground indicator.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-amdapor-keep--02-demon-wall--m005--bloodlapper--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-amdapor-keep--02-demon-wall--source-overview",
+      "mechanic_id": "arr-amdapor-keep--02-demon-wall--m005--bloodlapper",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-amdapor-keep--02-demon-wall--m005--bloodlapper--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-amdapor-keep--03-anantaboga--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-amdapor-keep--03-anantaboga--m002--tail-drive",
+        "orientation": "toward_target",
+        "source_text": "is a rear cone AoE attack that deals high amount of damage and inflicts a DoT named Concussion to all players hit. Anantaboga will only use this ability when one or more players are behind it.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-amdapor-keep--03-anantaboga--m002--tail-drive--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-amdapor-keep--03-anantaboga--source-overview",
+      "mechanic_id": "arr-amdapor-keep--03-anantaboga--m002--tail-drive",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-amdapor-keep--03-anantaboga--m002--tail-drive--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-amdapor-keep--03-anantaboga--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-amdapor-keep--03-anantaboga--m006--dark-helot",
+        "orientation": null,
+        "source_text": "has an ability named Terror Eye that places a circular AoE under a random player. It deals heavy damage to all players caught within.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-amdapor-keep--03-anantaboga--m006--dark-helot--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-amdapor-keep--03-anantaboga--source-overview",
+      "mechanic_id": "arr-amdapor-keep--03-anantaboga--m006--dark-helot",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-amdapor-keep--03-anantaboga--m006--dark-helot--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_cover_object",
+          "subject": "player",
+          "relation": "behind_cover_relative_to_attack"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Amdapor_Keep_(Hard)",
+        "source_text": "A red-marked player must hide behind one of the room's statues so the statue absorbs Anchag's lethal tether damage.",
+        "classification": "cover_relation",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "relation",
+      "phase_id": "arr-amdapor-keep-hard--01-anchag--source-overview",
+      "mechanic_id": "arr-amdapor-keep-hard--01-anchag--research-20260921--m001",
+      "element_type": "position_relation",
+      "arena_element_id": "arr-amdapor-keep-hard--01-anchag--research-20260921--m001--arena-audit--cover_relation",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Reviewed documented mechanics contain no significant reusable positioning requirement; encounter instructions are target/damage/debuff/interrupt/priority based rather than arena-spatial.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Amdapor_Keep_(Hard)",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-amdapor-keep-hard--02-boogyman--source-overview",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-amdapor-keep-hard--02-boogyman--source-overview--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "danger": "documented_circular_or_persistent_zone",
+          "safe_rule": "outside_zone_unless_source_says_otherwise"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Amdapor_Keep_(Hard)",
+        "source_text": "During Ferdiad's expanding circular AoE, tethered Wicked Jester adds must be killed so the circle stops growing before it consumes the arena.",
+        "classification": "circle_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-amdapor-keep-hard--03-ferdiad--source-overview",
+      "mechanic_id": "arr-amdapor-keep-hard--03-ferdiad--research-20260921--m001",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-amdapor-keep-hard--03-ferdiad--research-20260921--m001--arena-audit--circle_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--m001--numbing-breath",
+        "orientation": "toward_target",
+        "source_text": "a conal AoE from the boss that afflicts a cleansable paralysis Paralysis detrimental effect.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--m001--numbing-breath--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--m001--numbing-breath",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--m001--numbing-breath--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Brayflox's_Longstop",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Brayflox's_Longstop",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-brayflox-s-longstop--02-inferno-drake--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "spawned_add",
+          "subject": "tank",
+          "relation": "pick_up"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Brayflox's_Longstop",
+        "source_text": "At roughly 75% HP, a Tempest Biast add spawns; the tank should pick it up.",
+        "classification": "tank_pickup_add",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "relation",
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--02-inferno-drake--research-20260921--m001",
+      "element_type": "role_position",
+      "arena_element_id": "arr-brayflox-s-longstop--02-inferno-drake--research-20260921--m001--arena-audit--tank_pickup_add",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-brayflox-s-longstop--03-hellbender--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop--03-hellbender--m001--bog-bubble",
+        "orientation": null,
+        "source_text": "an uncasted circular AoE around a random party member, dealing moderate damage.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--m001--bog-bubble--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--03-hellbender--m001--bog-bubble",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--m001--bog-bubble--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-brayflox-s-longstop--03-hellbender--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop--03-hellbender--m002--stagnant-spray",
+        "orientation": "toward_target",
+        "source_text": "a casted conal AoE toward the main target.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--m002--stagnant-spray--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--03-hellbender--m002--stagnant-spray",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--m002--stagnant-spray--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-brayflox-s-longstop--03-hellbender--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": "high"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop--03-hellbender--m004--effluvium",
+        "orientation": null,
+        "source_text": "the boss will target a random party member and encase them in a Queer Bubble add, inflicting bind Bind, Physical Damage Down (decreases the player's physical damage), Mana Modulation (decreases the player's damage dealt with spells and reduces HP restored via healing magic), and dropsy Dropsy. Kill the Queer Bubble to free and cleanse the afflicted party member's debuffs. Touchdown: very light damage and a knockback from where Aiatar first descends. Salivous Snap: a magical tankbuster that inflicts a cleansable poison Poison detriment. Dragon Breath: a line AoE targeting a random party member. Inflicts poison Poison if hit.",
+        "element_type": "add",
+        "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--m004--effluvium--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--03-hellbender--m004--effluvium",
+      "element_type": "add",
+      "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--m004--effluvium--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-brayflox-s-longstop--03-hellbender--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop--03-hellbender--m004--effluvium",
+        "orientation": "toward_target",
+        "source_text": "the boss will target a random party member and encase them in a Queer Bubble add, inflicting bind Bind, Physical Damage Down (decreases the player's physical damage), Mana Modulation (decreases the player's damage dealt with spells and reduces HP restored via healing magic), and dropsy Dropsy. Kill the Queer Bubble to free and cleanse the afflicted party member's debuffs. Touchdown: very light damage and a knockback from where Aiatar first descends. Salivous Snap: a magical tankbuster that inflicts a cleansable poison Poison detriment. Dragon Breath: a line AoE targeting a random party member. Inflicts poison Poison if hit.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--m004--effluvium--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--03-hellbender--m004--effluvium",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--m004--effluvium--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Brayflox's_Longstop",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Brayflox's_Longstop",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-brayflox-s-longstop--03-hellbender--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-brayflox-s-longstop--04-aiatar--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-brayflox-s-longstop--04-aiatar--m002--toxic-vomit",
+        "orientation": null,
+        "source_text": "four small circular AoEs that appear around the arena. Will spawn poisonous pods that will grow in size and eventually explode in wider AoEs. Inflicts poison Poison. After the first cast of Toxic Vomit, a second set of poisonous pods will follow the first set, and explode after first set. Dodge into where the first poisonous pods were after they explode.",
+        "element_type": "add",
+        "arena_element_id": "arr-brayflox-s-longstop--04-aiatar--m002--toxic-vomit--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--04-aiatar--m002--toxic-vomit",
+      "element_type": "add",
+      "arena_element_id": "arr-brayflox-s-longstop--04-aiatar--m002--toxic-vomit--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-brayflox-s-longstop--04-aiatar--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop--04-aiatar--m002--toxic-vomit",
+        "orientation": null,
+        "source_text": "four small circular AoEs that appear around the arena. Will spawn poisonous pods that will grow in size and eventually explode in wider AoEs. Inflicts poison Poison. After the first cast of Toxic Vomit, a second set of poisonous pods will follow the first set, and explode after first set. Dodge into where the first poisonous pods were after they explode.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop--04-aiatar--m002--toxic-vomit--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--04-aiatar--m002--toxic-vomit",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop--04-aiatar--m002--toxic-vomit--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-brayflox-s-longstop--04-aiatar--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop--04-aiatar--m003--dragon-breath",
+        "orientation": "toward_target",
+        "source_text": "a line AoE targeting a random party member. Inflicts poison Poison if hit.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop--04-aiatar--m003--dragon-breath--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop--04-aiatar--m003--dragon-breath",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop--04-aiatar--m003--dragon-breath--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Brayflox's_Longstop",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-brayflox-s-longstop--04-aiatar--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-brayflox-s-longstop-hard--01-illuminati-commander--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop-hard--01-illuminati-commander--m001--bomb-toss",
+        "orientation": null,
+        "source_text": "a casted circular AoE around a player.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop-hard--01-illuminati-commander--m001--bomb-toss--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-brayflox-s-longstop-hard--01-illuminati-commander--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop-hard--01-illuminati-commander--m001--bomb-toss",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop-hard--01-illuminati-commander--m001--bomb-toss--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-brayflox-s-longstop-hard--02-magitek-vangob-g-iii--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop-hard--02-magitek-vangob-g-iii--m001--drill-cannons",
+        "orientation": "toward_target",
+        "source_text": "a line AoE targetting a random player.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop-hard--02-magitek-vangob-g-iii--m001--drill-cannons--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-brayflox-s-longstop-hard--02-magitek-vangob-g-iii--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop-hard--02-magitek-vangob-g-iii--m001--drill-cannons",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop-hard--02-magitek-vangob-g-iii--m001--drill-cannons--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m002--bombardment",
+        "orientation": null,
+        "source_text": "casted circular AoE that will target a random player.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m002--bombardment--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m002--bombardment",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m002--bombardment--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m003--intermission-phase",
+        "orientation": null,
+        "source_text": "At around 75%, 50%, and 25% HP, the boss will start circling the room's outer perimeter and become un-targetable, dealing damage to players within its path. One Illuminati Sniper and one Illuminati Glider adds will spawn. A few seconds later, it will launch a massive amount of bombs that cover the entire area. These can be knocked away with attacks and should be moved away from the center with AoE attacks quickly before they explode. The boss will stop and becomes targetable again afterwards.",
+        "element_type": "add",
+        "arena_element_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m003--intermission-phase--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m003--intermission-phase",
+      "element_type": "add",
+      "arena_element_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m003--intermission-phase--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": "high"
+        },
+        "mechanic_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m004--final-intermission-phase",
+        "orientation": null,
+        "source_text": "The third and final intermission phase will be followed by the boss summoning a Giant Bomb, which must be killed quickly. The boss will begin to rush through the middle of the arena during this phase, dealing moderate damage to players and potentially stun-locking them.",
+        "element_type": "add",
+        "arena_element_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m004--final-intermission-phase--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--source-overview",
+      "mechanic_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m004--final-intermission-phase",
+      "element_type": "add",
+      "arena_element_id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi--m004--final-intermission-phase--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-castrum-meridianum--01-black-eft--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-castrum-meridianum--01-black-eft--m002--request-assistance",
+        "orientation": null,
+        "source_text": "Summons additional imperial soldiers to the battle.",
+        "element_type": "add",
+        "arena_element_id": "arr-castrum-meridianum--01-black-eft--m002--request-assistance--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-castrum-meridianum--01-black-eft--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--01-black-eft--m002--request-assistance",
+      "element_type": "add",
+      "arena_element_id": "arr-castrum-meridianum--01-black-eft--m002--request-assistance--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-castrum-meridianum--01-black-eft--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-castrum-meridianum--01-black-eft--m003--magitek-cannon",
+        "orientation": null,
+        "source_text": "A large circular AoE attack that targets a random player, dealing heavy damage to all players hit.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--01-black-eft--m003--magitek-cannon--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-castrum-meridianum--01-black-eft--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--01-black-eft--m003--magitek-cannon",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--01-black-eft--m003--magitek-cannon--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-castrum-meridianum--01-black-eft--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-castrum-meridianum--01-black-eft--m004--high-powered-magitek-ray",
+        "orientation": "toward_target",
+        "source_text": "An untelegraphed line attack that deals heavy damage to all players directly in front of the boss.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--01-black-eft--m004--high-powered-magitek-ray--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-castrum-meridianum--01-black-eft--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--01-black-eft--m004--high-powered-magitek-ray",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--01-black-eft--m004--high-powered-magitek-ray--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m003--hypercharge",
+        "orientation": null,
+        "source_text": "The boss will reposition at the center of the arena and fire a donut AoE and circle AoE, leaving only a small donut as a safe spot.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m003--hypercharge--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m003--hypercharge",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m003--hypercharge--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "donut",
+        "phase_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "inside"
+        },
+        "mechanic_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m003--hypercharge",
+        "orientation": null,
+        "source_text": "The boss will reposition at the center of the arena and fire a donut AoE and circle AoE, leaving only a small donut as a safe spot.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m003--hypercharge--danger_zone--donut",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "donut",
+      "phase_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m003--hypercharge",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m003--hypercharge--danger_zone--donut",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m004--overcharge",
+        "orientation": "toward_target",
+        "source_text": "A frontal cone AoE attack that deals heavy amount of damage and inflicts the debuff Paralysis to all players hit.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m004--overcharge--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m004--overcharge",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m004--overcharge--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "spread",
+        "phase_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "players"
+        },
+        "mechanic_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m005--targeted-support",
+        "orientation": null,
+        "source_text": "Drops an AoE on all players that must be avoided by moving out of it.",
+        "element_type": "marker",
+        "arena_element_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m005--targeted-support--marker--spread",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "spread",
+      "phase_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m005--targeted-support",
+      "element_type": "marker",
+      "arena_element_id": "arr-castrum-meridianum--02-magitek-vanguard-f-1--m005--targeted-support--marker--spread",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m003--roundhouse",
+        "orientation": null,
+        "source_text": "Livia will reposition to the center and cast a circle AoE followed by 8 AoEs on the border of the arena. Avoid by moving out then moving in.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m003--roundhouse--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m003--roundhouse",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m003--roundhouse--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m004--infinite-reach",
+        "orientation": null,
+        "source_text": "A sequence of a large line AoE down the center of the arena followed by 6 circle AoEs on the sides of it. Livia will cast this four times on various sides of the arena before ending with Angry Salamander. Players must remember the order in which the AoEs appear to avoid them sequentially.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m004--infinite-reach--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m004--infinite-reach",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m004--infinite-reach--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m004--infinite-reach",
+        "orientation": "toward_target",
+        "source_text": "A sequence of a large line AoE down the center of the arena followed by 6 circle AoEs on the sides of it. Livia will cast this four times on various sides of the arena before ending with Angry Salamander. Players must remember the order in which the AoEs appear to avoid them sequentially.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m004--infinite-reach--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m004--infinite-reach",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m004--infinite-reach--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike",
+        "orientation": null,
+        "source_text": "A cast in preparation for the following two moves: Stunning Sweep: Circular AoE attack that is done at the same time as 6 other AoEs on the outside of the arena, leaving two safe areas on opposite edges. This is followed by two flare markers on the the safe spot. Players must get into the safe zone and then leave once the other AoEs go off. Angry Salamander: 8 line AoEs will go off in the middle of the arena, followed by four flare markers on the edge. Players must move in between two of the line AoEs and move back into the center.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike",
+        "orientation": "toward_target",
+        "source_text": "A cast in preparation for the following two moves: Stunning Sweep: Circular AoE attack that is done at the same time as 6 other AoEs on the outside of the arena, leaving two safe areas on opposite edges. This is followed by two flare markers on the the safe spot. Players must get into the safe zone and then leave once the other AoEs go off. Angry Salamander: 8 line AoEs will go off in the middle of the arena, followed by four flare markers on the edge. Players must move in between two of the line AoEs and move back into the center.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike",
+        "orientation": null,
+        "source_text": "A cast in preparation for the following two moves: Stunning Sweep: Circular AoE attack that is done at the same time as 6 other AoEs on the outside of the arena, leaving two safe areas on opposite edges. This is followed by two flare markers on the the safe spot. Players must get into the safe zone and then leave once the other AoEs go off. Angry Salamander: 8 line AoEs will go off in the middle of the arena, followed by four flare markers on the edge. Players must move in between two of the line AoEs and move back into the center.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-castrum-meridianum--03-livia-sas-junius--source-overview",
+      "mechanic_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-castrum-meridianum--03-livia-sas-junius--m005--thermobaric-strike--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-copperbell-mines--01-kottos--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-copperbell-mines--01-kottos--m002--lumbering-leap",
+        "orientation": null,
+        "source_text": "Kottos will jump to 3 areas, causing a massive circle AoE to appear at the location. Players should move to the small safe spot at the edge of the arena.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-copperbell-mines--01-kottos--m002--lumbering-leap--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-copperbell-mines--01-kottos--source-overview",
+      "mechanic_id": "arr-copperbell-mines--01-kottos--m002--lumbering-leap",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines--01-kottos--m002--lumbering-leap--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-copperbell-mines--01-kottos--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-copperbell-mines--01-kottos--m002--lumbering-leap",
+        "orientation": null,
+        "source_text": "Kottos will jump to 3 areas, causing a massive circle AoE to appear at the location. Players should move to the small safe spot at the edge of the arena.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-copperbell-mines--01-kottos--m002--lumbering-leap--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-copperbell-mines--01-kottos--source-overview",
+      "mechanic_id": "arr-copperbell-mines--01-kottos--m002--lumbering-leap",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-copperbell-mines--01-kottos--m002--lumbering-leap--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-copperbell-mines--01-kottos--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-copperbell-mines--01-kottos--m003--colossal-slam",
+        "orientation": "toward_target",
+        "source_text": "A large cone AoE targeted on a random player.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-copperbell-mines--01-kottos--m003--colossal-slam--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-copperbell-mines--01-kottos--source-overview",
+      "mechanic_id": "arr-copperbell-mines--01-kottos--m003--colossal-slam",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines--01-kottos--m003--colossal-slam--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-copperbell-mines--01-kottos--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-copperbell-mines--01-kottos--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-copperbell-mines--01-kottos--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-copperbell-mines--01-kottos--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-copperbell-mines--02-ichorous-ire--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-copperbell-mines--02-ichorous-ire--m002--syrup",
+        "orientation": null,
+        "source_text": "Circle AoEs will appear below all players, requiring them to move out of it.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-copperbell-mines--02-ichorous-ire--m002--syrup--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--source-overview",
+      "mechanic_id": "arr-copperbell-mines--02-ichorous-ire--m002--syrup",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines--02-ichorous-ire--m002--syrup--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-copperbell-mines--02-ichorous-ire--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-copperbell-mines--02-ichorous-ire--m003--divide",
+        "orientation": null,
+        "source_text": "After 50% HP, Ichorous Ire will split up into many Ichorous Drips, which will each cast Burst, a circle AoE centered on the enemy.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-copperbell-mines--02-ichorous-ire--m003--divide--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--source-overview",
+      "mechanic_id": "arr-copperbell-mines--02-ichorous-ire--m003--divide",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines--02-ichorous-ire--m003--divide--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-copperbell-mines--02-ichorous-ire--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-copperbell-mines--02-ichorous-ire--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "donut",
+        "phase_id": "arr-copperbell-mines--03-gyges-the-great--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "inside"
+        },
+        "mechanic_id": "arr-copperbell-mines--03-gyges-the-great--m002--gigantic-swing",
+        "orientation": null,
+        "source_text": "A massive donut AoE centered on the boss. Players must move into the boss' hitbox to avoid excess damage.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-copperbell-mines--03-gyges-the-great--m002--gigantic-swing--danger_zone--donut",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "donut",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--source-overview",
+      "mechanic_id": "arr-copperbell-mines--03-gyges-the-great--m002--gigantic-swing",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines--03-gyges-the-great--m002--gigantic-swing--danger_zone--donut",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-copperbell-mines--03-gyges-the-great--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-copperbell-mines--03-gyges-the-great--m003--gigantic-smash",
+        "orientation": null,
+        "source_text": "The boss will recenter and cast a circle AoE in the center along with 5 more on the outside of the arena. Players should move into the safe spots in between the AoEs.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-copperbell-mines--03-gyges-the-great--m003--gigantic-smash--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--source-overview",
+      "mechanic_id": "arr-copperbell-mines--03-gyges-the-great--m003--gigantic-smash",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines--03-gyges-the-great--m003--gigantic-smash--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-copperbell-mines--03-gyges-the-great--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-copperbell-mines--03-gyges-the-great--m004--colossal-slam",
+        "orientation": "toward_target",
+        "source_text": "A large cone AoE targeted on a random player.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-copperbell-mines--03-gyges-the-great--m004--colossal-slam--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--source-overview",
+      "mechanic_id": "arr-copperbell-mines--03-gyges-the-great--m004--colossal-slam",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines--03-gyges-the-great--m004--colossal-slam--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-copperbell-mines--03-gyges-the-great--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-copperbell-mines--03-gyges-the-great--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "danger": "documented_circular_or_persistent_zone",
+          "safe_rule": "outside_zone_unless_source_says_otherwise"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines_(Hard)",
+        "source_text": "Darkfire progressively covers the bridge with fire; each use also causes a Flambeau to spawn, which must be killed before it reaches the burning ground or self-destructs.",
+        "classification": "circle_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-copperbell-mines-hard--01-hecatoncheir-mastermind--source-overview",
+      "mechanic_id": "arr-copperbell-mines-hard--01-hecatoncheir-mastermind--research-20260921--m001",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines-hard--01-hecatoncheir-mastermind--research-20260921--m001--arena-audit--circle_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "relation": {
+          "danger": "cone",
+          "origin": "boss_or_documented_source",
+          "safe_rule": "outside_cone"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines_(Hard)",
+        "source_text": "Gogmagolem periodically uses Plaincracker, a high-damage cone directed at the tank.",
+        "classification": "cone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-copperbell-mines-hard--02-gogmagolem--source-overview",
+      "mechanic_id": "arr-copperbell-mines-hard--02-gogmagolem--research-20260921--m001",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-copperbell-mines-hard--02-gogmagolem--research-20260921--m001--arena-audit--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_interactable_or_zone",
+          "subject": "player_or_party",
+          "relation": "interact_or_occupy_as_documented"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Copperbell_Mines_(Hard)",
+        "source_text": "If the abyss worm is not distracted with Crystallized Rock when it searches for fodder, it casts Bottomless Desert, pulling the party to the middle and dealing heavy damage.",
+        "classification": "interactable_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-copperbell-mines-hard--03-ouranos--source-overview",
+      "mechanic_id": "arr-copperbell-mines-hard--03-ouranos--research-20260921--m001",
+      "element_type": "interactable",
+      "arena_element_id": "arr-copperbell-mines-hard--03-ouranos--research-20260921--m001--arena-audit--interactable_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m001--stone-ii",
+        "orientation": null,
+        "source_text": "is a telegraphed circle AoE on a player's location.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m001--stone-ii--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m001--stone-ii",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m001--stone-ii--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m002--mandible-bite",
+        "orientation": "toward_target",
+        "source_text": "is a telegraphed frontal conal AoE.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m002--mandible-bite--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m002--mandible-bite",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m002--mandible-bite--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m005--myrmidon-soldier",
+        "orientation": null,
+        "source_text": "is the least dangerous add type. It only has a basic attack.",
+        "element_type": "add",
+        "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m005--myrmidon-soldier--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m005--myrmidon-soldier",
+      "element_type": "add",
+      "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m005--myrmidon-soldier--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m006--myrmidon-guard",
+        "orientation": null,
+        "source_text": "is a slightly stronger add. It also has Mandible Bite, the frontal AoE cone ability.",
+        "element_type": "add",
+        "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m006--myrmidon-guard--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m006--myrmidon-guard",
+      "element_type": "add",
+      "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m006--myrmidon-guard--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m007--myrmidon-marshal",
+        "orientation": null,
+        "source_text": "is the strongest add. It has an AoE frontal cone ability, Mandible Bite, that damages all targets caught within. The Marshal can also use an ability named Formic Pheromones, which puts a Vulnerability Down buff on Myrmidon Princess. Will be indicated by it tethering to the Princess.",
+        "element_type": "add",
+        "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m007--myrmidon-marshal--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m007--myrmidon-marshal",
+      "element_type": "add",
+      "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m007--myrmidon-marshal--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+        "position": null,
+        "parameters": {
+          "endpoints": [
+            "source",
+            "target"
+          ]
+        },
+        "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m007--myrmidon-marshal",
+        "orientation": "toward_target",
+        "source_text": "is the strongest add. It has an AoE frontal cone ability, Mandible Bite, that damages all targets caught within. The Marshal can also use an ability named Formic Pheromones, which puts a Vulnerability Down buff on Myrmidon Princess. Will be indicated by it tethering to the Princess.",
+        "element_type": "tether",
+        "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m007--myrmidon-marshal--tether--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--01-myrmidon-princess--m007--myrmidon-marshal",
+      "element_type": "tether",
+      "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--m007--myrmidon-marshal--tether--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-cutter-s-cry--01-myrmidon-princess--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "danger": "documented_circular_or_persistent_zone",
+          "safe_rule": "outside_zone_unless_source_says_otherwise"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "source_text": "is used when it is burrowed. Sand Pillar damages any player standing on top of the sand trap.",
+        "classification": "circle_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--02-giant-tunnel-worm--m003--sand-pillar",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-cutter-s-cry--02-giant-tunnel-worm--m003--sand-pillar--arena-audit--circle_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "relation": {
+          "danger": "documented_circular_or_persistent_zone",
+          "safe_rule": "outside_zone_unless_source_says_otherwise"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "source_text": "is used when it is burrowed. Tunnel Worm explodes out of the ground and heavily damages anyone near it.",
+        "classification": "circle_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--02-giant-tunnel-worm--m004--earthbreak",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-cutter-s-cry--02-giant-tunnel-worm--m004--earthbreak--arena-audit--circle_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_origin",
+          "subject": "player_or_party",
+          "relation": "resolve_knockback_with_safe_space"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "source_text": "is used by the Worm when it is burrowed. It appears as a whirlwind on the ground, does small amount of damage and pulls all party members towards its center.",
+        "classification": "knockback",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "vector",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--02-giant-tunnel-worm--m005--bottomless-desert",
+      "element_type": "movement_vector",
+      "arena_element_id": "arr-cutter-s-cry--02-giant-tunnel-worm--m005--bottomless-desert--arena-audit--knockback",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-cutter-s-cry--03-chimera--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-cutter-s-cry--03-chimera--m003--lightning-storm",
+        "orientation": null,
+        "source_text": "Telegraphed circle AoEs at two random players' locations.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-cutter-s-cry--03-chimera--m003--lightning-storm--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-cutter-s-cry--03-chimera--source-overview",
+      "mechanic_id": "arr-cutter-s-cry--03-chimera--m003--lightning-storm",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-cutter-s-cry--03-chimera--m003--lightning-storm--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-cutter-s-cry--03-chimera--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-cutter-s-cry--03-chimera--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cutter's_Cry",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p3",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-cutter-s-cry--03-chimera--p3--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-dzemael-darkhold--01-all-seeing-eye--m001--blustering-blink",
+        "orientation": "toward_target",
+        "source_text": "is a frontal line AoE attack.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-dzemael-darkhold--01-all-seeing-eye--m001--blustering-blink--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--source-overview",
+      "mechanic_id": "arr-dzemael-darkhold--01-all-seeing-eye--m001--blustering-blink",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-dzemael-darkhold--01-all-seeing-eye--m001--blustering-blink--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-dzemael-darkhold--01-all-seeing-eye--m002--void-matter",
+        "orientation": null,
+        "source_text": "is a sequence of circle AoEs: three on the walls; then three more on the walls, leaving a safe zone in the center; then a final AoE covering the center. Dodge to the center, then dodge out after the first set of AoEs go off.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-dzemael-darkhold--01-all-seeing-eye--m002--void-matter--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--source-overview",
+      "mechanic_id": "arr-dzemael-darkhold--01-all-seeing-eye--m002--void-matter",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-dzemael-darkhold--01-all-seeing-eye--m002--void-matter--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-dzemael-darkhold--01-all-seeing-eye--m002--void-matter",
+        "orientation": null,
+        "source_text": "is a sequence of circle AoEs: three on the walls; then three more on the walls, leaving a safe zone in the center; then a final AoE covering the center. Dodge to the center, then dodge out after the first set of AoEs go off.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-dzemael-darkhold--01-all-seeing-eye--m002--void-matter--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--source-overview",
+      "mechanic_id": "arr-dzemael-darkhold--01-all-seeing-eye--m002--void-matter",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-dzemael-darkhold--01-all-seeing-eye--m002--void-matter--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Dzemael_Darkhold",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-dzemael-darkhold--02-taulurd--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-dzemael-darkhold--02-taulurd--m001--deepvoid-slave",
+        "orientation": null,
+        "source_text": "has two types of attacks, Firewater and Boulderdash. Firewater is a set of 4 circular AoEs around the arena. Boulderdash is an instant cast that hits all players.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-dzemael-darkhold--02-taulurd--m001--deepvoid-slave--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--source-overview",
+      "mechanic_id": "arr-dzemael-darkhold--02-taulurd--m001--deepvoid-slave",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-dzemael-darkhold--02-taulurd--m001--deepvoid-slave--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-dzemael-darkhold--02-taulurd--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-dzemael-darkhold--02-taulurd--m003--double-smash",
+        "orientation": "toward_target",
+        "source_text": "is a frontal AoE cone attack that deals a large amount of damage to targets hit.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-dzemael-darkhold--02-taulurd--m003--double-smash--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--source-overview",
+      "mechanic_id": "arr-dzemael-darkhold--02-taulurd--m003--double-smash",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-dzemael-darkhold--02-taulurd--m003--double-smash--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-dzemael-darkhold--02-taulurd--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-dzemael-darkhold--02-taulurd--m004--elbow-drop",
+        "orientation": "toward_target",
+        "source_text": "is a frontal AoE cone attack that deals more damage than Double Smash. Taulurd starts to use this when it is under half HP.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-dzemael-darkhold--02-taulurd--m004--elbow-drop--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--source-overview",
+      "mechanic_id": "arr-dzemael-darkhold--02-taulurd--m004--elbow-drop",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-dzemael-darkhold--02-taulurd--m004--elbow-drop--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Dzemael_Darkhold",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-dzemael-darkhold--02-taulurd--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-dzemael-darkhold--03-batraal--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-dzemael-darkhold--03-batraal--m003--grim-halo",
+        "orientation": null,
+        "source_text": "is a circle AoE that deals moderate damage to all players around him.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-dzemael-darkhold--03-batraal--m003--grim-halo--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-dzemael-darkhold--03-batraal--source-overview",
+      "mechanic_id": "arr-dzemael-darkhold--03-batraal--m003--grim-halo",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-dzemael-darkhold--03-batraal--m003--grim-halo--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Dzemael_Darkhold",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-dzemael-darkhold--03-batraal--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Dzemael_Darkhold",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-dzemael-darkhold--03-batraal--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-halatali--01-firemane--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-halatali--01-firemane--m001--fire-ii",
+        "orientation": null,
+        "source_text": "Circular AoE.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-halatali--01-firemane--m001--fire-ii--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-halatali--01-firemane--source-overview",
+      "mechanic_id": "arr-halatali--01-firemane--m001--fire-ii",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-halatali--01-firemane--m001--fire-ii--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Halatali",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-halatali--01-firemane--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-halatali--01-firemane--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-halatali--02-thunderclap-guivre--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-halatali--02-thunderclap-guivre--m001--electrify",
+        "orientation": null,
+        "source_text": "Circular AoE.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-halatali--02-thunderclap-guivre--m001--electrify--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-halatali--02-thunderclap-guivre--source-overview",
+      "mechanic_id": "arr-halatali--02-thunderclap-guivre--m001--electrify",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-halatali--02-thunderclap-guivre--m001--electrify--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-halatali--02-thunderclap-guivre--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-halatali--02-thunderclap-guivre--m003--hydroelectric-shock",
+        "orientation": null,
+        "source_text": "The boss will start charging electricity, giving a purple glow to the entire pool of water. Retreat to the dirt slopes on the edge of the arena until the attack goes off. Ranged party members can still hit the boss while standing on the slope.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-halatali--02-thunderclap-guivre--m003--hydroelectric-shock--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-halatali--02-thunderclap-guivre--source-overview",
+      "mechanic_id": "arr-halatali--02-thunderclap-guivre--m003--hydroelectric-shock",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-halatali--02-thunderclap-guivre--m003--hydroelectric-shock--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Halatali",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-halatali--02-thunderclap-guivre--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-halatali--03-tangata--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-halatali--03-tangata--m002--burning-ward",
+        "orientation": null,
+        "source_text": "At around 80% health, the boss gains a fire shield that makes it invulnerable. Two torches will light up and start spawning fire wisps, which will approach the boss, and will explode into room-wide AoEs if they reach it. Kill the wisps to disable the shield, which will give the message: . This move is repeated at about 60% HP.",
+        "element_type": "add",
+        "arena_element_id": "arr-halatali--03-tangata--m002--burning-ward--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-halatali--03-tangata--source-overview",
+      "mechanic_id": "arr-halatali--03-tangata--m002--burning-ward",
+      "element_type": "add",
+      "arena_element_id": "arr-halatali--03-tangata--m002--burning-ward--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "donut",
+        "phase_id": "arr-halatali--03-tangata--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "inside"
+        },
+        "mechanic_id": "arr-halatali--03-tangata--m003--plain-pound",
+        "orientation": null,
+        "source_text": "Multi-stage AoE that starts as a circle, then two concentric donuts. Stand outside the initial circle, then when it goes off, move into it to avoid the donuts.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-halatali--03-tangata--m003--plain-pound--danger_zone--donut",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "donut",
+      "phase_id": "arr-halatali--03-tangata--source-overview",
+      "mechanic_id": "arr-halatali--03-tangata--m003--plain-pound",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-halatali--03-tangata--m003--plain-pound--danger_zone--donut",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "circle",
+        "phase_id": "arr-halatali--03-tangata--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "outside"
+        },
+        "mechanic_id": "arr-halatali--03-tangata--m004--firewater",
+        "orientation": null,
+        "source_text": "Circular AoE.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-halatali--03-tangata--m004--firewater--danger_zone--circle",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-halatali--03-tangata--source-overview",
+      "mechanic_id": "arr-halatali--03-tangata--m004--firewater",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-halatali--03-tangata--m004--firewater--danger_zone--circle",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Halatali",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-halatali--03-tangata--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-halatali--03-tangata--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Halatali",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-halatali--03-tangata--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-halatali--03-tangata--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_interactable_or_zone",
+          "subject": "player_or_party",
+          "relation": "interact_or_occupy_as_documented"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Halatali_(Hard)",
+        "source_text": "1000 Tonze Swing covers the arena and is intended to be negated with the Manawall buff obtained from the mammet/lever mechanic.",
+        "classification": "interactable_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-halatali-hard--01-pyracmon--source-overview",
+      "mechanic_id": "arr-halatali-hard--01-pyracmon--research-20260921--m001",
+      "element_type": "interactable",
+      "arena_element_id": "arr-halatali-hard--01-pyracmon--research-20260921--m001--arena-audit--interactable_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_interactable_or_zone",
+          "subject": "player_or_party",
+          "relation": "interact_or_occupy_as_documented"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Halatali_(Hard)",
+        "source_text": "Demonic Eye is countered by activating a Shadowy Orb to gain Gloam before the cast resolves.",
+        "classification": "interactable_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-halatali-hard--02-catoblepas--source-overview",
+      "mechanic_id": "arr-halatali-hard--02-catoblepas--research-20260921--m001",
+      "element_type": "interactable",
+      "arena_element_id": "arr-halatali-hard--02-catoblepas--research-20260921--m001--arena-audit--interactable_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_interactable_or_zone",
+          "subject": "player_or_party",
+          "relation": "interact_or_occupy_as_documented"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Halatali_(Hard)",
+        "source_text": "Mumuepo chains players before casting Thal's Fury; unchained players must use Thal's Scepter to free them before the cast finishes.",
+        "classification": "interactable_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-halatali-hard--03-mumuepo-the-beholden--source-overview",
+      "mechanic_id": "arr-halatali-hard--03-mumuepo-the-beholden--research-20260921--m001",
+      "element_type": "interactable",
+      "arena_element_id": "arr-halatali-hard--03-mumuepo-the-beholden--research-20260921--m001--arena-audit--interactable_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-haukke-manor--01-manor-claviger--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-haukke-manor--01-manor-claviger--m001--sweet-steel",
+        "orientation": "toward_target",
+        "source_text": "is an untelegraphed cone AoE melee attack.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-haukke-manor--01-manor-claviger--m001--sweet-steel--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-haukke-manor--01-manor-claviger--source-overview",
+      "mechanic_id": "arr-haukke-manor--01-manor-claviger--m001--sweet-steel",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-haukke-manor--01-manor-claviger--m001--sweet-steel--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-haukke-manor--01-manor-claviger--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-haukke-manor--01-manor-claviger--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "boss_centered_pbaoe",
+          "subject": "player",
+          "relation": "outside_or_interrupt"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor",
+        "source_text": "(Steward) is a large PBAoE spell. This spell can be avoided by stunning Steward.",
+        "classification": "radial_pbaoe",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-haukke-manor--02-manor-jester--source-overview",
+      "mechanic_id": "arr-haukke-manor--02-manor-jester--m002--soul-drain",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-haukke-manor--02-manor-jester--m002--soul-drain--arena-audit--radial_pbaoe",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-haukke-manor--02-manor-jester--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "boss_centered_pbaoe",
+          "subject": "player",
+          "relation": "outside_or_interrupt"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor",
+        "source_text": "is a large PBAoE spell. This spell can be avoided by stunning Lady Amandine.",
+        "classification": "radial_pbaoe",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "circle",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--source-overview",
+      "mechanic_id": "arr-haukke-manor--03-lady-amandine--m003--dark-mist",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-haukke-manor--03-lady-amandine--m003--dark-mist--arena-audit--radial_pbaoe",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-haukke-manor--03-lady-amandine--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-haukke-manor--03-lady-amandine--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "danger": "documented_circular_or_persistent_zone",
+          "safe_rule": "outside_zone_unless_source_says_otherwise"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor_(Hard)",
+        "source_text": "Manor Butler add spawns during the Manor Jester encounter; players should kill the adds while avoiding the boss's ice patches.",
+        "classification": "circle_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-haukke-manor-hard--01-manor-claviger--source-overview",
+      "mechanic_id": "arr-haukke-manor-hard--01-manor-claviger--m001--manor-butler",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-haukke-manor-hard--01-manor-claviger--m001--manor-butler--arena-audit--circle_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Reviewed documented mechanics contain no significant reusable positioning requirement; encounter instructions are target/damage/debuff/interrupt/priority based rather than arena-spatial.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor_(Hard)",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-haukke-manor-hard--02-ash--source-overview",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-haukke-manor-hard--02-ash--source-overview--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Reviewed documented mechanics contain no significant reusable positioning requirement; encounter instructions are target/damage/debuff/interrupt/priority based rather than arena-spatial.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Haukke_Manor_(Hard)",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-haukke-manor-hard--03-halicarnassus--source-overview",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-haukke-manor-hard--03-halicarnassus--source-overview--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-hullbreaker-isle--01-sasquatch--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-hullbreaker-isle--01-sasquatch--m001--wild-banana-tree",
+        "orientation": null,
+        "source_text": "There are 6 banana trees along the edges of the arena. Interacting with the tree drops a Banana Bunch on the ground. Used to interupt Chest Thump. Grants the boss a stacking damage buff.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-hullbreaker-isle--01-sasquatch--m001--wild-banana-tree--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-hullbreaker-isle--01-sasquatch--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--01-sasquatch--m001--wild-banana-tree",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-hullbreaker-isle--01-sasquatch--m001--wild-banana-tree--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-hullbreaker-isle--01-sasquatch--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-hullbreaker-isle--01-sasquatch--m003--smallfoot-sifaka",
+        "orientation": null,
+        "source_text": "Small monkeys that spawn around when the boss casts Chest Thump. Will move towards and eat Banana Bunches. Should be killed quickly and/or tanked away from where the Banana Bunches are being summoned.",
+        "element_type": "add",
+        "arena_element_id": "arr-hullbreaker-isle--01-sasquatch--m003--smallfoot-sifaka--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-hullbreaker-isle--01-sasquatch--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--01-sasquatch--m003--smallfoot-sifaka",
+      "element_type": "add",
+      "arena_element_id": "arr-hullbreaker-isle--01-sasquatch--m003--smallfoot-sifaka--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-hullbreaker-isle--02-sjoorm--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-hullbreaker-isle--02-sjoorm--m001--upwell",
+        "orientation": "toward_target",
+        "source_text": "Long frontal line AoE.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-hullbreaker-isle--02-sjoorm--m001--upwell--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-hullbreaker-isle--02-sjoorm--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--02-sjoorm--m001--upwell",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-hullbreaker-isle--02-sjoorm--m001--upwell--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-hullbreaker-isle--02-sjoorm--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-hullbreaker-isle--02-sjoorm--m003--watery-grave",
+        "orientation": null,
+        "source_text": "Large bubbles that spawn around the room in a 3x3 grid. Used to avoid Whirlpool. Imobilizes and deals slight damage to players while inside, and deals additional damage in an arena-wide AoE when the bubbles pop.",
+        "element_type": "add",
+        "arena_element_id": "arr-hullbreaker-isle--02-sjoorm--m003--watery-grave--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-hullbreaker-isle--02-sjoorm--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--02-sjoorm--m003--watery-grave",
+      "element_type": "add",
+      "arena_element_id": "arr-hullbreaker-isle--02-sjoorm--m003--watery-grave--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m001--platforms",
+        "orientation": null,
+        "source_text": "There are 4 platforms in the arena that players can use Waterspouts to get to.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m001--platforms--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m001--platforms",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m001--platforms--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m002--waterspouts",
+        "orientation": null,
+        "source_text": "Used to move between Platforms. Applies a 15-second stacking Suppuration debuff when used; avoid excessive/repeated use in a short time to keep the debuff down.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m002--waterspouts--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m002--waterspouts",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m002--waterspouts--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm",
+        "orientation": null,
+        "source_text": "One is spawned on each Platform. Killing one spawns a second at the same platform that needs to be killed as well. Wallop: frontal cone AoE. Inkblot: A large AoE on a random player. Applies a slow debuff and a DoT. Clearout: Donut AoE. Stand within the hitbox to avoid being hit. Knocks back affected players, potentially into a Waterspout.",
+        "element_type": "add",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm",
+      "element_type": "add",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm",
+        "orientation": "toward_target",
+        "source_text": "One is spawned on each Platform. Killing one spawns a second at the same platform that needs to be killed as well. Wallop: frontal cone AoE. Inkblot: A large AoE on a random player. Applies a slow debuff and a DoT. Clearout: Donut AoE. Stand within the hitbox to avoid being hit. Knocks back affected players, potentially into a Waterspout.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "donut",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "inside"
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm",
+        "orientation": null,
+        "source_text": "One is spawned on each Platform. Killing one spawns a second at the same platform that needs to be killed as well. Wallop: frontal cone AoE. Inkblot: A large AoE on a random player. Applies a slow debuff and a DoT. Clearout: Donut AoE. Stand within the hitbox to avoid being hit. Knocks back affected players, potentially into a Waterspout.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm--danger_zone--donut",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "donut",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm--danger_zone--donut",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm",
+        "orientation": null,
+        "source_text": "One is spawned on each Platform. Killing one spawns a second at the same platform that needs to be killed as well. Wallop: frontal cone AoE. Inkblot: A large AoE on a random player. Applies a slow debuff and a DoT. Clearout: Donut AoE. Stand within the hitbox to avoid being hit. Knocks back affected players, potentially into a Waterspout.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m003--kraken-s-arm--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle",
+        "orientation": null,
+        "source_text": "Appears after 4 Arms have been killed. Killing it spawns a second, final tentacle. Should be focused over the Arm as it has more health and is more annoying. Wallop: frontal cone AoE. Scoop: Will pick up players, immobilizing them, and throw them onto random platforms.",
+        "element_type": "add",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle",
+      "element_type": "add",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "cone",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "facing_direction",
+          "safe_rule": "flank_or_rear"
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle",
+        "orientation": "toward_target",
+        "source_text": "Appears after 4 Arms have been killed. Killing it spawns a second, final tentacle. Should be focused over the Arm as it has more health and is more annoying. Wallop: frontal cone AoE. Scoop: Will pick up players, immobilizing them, and throw them onto random platforms.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle--danger_zone--cone",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "cone",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle--danger_zone--cone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle",
+        "orientation": null,
+        "source_text": "Appears after 4 Arms have been killed. Killing it spawns a second, final tentacle. Should be focused over the Arm as it has more health and is more annoying. Wallop: frontal cone AoE. Scoop: Will pick up players, immobilizing them, and throw them onto random platforms.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m004--tentacle--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-hullbreaker-isle--03-kraken--m005--world-s-end",
+        "orientation": null,
+        "source_text": "Marks 1-2 players with a large green meteor icon. After a few seconds, they will drop a tornado where they are standing. A few more seconds after that, the tornado will explode, dealing heavy damage to all players in a massive AoE around it. Marked players should bring the marker to another island and drop it along the far edge and return, with the rest of the group moving against the far wall on the platform they stayed on.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-hullbreaker-isle--03-kraken--m005--world-s-end--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-hullbreaker-isle--03-kraken--source-overview",
+      "mechanic_id": "arr-hullbreaker-isle--03-kraken--m005--world-s-end",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-hullbreaker-isle--03-kraken--m005--world-s-end--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_target_or_destination",
+          "subject": "documented_actor",
+          "relation": "documented_relative_movement_or_targeting"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "source_text": "After Bone Dragon dies, Platinal skeletons revive and run toward it; each skeleton that reaches the dragon deals unblockable raid damage.",
+        "classification": "relation",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "relation",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--source-overview",
+      "mechanic_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--research-20260921--m001",
+      "element_type": "position_relation",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--research-20260921--m001--arena-audit--relation",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "marker",
+        "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--source-overview",
+        "position": null,
+        "parameters": {
+          "priority": null
+        },
+        "mechanic_id": "arr-labyrinth-of-the-ancients--02-thanatos--m001--kill-priority-for-adds",
+        "orientation": null,
+        "source_text": "Napalm first, Balloon second and Vassago third.",
+        "element_type": "add",
+        "arena_element_id": "arr-labyrinth-of-the-ancients--02-thanatos--m001--kill-priority-for-adds--add--marker",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "marker",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--source-overview",
+      "mechanic_id": "arr-labyrinth-of-the-ancients--02-thanatos--m001--kill-priority-for-adds",
+      "element_type": "add",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--02-thanatos--m001--kill-priority-for-adds--add--marker",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_cover_object",
+          "subject": "player",
+          "relation": "behind_cover_relative_to_attack"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "source_text": "Players must place comets outside Behemoth's targeting ring and hide behind a surviving comet to block line of sight from Ecliptic Meteor.",
+        "classification": "cover_relation",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "relation",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--source-overview",
+      "mechanic_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--research-20260921--m001",
+      "element_type": "position_relation",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--research-20260921--m001--arena-audit--cover_relation",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_interactable_or_zone",
+          "subject": "player_or_party",
+          "relation": "interact_or_occupy_as_documented"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Labyrinth_of_the_Ancients",
+        "source_text": "When Phlegethon moves to the center and casts Ancient Flare, each alliance must stand on its assigned platform to raise the barrier or the raid wipes.",
+        "classification": "interactable_or_zone",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_zone",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--source-overview",
+      "mechanic_id": "arr-labyrinth-of-the-ancients--04-phlegethon--research-20260921--m001",
+      "element_type": "interactable",
+      "arena_element_id": "arr-labyrinth-of-the-ancients--04-phlegethon--research-20260921--m001--arena-audit--interactable_or_zone",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-pharos-sirius--01-symond-the-unsinkable--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-pharos-sirius--01-symond-the-unsinkable--m001--corrupting-shot",
+        "orientation": "toward_target",
+        "source_text": "straight line AoE from the boss's position.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-pharos-sirius--01-symond-the-unsinkable--m001--corrupting-shot--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-pharos-sirius--01-symond-the-unsinkable--source-overview",
+      "mechanic_id": "arr-pharos-sirius--01-symond-the-unsinkable--m001--corrupting-shot",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-pharos-sirius--01-symond-the-unsinkable--m001--corrupting-shot--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "boundary",
+        "phase_id": "arr-pharos-sirius--01-symond-the-unsinkable--source-overview",
+        "position": null,
+        "parameters": {
+          "active": true
+        },
+        "mechanic_id": "arr-pharos-sirius--01-symond-the-unsinkable--m002--crystalline-shot",
+        "orientation": null,
+        "source_text": "makes either 1 or 2 large circular puddles on the ground. The puddle(s) will expand 2 times, and touching them will give a Corrupting Crystal stack. If there's one puddle, stay around the edges of the arena. If there are two, then try to split the party across the two safe zones, to minimize splash damage from Corrupting Crystal explosions.",
+        "element_type": "dangerous_edge",
+        "arena_element_id": "arr-pharos-sirius--01-symond-the-unsinkable--m002--crystalline-shot--dangerous_edge--boundary",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "boundary",
+      "phase_id": "arr-pharos-sirius--01-symond-the-unsinkable--source-overview",
+      "mechanic_id": "arr-pharos-sirius--01-symond-the-unsinkable--m002--crystalline-shot",
+      "element_type": "dangerous_edge",
+      "arena_element_id": "arr-pharos-sirius--01-symond-the-unsinkable--m002--crystalline-shot--dangerous_edge--boundary",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Reviewed documented mechanics contain no significant reusable positioning requirement; encounter instructions are target/damage/debuff/interrupt/priority based rather than arena-spatial.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Pharos_Sirius",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-pharos-sirius--02-zu--source-overview",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-pharos-sirius--02-zu--source-overview--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "party",
+          "subject": "tank",
+          "relation": "face_boss_away_from"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Pharos_Sirius",
+        "source_text": "Tyrant spawns Sailor adds; the tank should face Tyrant away from the group and pick up the adds.",
+        "classification": "boss_orientation",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "relation",
+      "phase_id": "arr-pharos-sirius--03-tyrant--source-overview",
+      "mechanic_id": "arr-pharos-sirius--03-tyrant--research-20260921--m001",
+      "element_type": "boss_orientation",
+      "arena_element_id": "arr-pharos-sirius--03-tyrant--research-20260921--m001--arena-audit--boss_orientation",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "donut",
+        "phase_id": "arr-pharos-sirius--04-siren--source-overview",
+        "position": null,
+        "parameters": {
+          "safe_rule": "inside"
+        },
+        "mechanic_id": "arr-pharos-sirius--04-siren--m003--deathly-cadenza",
+        "orientation": null,
+        "source_text": "Large donut AoE at the center of the room. Anyone hit by this will get the Siren Song debuff. Stay in the center of the arena (the circle of metal grates) to avoid it, or interrupt the cast.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-pharos-sirius--04-siren--m003--deathly-cadenza--danger_zone--donut",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "donut",
+      "phase_id": "arr-pharos-sirius--04-siren--source-overview",
+      "mechanic_id": "arr-pharos-sirius--04-siren--m003--deathly-cadenza",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-pharos-sirius--04-siren--m003--deathly-cadenza--danger_zone--donut",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "anchor": "boss",
+        "geometry": "line",
+        "phase_id": "arr-pharos-sirius--04-siren--source-overview",
+        "position": null,
+        "parameters": {
+          "target": "random_player",
+          "safe_rule": "outside_line"
+        },
+        "mechanic_id": "arr-pharos-sirius--04-siren--m004--feral-lunge",
+        "orientation": "toward_target",
+        "source_text": "Straight line AoE that goes through the center of the arena.",
+        "element_type": "danger_zone",
+        "arena_element_id": "arr-pharos-sirius--04-siren--m004--feral-lunge--danger_zone--line",
+        "verification_status": "derived_from_source"
+      },
+      "geometry": "line",
+      "phase_id": "arr-pharos-sirius--04-siren--source-overview",
+      "mechanic_id": "arr-pharos-sirius--04-siren--m004--feral-lunge",
+      "element_type": "danger_zone",
+      "arena_element_id": "arr-pharos-sirius--04-siren--m004--feral-lunge--danger_zone--line",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "relation": {
+          "object": "documented_region",
+          "subject": "player_or_party",
+          "relation": "use_or_avoid_documented_arena_region"
+        },
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Sastasha",
+        "source_text": "an AoE centred around the boss that does no damage, but inflicts Paralysis if hit.",
+        "classification": "arena_region",
+        "precision_basis": "derived_from_documented_mechanic",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_absolute_coordinates_invented"
+      },
+      "geometry": "conceptual_region",
+      "phase_id": "arr-sastasha--01-chopper--source-overview",
+      "mechanic_id": "arr-sastasha--01-chopper--m001--charged-whisker",
+      "element_type": "arena_region",
+      "arena_element_id": "arr-sastasha--01-chopper--m001--charged-whisker--arena-audit--arena_region",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision overlaps documented mechanic(s) already stored on the canonical source-overview phase. Mechanics were not duplicated or moved because that would create duplicate records or make the canonical source-overview phase empty.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Sastasha",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-sastasha--01-chopper--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-sastasha--01-chopper--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    },
+    {
+      "payload": {
+        "reason": "Legacy phase subdivision/grouping was reviewed against the boss encounter structure. No distinct mechanic record is required for this legacy phase; documented encounter mechanics remain on the canonical source-overview phase.",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Sastasha",
+        "classification": "arena_not_required",
+        "precision_basis": "no_spatial_geometry_created",
+        "arena_audit_date": "2026-09-21",
+        "coordinate_policy": "no_coordinates_invented"
+      },
+      "geometry": "none",
+      "phase_id": "arr-sastasha--02-captain-madison--p1",
+      "mechanic_id": null,
+      "element_type": "arena_not_required",
+      "arena_element_id": "arr-sastasha--02-captain-madison--p1--arena-audit--arena_not_required",
+      "verification_status": "source_documented"
+    }
+  ]
+}
