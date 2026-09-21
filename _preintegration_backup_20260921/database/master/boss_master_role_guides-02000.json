@@ -1,0 +1,3771 @@
+{
+  "table": "boss_master_role_guides",
+  "offset": 2000,
+  "row_count": 67,
+  "rows": [
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-paglth-an--02-magitek-core",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-paglth-an--02-magitek-core",
+        "phase_id": "shb-paglth-an--02-magitek-core--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Reposiciónate para los knockbacks documentados: Ground-to-ground Ballistic."
+        ],
+        "phase_role_id": "shb-paglth-an--02-magitek-core--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "2-tonze Magitek Missile",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--02-magitek-core--m001--2-tonze-magitek-missile"
+          },
+          {
+            "name": "Ground-to-ground Ballistic",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--02-magitek-core--m003--ground-to-ground-ballistic"
+          },
+          {
+            "name": "Missile",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--02-magitek-core--m002--missile"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-paglth-an--02-magitek-core--source-overview",
+      "phase_role_id": "shb-paglth-an--02-magitek-core--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-paglth-an--02-magitek-core",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-paglth-an--02-magitek-core",
+        "phase_id": "shb-paglth-an--02-magitek-core--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepárate para los knockbacks documentados: Ground-to-ground Ballistic."
+        ],
+        "phase_role_id": "shb-paglth-an--02-magitek-core--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "2-tonze Magitek Missile",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--02-magitek-core--m001--2-tonze-magitek-missile"
+          },
+          {
+            "name": "Ground-to-ground Ballistic",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--02-magitek-core--m003--ground-to-ground-ballistic"
+          },
+          {
+            "name": "Missile",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--02-magitek-core--m002--missile"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-paglth-an--02-magitek-core--source-overview",
+      "phase_role_id": "shb-paglth-an--02-magitek-core--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-paglth-an--03-lunar-bahamut",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-paglth-an--03-lunar-bahamut",
+        "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Gigaflare, Twisted Scream.",
+          "Vigila al tanque durante los tankbusters documentados: Flatten.",
+          "Acompaña y cura los stacks documentados: Akh Morn."
+        ],
+        "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Akh Morn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m003--akh-morn"
+          },
+          {
+            "name": "Flatten",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m009--flatten"
+          },
+          {
+            "name": "Gigaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m008--gigaflare"
+          },
+          {
+            "name": "Kan Rhai",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m006--kan-rhai"
+          },
+          {
+            "name": "Lunar Flare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare"
+          },
+          {
+            "name": "Megaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m004--megaflare"
+          },
+          {
+            "name": "Megaflare Dive",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m005--megaflare-dive"
+          },
+          {
+            "name": "Perigean Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m002--perigean-breath"
+          },
+          {
+            "name": "Twisted Scream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m001--twisted-scream"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+      "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-paglth-an--03-lunar-bahamut",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-paglth-an--03-lunar-bahamut",
+        "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados y planifica el movimiento entre casteos: Twisted Scream.",
+          "Planifica el movimiento para entrar en los stacks documentados: Akh Morn.",
+          "Evita comprometer un casteo largo cuando debas reposicionarte por: Megaflare Dive."
+        ],
+        "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Akh Morn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m003--akh-morn"
+          },
+          {
+            "name": "Flatten",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m009--flatten"
+          },
+          {
+            "name": "Gigaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m008--gigaflare"
+          },
+          {
+            "name": "Kan Rhai",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m006--kan-rhai"
+          },
+          {
+            "name": "Lunar Flare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare"
+          },
+          {
+            "name": "Megaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m004--megaflare"
+          },
+          {
+            "name": "Megaflare Dive",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m005--megaflare-dive"
+          },
+          {
+            "name": "Perigean Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m002--perigean-breath"
+          },
+          {
+            "name": "Twisted Scream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m001--twisted-scream"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+      "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--magical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-paglth-an--03-lunar-bahamut",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-paglth-an--03-lunar-bahamut",
+        "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Evita permanecer delante del boss durante los frontales documentados: Perigean Breath.",
+          "Cambia a los adds documentados cuando el encuentro los requiera: Twisted Scream.",
+          "Entra en los stacks documentados: Akh Morn.",
+          "Ajusta tu posición para los knockbacks documentados: Megaflare Dive."
+        ],
+        "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Akh Morn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m003--akh-morn"
+          },
+          {
+            "name": "Flatten",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m009--flatten"
+          },
+          {
+            "name": "Gigaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m008--gigaflare"
+          },
+          {
+            "name": "Kan Rhai",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m006--kan-rhai"
+          },
+          {
+            "name": "Lunar Flare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare"
+          },
+          {
+            "name": "Megaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m004--megaflare"
+          },
+          {
+            "name": "Megaflare Dive",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m005--megaflare-dive"
+          },
+          {
+            "name": "Perigean Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m002--perigean-breath"
+          },
+          {
+            "name": "Twisted Scream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m001--twisted-scream"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+      "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--melee_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-paglth-an--03-lunar-bahamut",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-paglth-an--03-lunar-bahamut",
+        "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados sin perder movilidad: Twisted Scream.",
+          "Entra en los stacks documentados: Akh Morn.",
+          "Reposiciónate para los knockbacks documentados: Megaflare Dive."
+        ],
+        "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Akh Morn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m003--akh-morn"
+          },
+          {
+            "name": "Flatten",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m009--flatten"
+          },
+          {
+            "name": "Gigaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m008--gigaflare"
+          },
+          {
+            "name": "Kan Rhai",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m006--kan-rhai"
+          },
+          {
+            "name": "Lunar Flare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare"
+          },
+          {
+            "name": "Megaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m004--megaflare"
+          },
+          {
+            "name": "Megaflare Dive",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m005--megaflare-dive"
+          },
+          {
+            "name": "Perigean Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m002--perigean-breath"
+          },
+          {
+            "name": "Twisted Scream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m001--twisted-scream"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+      "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-paglth-an--03-lunar-bahamut",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-paglth-an--03-lunar-bahamut",
+        "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Mantén el boss orientado lejos del grupo durante frontales documentados: Perigean Breath.",
+          "Usa mitigación para los tankbusters documentados: Flatten.",
+          "Controla/recoge los adds documentados cuando corresponda: Twisted Scream.",
+          "Resuelve los stacks documentados con el grupo: Akh Morn.",
+          "Prepárate para los knockbacks documentados: Megaflare Dive."
+        ],
+        "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Akh Morn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m003--akh-morn"
+          },
+          {
+            "name": "Flatten",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m009--flatten"
+          },
+          {
+            "name": "Gigaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m008--gigaflare"
+          },
+          {
+            "name": "Kan Rhai",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m006--kan-rhai"
+          },
+          {
+            "name": "Lunar Flare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m007--lunar-flare"
+          },
+          {
+            "name": "Megaflare",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m004--megaflare"
+          },
+          {
+            "name": "Megaflare Dive",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m005--megaflare-dive"
+          },
+          {
+            "name": "Perigean Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m002--perigean-breath"
+          },
+          {
+            "name": "Twisted Scream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/Paglth'an",
+            "mechanic_id": "shb-paglth-an--03-lunar-bahamut--m001--twisted-scream"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-paglth-an--03-lunar-bahamut--source-overview",
+      "phase_role_id": "shb-paglth-an--03-lunar-bahamut--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Immortal Anathema.",
+          "Vigila al tanque durante los tankbusters documentados: Shadowbolt.",
+          "Acompaña y cura los stacks documentados: Dark Pulse."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Dark Pulse",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse"
+          },
+          {
+            "name": "Dark Shock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock"
+          },
+          {
+            "name": "Dark Well",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well"
+          },
+          {
+            "name": "Immortal Anathema",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m002--immortal-anathema"
+          },
+          {
+            "name": "Shadowbolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m001--shadowbolt"
+          },
+          {
+            "name": "Tribulation",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Planifica el movimiento para entrar en los stacks documentados: Dark Pulse."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Dark Pulse",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse"
+          },
+          {
+            "name": "Dark Shock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock"
+          },
+          {
+            "name": "Dark Well",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well"
+          },
+          {
+            "name": "Immortal Anathema",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m002--immortal-anathema"
+          },
+          {
+            "name": "Shadowbolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m001--shadowbolt"
+          },
+          {
+            "name": "Tribulation",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--magical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Entra en los stacks documentados: Dark Pulse."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Dark Pulse",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse"
+          },
+          {
+            "name": "Dark Shock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock"
+          },
+          {
+            "name": "Dark Well",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well"
+          },
+          {
+            "name": "Immortal Anathema",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m002--immortal-anathema"
+          },
+          {
+            "name": "Shadowbolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m001--shadowbolt"
+          },
+          {
+            "name": "Tribulation",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--melee_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Entra en los stacks documentados: Dark Pulse."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Dark Pulse",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse"
+          },
+          {
+            "name": "Dark Shock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock"
+          },
+          {
+            "name": "Dark Well",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well"
+          },
+          {
+            "name": "Immortal Anathema",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m002--immortal-anathema"
+          },
+          {
+            "name": "Shadowbolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m001--shadowbolt"
+          },
+          {
+            "name": "Tribulation",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-grand-cosmos--01-seeker-of-solitude",
+        "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Usa mitigación para los tankbusters documentados: Shadowbolt.",
+          "Resuelve los stacks documentados con el grupo: Dark Pulse."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Dark Pulse",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m005--dark-pulse"
+          },
+          {
+            "name": "Dark Shock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m004--dark-shock"
+          },
+          {
+            "name": "Dark Well",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m006--dark-well"
+          },
+          {
+            "name": "Immortal Anathema",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m002--immortal-anathema"
+          },
+          {
+            "name": "Shadowbolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m001--shadowbolt"
+          },
+          {
+            "name": "Tribulation",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--01-seeker-of-solitude--m003--tribulation"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--01-seeker-of-solitude--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Ode to Lost Love.",
+          "Vigila al tanque durante los tankbusters documentados: Storm of Color."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Direct Seeding",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m003--direct-seeding"
+          },
+          {
+            "name": "Gardener's Hymn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn"
+          },
+          {
+            "name": "Ireful Wind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind"
+          },
+          {
+            "name": "Ode to Fallen Petals",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m006--ode-to-fallen-petals"
+          },
+          {
+            "name": "Ode to Far Winds",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds"
+          },
+          {
+            "name": "Ode to Lost Love",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m002--ode-to-lost-love"
+          },
+          {
+            "name": "Storm of Color",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m001--storm-of-color"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados y planifica el movimiento entre casteos: Gardener's Hymn, Ireful Wind."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Direct Seeding",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m003--direct-seeding"
+          },
+          {
+            "name": "Gardener's Hymn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn"
+          },
+          {
+            "name": "Ireful Wind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind"
+          },
+          {
+            "name": "Ode to Fallen Petals",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m006--ode-to-fallen-petals"
+          },
+          {
+            "name": "Ode to Far Winds",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds"
+          },
+          {
+            "name": "Ode to Lost Love",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m002--ode-to-lost-love"
+          },
+          {
+            "name": "Storm of Color",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m001--storm-of-color"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--magical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Cambia a los adds documentados cuando el encuentro los requiera: Gardener's Hymn, Ireful Wind."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Direct Seeding",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m003--direct-seeding"
+          },
+          {
+            "name": "Gardener's Hymn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn"
+          },
+          {
+            "name": "Ireful Wind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind"
+          },
+          {
+            "name": "Ode to Fallen Petals",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m006--ode-to-fallen-petals"
+          },
+          {
+            "name": "Ode to Far Winds",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds"
+          },
+          {
+            "name": "Ode to Lost Love",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m002--ode-to-lost-love"
+          },
+          {
+            "name": "Storm of Color",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m001--storm-of-color"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--melee_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados sin perder movilidad: Gardener's Hymn, Ireful Wind."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Direct Seeding",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m003--direct-seeding"
+          },
+          {
+            "name": "Gardener's Hymn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn"
+          },
+          {
+            "name": "Ireful Wind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind"
+          },
+          {
+            "name": "Ode to Fallen Petals",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m006--ode-to-fallen-petals"
+          },
+          {
+            "name": "Ode to Far Winds",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds"
+          },
+          {
+            "name": "Ode to Lost Love",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m002--ode-to-lost-love"
+          },
+          {
+            "name": "Storm of Color",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m001--storm-of-color"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-grand-cosmos--02-leannan-sith",
+        "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Usa mitigación para los tankbusters documentados: Storm of Color.",
+          "Controla/recoge los adds documentados cuando corresponda: Gardener's Hymn, Ireful Wind."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Direct Seeding",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m003--direct-seeding"
+          },
+          {
+            "name": "Gardener's Hymn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m004--gardener-s-hymn"
+          },
+          {
+            "name": "Ireful Wind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m007--ireful-wind"
+          },
+          {
+            "name": "Ode to Fallen Petals",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m006--ode-to-fallen-petals"
+          },
+          {
+            "name": "Ode to Far Winds",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m005--ode-to-far-winds"
+          },
+          {
+            "name": "Ode to Lost Love",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m002--ode-to-lost-love"
+          },
+          {
+            "name": "Storm of Color",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--02-leannan-sith--m001--storm-of-color"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--02-leannan-sith--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-grand-cosmos--03-lugus",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-grand-cosmos--03-lugus",
+        "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Culling Blade.",
+          "Vigila al tanque durante los tankbusters documentados: Captive Bolt."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Captive Bolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m003--captive-bolt"
+          },
+          {
+            "name": "Culling Blade",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m006--culling-blade"
+          },
+          {
+            "name": "Fire's Domain",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain"
+          },
+          {
+            "name": "Mortal Flame",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m004--mortal-flame"
+          },
+          {
+            "name": "Otherworldly Heat",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m002--otherworldly-heat"
+          },
+          {
+            "name": "Scorching Left/Right",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m001--scorching-left-right"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-grand-cosmos--03-lugus",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-grand-cosmos--03-lugus",
+        "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Planifica el movimiento para los tethers documentados: Fire's Domain."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Captive Bolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m003--captive-bolt"
+          },
+          {
+            "name": "Culling Blade",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m006--culling-blade"
+          },
+          {
+            "name": "Fire's Domain",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain"
+          },
+          {
+            "name": "Mortal Flame",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m004--mortal-flame"
+          },
+          {
+            "name": "Otherworldly Heat",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m002--otherworldly-heat"
+          },
+          {
+            "name": "Scorching Left/Right",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m001--scorching-left-right"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--magical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-grand-cosmos--03-lugus",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-grand-cosmos--03-lugus",
+        "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Evita permanecer delante del boss durante los frontales documentados: Fire's Domain."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Captive Bolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m003--captive-bolt"
+          },
+          {
+            "name": "Culling Blade",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m006--culling-blade"
+          },
+          {
+            "name": "Fire's Domain",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain"
+          },
+          {
+            "name": "Mortal Flame",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m004--mortal-flame"
+          },
+          {
+            "name": "Otherworldly Heat",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m002--otherworldly-heat"
+          },
+          {
+            "name": "Scorching Left/Right",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m001--scorching-left-right"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--melee_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-grand-cosmos--03-lugus",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-grand-cosmos--03-lugus",
+        "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Respeta los tethers documentados: Fire's Domain."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Captive Bolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m003--captive-bolt"
+          },
+          {
+            "name": "Culling Blade",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m006--culling-blade"
+          },
+          {
+            "name": "Fire's Domain",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain"
+          },
+          {
+            "name": "Mortal Flame",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m004--mortal-flame"
+          },
+          {
+            "name": "Otherworldly Heat",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m002--otherworldly-heat"
+          },
+          {
+            "name": "Scorching Left/Right",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m001--scorching-left-right"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-grand-cosmos--03-lugus",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-grand-cosmos--03-lugus",
+        "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Mantén el boss orientado lejos del grupo durante frontales documentados: Fire's Domain.",
+          "Usa mitigación para los tankbusters documentados: Captive Bolt."
+        ],
+        "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Captive Bolt",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m003--captive-bolt"
+          },
+          {
+            "name": "Culling Blade",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m006--culling-blade"
+          },
+          {
+            "name": "Fire's Domain",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m005--fire-s-domain"
+          },
+          {
+            "name": "Mortal Flame",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m004--mortal-flame"
+          },
+          {
+            "name": "Otherworldly Heat",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m002--otherworldly-heat"
+          },
+          {
+            "name": "Scorching Left/Right",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Grand_Cosmos",
+            "mechanic_id": "shb-the-grand-cosmos--03-lugus--m001--scorching-left-right"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-grand-cosmos--03-lugus--source-overview",
+      "phase_role_id": "shb-the-grand-cosmos--03-lugus--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Spectral Whirlwind.",
+          "Vigila al tanque durante los tankbusters documentados: Spectral Dream."
+        ],
+        "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Chicken Knife",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife"
+          },
+          {
+            "name": "Dash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash"
+          },
+          {
+            "name": "Shadowdash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash"
+          },
+          {
+            "name": "Spectral Dream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m001--spectral-dream"
+          },
+          {
+            "name": "Spectral Gust",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m006--spectral-gust"
+          },
+          {
+            "name": "Spectral Whirlwind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m005--spectral-whirlwind"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Chicken Knife",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife"
+          },
+          {
+            "name": "Dash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash"
+          },
+          {
+            "name": "Shadowdash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash"
+          },
+          {
+            "name": "Spectral Dream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m001--spectral-dream"
+          },
+          {
+            "name": "Spectral Gust",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m006--spectral-gust"
+          },
+          {
+            "name": "Spectral Whirlwind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m005--spectral-whirlwind"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--magical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Chicken Knife",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife"
+          },
+          {
+            "name": "Dash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash"
+          },
+          {
+            "name": "Shadowdash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash"
+          },
+          {
+            "name": "Spectral Dream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m001--spectral-dream"
+          },
+          {
+            "name": "Spectral Gust",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m006--spectral-gust"
+          },
+          {
+            "name": "Spectral Whirlwind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m005--spectral-whirlwind"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--melee_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Chicken Knife",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife"
+          },
+          {
+            "name": "Dash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash"
+          },
+          {
+            "name": "Shadowdash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash"
+          },
+          {
+            "name": "Spectral Dream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m001--spectral-dream"
+          },
+          {
+            "name": "Spectral Gust",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m006--spectral-gust"
+          },
+          {
+            "name": "Spectral Whirlwind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m005--spectral-whirlwind"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--physical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-heroes-gauntlet--01-spectral-thief",
+        "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Usa mitigación para los tankbusters documentados: Spectral Dream."
+        ],
+        "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Chicken Knife",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m002--chicken-knife"
+          },
+          {
+            "name": "Dash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m003--dash"
+          },
+          {
+            "name": "Shadowdash",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m004--shadowdash"
+          },
+          {
+            "name": "Spectral Dream",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m001--spectral-dream"
+          },
+          {
+            "name": "Spectral Gust",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m006--spectral-gust"
+          },
+          {
+            "name": "Spectral Whirlwind",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--01-spectral-thief--m005--spectral-whirlwind"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--01-spectral-thief--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Chaos Storm.",
+          "Vigila al tanque durante los tankbusters documentados: Twisted Touch.",
+          "Prioriza la resolución del Doom documentado: Absolute Dark II.",
+          "Mantén margen de movimiento para los spreads documentados: Dark Deluge."
+        ],
+        "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Absolute Dark II",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii"
+          },
+          {
+            "name": "Chaos Storm",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m002--chaos-storm"
+          },
+          {
+            "name": "Dark Deluge",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge"
+          },
+          {
+            "name": "Necroburst",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst"
+          },
+          {
+            "name": "Necromancy",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy"
+          },
+          {
+            "name": "Pain Mire",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire"
+          },
+          {
+            "name": "Twisted Touch",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m001--twisted-touch"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados y planifica el movimiento entre casteos: Necroburst, Necromancy.",
+          "Deja margen para moverte durante los spreads documentados: Dark Deluge.",
+          "Planifica el movimiento para los tethers documentados: Necromancy."
+        ],
+        "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Absolute Dark II",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii"
+          },
+          {
+            "name": "Chaos Storm",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m002--chaos-storm"
+          },
+          {
+            "name": "Dark Deluge",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge"
+          },
+          {
+            "name": "Necroburst",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst"
+          },
+          {
+            "name": "Necromancy",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy"
+          },
+          {
+            "name": "Pain Mire",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire"
+          },
+          {
+            "name": "Twisted Touch",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m001--twisted-touch"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--magical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Evita permanecer delante del boss durante los frontales documentados: Absolute Dark II.",
+          "Cambia a los adds documentados cuando el encuentro los requiera: Necroburst, Necromancy.",
+          "Separa tu posición durante los spreads documentados: Dark Deluge."
+        ],
+        "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Absolute Dark II",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii"
+          },
+          {
+            "name": "Chaos Storm",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m002--chaos-storm"
+          },
+          {
+            "name": "Dark Deluge",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge"
+          },
+          {
+            "name": "Necroburst",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst"
+          },
+          {
+            "name": "Necromancy",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy"
+          },
+          {
+            "name": "Pain Mire",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire"
+          },
+          {
+            "name": "Twisted Touch",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m001--twisted-touch"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--melee_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados sin perder movilidad: Necroburst, Necromancy.",
+          "Usa tu movilidad para separar los spreads documentados: Dark Deluge.",
+          "Respeta los tethers documentados: Necromancy."
+        ],
+        "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Absolute Dark II",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii"
+          },
+          {
+            "name": "Chaos Storm",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m002--chaos-storm"
+          },
+          {
+            "name": "Dark Deluge",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge"
+          },
+          {
+            "name": "Necroburst",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst"
+          },
+          {
+            "name": "Necromancy",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy"
+          },
+          {
+            "name": "Pain Mire",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire"
+          },
+          {
+            "name": "Twisted Touch",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m001--twisted-touch"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-heroes-gauntlet--02-spectral-necromancer",
+        "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Mantén el boss orientado lejos del grupo durante frontales documentados: Absolute Dark II.",
+          "Usa mitigación para los tankbusters documentados: Twisted Touch.",
+          "Controla/recoge los adds documentados cuando corresponda: Necroburst, Necromancy.",
+          "Respeta los spreads documentados: Dark Deluge."
+        ],
+        "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Absolute Dark II",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m003--absolute-dark-ii"
+          },
+          {
+            "name": "Chaos Storm",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m002--chaos-storm"
+          },
+          {
+            "name": "Dark Deluge",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m007--dark-deluge"
+          },
+          {
+            "name": "Necroburst",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m005--necroburst"
+          },
+          {
+            "name": "Necromancy",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m004--necromancy"
+          },
+          {
+            "name": "Pain Mire",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m006--pain-mire"
+          },
+          {
+            "name": "Twisted Touch",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--m001--twisted-touch"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--02-spectral-necromancer--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+        "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Beastly Fury."
+        ],
+        "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Beastly Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury"
+          },
+          {
+            "name": "Falling Rock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m005--falling-rock"
+          },
+          {
+            "name": "Raging Slice",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice"
+          },
+          {
+            "name": "Wild Anguish",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m002--wild-anguish"
+          },
+          {
+            "name": "Wild Rampage",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m006--wild-rampage"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+        "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Beastly Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury"
+          },
+          {
+            "name": "Falling Rock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m005--falling-rock"
+          },
+          {
+            "name": "Raging Slice",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice"
+          },
+          {
+            "name": "Wild Anguish",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m002--wild-anguish"
+          },
+          {
+            "name": "Wild Rampage",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m006--wild-rampage"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--magical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+        "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Beastly Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury"
+          },
+          {
+            "name": "Falling Rock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m005--falling-rock"
+          },
+          {
+            "name": "Raging Slice",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice"
+          },
+          {
+            "name": "Wild Anguish",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m002--wild-anguish"
+          },
+          {
+            "name": "Wild Rampage",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m006--wild-rampage"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--melee_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+        "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Beastly Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury"
+          },
+          {
+            "name": "Falling Rock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m005--falling-rock"
+          },
+          {
+            "name": "Raging Slice",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice"
+          },
+          {
+            "name": "Wild Anguish",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m002--wild-anguish"
+          },
+          {
+            "name": "Wild Rampage",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m006--wild-rampage"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--physical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-heroes-gauntlet--03-spectral-berserker",
+        "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Beastly Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m001--beastly-fury"
+          },
+          {
+            "name": "Falling Rock",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m005--falling-rock"
+          },
+          {
+            "name": "Raging Slice",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m003--raging-slice"
+          },
+          {
+            "name": "Wild Anguish",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m002--wild-anguish"
+          },
+          {
+            "name": "Wild Rampage",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Heroes'_Gauntlet",
+            "mechanic_id": "shb-the-heroes-gauntlet--03-spectral-berserker--m006--wild-rampage"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview",
+      "phase_role_id": "shb-the-heroes-gauntlet--03-spectral-berserker--source-overview--tank",
+      "verification_status": "pending"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-qitana-ravel--01-lozatl",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-qitana-ravel--01-lozatl",
+        "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Vigila al tanque durante los tankbusters documentados: Stonefist."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Heat Up",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m004--heat-up"
+          },
+          {
+            "name": "Lozatl's Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m005--lozatl-s-fury"
+          },
+          {
+            "name": "Lozatl's Scorn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m003--lozatl-s-scorn"
+          },
+          {
+            "name": "Stonefist",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m001--stonefist"
+          },
+          {
+            "name": "Sun Toss",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-qitana-ravel--01-lozatl",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-qitana-ravel--01-lozatl",
+        "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Heat Up",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m004--heat-up"
+          },
+          {
+            "name": "Lozatl's Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m005--lozatl-s-fury"
+          },
+          {
+            "name": "Lozatl's Scorn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m003--lozatl-s-scorn"
+          },
+          {
+            "name": "Stonefist",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m001--stonefist"
+          },
+          {
+            "name": "Sun Toss",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--magical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-qitana-ravel--01-lozatl",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-qitana-ravel--01-lozatl",
+        "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Heat Up",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m004--heat-up"
+          },
+          {
+            "name": "Lozatl's Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m005--lozatl-s-fury"
+          },
+          {
+            "name": "Lozatl's Scorn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m003--lozatl-s-scorn"
+          },
+          {
+            "name": "Stonefist",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m001--stonefist"
+          },
+          {
+            "name": "Sun Toss",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--melee_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-qitana-ravel--01-lozatl",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-qitana-ravel--01-lozatl",
+        "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Heat Up",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m004--heat-up"
+          },
+          {
+            "name": "Lozatl's Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m005--lozatl-s-fury"
+          },
+          {
+            "name": "Lozatl's Scorn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m003--lozatl-s-scorn"
+          },
+          {
+            "name": "Stonefist",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m001--stonefist"
+          },
+          {
+            "name": "Sun Toss",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--physical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-qitana-ravel--01-lozatl",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-qitana-ravel--01-lozatl",
+        "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Usa mitigación para los tankbusters documentados: Stonefist."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Heat Up",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m004--heat-up"
+          },
+          {
+            "name": "Lozatl's Fury",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m005--lozatl-s-fury"
+          },
+          {
+            "name": "Lozatl's Scorn",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m003--lozatl-s-scorn"
+          },
+          {
+            "name": "Stonefist",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m001--stonefist"
+          },
+          {
+            "name": "Sun Toss",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--01-lozatl--m002--sun-toss"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-qitana-ravel--01-lozatl--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--01-lozatl--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+        "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Soundwave.",
+          "Vigila al tanque durante los tankbusters documentados: Ripper Fang."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Ripper Fang",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m001--ripper-fang"
+          },
+          {
+            "name": "Soundwave",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m002--soundwave"
+          },
+          {
+            "name": "Subsonics",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+        "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Ripper Fang",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m001--ripper-fang"
+          },
+          {
+            "name": "Soundwave",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m002--soundwave"
+          },
+          {
+            "name": "Subsonics",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--magical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+        "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Ripper Fang",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m001--ripper-fang"
+          },
+          {
+            "name": "Soundwave",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m002--soundwave"
+          },
+          {
+            "name": "Subsonics",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--melee_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+        "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Ripper Fang",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m001--ripper-fang"
+          },
+          {
+            "name": "Soundwave",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m002--soundwave"
+          },
+          {
+            "name": "Subsonics",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--physical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-qitana-ravel--02-batsquatch",
+        "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Usa mitigación para los tankbusters documentados: Ripper Fang."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Ripper Fang",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m001--ripper-fang"
+          },
+          {
+            "name": "Soundwave",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m002--soundwave"
+          },
+          {
+            "name": "Subsonics",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--02-batsquatch--m003--subsonics"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-qitana-ravel--02-batsquatch--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--02-batsquatch--source-overview--tank",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-qitana-ravel--03-eros",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-qitana-ravel--03-eros",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Glossolalia.",
+          "Vigila al tanque durante los tankbusters documentados: Rend.",
+          "Acompaña y cura los stacks documentados: Confession of Faith."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Confession of Faith",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith"
+          },
+          {
+            "name": "Glossolalia",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m003--glossolalia"
+          },
+          {
+            "name": "Heaving Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m006--heaving-breath"
+          },
+          {
+            "name": "Hound out of Heaven",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m002--hound-out-of-heaven"
+          },
+          {
+            "name": "Inhale",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m005--inhale"
+          },
+          {
+            "name": "Rend",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m001--rend"
+          },
+          {
+            "name": "Viper Poison",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-qitana-ravel--03-eros",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-qitana-ravel--03-eros",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Planifica el movimiento para entrar en los stacks documentados: Confession of Faith.",
+          "Planifica el movimiento para los tethers documentados: Hound out of Heaven."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Confession of Faith",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith"
+          },
+          {
+            "name": "Glossolalia",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m003--glossolalia"
+          },
+          {
+            "name": "Heaving Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m006--heaving-breath"
+          },
+          {
+            "name": "Hound out of Heaven",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m002--hound-out-of-heaven"
+          },
+          {
+            "name": "Inhale",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m005--inhale"
+          },
+          {
+            "name": "Rend",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m001--rend"
+          },
+          {
+            "name": "Viper Poison",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--magical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-qitana-ravel--03-eros",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-qitana-ravel--03-eros",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Evita permanecer delante del boss durante los frontales documentados: Confession of Faith.",
+          "Entra en los stacks documentados: Confession of Faith."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Confession of Faith",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith"
+          },
+          {
+            "name": "Glossolalia",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m003--glossolalia"
+          },
+          {
+            "name": "Heaving Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m006--heaving-breath"
+          },
+          {
+            "name": "Hound out of Heaven",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m002--hound-out-of-heaven"
+          },
+          {
+            "name": "Inhale",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m005--inhale"
+          },
+          {
+            "name": "Rend",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m001--rend"
+          },
+          {
+            "name": "Viper Poison",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--melee_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-qitana-ravel--03-eros",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-qitana-ravel--03-eros",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Entra en los stacks documentados: Confession of Faith.",
+          "Respeta los tethers documentados: Hound out of Heaven."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Confession of Faith",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m007--confession-of-faith"
+          },
+          {
+            "name": "Glossolalia",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m003--glossolalia"
+          },
+          {
+            "name": "Heaving Breath",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m006--heaving-breath"
+          },
+          {
+            "name": "Hound out of Heaven",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m002--hound-out-of-heaven"
+          },
+          {
+            "name": "Inhale",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m005--inhale"
+          },
+          {
+            "name": "Rend",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m001--rend"
+          },
+          {
+            "name": "Viper Poison",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+            "mechanic_id": "shb-the-qitana-ravel--03-eros--m004--viper-poison"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-qitana-ravel--03-eros",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-qitana-ravel--03-eros",
+        "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Qitana_Ravel",
+        "instructions": [
+          "* Hound out of Heaven: Proximity tether on a random non-Tank player. Eros charges at the targeted player for high damage. If the player was not far away enough to turn the tether purple, the attack also inflicts a stack of Vulnerability Up."
+        ],
+        "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--tank",
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-qitana-ravel--03-eros--source-overview",
+      "phase_role_id": "shb-the-qitana-ravel--03-eros--source-overview--tank",
+      "verification_status": "verified"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prepara curación/mitigación de grupo para los raidwides documentados: Forlorn Impact.",
+          "Vigila al tanque durante los tankbusters documentados: Augurium.",
+          "Acompaña y cura los stacks documentados: Charge Eradicated.",
+          "Mantén margen de movimiento para los spreads documentados: Pounce Errant."
+        ],
+        "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Augurium",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m001--augurium"
+          },
+          {
+            "name": "Beastly Roar",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m002--beastly-roar"
+          },
+          {
+            "name": "Beta Zaghnal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m006--beta-zaghnal"
+          },
+          {
+            "name": "Charge Eradicated",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated"
+          },
+          {
+            "name": "Forlorn Impact",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m004--forlorn-impact"
+          },
+          {
+            "name": "Pounce Errant",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados y planifica el movimiento entre casteos: Charge Eradicated.",
+          "Planifica el movimiento para entrar en los stacks documentados: Charge Eradicated.",
+          "Deja margen para moverte durante los spreads documentados: Pounce Errant."
+        ],
+        "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Augurium",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m001--augurium"
+          },
+          {
+            "name": "Beastly Roar",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m002--beastly-roar"
+          },
+          {
+            "name": "Beta Zaghnal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m006--beta-zaghnal"
+          },
+          {
+            "name": "Charge Eradicated",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated"
+          },
+          {
+            "name": "Forlorn Impact",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m004--forlorn-impact"
+          },
+          {
+            "name": "Pounce Errant",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--magical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Cambia a los adds documentados cuando el encuentro los requiera: Charge Eradicated.",
+          "Entra en los stacks documentados: Charge Eradicated.",
+          "Separa tu posición durante los spreads documentados: Pounce Errant."
+        ],
+        "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Augurium",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m001--augurium"
+          },
+          {
+            "name": "Beastly Roar",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m002--beastly-roar"
+          },
+          {
+            "name": "Beta Zaghnal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m006--beta-zaghnal"
+          },
+          {
+            "name": "Charge Eradicated",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated"
+          },
+          {
+            "name": "Forlorn Impact",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m004--forlorn-impact"
+          },
+          {
+            "name": "Pounce Errant",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--melee_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados sin perder movilidad: Charge Eradicated.",
+          "Entra en los stacks documentados: Charge Eradicated.",
+          "Usa tu movilidad para separar los spreads documentados: Pounce Errant."
+        ],
+        "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Augurium",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m001--augurium"
+          },
+          {
+            "name": "Beastly Roar",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m002--beastly-roar"
+          },
+          {
+            "name": "Beta Zaghnal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m006--beta-zaghnal"
+          },
+          {
+            "name": "Charge Eradicated",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m005--charge-eradicated"
+          },
+          {
+            "name": "Forlorn Impact",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m004--forlorn-impact"
+          },
+          {
+            "name": "Pounce Errant",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--01-alpha-zaghnal--m003--pounce-errant"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-twinning--01-alpha-zaghnal",
+        "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "instructions": [
+          "* Augurium: Tankbuster. Hits in a cone-shaped area directly in front of the Alpha Zaghnal. This attack targets the ground, so the Tank can dodge it by stepping out of the way."
+        ],
+        "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--tank",
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-twinning--01-alpha-zaghnal--source-overview",
+      "phase_role_id": "shb-the-twinning--01-alpha-zaghnal--source-overview--tank",
+      "verification_status": "verified"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-twinning--02-mithridates",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-twinning--02-mithridates",
+        "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "instructions": [
+          "** Eventually, Mithridates will begin using all of its non tankbuster abilities simultaneously. When this happens, Allagan Thunder will only target the Tank and Healer."
+        ],
+        "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--healer",
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+      "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--healer",
+      "verification_status": "verified"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-twinning--02-mithridates",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-twinning--02-mithridates",
+        "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Allagan Thunder",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m004--allagan-thunder"
+          },
+          {
+            "name": "Electric Discharge",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m002--electric-discharge"
+          },
+          {
+            "name": "Laserblade",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m003--laserblade"
+          },
+          {
+            "name": "Thunder Beam",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m001--thunder-beam"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+      "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--magical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-twinning--02-mithridates",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-twinning--02-mithridates",
+        "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Allagan Thunder",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m004--allagan-thunder"
+          },
+          {
+            "name": "Electric Discharge",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m002--electric-discharge"
+          },
+          {
+            "name": "Laserblade",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m003--laserblade"
+          },
+          {
+            "name": "Thunder Beam",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m001--thunder-beam"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+      "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--melee_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-twinning--02-mithridates",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-twinning--02-mithridates",
+        "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [],
+        "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "review_reason": "Documented boss mechanics exist, but none of the currently structured mechanic flags supports a useful role-specific instruction for this role without adding generic or inferred advice. Kept pending.",
+        "evidence_mechanics": [
+          {
+            "name": "Allagan Thunder",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m004--allagan-thunder"
+          },
+          {
+            "name": "Electric Discharge",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m002--electric-discharge"
+          },
+          {
+            "name": "Laserblade",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m003--laserblade"
+          },
+          {
+            "name": "Thunder Beam",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--02-mithridates--m001--thunder-beam"
+          }
+        ],
+        "verification_status": "pending",
+        "pending_content_review": "re_evaluated",
+        "role_guide_audit_result": "insufficient_role_specific_evidence",
+        "pending_content_review_method": "Re-evaluated against existing structured mechanics and traceable source metadata. Status retained unless direct role-specific evidence was identified; no generic role advice inferred."
+      },
+      "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+      "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--physical_ranged_dps",
+      "verification_status": "pending"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-twinning--02-mithridates",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-twinning--02-mithridates",
+        "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "instructions": [
+          "** Eventually, Mithridates will begin using all of its non tankbuster abilities simultaneously. When this happens, Allagan Thunder will only target the Tank and Healer."
+        ],
+        "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--tank",
+        "verification_status": "verified"
+      },
+      "phase_id": "shb-the-twinning--02-mithridates--source-overview",
+      "phase_role_id": "shb-the-twinning--02-mithridates--source-overview--tank",
+      "verification_status": "verified"
+    },
+    {
+      "role": "healer",
+      "boss_id": "shb-the-twinning--03-the-tycoon",
+      "payload": {
+        "role": "healer",
+        "boss_id": "shb-the-twinning--03-the-tycoon",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Vigila al tanque durante los tankbusters documentados: Rail Cannon.",
+          "Mantén margen de movimiento para los spreads documentados: Magicrystal."
+        ],
+        "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--healer",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Artifical Gravity",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity"
+          },
+          {
+            "name": "Defensive Array",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array"
+          },
+          {
+            "name": "High-tension Discharger",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m005--high-tension-discharger"
+          },
+          {
+            "name": "Magicrystal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal"
+          },
+          {
+            "name": "Magitek Crossray",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray"
+          },
+          {
+            "name": "Rail Cannon",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m001--rail-cannon"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--healer",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "magical_ranged_dps",
+      "boss_id": "shb-the-twinning--03-the-tycoon",
+      "payload": {
+        "role": "magical_ranged_dps",
+        "boss_id": "shb-the-twinning--03-the-tycoon",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados y planifica el movimiento entre casteos: Magitek Crossray.",
+          "Deja margen para moverte durante los spreads documentados: Magicrystal."
+        ],
+        "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--magical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Artifical Gravity",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity"
+          },
+          {
+            "name": "Defensive Array",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array"
+          },
+          {
+            "name": "High-tension Discharger",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m005--high-tension-discharger"
+          },
+          {
+            "name": "Magicrystal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal"
+          },
+          {
+            "name": "Magitek Crossray",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray"
+          },
+          {
+            "name": "Rail Cannon",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m001--rail-cannon"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--magical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "melee_dps",
+      "boss_id": "shb-the-twinning--03-the-tycoon",
+      "payload": {
+        "role": "melee_dps",
+        "boss_id": "shb-the-twinning--03-the-tycoon",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Cambia a los adds documentados cuando el encuentro los requiera: Magitek Crossray.",
+          "Separa tu posición durante los spreads documentados: Magicrystal."
+        ],
+        "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--melee_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Artifical Gravity",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity"
+          },
+          {
+            "name": "Defensive Array",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array"
+          },
+          {
+            "name": "High-tension Discharger",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m005--high-tension-discharger"
+          },
+          {
+            "name": "Magicrystal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal"
+          },
+          {
+            "name": "Magitek Crossray",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray"
+          },
+          {
+            "name": "Rail Cannon",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m001--rail-cannon"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--melee_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "physical_ranged_dps",
+      "boss_id": "shb-the-twinning--03-the-tycoon",
+      "payload": {
+        "role": "physical_ranged_dps",
+        "boss_id": "shb-the-twinning--03-the-tycoon",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Prioriza los adds documentados sin perder movilidad: Magitek Crossray.",
+          "Usa tu movilidad para separar los spreads documentados: Magicrystal."
+        ],
+        "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--physical_ranged_dps",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Artifical Gravity",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity"
+          },
+          {
+            "name": "Defensive Array",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array"
+          },
+          {
+            "name": "High-tension Discharger",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m005--high-tension-discharger"
+          },
+          {
+            "name": "Magicrystal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal"
+          },
+          {
+            "name": "Magitek Crossray",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray"
+          },
+          {
+            "name": "Rail Cannon",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m001--rail-cannon"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--physical_ranged_dps",
+      "verification_status": "source_documented"
+    },
+    {
+      "role": "tank",
+      "boss_id": "shb-the-twinning--03-the-tycoon",
+      "payload": {
+        "role": "tank",
+        "boss_id": "shb-the-twinning--03-the-tycoon",
+        "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+        "reviewed_at": "2026-09-21",
+        "instructions": [
+          "Usa mitigación para los tankbusters documentados: Rail Cannon.",
+          "Controla/recoge los adds documentados cuando corresponda: Magitek Crossray.",
+          "Respeta los spreads documentados: Magicrystal."
+        ],
+        "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--tank",
+        "review_method": "Role guidance derived only from documented boss mechanics and their attached source; not elevated to verified.",
+        "evidence_mechanics": [
+          {
+            "name": "Artifical Gravity",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m004--artifical-gravity"
+          },
+          {
+            "name": "Defensive Array",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m003--defensive-array"
+          },
+          {
+            "name": "High-tension Discharger",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m005--high-tension-discharger"
+          },
+          {
+            "name": "Magicrystal",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m006--magicrystal"
+          },
+          {
+            "name": "Magitek Crossray",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m002--magitek-crossray"
+          },
+          {
+            "name": "Rail Cannon",
+            "status": "verified",
+            "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Twinning",
+            "mechanic_id": "shb-the-twinning--03-the-tycoon--m001--rail-cannon"
+          }
+        ],
+        "verification_status": "source_documented"
+      },
+      "phase_id": "shb-the-twinning--03-the-tycoon--source-overview",
+      "phase_role_id": "shb-the-twinning--03-the-tycoon--source-overview--tank",
+      "verification_status": "source_documented"
+    }
+  ]
+}
