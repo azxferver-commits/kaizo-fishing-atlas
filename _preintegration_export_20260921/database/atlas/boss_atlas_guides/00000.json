@@ -1,0 +1,3361 @@
+{
+  "table": "boss_atlas_guides",
+  "offset": 0,
+  "row_count": 47,
+  "rows": [
+    {
+      "boss_id": "arr-brayflox-s-longstop--01-great-yellow-pelican",
+      "summary": "Controla la oleada de Violet Backs y evita la respiración frontal que paraliza.",
+      "raw_scenes": [
+        [
+          "Violet Backs",
+          "La pelea empieza con adds y aparecen más durante el encuentro.",
+          "adds",
+          [
+            "Elimina los adds antes de volver al pelícano.",
+            "Mantente fuera de la cara del boss."
+          ],
+          {
+            "Tank": [
+              "Recoge boss y adds, agrúpalos y oriéntalos lejos del grupo."
+            ],
+            "Caster": [
+              "Aprovecha daño de área cuando los Violet Backs estén agrupados."
+            ],
+            "Healer": [
+              "Poison y Paralysis son limpiables con Esuna."
+            ]
+          },
+          [
+            [
+              "Numbing Breath",
+              "Cono frontal que aplica Parálisis."
+            ],
+            [
+              "Violet Back",
+              "Adds que pueden aplicar Poison."
+            ],
+            [
+              "Hammer Beak",
+              "Golpe fuerte sin cast al objetivo principal."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-brayflox-s-longstop--02-inferno-drake",
+      "summary": "Cuando aparece el Tempest Biast, el tanque lo recoge; evita el cleave que sigue a la provocación de Brayflox.",
+      "raw_scenes": [
+        [
+          "Tempest Biast",
+          "Al 75% entra un add mientras Brayflox provoca al drake.",
+          "adds",
+          [
+            "Cambia al Tempest Biast y elimínalo.",
+            "No te agrupes delante del drake cuando vaya hacia Brayflox u otro jugador."
+          ],
+          {
+            "Tank": [
+              "Recoge el Biast de inmediato; el drake puede fijarse temporalmente en Brayflox."
+            ],
+            "Healer": [
+              "Vigila al tanque y a Brayflox durante el cambio de aggro."
+            ]
+          },
+          [
+            [
+              "Tempest Biast",
+              "Add que debe ser recogido por el tanque."
+            ],
+            [
+              "Burning Cyclone",
+              "Cleave del drake hacia el jugador elegido por Brayflox; puede cancelarse con stun."
+            ],
+            [
+              "Blaze Spikes",
+              "Causa daño ligero a quien golpea en melee."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-brayflox-s-longstop--03-hellbender",
+      "summary": "Sal de Peculiar Light y rompe inmediatamente la burbuja que encierra a un compañero.",
+      "raw_scenes": [
+        [
+          "Effluvium",
+          "Un jugador queda atrapado dentro de una Queer Bubble.",
+          "adds",
+          [
+            "Cambia a la burbuja y destrúyela para liberar al jugador.",
+            "No ignores la burbuja: reduce daño, curación y movimiento del objetivo."
+          ],
+          {
+            "Tank": [
+              "Mantén al Hellbender estable mientras el resto rompe la burbuja."
+            ],
+            "Healer": [
+              "Si te atrapan, el grupo debe liberarte con máxima prioridad."
+            ]
+          },
+          [
+            [
+              "Effluvium",
+              "Encierra a un jugador y le aplica varios debuffs hasta romper la burbuja."
+            ],
+            [
+              "Peculiar Light",
+              "AoE alrededor del boss; aplica Magic Vulnerability Up limpiable."
+            ],
+            [
+              "Stagnant Spray",
+              "Cono frontal hacia el tanque."
+            ]
+          ]
+        ],
+        [
+          "Entrada de Aiatar",
+          "Con Hellbender cerca de 15%, el dragón desciende con knockback.",
+          "safeEdge",
+          [
+            "Aléjate del punto de aterrizaje y estabiliza tu posición tras el knockback.",
+            "Ataca a Aiatar hasta que se retire al 70%."
+          ],
+          {
+            "Tank": [
+              "Recoge a Aiatar después de Touchdown y oriéntalo lejos del grupo."
+            ],
+            "Healer": [
+              "Limpia Poison de Salivous Snap o Dragon Breath."
+            ]
+          },
+          [
+            [
+              "Touchdown",
+              "Daño ligero y knockback al descender."
+            ],
+            [
+              "Dragon Breath",
+              "Línea hacia un jugador; aplica Poison."
+            ],
+            [
+              "Salivous Snap",
+              "Tankbuster mágico con Poison."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-brayflox-s-longstop--04-aiatar",
+      "summary": "Lee las dos tandas de pods venenosos: esquiva la primera y entra en su espacio cuando explote.",
+      "raw_scenes": [
+        [
+          "Toxic Vomit",
+          "Aparecen cuatro círculos que dejan pods; después llega una segunda tanda.",
+          "puddles",
+          [
+            "Busca un hueco entre la primera tanda.",
+            "Cuando exploten los primeros pods, entra en esa zona para esquivar la segunda tanda."
+          ],
+          {
+            "Tank": [
+              "Evita mover al dragón de forma imprevisible entre las dos tandas."
+            ],
+            "Caster": [
+              "Muévete entre explosiones, aunque tengas que cortar un cast."
+            ],
+            "Healer": [
+              "Poison es limpiable; prioriza a quien acumule daño."
+            ]
+          },
+          [
+            [
+              "Toxic Vomit",
+              "Dos tandas de pods venenosos que crecen y explotan."
+            ],
+            [
+              "Dragon Breath",
+              "Línea hacia un jugador que aplica Poison."
+            ],
+            [
+              "Salivous Snap",
+              "Tankbuster mágico con Poison."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-copperbell-mines--01-kottos",
+      "summary": "Lee el salto, busca el borde libre y no te quedes delante del gran cono.",
+      "raw_scenes": [
+        [
+          "Lumbering Leap",
+          "Kottos salta tres veces y aparecen grandes círculos sobre las zonas elegidas.",
+          "safeEdge",
+          [
+            "Mira las tres zonas marcadas y corre al pequeño espacio libre del borde.",
+            "Espera a que terminen las tres explosiones antes de volver."
+          ],
+          {
+            "Tank": [
+              "Después del salto, recupera al boss en el centro sin apuntarlo al grupo."
+            ],
+            "Caster": [
+              "Interrumpe el cast y muévete temprano; el espacio seguro es pequeño."
+            ]
+          },
+          [
+            [
+              "Lumbering Leap",
+              "Tres saltos con AoE circulares grandes; queda una zona segura junto al borde."
+            ],
+            [
+              "Catapult",
+              "Roca lanzada a un jugador aleatorio."
+            ]
+          ]
+        ],
+        [
+          "Grand / Colossal Slam",
+          "Kottos prepara un golpe fuerte al tanque o un cono grande.",
+          "cone",
+          [
+            "No compartas posición con el tanque.",
+            "Si aparece el cono, sal por un lateral."
+          ],
+          {
+            "Tank": [
+              "Mitiga Grand Slam y desvía Colossal Slam lejos del grupo."
+            ],
+            "Healer": [
+              "Prepara una cura directa tras Grand Slam."
+            ]
+          },
+          [
+            [
+              "Grand Slam",
+              "Tankbuster."
+            ],
+            [
+              "Colossal Slam",
+              "Cono grande dirigido a un jugador."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-copperbell-mines--02-ichorous-ire",
+      "summary": "Muévete de los charcos personales y, al dividirse el boss, separa los pequeños slimes antes de sus explosiones.",
+      "raw_scenes": [
+        [
+          "Syrup",
+          "Aparece un círculo debajo de cada jugador.",
+          "spread",
+          [
+            "Deja de moverte solo el tiempo necesario para colocar el círculo y sal de él.",
+            "Evita cruzarte con la salida de otro jugador."
+          ],
+          {
+            "Tank": [
+              "Mantén al slime centrado mientras esquivas tu propio círculo."
+            ],
+            "Healer": [
+              "Sepárate ligeramente para que los cuatro círculos no se superpongan."
+            ]
+          },
+          [
+            [
+              "Syrup",
+              "AoE circular bajo cada miembro del grupo."
+            ],
+            [
+              "Fluid Spread",
+              "Tankbuster."
+            ]
+          ]
+        ],
+        [
+          "Divide",
+          "Alrededor de 50%, Ichorous Ire se parte en muchos Ichorous Drips.",
+          "adds",
+          [
+            "Cambia al slime más cercano y mata los drips uno a uno.",
+            "Sal de Burst cuando cada add empiece a castear."
+          ],
+          {
+            "Tank": [
+              "Agrupa lo posible sin apilarte dentro de varios Burst."
+            ],
+            "Caster": [
+              "El daño de área es útil, pero conserva movilidad para esquivar."
+            ]
+          },
+          [
+            [
+              "Divide",
+              "Convierte al jefe en varios adds."
+            ],
+            [
+              "Burst",
+              "AoE circular alrededor de cada Ichorous Drip."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-copperbell-mines--03-gyges-the-great",
+      "summary": "Alterna entre entrar al hitbox para el donut y buscar uno de los huecos entre círculos.",
+      "raw_scenes": [
+        [
+          "Gigantic Swing",
+          "El cast crea un donut enorme alrededor del boss.",
+          "safeCenter",
+          [
+            "Entra al hitbox del jefe; el centro es seguro.",
+            "No corras hacia el borde: allí golpea el donut."
+          ],
+          {
+            "Tank": [
+              "Quédate dentro y evita girar al jefe al regresar a posición."
+            ],
+            "Caster": [
+              "Cancela el cast si hace falta; llegar al centro tiene prioridad."
+            ],
+            "Ranged": [
+              "Acércate apenas veas el nombre del cast."
+            ]
+          },
+          [
+            [
+              "Gigantic Swing",
+              "Donut masivo; la zona segura está pegada al boss."
+            ],
+            [
+              "Grand Slam",
+              "Tankbuster."
+            ]
+          ]
+        ],
+        [
+          "Gigantic Smash",
+          "Gyges vuelve al centro y aparecen círculos en el centro y alrededor de la arena.",
+          "lanes",
+          [
+            "Busca un hueco entre los seis círculos.",
+            "Después evita el cono de Colossal Slam."
+          ],
+          {
+            "Tank": [
+              "Reubícalo solo después de que desaparezcan los AoE."
+            ],
+            "Healer": [
+              "Mantén al grupo con vida antes del patrón, pero muévete primero."
+            ]
+          },
+          [
+            [
+              "Gigantic Smash",
+              "Círculo central más cinco exteriores; usa los huecos."
+            ],
+            [
+              "Colossal Slam",
+              "Cono grande hacia un jugador."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-cutter-s-cry--01-myrmidon-princess",
+      "summary": "La pelea se complica por adds: Marshal es la prioridad porque protege a la princesa con Formic Pheromones.",
+      "raw_scenes": [
+        [
+          "Oleadas de myrmidons",
+          "Entran Soldiers, después Guard y finalmente Marshal.",
+          "adds",
+          [
+            "Prioridad: Marshal, Guard y luego Soldiers.",
+            "Si ves un tether hacia la princesa, corta al Marshal de inmediato."
+          ],
+          {
+            "Tank": [
+              "Recoge los adds y oriéntalos para que Mandible Bite no cruce al grupo."
+            ],
+            "Caster": [
+              "Daño de área sobre Soldiers, pero foco directo al Marshal."
+            ],
+            "Healer": [
+              "Mantén distancia de los conos mientras ambos objetivos golpean al tanque."
+            ]
+          },
+          [
+            [
+              "Formic Pheromones",
+              "El Marshal da Vulnerability Down a la princesa mediante un tether."
+            ],
+            [
+              "Mandible Bite",
+              "Cono frontal del boss, Guard y Marshal."
+            ],
+            [
+              "Silence",
+              "Cast interruptible que silencia a un jugador."
+            ],
+            [
+              "Stone II",
+              "Círculo bajo un jugador."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-cutter-s-cry--02-giant-tunnel-worm",
+      "summary": "Cuando se entierra, sepárate, evita remolinos y abandona el centro antes de que emerja.",
+      "raw_scenes": [
+        [
+          "Worm burrowed",
+          "El boss desaparece bajo la arena y comienza a levantar arena.",
+          "spread",
+          [
+            "Sepárate de los demás para reducir golpes múltiples.",
+            "Evita Sand Pillar y el lugar donde vaya a surgir con Earthbreak."
+          ],
+          {
+            "Tank": [
+              "No puedes fijarlo mientras está bajo tierra; prioriza tu propia seguridad."
+            ],
+            "Healer": [
+              "Limpia Sludge rápidamente: su daño en el tiempo es fuerte."
+            ]
+          },
+          [
+            [
+              "Sand Pillar",
+              "Daño sobre las trampas de arena."
+            ],
+            [
+              "Earthbreak",
+              "Gran daño al emerger."
+            ],
+            [
+              "Sludge",
+              "DoT fuerte sobre un jugador; se limpia con Esuna."
+            ]
+          ]
+        ],
+        [
+          "Bottomless Desert",
+          "Un remolino atrae a todos hacia el centro.",
+          "safeEdge",
+          [
+            "Corre alejándote del centro mientras dura la atracción.",
+            "No te quedes allí: el worm emerge con daño alto."
+          ],
+          {
+            "Caster": [
+              "Deja de castear y corre; el centro no es seguro después del pull."
+            ]
+          },
+          [
+            [
+              "Bottomless Desert",
+              "Atrae al grupo al centro y prepara la salida del boss."
+            ],
+            [
+              "Sand Cyclone",
+              "Daño y DoT sobre un jugador aleatorio."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-cutter-s-cry--03-chimera",
+      "summary": "Aprende los dos colores: ojos violetas = entra; ojos azules = sal. No dependas solo de los indicadores naranjas.",
+      "raw_scenes": [
+        [
+          "Ojos violetas",
+          "El mensaje anuncia que los ojos de la quimera brillan violeta.",
+          "safeCenter",
+          [
+            "Corre y pégate al boss: The Dragon's Voice es un donut.",
+            "Permanece dentro hasta que se resuelva."
+          ],
+          {
+            "Tank": [
+              "Mantén el boss estable mientras todos entran."
+            ],
+            "Caster": [
+              "Corta el cast propio y entra inmediatamente."
+            ],
+            "Ranged": [
+              "No intentes apurar un GCD desde lejos."
+            ]
+          },
+          [
+            [
+              "The Dragon's Voice",
+              "Donut sin indicador naranja; fuera del melee range golpea y paraliza."
+            ]
+          ]
+        ],
+        [
+          "Ojos azules",
+          "El mensaje anuncia que los ojos brillan azul.",
+          "out",
+          [
+            "Aléjate del boss: The Ram's Voice golpea a todos los que estén cerca.",
+            "Vuelve solo después de la explosión."
+          ],
+          {
+            "Tank": [
+              "Retrocede sin girar el frente del boss hacia el grupo."
+            ],
+            "Healer": [
+              "Esuna limpia Heavy si alguien falla."
+            ]
+          },
+          [
+            [
+              "The Ram's Voice",
+              "AoE cercano sin indicador naranja; aplica Heavy."
+            ],
+            [
+              "Ram/Dragon Breath",
+              "Conos laterales; la espalda del boss es segura para no-tanks."
+            ]
+          ]
+        ],
+        [
+          "Cacophony",
+          "Un jugador recibe marcador y una esfera púrpura lo persigue.",
+          "spread",
+          [
+            "Si eres el objetivo, aléjate de grupo y esfera.",
+            "No cruces la esfera por encima de otro jugador."
+          ],
+          {
+            "Healer": [
+              "Limpia Paralysis si la esfera alcanza a alguien."
+            ]
+          },
+          [
+            [
+              "Cacophony",
+              "Esfera perseguidora que explota y aplica Parálisis."
+            ],
+            [
+              "Lightning Storm",
+              "Círculos bajo dos jugadores."
+            ],
+            [
+              "Lion's Breath",
+              "Cleave frontal sin telegraph."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-dzemael-darkhold--01-all-seeing-eye",
+      "summary": "La versión actual alterna círculos en paredes y centro: entra al centro y después vuelve a salir.",
+      "raw_scenes": [
+        [
+          "Void Matter",
+          "Primero explotan círculos junto a las paredes; después el centro queda marcado.",
+          "safeCenter",
+          [
+            "Durante las explosiones de pared, muévete al centro.",
+            "Cuando esas desaparezcan, sal del centro antes de la última explosión."
+          ],
+          {
+            "Tank": [
+              "Mantén al boss centrado para no bloquear las rutas."
+            ],
+            "Caster": [
+              "Planea dos movimientos: entrar y salir."
+            ]
+          },
+          [
+            [
+              "Void Matter",
+              "Secuencia paredes → centro; entra y después sal."
+            ],
+            [
+              "Eyes on Me",
+              "Daño a toda la party."
+            ],
+            [
+              "Blustering Blink",
+              "Línea frontal."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-dzemael-darkhold--02-taulurd",
+      "summary": "Los Deepvoid Slaves son intocables: sepárate para colocar Firewater y evita los conos del boss.",
+      "raw_scenes": [
+        [
+          "Deepvoid Slaves",
+          "Adds sobre plataformas comienzan a disparar círculos a la arena.",
+          "spread",
+          [
+            "Sepárate del resto y sal de cada Firewater.",
+            "Mantente fuera de la parte frontal de Taulurd."
+          ],
+          {
+            "Tank": [
+              "Apunta Double Smash y Elbow Drop lejos del grupo."
+            ],
+            "Healer": [
+              "Boulderdash golpea a todo el grupo; cura mientras sigues esquivando círculos."
+            ]
+          },
+          [
+            [
+              "Firewater",
+              "Cuatro círculos lanzados por adds intocables."
+            ],
+            [
+              "Boulderdash",
+              "Daño de grupo instantáneo desde las plataformas."
+            ],
+            [
+              "Double Smash / Elbow Drop",
+              "Conos frontales; Elbow Drop aparece bajo 50%."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-dzemael-darkhold--03-batraal",
+      "summary": "Rompe cada Corrupted Crystal para retirar la invulnerabilidad y nunca apuntes Desolation a tus compañeros.",
+      "raw_scenes": [
+        [
+          "Tether púrpura",
+          "Batraal se conecta a un cristal y deja de recibir daño.",
+          "tether",
+          [
+            "Cambia inmediatamente al Corrupted Crystal activo.",
+            "Si recibes la mira, sepárate y apunta la futura línea lejos de todos."
+          ],
+          {
+            "Tank": [
+              "Mantén a Batraal orientado mientras el grupo destruye el cristal."
+            ],
+            "Healer": [
+              "Sigue moviéndote entre Desolations; no sacrifiques posición por un cast largo."
+            ],
+            "Ranged": [
+              "Ataca el cristal desde un ángulo que no cruce tu Desolation por el grupo."
+            ]
+          },
+          [
+            [
+              "Crystal Tether",
+              "Mientras existe, Batraal es invulnerable."
+            ],
+            [
+              "Desolation",
+              "Columna de daño extremo dirigida al jugador marcado."
+            ]
+          ]
+        ],
+        [
+          "Hellssend",
+          "Tras el tercer cristal y cerca de 30%, Batraal gana Damage Up permanente.",
+          "line",
+          [
+            "Termina el boss rápido, pero sigue esquivando cada Desolation.",
+            "Mantente fuera de su frente y del AoE cercano Grim Halo."
+          ],
+          {
+            "Tank": [
+              "Usa mitigación con más frecuencia durante la fase final."
+            ],
+            "Healer": [
+              "Reserva recursos para el aumento de daño, sin quedarte en una línea."
+            ]
+          },
+          [
+            [
+              "Hellssend",
+              "Damage Up permanente para la fase final."
+            ],
+            [
+              "Grim Halo",
+              "AoE alrededor del boss."
+            ],
+            [
+              "Grim Fate",
+              "Ataque frontal fuerte al objetivo principal."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-halatali--01-firemane",
+      "summary": "El patrón clave alterna dos grupos de conos cardinales: después del primero, entra en la zona que acaba de explotar.",
+      "raw_scenes": [
+        [
+          "Fireflow",
+          "Aparece la primera cruz de conos cardinales alrededor de Firemane.",
+          "lanes",
+          [
+            "Colócate en un hueco de la primera tanda.",
+            "Cuando explote, cruza a la zona que acaba de quedar limpia para evitar la segunda."
+          ],
+          {
+            "Tank": [
+              "Mantén al jefe cerca del centro para que todos los huecos sean alcanzables."
+            ],
+            "Caster": [
+              "Planea un cast corto: tendrás que moverte dos veces."
+            ]
+          },
+          [
+            [
+              "Fireflow",
+              "Dos tandas alternadas de cuatro conos cardinales."
+            ],
+            [
+              "Fire II",
+              "AoE circular evitable."
+            ],
+            [
+              "Burning Bolt",
+              "Tankbuster."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-halatali--02-thunderclap-guivre",
+      "summary": "Cuando toda el agua se vuelva morada, abandona la piscina y pisa una de las rampas de tierra.",
+      "raw_scenes": [
+        [
+          "Hydroelectric Shock",
+          "La piscina completa brilla de color púrpura mientras el jefe carga electricidad.",
+          "safeEdge",
+          [
+            "Corre a cualquiera de las pendientes de tierra del borde.",
+            "No vuelvas al agua hasta que la descarga termine."
+          ],
+          {
+            "Tank": [
+              "Lleva al boss cerca de una pendiente antes del patrón para reducir el recorrido."
+            ],
+            "Caster": [
+              "Colócate temprano en la pendiente y continúa casteando desde allí."
+            ],
+            "Healer": [
+              "Desde la pendiente puedes seguir curando a distancia."
+            ],
+            "Ranged": [
+              "Sigue atacando desde terreno seco."
+            ]
+          },
+          [
+            [
+              "Hydroelectric Shock",
+              "Electrifica toda el agua; las pendientes de tierra son seguras."
+            ],
+            [
+              "Electrify",
+              "AoE circular alrededor del boss."
+            ],
+            [
+              "Levinfang",
+              "Tankbuster."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-halatali--03-tangata",
+      "summary": "Rompe el escudo matando wisps antes de que alcancen al boss y ejecuta correctamente el patrón fuera-dentro.",
+      "raw_scenes": [
+        [
+          "Burning Ward",
+          "Tangata se vuelve invulnerable y dos antorchas empiezan a generar fire wisps.",
+          "adds",
+          [
+            "Deja de golpear a Tangata y destruye los wisps antes de que lleguen al centro.",
+            "Al caer el escudo, vuelve al boss."
+          ],
+          {
+            "Tank": [
+              "Sostén a Tangata mientras ayudas con el wisp más cercano."
+            ],
+            "Caster": [
+              "Cambia de objetivo sin terminar un cast inútil contra el escudo."
+            ],
+            "Ranged": [
+              "Prioriza el wisp que aparece más lejos."
+            ]
+          },
+          [
+            [
+              "Burning Ward",
+              "Escudo de invulnerabilidad; desaparece al resolver los wisps."
+            ],
+            [
+              "Fire Wisps",
+              "Si llegan al boss, explotan con daño de grupo."
+            ]
+          ]
+        ],
+        [
+          "Plain Pound",
+          "Primero aparece un círculo central y después dos donuts concéntricos.",
+          "out",
+          [
+            "Quédate fuera del primer círculo.",
+            "En cuanto explote, entra a esa zona para evitar los donuts siguientes."
+          ],
+          {
+            "Healer": [
+              "Cura cualquier daño previo antes de ejecutar el intercambio fuera-dentro."
+            ]
+          },
+          [
+            [
+              "Plain Pound",
+              "Secuencia círculo → dos donuts; fuera y luego dentro."
+            ],
+            [
+              "Firewater",
+              "AoE circular bajo jugadores."
+            ],
+            [
+              "Straight Punch",
+              "Tankbuster."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-haukke-manor--01-manor-claviger",
+      "summary": "El tanque la orienta lejos del grupo; el resto interrumpe hechizos y sale de Dark Mist.",
+      "raw_scenes": [
+        [
+          "Sweet Steel",
+          "Claviger mantiene un cleave frontal sin indicador.",
+          "cone",
+          [
+            "Quédate permanentemente detrás o al costado del boss.",
+            "No cruces frente a ella mientras el tanque la reposiciona."
+          ],
+          {
+            "Tank": [
+              "Apúntala hacia una pared; su cleave puede golpear fuerte a jugadores sin armadura pesada."
+            ]
+          },
+          [
+            [
+              "Sweet Steel",
+              "Cono frontal sin telegraph."
+            ],
+            [
+              "Void Fire II",
+              "AoE interruptible, normalmente sobre un jugador a distancia."
+            ]
+          ]
+        ],
+        [
+          "Dark Mist",
+          "La jefa castea una gran explosión alrededor de sí.",
+          "out",
+          [
+            "Sal del radio antes del final del cast, o usa un stun para detenerlo.",
+            "Vuelve a posición detrás del boss."
+          ],
+          {
+            "Tank": [
+              "Low Blow puede cancelar Dark Mist."
+            ],
+            "Melee": [
+              "Leg Sweep también puede detener el cast."
+            ]
+          },
+          [
+            [
+              "Dark Mist",
+              "PBAoE grande; vulnerable a stun."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-haukke-manor--02-manor-jester",
+      "summary": "Es una pelea de dos objetivos: elimina al Jester primero y vigila el AoE del Steward.",
+      "raw_scenes": [
+        [
+          "Jester + Steward",
+          "Los dos enemigos están activos al mismo tiempo.",
+          "adds",
+          [
+            "Prioridad: Manor Jester primero, Manor Steward después.",
+            "Interrumpe Ice Spikes y aléjate de Soul Drain."
+          ],
+          {
+            "Tank": [
+              "Mantén a ambos enemigos juntos y girados lejos del grupo."
+            ],
+            "Melee": [
+              "Stun al Steward durante Soul Drain si está disponible."
+            ],
+            "Healer": [
+              "El Jester hace más daño; vigila picos mientras ambos viven."
+            ],
+            "Ranged": [
+              "Interrumpe Ice Spikes si tu job tiene interrupt."
+            ]
+          },
+          [
+            [
+              "Ice Spikes",
+              "Cast interruptible del Jester."
+            ],
+            [
+              "Soul Drain",
+              "Gran AoE alrededor del Steward; puede detenerse con stun."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-haukke-manor--03-lady-amandine",
+      "summary": "Resuelve el ojo mirando en dirección contraria, mata a la handmaiden y corta los hechizos peligrosos.",
+      "raw_scenes": [
+        [
+          "Manor Sentry",
+          "Aparece un add con un gran marcador de ojo púrpura.",
+          "gaze",
+          [
+            "Cuando aparezca el ojo, gira la cámara y el personaje para mirar en dirección contraria al Sentry.",
+            "Puedes colocarte entre la jefa y el add para seguir atacando sin mirarlo."
+          ],
+          {
+            "Tank": [
+              "Mantén a Amandine quieta mientras todo el grupo resuelve la mirada."
+            ],
+            "Healer": [
+              "No intentes terminar un cast si te hará mirar al add."
+            ]
+          },
+          [
+            [
+              "Gaze",
+              "Mirar al Sentry cuando resuelve su ojo aplica el castigo."
+            ],
+            [
+              "Seduce",
+              "Te hace caminar hacia Amandine antes de otra mirada; gira al recuperar control."
+            ]
+          ]
+        ],
+        [
+          "Lady's Handmaiden",
+          "Aparece una handmaiden targeteable junto a la jefa.",
+          "adds",
+          [
+            "Cambia inmediatamente a la handmaiden: intentará lanzar Stoneskin sobre Amandine.",
+            "Interrumpe Void Fire III y Void Thunder III cuando sea posible."
+          ],
+          {
+            "Tank": [
+              "Mitiga Void Thunder III si no se interrumpe; funciona como tankbuster."
+            ],
+            "Caster": [
+              "Cambia de objetivo antes de completar daño innecesario al boss."
+            ],
+            "Ranged": [
+              "Prioriza la handmaiden aunque aparezca lejos."
+            ]
+          },
+          [
+            [
+              "Stoneskin",
+              "La handmaiden intenta proteger a la jefa."
+            ],
+            [
+              "Void Fire III",
+              "Hechizo interruptible."
+            ],
+            [
+              "Void Thunder III",
+              "Tankbuster interruptible."
+            ],
+            [
+              "Dark Mist",
+              "AoE cercano vulnerable a stun."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-labyrinth-of-the-ancients--01-bone-dragon",
+      "summary": "Derrótalo tres veces, separa los Platinals antes de matarlos y evita que alcancen el cadáver cuando revivan.",
+      "raw_scenes": [
+        [
+          "Dragón y veneno",
+          "Mantén al dragón en una zona elevada; el suelo bajo puede llenarse de veneno.",
+          "safeCenter",
+          [
+            "Evita las zonas bajas cuando aparezca el veneno.",
+            "No amontones los esqueletos junto al dragón."
+          ],
+          {
+            "Tank": [
+              "Orienta al dragón lejos del grupo y recoge los adds sueltos."
+            ],
+            "Melee": [
+              "Cambia a Platinals y sepáralos antes de rematarlos."
+            ],
+            "Caster": [
+              "Usa daño de objetivo individual; no juntes sus muertes."
+            ],
+            "Healer": [
+              "Prepárate para daño grupal si un esqueleto llega al cadáver."
+            ],
+            "Ranged": [
+              "Distribuye daño entre esqueletos alejados."
+            ]
+          },
+          [
+            [
+              "Platinals",
+              "Al morir separados, reviven más lentos y pueden detenerse."
+            ],
+            [
+              "Poison floor",
+              "Las zonas bajas se vuelven peligrosas."
+            ]
+          ]
+        ],
+        [
+          "Marcha de Platinals",
+          "Cuando cae el dragón, los esqueletos reviven y corren hacia el centro.",
+          "adds",
+          [
+            "Mata cada Platinal antes de que toque al dragón.",
+            "Cada llegada inflige daño inevitable a toda la alianza."
+          ],
+          {
+            "Tank": [
+              "Intercepta y controla esqueletos sin volverlos a juntar."
+            ],
+            "Melee": [
+              "Persigue el objetivo más cercano al cadáver."
+            ],
+            "Caster": [
+              "Reserva instantáneos para rematar objetivos en movimiento."
+            ],
+            "Healer": [
+              "Cura en área después de cada impacto que no se pueda evitar."
+            ],
+            "Ranged": [
+              "Prioriza el esqueleto con menos distancia restante."
+            ]
+          },
+          [
+            [
+              "Skeleton Rush",
+              "Demasiadas llegadas seguidas pueden provocar wipe."
+            ],
+            [
+              "Resurrection",
+              "La secuencia se repite tras las primeras dos derrotas."
+            ]
+          ]
+        ],
+        [
+          "Última resurrección",
+          "En la tercera vida aparecen Rotting Eyes: concentra daño en el jefe.",
+          "out",
+          [
+            "Quema al Bone Dragon y evita AoE.",
+            "Ignora Rotting Eyes salvo que amenacen al grupo."
+          ],
+          {
+            "Tank": [
+              "Mantén al jefe estable para facilitar el burst."
+            ],
+            "Melee": [
+              "Permanece en el flanco o espalda mientras sea seguro."
+            ],
+            "Caster": [
+              "Usa tu ventana de daño final sobre el jefe."
+            ],
+            "Healer": [
+              "Sostén al tanque y cubre el daño residual."
+            ],
+            "Ranged": [
+              "Ataca al jefe desde una plataforma elevada."
+            ]
+          },
+          [
+            [
+              "Rotting Eyes",
+              "Adds de la última vida; normalmente se ignoran."
+            ],
+            [
+              "Final burn",
+              "La tercera muerte termina el encuentro."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-labyrinth-of-the-ancients--02-thanatos",
+      "summary": "Solo quienes reciben Astral Realignment pueden dañar a Thanatos; los demás protegen y curan los Magic Pots.",
+      "raw_scenes": [
+        [
+          "Astral Realignment",
+          "Sigue la línea verde del Magic Pot: el buff permite golpear al jefe.",
+          "tether",
+          [
+            "Con buff, ataca a Thanatos.",
+            "Sin buff, elimina adds y protege los Pots."
+          ],
+          {
+            "Tank": [
+              "El tanque con buff toma al jefe y lo orienta lejos de Pots y alianza."
+            ],
+            "Melee": [
+              "Con buff pega por detrás; sin buff cambia inmediatamente a adds."
+            ],
+            "Caster": [
+              "Con buff usa burst en Thanatos; sin buff controla adds."
+            ],
+            "Healer": [
+              "Cura los Magic Pots además de la alianza."
+            ],
+            "Ranged": [
+              "Elimina Sandman y Nemesis que se acerquen a los Pots."
+            ]
+          },
+          [
+            [
+              "Astral Realignment",
+              "Sin este estado, Thanatos es inmune."
+            ],
+            [
+              "Magic Pots",
+              "Si mueren los tres, el encuentro se pierde."
+            ]
+          ]
+        ],
+        [
+          "Pots encadenados",
+          "Una línea roja y una cadena indican que un add está arrastrando un Pot.",
+          "adds",
+          [
+            "Mata primero el add conectado por línea roja.",
+            "Deja que el Pot regrese y recupérelo con curas."
+          ],
+          {
+            "Tank": [
+              "Recoge adds sin apuntar cleaves hacia los Pots."
+            ],
+            "Melee": [
+              "Corta rápidamente el add conectado."
+            ],
+            "Caster": [
+              "Guarda instantáneos para cambiar al objetivo urgente."
+            ],
+            "Healer": [
+              "Cura al Pot liberado hasta estabilizarlo."
+            ],
+            "Ranged": [
+              "Prioriza cualquier línea roja, aunque esté lejos."
+            ]
+          },
+          [
+            [
+              "Pot tether",
+              "El Pot muere rápidamente si llega a Thanatos."
+            ],
+            [
+              "Add priority",
+              "La protección de los Pots vale más que el daño al jefe."
+            ]
+          ]
+        ],
+        [
+          "Rotación de alianzas",
+          "El buff pasa por A, B y C; cambia de tarea cuando aparezca o expire.",
+          "lanes",
+          [
+            "No anticipes el pull antes de que Alliance A esté presente.",
+            "Repite daño al jefe y defensa de Pots hasta terminar."
+          ],
+          {
+            "Tank": [
+              "Realiza el relevo cuando tu alianza reciba el buff."
+            ],
+            "Melee": [
+              "Revisa tu buff antes de decidir objetivo."
+            ],
+            "Caster": [
+              "No malgastes casts en Thanatos sin Realignment."
+            ],
+            "Healer": [
+              "Mantén Pots vivos durante toda la rotación."
+            ],
+            "Ranged": [
+              "Cubre adds mientras otra alianza golpea al jefe."
+            ]
+          },
+          [
+            [
+              "Alliance cycle",
+              "Cada grupo recibe su ventana para dañar."
+            ],
+            [
+              "Cleave",
+              "Solo el tanque activo debe estar frente al jefe."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-labyrinth-of-the-ancients--03-king-behemoth",
+      "summary": "Coloca los cometas fuera del círculo del jefe, protege las rocas de los Iron Giants y escóndete detrás de una durante Ecliptic Meteor.",
+      "raw_scenes": [
+        [
+          "Cometas",
+          "La marca verde indica dónde caerá una roca que después salvará a la alianza.",
+          "spread",
+          [
+            "Lleva la marca fuera del círculo de objetivo del Behemoth.",
+            "No apiles los cometas ni los dejes junto al jefe."
+          ],
+          {
+            "Tank": [
+              "El tanque principal mantiene al jefe estable; los otros toman Iron Giants."
+            ],
+            "Melee": [
+              "Deja espacio para que los marcados salgan del hitbox."
+            ],
+            "Caster": [
+              "Preposiciona cerca de cobertura antes del Meteor."
+            ],
+            "Healer": [
+              "Activa torres cercanas si brillan y mantente lejos de las marcas."
+            ],
+            "Ranged": [
+              "Ayuda con torres y Puroboros sin alejarte de una roca válida."
+            ]
+          },
+          [
+            [
+              "Comet",
+              "Solo protege si está fuera del círculo del jefe."
+            ],
+            [
+              "Towers",
+              "Pueden activarse para controlar daño adicional."
+            ]
+          ]
+        ],
+        [
+          "Defender la cobertura",
+          "Los Iron Giants intentan destruir los cometas.",
+          "adds",
+          [
+            "Mata Iron Giants antes de que rompan las rocas.",
+            "Conserva al menos un cometa sano para cada sector."
+          ],
+          {
+            "Tank": [
+              "Aleja y orienta cada Giant fuera de jugadores y cometas."
+            ],
+            "Melee": [
+              "Ataca Giants desde el flanco, nunca entre su frente y una roca."
+            ],
+            "Caster": [
+              "Usa control y burst sobre Giants prioritarios."
+            ],
+            "Healer": [
+              "Vigila a los off-tanks que separan Giants."
+            ],
+            "Ranged": [
+              "Cambia rápidamente al Giant más cercano a un cometa."
+            ]
+          },
+          [
+            [
+              "Iron Giant",
+              "Su cleave también puede destruir la cobertura."
+            ],
+            [
+              "Puroboros",
+              "Adds secundarios que avanzan hacia torres."
+            ]
+          ]
+        ],
+        [
+          "Ecliptic Meteor",
+          "Cuando el Behemoth se levanta, rompe línea de visión detrás de un cometa.",
+          "safeEdge",
+          [
+            "Coloca la roca exactamente entre tu personaje y el jefe.",
+            "No ataques: confirma primero que el jefe no te ve."
+          ],
+          {
+            "Tank": [
+              "También debes esconderte; la mitigación no sustituye la roca."
+            ],
+            "Melee": [
+              "Abandona el cuerpo del jefe de inmediato."
+            ],
+            "Caster": [
+              "Cancela el cast y escóndete; Meteor mata al instante."
+            ],
+            "Healer": [
+              "Cura al salir de cobertura, no durante la búsqueda."
+            ],
+            "Ranged": [
+              "No ocupes una cobertura de forma que bloquee la llegada de otros."
+            ]
+          },
+          [
+            [
+              "Ecliptic Meteor",
+              "Ignora defensas y mata si hay línea de visión."
+            ],
+            [
+              "Line of sight",
+              "La roca debe quedar fuera del hitbox del jefe."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-labyrinth-of-the-ancients--04-phlegethon",
+      "summary": "Respeta A izquierda, B centro y C derecha; cuando comience Ancient Flare, corre a la plataforma de tu alianza y forma la barrera.",
+      "raw_scenes": [
+        [
+          "Posiciones A/B/C",
+          "Antes del pull identifica la plataforma asignada a tu alianza.",
+          "lanes",
+          [
+            "A izquierda, B centro, C derecha.",
+            "Evita los AoE y elimina Iron Claws."
+          ],
+          {
+            "Tank": [
+              "Orienta al jefe lejos de no-tanks y recoge Iron Claws."
+            ],
+            "Melee": [
+              "No permanezcas frente a su cleave."
+            ],
+            "Caster": [
+              "No coloques una animación larga antes de la transición."
+            ],
+            "Healer": [
+              "Mantén a tu grupo cerca de su ruta de salida."
+            ],
+            "Ranged": [
+              "Elimina Claws que inmovilicen jugadores."
+            ]
+          },
+          [
+            [
+              "Iron Claw",
+              "Inmoviliza a un jugador y debe morir rápido."
+            ],
+            [
+              "Frontal cleave",
+              "No siempre tiene indicador visible."
+            ]
+          ]
+        ],
+        [
+          "Ancient Flare",
+          "El jefe vuelve al centro y comienza un cast largo: corre a tu plataforma.",
+          "safeEdge",
+          [
+            "Entra en la plataforma de tu alianza inmediatamente.",
+            "Se necesitan suficientes jugadores en las tres para levantar la barrera."
+          ],
+          {
+            "Tank": [
+              "Abandona al jefe y entra en la plataforma; no intentes aguantar el cast."
+            ],
+            "Melee": [
+              "Corta el combo y corre al primer indicio del cast."
+            ],
+            "Caster": [
+              "Cancela el cast; Ancient Flare sin barrera es wipe."
+            ],
+            "Healer": [
+              "Usa Sprint o Rescue si alguien queda rezagado."
+            ],
+            "Ranged": [
+              "Quédate dentro hasta ver la barrera cerrada."
+            ]
+          },
+          [
+            [
+              "Ancient Flare",
+              "Ataque letal bloqueado por las tres plataformas."
+            ],
+            [
+              "Barrier",
+              "Falla si una plataforma carece de jugadores."
+            ]
+          ]
+        ],
+        [
+          "Iron Giants",
+          "Tras cerrarse la barrera aparece un Iron Giant en cada plataforma.",
+          "adds",
+          [
+            "Elimina el Giant de tu grupo y vuelve al jefe.",
+            "Prepárate para una segunda Ancient Flare cerca del final."
+          ],
+          {
+            "Tank": [
+              "Toma el Giant y apunta su frontal fuera del grupo."
+            ],
+            "Melee": [
+              "Ataca por flanco/espalda dentro del espacio disponible."
+            ],
+            "Caster": [
+              "Reserva movilidad para la segunda carrera."
+            ],
+            "Healer": [
+              "Cura el daño de la plataforma antes de regresar."
+            ],
+            "Ranged": [
+              "Ayuda a la plataforma con menor daño si es seguro."
+            ]
+          },
+          [
+            [
+              "Platform Giant",
+              "Debe morir antes de retomar al jefe."
+            ],
+            [
+              "Second Flare",
+              "Puede repetirse con poca vida; correr es la opción segura."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-sastasha--01-chopper",
+      "summary": "Un encuentro corto para aprender a leer un AoE circular: el error importante es recibir Parálisis.",
+      "raw_scenes": [
+        [
+          "Charged Whisker",
+          "El jefe se queda quieto y empieza a cargar electricidad a su alrededor.",
+          "out",
+          [
+            "Sal completamente del círculo antes de que termine el cast.",
+            "Vuelve al boss en cuanto explote; no hace falta alejarse más de lo necesario."
+          ],
+          {
+            "Tank": [
+              "Mantén al jefe centrado para que todos tengan espacio de salida."
+            ],
+            "Healer": [
+              "Si alguien falla, cura y limpia Parálisis con Esuna si ya la tienes disponible."
+            ]
+          },
+          [
+            [
+              "Charged Whisker",
+              "AoE alrededor del jefe; no causa daño directo, pero aplica Parálisis."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-sastasha--02-captain-madison",
+      "summary": "El capitán aparece dos veces. La segunda pelea añade perros y una reducción de precisión al objetivo principal.",
+      "raw_scenes": [
+        [
+          "Tripulación inicial",
+          "Madison entra acompañado por dos piratas.",
+          "adds",
+          [
+            "Elimina primero a los dos acompañantes y después concentra daño en Madison."
+          ],
+          {
+            "Tank": [
+              "Agrupa a Madison y sus acompañantes mirando en dirección contraria al grupo."
+            ],
+            "Healer": [
+              "Vigila al tanque mientras el grupo limpia los adds."
+            ]
+          },
+          [
+            [
+              "Heavy Swing",
+              "Golpe adicional al objetivo principal."
+            ],
+            [
+              "Fast Blade",
+              "Daño ligero al tanque durante el segundo encuentro."
+            ]
+          ]
+        ],
+        [
+          "Scurvy Dogs",
+          "Alrededor de 50% de vida aparecen varios perros.",
+          "adds",
+          [
+            "Cambia inmediatamente a los perros para que no se acumulen sobre el healer.",
+            "Después vuelve a Madison hasta que escape."
+          ],
+          {
+            "Tank": [
+              "Recoge los perros con daño de área."
+            ],
+            "Caster": [
+              "Usa daño de área cuando los perros estén agrupados."
+            ],
+            "Healer": [
+              "Sandslinger puede aplicar Accuracy Down; límpialo con Esuna si es necesario."
+            ],
+            "Ranged": [
+              "Ayuda a borrar rápidamente los perros alejados."
+            ]
+          },
+          [
+            [
+              "Sandslinger",
+              "Aplica Accuracy Down limpiable al objetivo principal."
+            ],
+            [
+              "Scurvy Dogs",
+              "Adds que entran en la segunda pelea cerca de 50%."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-sastasha--03-denn-the-orcatoothed",
+      "summary": "Mantén al grupo detrás del jefe, evita Hydroball y decide si cerrar las rejillas o matar los adds.",
+      "raw_scenes": [
+        [
+          "Hydroball",
+          "Denn gira hacia el tanque y prepara un cono frontal.",
+          "cone",
+          [
+            "Nunca te coloques delante de Denn salvo que seas el tanque.",
+            "Sal del cono; si impacta también puede aplicar Silence."
+          ],
+          {
+            "Tank": [
+              "Orienta a Denn hacia el borde y esquiva lateralmente sin girarlo hacia el grupo."
+            ],
+            "Healer": [
+              "Mantente detrás y a media distancia para evitar el cono."
+            ]
+          },
+          [
+            [
+              "Hydroball",
+              "Cono hacia el objetivo principal; aplica Silence si golpea."
+            ],
+            [
+              "True Thrust",
+              "Daño adicional al tanque."
+            ]
+          ]
+        ],
+        [
+          "Rejillas burbujeando",
+          "Una o más rejillas de las esquinas comienzan a burbujear.",
+          "adds",
+          [
+            "Interactúa con una rejilla activa para impedir un spawn, o mata rápidamente el add si aparece.",
+            "No dejes que los adds se queden pegando al healer."
+          ],
+          {
+            "Tank": [
+              "Recoge cualquier add que llegue a salir."
+            ],
+            "Caster": [
+              "Cierra la rejilla más cercana entre casteos."
+            ],
+            "Ranged": [
+              "Eres el mejor situado para cerrar rejillas sin perder mucho daño."
+            ]
+          },
+          [
+            [
+              "Bubbling Grates",
+              "Las cuatro rejillas pueden generar adds durante el combate."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-syrcus-tower--01-scylla",
+      "summary": "Resuelve orbes elementales: rayo a pilares, fuego para liberar congelados y charcos de agua para sobrevivir Ancient Flare.",
+      "raw_scenes": [
+        [
+          "Orbes elementales",
+          "Morado a pilar, rojo a jugador congelado; no congeles un charco.",
+          "tether",
+          [
+            "Lleva Lightning Orb a uno de los tres pilares.",
+            "Usa Flame Orb para descongelar y crear agua."
+          ],
+          {
+            "Tank": [
+              "Mantén a Scylla estable, lejos de la ruta de orbes."
+            ],
+            "Melee": [
+              "Sal del grupo si te sigue un orbe de hielo."
+            ],
+            "Caster": [
+              "Conserva movilidad para resolver tu color."
+            ],
+            "Healer": [
+              "Cura Unholy y vigila a jugadores congelados."
+            ],
+            "Ranged": [
+              "Guía el orbe al objetivo correcto sin cruzar la alianza."
+            ]
+          },
+          [
+            [
+              "Lightning Orb",
+              "Carga un pilar para Daybreak."
+            ],
+            [
+              "Ice + Flame",
+              "Fuego libera hielo y deja un charco de agua."
+            ]
+          ]
+        ],
+        [
+          "Ancient Flare",
+          "Entra en un charco de agua creado al descongelar a un jugador.",
+          "safeCenter",
+          [
+            "No evapores el charco antes del cast.",
+            "Permanece en agua hasta que Ancient Flare golpee."
+          ],
+          {
+            "Tank": [
+              "Mueve al jefe solo si bloquea acceso al agua."
+            ],
+            "Melee": [
+              "Abandona el hitbox a tiempo."
+            ],
+            "Caster": [
+              "Interrumpe tu cast y entra en agua."
+            ],
+            "Healer": [
+              "Precura al grupo y entra en agua."
+            ],
+            "Ranged": [
+              "No dejes AoE sobre el charco seguro."
+            ]
+          },
+          [
+            [
+              "Ancient Flare",
+              "El agua concede resistencia al fuego."
+            ],
+            [
+              "Water puddle",
+              "Se crea al descongelar con Flame Orb."
+            ]
+          ]
+        ],
+        [
+          "Daybreak",
+          "Cuando aparezca Daybreak, cada alianza se apila en su plataforma energizada.",
+          "lanes",
+          [
+            "A, B y C ocupan su plataforma cargada.",
+            "Después elimina adds y repite Ancient Flare con agua."
+          ],
+          {
+            "Tank": [
+              "Recoge los adds de la segunda fase."
+            ],
+            "Melee": [
+              "No abandones la plataforma antes de resolver."
+            ],
+            "Caster": [
+              "Mantén daño en adds y reserva movimiento para el próximo charco."
+            ],
+            "Healer": [
+              "Cubre daño grupal al salir de la protección."
+            ],
+            "Ranged": [
+              "Ayuda con adds desde tu sector."
+            ]
+          },
+          [
+            [
+              "Daybreak",
+              "Petrifica a la alianza sin plataformas cargadas."
+            ],
+            [
+              "Phase 2",
+              "Continúan hielo, fuego y Ancient Flare."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-syrcus-tower--02-glasya-labolas",
+      "summary": "Intercepta líneas de energía, elimina constructos y usa los saltadores exteriores durante Deathstream.",
+      "raw_scenes": [
+        [
+          "Clockwork Wrights",
+          "Un jugador debe interceptar la línea entre cada Wright y Glasya.",
+          "tether",
+          [
+            "Párate en la zona sombreada para cortar la línea.",
+            "Mata el Wright mientras el enlace está interceptado."
+          ],
+          {
+            "Tank": [
+              "Mantén a Glasya en el centro; recoge constructos peligrosos."
+            ],
+            "Melee": [
+              "Cambia al Wright conectado más cercano."
+            ],
+            "Caster": [
+              "Evita Aura bajo tus pies mientras cambias de objetivo."
+            ],
+            "Healer": [
+              "Cura al jugador aturdido que intercepta."
+            ],
+            "Ranged": [
+              "Intercepta enlaces lejanos y destruye adds."
+            ]
+          },
+          [
+            [
+              "Energy line",
+              "Interrumpirla permite matar el constructo."
+            ],
+            [
+              "Aura",
+              "Tres AoE aparecen bajo jugadores."
+            ]
+          ]
+        ],
+        [
+          "Squires y nodos",
+          "Los Squires deben absorber líneas de los nodos para retirar el reflejo.",
+          "adds",
+          [
+            "Conecta los Squires y elimínalos.",
+            "Activa los tres saltadores antes de Deathstream."
+          ],
+          {
+            "Tank": [
+              "Agrupa Squires sin girar al jefe sobre el grupo."
+            ],
+            "Melee": [
+              "No golpees al jefe mientras refleje daño."
+            ],
+            "Caster": [
+              "Observa el reflejo antes de lanzar burst."
+            ],
+            "Healer": [
+              "Prepara curación para Deathstream."
+            ],
+            "Ranged": [
+              "Prioriza nodos y Squires de tu sector."
+            ]
+          },
+          [
+            [
+              "Damage reflection",
+              "Los nodos hacen que Glasya refleje daño."
+            ],
+            [
+              "Deathstream",
+              "Obliga a abandonar la plataforma central."
+            ]
+          ]
+        ],
+        [
+          "Anillo exterior",
+          "Usa el salto de tu alianza y mata Spanner-rooks plataforma por plataforma.",
+          "lanes",
+          [
+            "A izquierda, B abajo, C derecha.",
+            "Avanza solo en una dirección y regresa al centro tras limpiar."
+          ],
+          {
+            "Tank": [
+              "Lidera el recorrido de tu alianza."
+            ],
+            "Melee": [
+              "No saltes antes de que muera el add."
+            ],
+            "Caster": [
+              "No te quedes casteando cuando la plataforma sea bombardeada."
+            ],
+            "Healer": [
+              "Mantén al grupo unido durante los saltos."
+            ],
+            "Ranged": [
+              "Ataca el siguiente objetivo al aterrizar."
+            ]
+          },
+          [
+            [
+              "Outer platforms",
+              "Quedarse en el centro durante Deathstream mata."
+            ],
+            [
+              "Spiral Spin",
+              "En la fase final, colócate bajo Glasya para evitarlo."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-syrcus-tower--03-amon",
+      "summary": "Controla adds y Kum Kum, limpia la bomba y conserva bloques de hielo para esconderte de Curtain Call.",
+      "raw_scenes": [
+        [
+          "Forte y adds",
+          "Evita Blizzaga/Thundaga Forte y mata los adds antes de que alcancen a Amon.",
+          "adds",
+          [
+            "Mata #33, #66 y #99 antes de que apliquen Silence o Pacification.",
+            "No te coloques frente al cleave Coloatura."
+          ],
+          {
+            "Tank": [
+              "Mantén a Amon al centro y toma Kum Kum."
+            ],
+            "Melee": [
+              "Ataca adds desde flanco/espalda."
+            ],
+            "Caster": [
+              "Evita Thundaga superpuestos y usa instantáneos al cambiar."
+            ],
+            "Healer": [
+              "Limpia con Esuna el debuff de bomba."
+            ],
+            "Ranged": [
+              "Stun y daño rápido a adds en las esquinas."
+            ]
+          },
+          [
+            [
+              "Coloatura",
+              "Cleave frontal muy potente."
+            ],
+            [
+              "Marching adds",
+              "Al llegar aplican debuffs a toda la raid."
+            ]
+          ]
+        ],
+        [
+          "Mini y sapos",
+          "Lleva Dimensional Compression a Kum Kum; los sapos descongelan jugadores.",
+          "tether",
+          [
+            "Haz que el orbe de Mini toque a Kum Kum.",
+            "Como sapo, usa Flame Breath para liberar congelados, no todos los bloques."
+          ],
+          {
+            "Tank": [
+              "Sujeta Kum Kum en la ruta del orbe."
+            ],
+            "Melee": [
+              "Mata Kichiknebiks que persiguen sapos."
+            ],
+            "Caster": [
+              "No derritas el último hielo disponible."
+            ],
+            "Healer": [
+              "Mantén vivos a congelados y sapos perseguidos."
+            ],
+            "Ranged": [
+              "Guía el orbe y elimina serpientes."
+            ]
+          },
+          [
+            [
+              "Mini",
+              "Reduce a Kum Kum y facilita matarlo."
+            ],
+            [
+              "Flame Toad",
+              "Puede descongelar, pero también destruir cobertura."
+            ]
+          ]
+        ],
+        [
+          "Curtain Call",
+          "Amon empieza Curtain Call: escóndete detrás de un bloque de hielo alejado del jefe.",
+          "safeEdge",
+          [
+            "Alinea el bloque entre Amon y tu personaje.",
+            "No derritas el hielo durante el cast."
+          ],
+          {
+            "Tank": [
+              "Abandona el frente y usa cobertura."
+            ],
+            "Melee": [
+              "Sal del hitbox del jefe para que el bloque funcione."
+            ],
+            "Caster": [
+              "Cancela tu cast y confirma cobertura."
+            ],
+            "Healer": [
+              "No intentes curar atravesando la mecánica; escóndete."
+            ],
+            "Ranged": [
+              "Comparte espacio sin salir de la línea de protección."
+            ]
+          },
+          [
+            [
+              "Curtain Call",
+              "Mata a quien no rompa línea de visión."
+            ],
+            [
+              "Ice block",
+              "No protege si está demasiado cerca de Amon."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-syrcus-tower--04-xande",
+      "summary": "Ocupa los círculos de orbes, destruye attractors, comparte los marcadores y usa Null Gravity para evitar Ancient Quaga.",
+      "raw_scenes": [
+        [
+          "Aetherochemical Explosion",
+          "Cada círculo dorado necesita al menos un jugador.",
+          "spread",
+          [
+            "Ocupa un círculo vacío antes de que detone.",
+            "Evita superponer AoE personales."
+          ],
+          {
+            "Tank": [
+              "Mantén a Xande centrado y ocupa un círculo cercano."
+            ],
+            "Melee": [
+              "Toma los círculos dentro o cerca del hitbox."
+            ],
+            "Caster": [
+              "Muévete temprano hacia un círculo lejano."
+            ],
+            "Healer": [
+              "Distribúyete para cubrir círculos sin abandonar alcance."
+            ],
+            "Ranged": [
+              "Prioriza círculos exteriores."
+            ]
+          },
+          [
+            [
+              "Golden orbs",
+              "Vacíos causan daño fuerte a toda la alianza."
+            ],
+            [
+              "Knuckle Press",
+              "AoE con knockback alrededor de Xande."
+            ]
+          ]
+        ],
+        [
+          "Meteor Attractors",
+          "Xande deja la arena: mata primero los attractors exteriores y luego el central.",
+          "adds",
+          [
+            "Cada alianza elimina su attractor del borde.",
+            "Todos convergen en el attractor gigante del centro."
+          ],
+          {
+            "Tank": [
+              "Agrupa adds secundarios y ayuda al centro."
+            ],
+            "Melee": [
+              "No cambies al centro antes de matar el exterior."
+            ],
+            "Caster": [
+              "Reserva burst para el attractor central."
+            ],
+            "Healer": [
+              "Aprovecha la pausa para recuperar al grupo."
+            ],
+            "Ranged": [
+              "Ataca el objetivo de tu alianza en cuanto aparece."
+            ]
+          },
+          [
+            [
+              "Meteorfall",
+              "Los pequeños causan gran daño; el central sin matar provoca wipe."
+            ],
+            [
+              "Second intermission",
+              "Se repite cerca de 40% con más attractors."
+            ]
+          ]
+        ],
+        [
+          "Null Gravity",
+          "Comparte el marcador de stack y entra en la zona flotante para Ancient Quaga.",
+          "safeCenter",
+          [
+            "Cada alianza comparte su círculo sin superponerlo con otros.",
+            "Tras resolver, entra en Null Gravity y luego dispersa."
+          ],
+          {
+            "Tank": [
+              "Mantén al jefe accesible sin sacar stacks de sus grupos."
+            ],
+            "Melee": [
+              "Entra en la zona flotante aunque pierdas uptime."
+            ],
+            "Caster": [
+              "Después de Quaga, sal de AoE bajo jugadores."
+            ],
+            "Healer": [
+              "Cura tras el stack antes de Quaga."
+            ],
+            "Ranged": [
+              "No superpongas el stack de otra alianza."
+            ]
+          },
+          [
+            [
+              "Stack marker",
+              "El daño se divide entre quienes están dentro."
+            ],
+            [
+              "Ancient Quaga",
+              "Null Gravity anula el daño letal."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-the-aurum-vale--01-locksmith",
+      "summary": "Come una Morbol Fruit alrededor de dos stacks de Gold Lung; no pises Goldbile y no gastes frutas demasiado pronto.",
+      "raw_scenes": [
+        [
+          "Gold Lung",
+          "Gold Rush añade un stack de Gold Lung a toda la party.",
+          "fruit",
+          [
+            "Controla el número del debuff: normalmente come una fruta al llegar a 2 stacks.",
+            "No uses otra fruta mientras tengas Morbid Meal; tarda 20 segundos en desaparecer."
+          ],
+          {
+            "Tank": [
+              "Si la interacción se interrumpe por golpes, usa un stun sobre Locksmith antes de comer."
+            ],
+            "Healer": [
+              "Gold Lung no se limpia con Esuna; cada jugador debe usar una fruta."
+            ]
+          },
+          [
+            [
+              "Gold Rush",
+              "Aplica Gold Lung acumulable a todos."
+            ],
+            [
+              "Morbol Fruit",
+              "Elimina Gold Lung y aplica Morbid Meal durante 20 segundos."
+            ],
+            [
+              "Gold Dust",
+              "Círculo bajo un jugador."
+            ],
+            [
+              "Goldbile",
+              "El líquido amarillo del suelo causa daño en el tiempo."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-aurum-vale--02-coincounter",
+      "summary": "Lee la animación además del suelo: una mano = cono; dos manos = círculo. Eye of the Beholder deja zonas seguras cerca y detrás.",
+      "raw_scenes": [
+        [
+          "100-Tonze Swipe",
+          "Coincounter levanta la maza con una mano.",
+          "cone",
+          [
+            "Sal del cono frontal y no te quedes delante del boss.",
+            "Vuelve a la espalda cuando termine."
+          ],
+          {
+            "Tank": [
+              "Esquiva por un costado y conserva la orientación del boss."
+            ]
+          },
+          [
+            [
+              "100-Tonze Swipe",
+              "Cono frontal grande; la animación usa una mano."
+            ],
+            [
+              "10-Tonze Swipe",
+              "Golpe frontal moderado."
+            ]
+          ]
+        ],
+        [
+          "100-Tonze Swing",
+          "Coincounter sostiene la maza con las dos manos.",
+          "out",
+          [
+            "Aléjate del boss: el círculo cercano hace daño enorme.",
+            "Swipe, Swing y Eye of the Beholder pueden detenerse con stun."
+          ],
+          {
+            "Tank": [
+              "Low Blow puede cancelar el cast."
+            ],
+            "Melee": [
+              "Leg Sweep puede cancelar el cast; si no, sal."
+            ]
+          },
+          [
+            [
+              "100-Tonze Swing",
+              "AoE circular cercano de daño extremo; animación a dos manos."
+            ],
+            [
+              "Glower",
+              "Línea hacia un jugador; aplica Parálisis."
+            ]
+          ]
+        ],
+        [
+          "Eye of the Beholder",
+          "Se forma un gran AoE en forma de C alrededor del cyclops.",
+          "safeCenter",
+          [
+            "Colócate cerca del boss o directamente detrás: son las zonas seguras.",
+            "No permanezcas en el arco exterior."
+          ],
+          {
+            "Healer": [
+              "Esuna puede limpiar Electrocution si alguien falla."
+            ]
+          },
+          [
+            [
+              "Eye of the Beholder",
+              "AoE parcial tipo donut; cerca y detrás son seguros."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-aurum-vale--03-miser-s-mistress",
+      "summary": "Come fruta con 2–3 stacks de Burrs, evita Bad Breath y destruye las cinco frutas extra antes de que eclosionen.",
+      "raw_scenes": [
+        [
+          "Burrs / Bad Breath",
+          "El debuff Burrs se acumula y el boss prepara un cono frontal.",
+          "fruit",
+          [
+            "Mantente detrás del morbol para evitar Bad Breath.",
+            "Come una Morbol Fruit a 2–3 stacks de Burrs, o inmediatamente si Bad Breath te llena de debuffs."
+          ],
+          {
+            "Tank": [
+              "Orienta Bad Breath hacia una pared y usa una fruta sin girar el boss al grupo."
+            ],
+            "Healer": [
+              "La fruta también elimina los múltiples debuffs de Bad Breath; no dependas solo de Esuna."
+            ]
+          },
+          [
+            [
+              "Burrs",
+              "DoT acumulable; una fruta elimina todos los stacks."
+            ],
+            [
+              "Bad Breath",
+              "Cono frontal con Parálisis, Silence, Poison, Blind, Slow, Heavy y HP Penalty."
+            ]
+          ]
+        ],
+        [
+          "Strange Morbol Fruits",
+          "Alrededor de 50% aparecen cinco frutas extra en la arena.",
+          "adds",
+          [
+            "Cambia inmediatamente a las cinco frutas y destrúyelas antes de que abran.",
+            "Si nacen seedlings, elimínalos antes de que acumulen más Burrs."
+          ],
+          {
+            "Tank": [
+              "Mantén al boss lejos del grupo de frutas para no cubrirlas con Bad Breath."
+            ],
+            "Caster": [
+              "Daño de área o Limit Break ranged/caster puede limpiar la tanda rápidamente."
+            ],
+            "Ranged": [
+              "Ayuda con la fruta más alejada."
+            ]
+          },
+          [
+            [
+              "Strange Morbol Fruit",
+              "Si eclosiona, genera un Morbol Seedling."
+            ],
+            [
+              "Morbol Seedling",
+              "Sus ataques añaden stacks de Burrs y pueden provocar un wipe."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-stone-vigil--01-chudo-yudo",
+      "summary": "La pelea se gana respetando la cara del dragón: solo el tanque debe permanecer delante.",
+      "raw_scenes": [
+        [
+          "Breath / Swinge",
+          "Chudo-Yudo prepara un ataque frontal mientras mira al tanque.",
+          "cone",
+          [
+            "Quédate en la espalda del dragón en todo momento.",
+            "Si gira, corrige tu posición antes de volver a atacar."
+          ],
+          {
+            "Tank": [
+              "Oriéntalo hacia una pared y esquiva Swinge lateralmente sin barrer al grupo."
+            ],
+            "Healer": [
+              "Burns de Lion's Breath es limpiable si alguien queda delante."
+            ]
+          },
+          [
+            [
+              "Lion's Breath",
+              "Respiración frontal que aplica Burns."
+            ],
+            [
+              "Swinge",
+              "Cono frontal que aplica Silence y Pacification."
+            ],
+            [
+              "Rake",
+              "Golpe ligero al tanque."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-stone-vigil--02-koshchei",
+      "summary": "Typhoon convierte la arena en carriles: observa qué tornados se mueven primero y cruza detrás de ellos.",
+      "raw_scenes": [
+        [
+          "Primer Typhoon",
+          "Tres tornados aparecen al fondo dejando un carril vacío.",
+          "lanes",
+          [
+            "Identifica el carril sin tornado y colócate allí.",
+            "Mantente fuera de Sonic Storm mientras esperas."
+          ],
+          {
+            "Tank": [
+              "No tapes la lectura de los carriles con movimientos innecesarios del boss."
+            ]
+          },
+          [
+            [
+              "Typhoon I",
+              "Tres tornados; un carril queda libre."
+            ],
+            [
+              "Sonic Storm",
+              "Círculo bajo un jugador."
+            ],
+            [
+              "Spiked Tail",
+              "Tankbuster."
+            ]
+          ]
+        ],
+        [
+          "Typhoon doble",
+          "Aparecen cuatro tornados; dos se mueven antes que los otros.",
+          "lanes",
+          [
+            "Ponte delante de uno que todavía esté quieto.",
+            "Cuando pase la primera pareja, cruza detrás de ella antes de que avance la segunda."
+          ],
+          {
+            "Caster": [
+              "Usa un cast corto entre movimientos; la segunda pareja no espera."
+            ]
+          },
+          [
+            [
+              "Typhoon II",
+              "Dos parejas de tornados se desplazan en momentos distintos."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-stone-vigil--03-isgebind",
+      "summary": "Durante Cauterize, abandona la franja azul; cuando regrese el dragón, sal del centro para evitar Touchdown.",
+      "raw_scenes": [
+        [
+          "Cauterize",
+          "Isgebind vuela y una franja de un tercio de la arena se ilumina azul.",
+          "lanes",
+          [
+            "Muévete inmediatamente a uno de los dos lados no iluminados.",
+            "Cerca del final habrá dos tandas de Sheet of Ice: no las apiles con otros jugadores."
+          ],
+          {
+            "Caster": [
+              "La franja puede matar: moverse tiene prioridad absoluta."
+            ],
+            "Healer": [
+              "Frostbite hace daño en el tiempo; estabiliza a quien falle."
+            ]
+          },
+          [
+            [
+              "Cauterize",
+              "Barrido aéreo por la franja azul; aplica Frostbite."
+            ],
+            [
+              "Sheet of Ice",
+              "Círculo bajo jugadores; al final aparece dos veces seguidas."
+            ],
+            [
+              "Rime Wreath",
+              "Daño de grupo."
+            ]
+          ]
+        ],
+        [
+          "Touchdown",
+          "Después del vuelo, Isgebind cae en el centro de la arena.",
+          "safeEdge",
+          [
+            "Sal del centro antes de que aterrice.",
+            "Cuando esté en tierra, vuelve a su espalda y evita Frost Breath."
+          ],
+          {
+            "Tank": [
+              "Recoge al dragón tras el aterrizaje y oriéntalo lejos del grupo."
+            ]
+          },
+          [
+            [
+              "Touchdown",
+              "Impacto en el centro al regresar."
+            ],
+            [
+              "Frost Breath",
+              "Cono frontal de daño alto."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-sunken-temple-of-qarn--01-teratotaur",
+      "summary": "Dos prioridades absolutas: matar Dung Wespes antes de Final Sting y limpiar Doom pisando la placa naranja.",
+      "raw_scenes": [
+        [
+          "Dung Wespes",
+          "El mensaje anuncia dos wespes entrando en la arena.",
+          "adds",
+          [
+            "Cambia inmediatamente a las wespes y elimínalas antes de Final Sting.",
+            "No sigas atacando al boss mientras una wespe esté casteando."
+          ],
+          {
+            "Tank": [
+              "Agrupa las wespes cerca del boss sin perder el control de Teratotaur."
+            ],
+            "Caster": [
+              "Guarda daño instantáneo para cortar la vida de las wespes."
+            ],
+            "Ranged": [
+              "Ayuda primero a la wespe más alejada."
+            ]
+          },
+          [
+            [
+              "Final Sting",
+              "Cada wespe puede quitar alrededor de 70% de su HP máximo al objetivo."
+            ],
+            [
+              "Triclip",
+              "Tankbuster telegraphed."
+            ]
+          ]
+        ],
+        [
+          "Mortal Ray / Doom",
+          "Todo el grupo recibe Doom y una de las tres placas se ilumina en naranja.",
+          "doom",
+          [
+            "Corre a la placa naranja y písala para quitarte Doom.",
+            "Comprueba que el icono desapareció antes de abandonar la placa."
+          ],
+          {
+            "Tank": [
+              "Puedes intentar interrumpir Mortal Ray con stun; si entra, lleva el boss hacia la placa activa."
+            ],
+            "Healer": [
+              "Doom no se elimina con Esuna: debes pisar la placa igual que todos."
+            ]
+          },
+          [
+            [
+              "Mortal Ray",
+              "Doom de 12 segundos; mata al expirar."
+            ],
+            [
+              "Orange Plate",
+              "La única forma segura de eliminar Doom después del cast."
+            ],
+            [
+              "Frightful Roar / Mow",
+              "AoE cercano y cono; aplican vulnerabilidad o Poison limpiables."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian",
+      "summary": "El Golem Soulstone es el objetivo real: sin romperlo, el Guardian casi no recibe daño.",
+      "raw_scenes": [
+        [
+          "Golem Soulstone",
+          "Aparece una piedra targeteable en el pecho del golem.",
+          "adds",
+          [
+            "Cambia de objetivo al Soulstone y destrúyelo.",
+            "Durante el stun posterior, descarga todo el daño sobre Temple Guardian."
+          ],
+          {
+            "Tank": [
+              "No persigas los saltos del golem de forma brusca; vuelve a orientarlo cuando termine."
+            ],
+            "Melee": [
+              "Un Limit Break melee durante la ventana vulnerable puede acelerar la pelea."
+            ],
+            "Ranged": [
+              "Mantén visión del Soulstone aunque el boss salte."
+            ]
+          },
+          [
+            [
+              "Golem Soulstone",
+              "Mientras vive, el Guardian recibe daño mínimo."
+            ],
+            [
+              "Obliterate",
+              "Daño mágico a todo el grupo."
+            ],
+            [
+              "Stone Skull",
+              "Golpea, empuja y aturde a un jugador aleatorio."
+            ]
+          ]
+        ],
+        [
+          "Ataques frontales",
+          "El Guardian gira hacia jugadores aleatorios para lanzar columnas y conos.",
+          "cone",
+          [
+            "No asumas que siempre mira al tanque: observa la orientación antes de cada cast.",
+            "Sal de Rockslide, True Grit y Boulder Clap."
+          ],
+          {
+            "Healer": [
+              "Esuna puede limpiar Blind de True Grit."
+            ]
+          },
+          [
+            [
+              "Rockslide",
+              "Columna frontal."
+            ],
+            [
+              "True Grit",
+              "Cono frontal que aplica Blind."
+            ],
+            [
+              "Boulder Clap",
+              "Ataque frontal amplio."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-sunken-temple-of-qarn--03-adjudicator",
+      "summary": "Los Mythril Verges siempre tienen prioridad; si te encadenan, destruye el tuyo y ayuda a liberar a los demás.",
+      "raw_scenes": [
+        [
+          "Primera invocación",
+          "Aparecen dos Mythril Verges y comienzan a ganar Haste.",
+          "adds",
+          [
+            "Mata ambos adds antes de que alcancen seis stacks.",
+            "Esquiva las líneas azules de Verge Line."
+          ],
+          {
+            "Tank": [
+              "Mantén al boss centrado mientras ayudas a quemar los adds."
+            ],
+            "Caster": [
+              "No te quedes alineado con otro jugador durante Verge Line."
+            ],
+            "Ranged": [
+              "Empieza por el Verge más lejano."
+            ]
+          },
+          [
+            [
+              "Verge Line",
+              "Línea azul hacia jugadores."
+            ],
+            [
+              "Self-Destruct",
+              "A seis stacks provoca daño de grupo muy alto."
+            ],
+            [
+              "Creeping Darkness",
+              "Daño mágico a toda la party."
+            ]
+          ]
+        ],
+        [
+          "Cadenas y Verge Pulse",
+          "Cuatro Verges, uno por esquina, atan a cada jugador y preparan un disparo letal.",
+          "tether",
+          [
+            "Ataca el add que te encadena hasta quedar libre.",
+            "Muévete fuera de Verge Pulse y ayuda al compañero que todavía siga atrapado."
+          ],
+          {
+            "Melee": [
+              "Usa movimiento instantáneo solo si no te lleva dentro de otra línea."
+            ],
+            "Healer": [
+              "Libérate primero; no puedes salvar a nadie si tu propio Pulse conecta."
+            ]
+          },
+          [
+            [
+              "Verge Pulse",
+              "Si el disparo del Verge conecta, el jugador muere."
+            ],
+            [
+              "Dark II",
+              "Cono enorme; permanecer relativamente cerca del boss facilita esquivarlo."
+            ],
+            [
+              "Dark",
+              "Círculo bajo un jugador."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-tam-tara-deepcroft--01-void-soulcounter",
+      "summary": "Primero limpia el grupo de cultistas; después interrumpe el buff y evita el cono del Soulcounter.",
+      "raw_scenes": [
+        [
+          "Enemigos de la arena",
+          "El Soulcounter no aparece hasta que muere el grupo inicial.",
+          "adds",
+          [
+            "Derrota primero a los cultistas presentes en la sala.",
+            "Cuando aparezca el Soulcounter, colócate a su espalda o lateral."
+          ],
+          {
+            "Tank": [
+              "Agrupa los enemigos iniciales para facilitar el daño de área."
+            ],
+            "Healer": [
+              "No te adelantes al grupo durante cada una de las tres apariciones."
+            ]
+          },
+          [
+            [
+              "Tres apariciones",
+              "Cada miniarena tiene más enemigos iniciales que la anterior."
+            ]
+          ]
+        ],
+        [
+          "Enthunder / Condemnation",
+          "El enemigo empieza a castear Enthunder o dibuja un cono frontal.",
+          "cone",
+          [
+            "Interrumpe Enthunder cuando sea posible.",
+            "Sal de Condemnation y vuelve a su espalda."
+          ],
+          {
+            "Tank": [
+              "Usa Interject en Enthunder; mantén el cono lejos del grupo."
+            ],
+            "Melee": [
+              "Leg Sweep puede detener casts vulnerables a stun."
+            ]
+          },
+          [
+            [
+              "Enthunder",
+              "Buff interruptible que añade daño eléctrico a los ataques."
+            ],
+            [
+              "Condemnation",
+              "Cono frontal evitable."
+            ],
+            [
+              "Dark Orb",
+              "Daño ligero al objetivo principal."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator",
+      "summary": "La regla central es sencilla: los imps enlazados vuelven invulnerable a Galvanth, así que mueren primero.",
+      "raw_scenes": [
+        [
+          "Mind Blast",
+          "Galvanth carga una explosión alrededor de su cuerpo.",
+          "out",
+          [
+            "Sal del área antes del final del cast para evitar Parálisis.",
+            "Regresa al centro solo después de la explosión."
+          ],
+          {
+            "Tank": [
+              "Déjalo en una posición estable para que el grupo pueda medir la salida."
+            ],
+            "Healer": [
+              "Limpia Parálisis si alguien es alcanzado."
+            ]
+          },
+          [
+            [
+              "Mind Blast",
+              "AoE alrededor del jefe que aplica Parálisis."
+            ],
+            [
+              "Drain Touch",
+              "Golpe al tanque con robo de vida; aparece tras la primera tanda de adds."
+            ]
+          ]
+        ],
+        [
+          "Tethers de los imps",
+          "Aparecen Inconspicuous Imps conectados al boss por líneas.",
+          "tether",
+          [
+            "Deja de atacar a Galvanth: mientras exista un imp enlazado, es invulnerable.",
+            "Mata imps primero y después los mitelings/esqueletos restantes."
+          ],
+          {
+            "Tank": [
+              "Recoge mitelings y esqueletos sin alejar demasiado al boss."
+            ],
+            "Melee": [
+              "Cambia inmediatamente al imp enlazado."
+            ],
+            "Caster": [
+              "Usa daño de área sobre adds agrupados, pero confirma que el imp muera."
+            ],
+            "Healer": [
+              "Prepárate para daño disperso mientras los adds están vivos."
+            ],
+            "Ranged": [
+              "Prioriza el imp más lejano."
+            ]
+          },
+          [
+            [
+              "Inconspicuous Imp",
+              "Su tether hace invulnerable al jefe."
+            ],
+            [
+              "Mitelings y Skeletons",
+              "Añaden presión, pero tienen prioridad menor que el imp."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-thousand-maws-of-toto-rak--01-coeurl-o-nine-tails",
+      "summary": "Evita quedarte pegado durante Acid Mist y elimina los adds que acompañan a la segunda aparición.",
+      "raw_scenes": [
+        [
+          "Acid Mist",
+          "El coeurl libera veneno alrededor de su cuerpo.",
+          "out",
+          [
+            "Sal del área cercana al boss para no recibir Poison.",
+            "En la segunda pelea, mata primero los Warden's Whip."
+          ],
+          {
+            "Tank": [
+              "Mantén al coeurl estable y recoge los adds de la segunda arena."
+            ],
+            "Melee": [
+              "Retrocede durante Acid Mist y vuelve después."
+            ],
+            "Healer": [
+              "Limpia Poison con Esuna si alguien no sale."
+            ]
+          },
+          [
+            [
+              "Acid Mist",
+              "Envenena a todos los jugadores cercanos."
+            ],
+            [
+              "Warden's Whip",
+              "Dos adds aparecen con el segundo Coeurl."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-the-thousand-maws-of-toto-rak--02-graffias",
+      "summary": "Evita el borde pegajoso, no dejes el pod bajo el grupo y cambia a cola/adds al 50%.",
+      "raw_scenes": [
+        [
+          "Sticky Web",
+          "Un jugador recibe el impacto y deja un Fleshy Pod en su posición.",
+          "spread",
+          [
+            "Si te marca, aléjate del grupo para dejar el pod en una zona limpia.",
+            "Apártate antes de Pod Burst; no pises el goo del borde."
+          ],
+          {
+            "Tank": [
+              "Mantén al boss lejos del pod y de los charcos verdes."
+            ],
+            "Healer": [
+              "Anticipa Poison si alguien recibe Pod Burst."
+            ]
+          },
+          [
+            [
+              "Sticky Web",
+              "Crea un pod en la posición de un jugador."
+            ],
+            [
+              "Pod Burst",
+              "Explosión circular del pod que aplica Poison."
+            ],
+            [
+              "Silkscreen",
+              "AoE lineal hacia un jugador."
+            ]
+          ]
+        ],
+        [
+          "Comesmites y cola",
+          "Al 50% aparecen cuatro Comesmites y la cola queda expuesta.",
+          "adds",
+          [
+            "Mata primero los Comesmites y luego Graffias's Tail.",
+            "Al destruir la cola desaparece Deadly Thrust y el boss recibe Vulnerability Up."
+          ],
+          {
+            "Tank": [
+              "Recoge los Comesmites sin arrastrar al grupo al borde."
+            ],
+            "Melee": [
+              "Cambia a la cola y aprovecha la vulnerabilidad posterior."
+            ],
+            "Caster": [
+              "Agrupa daño de área sobre Comesmites si están juntos."
+            ],
+            "Ranged": [
+              "Ayuda a eliminar adds dispersos."
+            ]
+          },
+          [
+            [
+              "Graffias's Tail",
+              "Destruirla elimina Deadly Thrust y aplica Vulnerability Up al boss."
+            ],
+            [
+              "Deadly Thrust",
+              "Deja un gran charco de veneno bajo un jugador."
+            ],
+            [
+              "Realm Shaker",
+              "AoE alrededor del boss."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T19:34:25.841689+00:00"
+    },
+    {
+      "boss_id": "arr-world-of-darkness--01-angra-mainyu",
+      "summary": "Alterna colores en Double Vision, mira fuera durante Mortal Gaze y sal del sector seleccionado por Roulette.",
+      "raw_scenes": [
+        [
+          "Double Vision",
+          "Alterna rojo y blanco en cada golpe para reiniciar la acumulación.",
+          "lanes",
+          [
+            "Cambia de color después de cada Double Vision.",
+            "No permanezcas dos veces seguidas en el mismo lado."
+          ],
+          {
+            "Tank": [
+              "Mantén al jefe centrado sin girarlo innecesariamente."
+            ],
+            "Melee": [
+              "Cruza por detrás del jefe hacia el color opuesto."
+            ],
+            "Caster": [
+              "Planea instantáneos para el cambio de color."
+            ],
+            "Healer": [
+              "Vigila jugadores con stacks altos."
+            ],
+            "Ranged": [
+              "Preposiciona cerca de la división central."
+            ]
+          },
+          [
+            [
+              "Sullen / Ireful",
+              "Dos stacks hacen gran daño; tres matan."
+            ],
+            [
+              "Double Vision",
+              "El piso completo se divide en dos colores."
+            ]
+          ]
+        ],
+        [
+          "Mortal Gaze",
+          "Mira lejos del ojo; si recibes Doom, pisa la placa iluminada.",
+          "gaze",
+          [
+            "Gira tu personaje antes de terminar el cast.",
+            "Con Doom, ve inmediatamente a la placa activa."
+          ],
+          {
+            "Tank": [
+              "Gira al jefe solo si no vuelves el frente hacia el grupo."
+            ],
+            "Melee": [
+              "Deja de atacar un instante y mira fuera."
+            ],
+            "Caster": [
+              "Cancela el cast si hace falta para evitar Doom."
+            ],
+            "Healer": [
+              "Doom no se cura con HP: señala la placa."
+            ],
+            "Ranged": [
+              "Localiza la placa antes de reanudar daño."
+            ]
+          },
+          [
+            [
+              "Mortal Gaze",
+              "Mirar al jefe aplica Doom."
+            ],
+            [
+              "Lit platform",
+              "Elimina Doom al pisarla."
+            ]
+          ]
+        ],
+        [
+          "Roulette y niveles",
+          "Mata los cuatro Final Hourglasses y sal del cuarto iluminado.",
+          "safeEdge",
+          [
+            "Elimina todos los Hourglasses.",
+            "Sal del sector marcado antes de morir."
+          ],
+          {
+            "Tank": [
+              "Recoge adds sin quedar en el sector peligroso."
+            ],
+            "Melee": [
+              "Cambia al Hourglass siguiente."
+            ],
+            "Caster": [
+              "Para Level 100/150, sal del círculo y rompe los tethers."
+            ],
+            "Healer": [
+              "Mantén alcance sobre el grupo mientras rota."
+            ],
+            "Ranged": [
+              "Ayuda al objetivo con más vida."
+            ]
+          },
+          [
+            [
+              "Roulette",
+              "El cuarto iluminado se vuelve letal."
+            ],
+            [
+              "Level 100/150",
+              "Salir de los círculos cancela las comprobaciones numéricas."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-world-of-darkness--02-five-headed-dragon",
+      "summary": "Evita hielo expansivo, controla slimes y orbes, mata las cinco cabezas durante Discordance y deja de actuar durante Heatwave.",
+      "raw_scenes": [
+        [
+          "Hielo y veneno",
+          "Aléjate del remolino blanco y controla el charco venenoso.",
+          "puddles",
+          [
+            "No pises Ice Floor: crece al tocar jugadores.",
+            "Mata Poison Slimes y deja un jugador en el charco para frenar spawns."
+          ],
+          {
+            "Tank": [
+              "Mantén al jefe fuera de los charcos."
+            ],
+            "Melee": [
+              "No extiendas el hielo dentro del grupo."
+            ],
+            "Caster": [
+              "Guarda AoE para slimes agrupados."
+            ],
+            "Healer": [
+              "Recoge el buff de resistencia si debes entrar al veneno."
+            ],
+            "Ranged": [
+              "Elimina slimes antes de que se fusionen."
+            ]
+          },
+          [
+            [
+              "Ice Floor",
+              "Se expande y aplica Deep Freeze."
+            ],
+            [
+              "Toxic Slime",
+              "Si se forma y explota, daña y aplica Vulnerability Up."
+            ]
+          ]
+        ],
+        [
+          "Discordance",
+          "Aparecen cinco cabezas: destrúyelas antes de terminar el canal.",
+          "adds",
+          [
+            "Usa daño en área sobre las cinco cabezas.",
+            "Comparte el marcador de stack con varios jugadores."
+          ],
+          {
+            "Tank": [
+              "Mantén al cuerpo estable mientras ayudas con cabezas."
+            ],
+            "Melee": [
+              "Golpea varias cabezas cuando su posición lo permita."
+            ],
+            "Caster": [
+              "Usa AoE fuerte durante Discordance."
+            ],
+            "Healer": [
+              "Cubre daño de raid y el stack."
+            ],
+            "Ranged": [
+              "Prioriza la cabeza con más vida."
+            ]
+          },
+          [
+            [
+              "Discordance",
+              "Si quedan cabezas vivas, la alianza muere."
+            ],
+            [
+              "Prominence",
+              "Mata orbes antes de Radiance."
+            ]
+          ]
+        ],
+        [
+          "Heatwave",
+          "Cuando aparezca Heatwave, deja de moverte y atacar durante cinco segundos.",
+          "spread",
+          [
+            "Detén todas las acciones hasta que termine.",
+            "Pasa el tether de Dragonfire Fly tocando a otro jugador antes de acumular demasiado."
+          ],
+          {
+            "Tank": [
+              "Detén ataques y movimiento; reanuda tras el estado."
+            ],
+            "Melee": [
+              "Suelta controles y espera."
+            ],
+            "Caster": [
+              "Cancela el cast antes de recibir daño repetido."
+            ],
+            "Healer": [
+              "No cures durante Heatwave salvo emergencia real."
+            ],
+            "Ranged": [
+              "No uses autoataques ni habilidades."
+            ]
+          },
+          [
+            [
+              "Heatwave",
+              "Cada acción causa daño mientras está activo."
+            ],
+            [
+              "Dragonfire Fly",
+              "El tether debe transferirse entre jugadores."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-world-of-darkness--03-cerberus",
+      "summary": "Cuando se suelte, hazte Mini antes de entrar al charco y ser devorado; destruye las paredes del estómago y vuelve a colocar las dos cadenas.",
+      "raw_scenes": [
+        [
+          "Control exterior",
+          "Evita Tail Swipe y mantente cerca del grupo para Ululation.",
+          "cone",
+          [
+            "No permanezcas detrás de Cerberus durante Tail Swipe.",
+            "Quédate cerca de otros para evitar Fear por Ululation."
+          ],
+          {
+            "Tank": [
+              "Apunta el frente fuera de la alianza y recoge Wolfsbane."
+            ],
+            "Melee": [
+              "Ataca por el flanco, no exactamente detrás."
+            ],
+            "Caster": [
+              "Mantén distancia sin aislarte del grupo."
+            ],
+            "Healer": [
+              "Cura veneno y cleaves de Wolfsbane."
+            ],
+            "Ranged": [
+              "Elimina adds peligrosos fuera del jefe."
+            ]
+          },
+          [
+            [
+              "Tail Swipe",
+              "Cono trasero que castiga la espalda."
+            ],
+            [
+              "Ululation",
+              "Aíslarse provoca Fear prolongado."
+            ]
+          ]
+        ],
+        [
+          "Entrar al estómago",
+          "Primero recibe Mini de Gastric Juice; luego pisa el charco púrpura para Devour.",
+          "fruit",
+          [
+            "Sin Mini, el charco te mata instantáneamente.",
+            "Dentro, destruye los adds de las paredes del estómago."
+          ],
+          {
+            "Tank": [
+              "Al menos un tanque permanece fuera controlando al jefe y adds."
+            ],
+            "Melee": [
+              "Con Mini, entra y quema las paredes."
+            ],
+            "Caster": [
+              "No entres hasta comprobar el icono Mini."
+            ],
+            "Healer": [
+              "Un healer puede acompañar al grupo interior; el otro queda fuera."
+            ],
+            "Ranged": [
+              "Ayuda dentro o controla Wolfsbane fuera según el grupo."
+            ]
+          },
+          [
+            [
+              "Mini → Devour",
+              "El orden es obligatorio para sobrevivir."
+            ],
+            [
+              "Stomach walls",
+              "Destruirlas derriba y debilita a Cerberus."
+            ]
+          ]
+        ],
+        [
+          "Reencadenar",
+          "Cuando colapse, recoge ambas cadenas y colócalas en los Open Fetters.",
+          "tether",
+          [
+            "Usa las dos cadenas antes de que Cerberus se recupere.",
+            "No retengas una cadena mientras haces daño."
+          ],
+          {
+            "Tank": [
+              "Mantén los adds apartados de quienes llevan cadenas."
+            ],
+            "Melee": [
+              "Ayuda a interactuar con los Fetters."
+            ],
+            "Caster": [
+              "Reanuda burst solo después de asegurar ambas cadenas."
+            ],
+            "Healer": [
+              "Estabiliza a quienes salen del estómago."
+            ],
+            "Ranged": [
+              "Cubre adds y facilita el camino de los portadores."
+            ]
+          },
+          [
+            [
+              "Open Fetters",
+              "Las dos interacciones completan el control."
+            ],
+            [
+              "Enrage buffs",
+              "Si falla estómago o cadenas, Haste/Damage Up terminan en wipe."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    },
+    {
+      "boss_id": "arr-world-of-darkness--04-cloud-of-darkness",
+      "summary": "Corre por el borde con Feint Particle Beam, sal del centro cuando desaparezca, ocupa torres y mata nubes antes de que sean absorbidas.",
+      "raw_scenes": [
+        [
+          "Particle Beams",
+          "Con la retícula roja, corre por el borde; si desaparece, sal del centro.",
+          "safeEdge",
+          [
+            "No cruces el grupo mientras te persiguen explosiones.",
+            "Cuando el jefe desaparezca, muévete a un lateral."
+          ],
+          {
+            "Tank": [
+              "Mitiga autos fuertes y mantén al jefe orientado."
+            ],
+            "Melee": [
+              "Abandona el centro en cuanto desaparezca."
+            ],
+            "Caster": [
+              "Guarda instantáneos para la persecución."
+            ],
+            "Healer": [
+              "Cura al objetivo perseguido sin seguir su misma ruta."
+            ],
+            "Ranged": [
+              "Con retícula, corre por el borde exterior."
+            ]
+          },
+          [
+            [
+              "Feint Particle Beam",
+              "Explosiones persiguen al marcado y aplican Vulnerability Up."
+            ],
+            [
+              "Zero-form Particle Beam",
+              "Láser central sin telegráfico al recolocarse."
+            ]
+          ]
+        ],
+        [
+          "Torres y nubes",
+          "Ocupa cada círculo amarillo y mata Dark Clouds antes de que lleguen al jefe.",
+          "adds",
+          [
+            "Al menos una persona en cada torre.",
+            "Ponte entre nube y jefe para aplicarle Heavy y destrúyela."
+          ],
+          {
+            "Tank": [
+              "Cubre una torre cercana y continúa mitigando autos."
+            ],
+            "Melee": [
+              "Ataca nubes que alcanzan el centro."
+            ],
+            "Caster": [
+              "Usa burst sobre nubes grandes y lejanas."
+            ],
+            "Healer": [
+              "Distribúyete para torres sin perder alcance."
+            ],
+            "Ranged": [
+              "Prioriza Dark Storm grandes: dan tres stacks."
+            ]
+          },
+          [
+            [
+              "Comet towers",
+              "Varias torres vacías pueden provocar wipe."
+            ],
+            [
+              "Cloud absorption",
+              "Las nubes otorgan Damage Up al jefe."
+            ]
+          ]
+        ],
+        [
+          "Hypercharged Clouds",
+          "A, B y C entran en una caja diferente y matan su nube desde dentro.",
+          "lanes",
+          [
+            "Entra en la caja antes de que se cierre.",
+            "Destruye Hypercharged Cloud antes de Particle Beam."
+          ],
+          {
+            "Tank": [
+              "Ayuda a estabilizar el objetivo de tu alianza."
+            ],
+            "Melee": [
+              "No quedes fuera del muro de la caja."
+            ],
+            "Caster": [
+              "Reserva daño alto para completar el check."
+            ],
+            "Healer": [
+              "Entra con tu grupo; cura desde dentro."
+            ],
+            "Ranged": [
+              "Ataca desde dentro aunque tengas alcance exterior."
+            ]
+          },
+          [
+            [
+              "Cloud boxes",
+              "Después de cerrarse, no se puede dañar desde fuera."
+            ],
+            [
+              "Particle Beam",
+              "Si una nube sobrevive al cast, causa daño masivo."
+            ]
+          ]
+        ]
+      ],
+      "updated_at": "2026-09-20T20:04:40.688696+00:00"
+    }
+  ]
+}
