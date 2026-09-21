@@ -1,0 +1,2107 @@
+{
+  "table": "boss_atlas_encounters",
+  "offset": 0,
+  "row_count": 300,
+  "rows": [
+    {
+      "id": "arr-amdapor-keep--01-lunatic-priest",
+      "name": "Lunatic Priest",
+      "dungeon_id": "arr-amdapor-keep",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-amdapor-keep--02-demon-wall",
+      "name": "Demon Wall",
+      "dungeon_id": "arr-amdapor-keep",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-amdapor-keep--03-anantaboga",
+      "name": "Anantaboga",
+      "dungeon_id": "arr-amdapor-keep",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-amdapor-keep-hard--01-anchag",
+      "name": "Anchag",
+      "dungeon_id": "arr-amdapor-keep-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-amdapor-keep-hard--02-boogyman",
+      "name": "Boogyman",
+      "dungeon_id": "arr-amdapor-keep-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-amdapor-keep-hard--03-ferdiad",
+      "name": "Ferdiad",
+      "dungeon_id": "arr-amdapor-keep-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-brayflox-s-longstop--01-great-yellow-pelican",
+      "name": "Great Yellow Pelican",
+      "dungeon_id": "arr-brayflox-s-longstop",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-brayflox-s-longstop--02-inferno-drake",
+      "name": "Inferno Drake",
+      "dungeon_id": "arr-brayflox-s-longstop",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-brayflox-s-longstop--03-hellbender",
+      "name": "Hellbender",
+      "dungeon_id": "arr-brayflox-s-longstop",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-brayflox-s-longstop--04-aiatar",
+      "name": "Aiatar",
+      "dungeon_id": "arr-brayflox-s-longstop",
+      "guide_status": true,
+      "encounter_order": 4
+    },
+    {
+      "id": "arr-brayflox-s-longstop-hard--01-illuminati-commander",
+      "name": "Illuminati Commander",
+      "dungeon_id": "arr-brayflox-s-longstop-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-brayflox-s-longstop-hard--02-magitek-vangob-g-iii",
+      "name": "Magitek Vangob G-III",
+      "dungeon_id": "arr-brayflox-s-longstop-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-brayflox-s-longstop-hard--03-gobmachine-g-vi",
+      "name": "Gobmachine G-VI",
+      "dungeon_id": "arr-brayflox-s-longstop-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-castrum-meridianum--01-black-eft",
+      "name": "Black Eft",
+      "dungeon_id": "arr-castrum-meridianum",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-castrum-meridianum--02-magitek-vanguard-f-1",
+      "name": "Magitek Vanguard F-1",
+      "dungeon_id": "arr-castrum-meridianum",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-castrum-meridianum--03-livia-sas-junius",
+      "name": "Livia sas Junius",
+      "dungeon_id": "arr-castrum-meridianum",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-copperbell-mines--01-kottos",
+      "name": "Kottos",
+      "dungeon_id": "arr-copperbell-mines",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-copperbell-mines--02-ichorous-ire",
+      "name": "Ichorous Ire",
+      "dungeon_id": "arr-copperbell-mines",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-copperbell-mines--03-gyges-the-great",
+      "name": "Gyges the Great",
+      "dungeon_id": "arr-copperbell-mines",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-copperbell-mines-hard--01-hecatoncheir-mastermind",
+      "name": "Hecatoncheir Mastermind",
+      "dungeon_id": "arr-copperbell-mines-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-copperbell-mines-hard--02-gogmagolem",
+      "name": "Gogmagolem",
+      "dungeon_id": "arr-copperbell-mines-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-copperbell-mines-hard--03-ouranos",
+      "name": "Ouranos",
+      "dungeon_id": "arr-copperbell-mines-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-cutter-s-cry--01-myrmidon-princess",
+      "name": "Myrmidon Princess",
+      "dungeon_id": "arr-cutter-s-cry",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-cutter-s-cry--02-giant-tunnel-worm",
+      "name": "Giant Tunnel Worm",
+      "dungeon_id": "arr-cutter-s-cry",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-cutter-s-cry--03-chimera",
+      "name": "Chimera",
+      "dungeon_id": "arr-cutter-s-cry",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-dzemael-darkhold--01-all-seeing-eye",
+      "name": "All-seeing Eye",
+      "dungeon_id": "arr-dzemael-darkhold",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-dzemael-darkhold--02-taulurd",
+      "name": "Taulurd",
+      "dungeon_id": "arr-dzemael-darkhold",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-dzemael-darkhold--03-batraal",
+      "name": "Batraal",
+      "dungeon_id": "arr-dzemael-darkhold",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-halatali--01-firemane",
+      "name": "Firemane",
+      "dungeon_id": "arr-halatali",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-halatali--02-thunderclap-guivre",
+      "name": "Thunderclap Guivre",
+      "dungeon_id": "arr-halatali",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-halatali--03-tangata",
+      "name": "Tangata",
+      "dungeon_id": "arr-halatali",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-halatali-hard--01-pyracmon",
+      "name": "Pyracmon",
+      "dungeon_id": "arr-halatali-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-halatali-hard--02-catoblepas",
+      "name": "Catoblepas",
+      "dungeon_id": "arr-halatali-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-halatali-hard--03-mumuepo-the-beholden",
+      "name": "Mumuepo the Beholden",
+      "dungeon_id": "arr-halatali-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-haukke-manor--01-manor-claviger",
+      "name": "Manor Claviger",
+      "dungeon_id": "arr-haukke-manor",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-haukke-manor--02-manor-jester",
+      "name": "Manor Jester",
+      "dungeon_id": "arr-haukke-manor",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-haukke-manor--03-lady-amandine",
+      "name": "Lady Amandine",
+      "dungeon_id": "arr-haukke-manor",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-haukke-manor-hard--01-manor-claviger",
+      "name": "Manor Claviger",
+      "dungeon_id": "arr-haukke-manor-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-haukke-manor-hard--02-ash",
+      "name": "Ash",
+      "dungeon_id": "arr-haukke-manor-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-haukke-manor-hard--03-halicarnassus",
+      "name": "Halicarnassus",
+      "dungeon_id": "arr-haukke-manor-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-hullbreaker-isle--01-sasquatch",
+      "name": "Sasquatch",
+      "dungeon_id": "arr-hullbreaker-isle",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-hullbreaker-isle--02-sjoorm",
+      "name": "Sjoorm",
+      "dungeon_id": "arr-hullbreaker-isle",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-hullbreaker-isle--03-kraken",
+      "name": "Kraken",
+      "dungeon_id": "arr-hullbreaker-isle",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--01-bone-dragon",
+      "name": "Bone Dragon",
+      "dungeon_id": "arr-labyrinth-of-the-ancients",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--02-thanatos",
+      "name": "Thanatos",
+      "dungeon_id": "arr-labyrinth-of-the-ancients",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--03-king-behemoth",
+      "name": "King Behemoth",
+      "dungeon_id": "arr-labyrinth-of-the-ancients",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-labyrinth-of-the-ancients--04-phlegethon",
+      "name": "Phlegethon",
+      "dungeon_id": "arr-labyrinth-of-the-ancients",
+      "guide_status": true,
+      "encounter_order": 4
+    },
+    {
+      "id": "arr-pharos-sirius--01-symond-the-unsinkable",
+      "name": "Symond the Unsinkable",
+      "dungeon_id": "arr-pharos-sirius",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-pharos-sirius--02-zu",
+      "name": "Zu",
+      "dungeon_id": "arr-pharos-sirius",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-pharos-sirius--03-tyrant",
+      "name": "Tyrant",
+      "dungeon_id": "arr-pharos-sirius",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-pharos-sirius--04-siren",
+      "name": "Siren",
+      "dungeon_id": "arr-pharos-sirius",
+      "guide_status": false,
+      "encounter_order": 4
+    },
+    {
+      "id": "arr-sastasha--01-chopper",
+      "name": "Chopper",
+      "dungeon_id": "arr-sastasha",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-sastasha--02-captain-madison",
+      "name": "Captain Madison",
+      "dungeon_id": "arr-sastasha",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-sastasha--03-denn-the-orcatoothed",
+      "name": "Denn the Orcatoothed",
+      "dungeon_id": "arr-sastasha",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-sastasha-hard--01-karlabos",
+      "name": "Karlabos",
+      "dungeon_id": "arr-sastasha-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-sastasha-hard--02-captain-madison",
+      "name": "Captain Madison",
+      "dungeon_id": "arr-sastasha-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-sastasha-hard--03-kraken",
+      "name": "Kraken",
+      "dungeon_id": "arr-sastasha-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-snowcloak--01-wandil",
+      "name": "Wandil",
+      "dungeon_id": "arr-snowcloak",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-snowcloak--02-yeti",
+      "name": "Yeti",
+      "dungeon_id": "arr-snowcloak",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-snowcloak--03-fenrir",
+      "name": "Fenrir",
+      "dungeon_id": "arr-snowcloak",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-syrcus-tower--01-scylla",
+      "name": "Scylla",
+      "dungeon_id": "arr-syrcus-tower",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-syrcus-tower--02-glasya-labolas",
+      "name": "Glasya Labolas",
+      "dungeon_id": "arr-syrcus-tower",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-syrcus-tower--03-amon",
+      "name": "Amon",
+      "dungeon_id": "arr-syrcus-tower",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-syrcus-tower--04-xande",
+      "name": "Xande",
+      "dungeon_id": "arr-syrcus-tower",
+      "guide_status": true,
+      "encounter_order": 4
+    },
+    {
+      "id": "arr-the-aurum-vale--01-locksmith",
+      "name": "Locksmith",
+      "dungeon_id": "arr-the-aurum-vale",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-aurum-vale--02-coincounter",
+      "name": "Coincounter",
+      "dungeon_id": "arr-the-aurum-vale",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-aurum-vale--03-miser-s-mistress",
+      "name": "Miser's Mistress",
+      "dungeon_id": "arr-the-aurum-vale",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-keeper-of-the-lake--01-einhander",
+      "name": "Einhander",
+      "dungeon_id": "arr-the-keeper-of-the-lake",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-keeper-of-the-lake--02-magitek-gunship",
+      "name": "Magitek Gunship",
+      "dungeon_id": "arr-the-keeper-of-the-lake",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-keeper-of-the-lake--03-midgardsormr",
+      "name": "Midgardsormr",
+      "dungeon_id": "arr-the-keeper-of-the-lake",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-lost-city-of-amdapor--01-decaying-gourmand",
+      "name": "Decaying Gourmand",
+      "dungeon_id": "arr-the-lost-city-of-amdapor",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-lost-city-of-amdapor--02-arioch",
+      "name": "Arioch",
+      "dungeon_id": "arr-the-lost-city-of-amdapor",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-lost-city-of-amdapor--03-diabolos",
+      "name": "Diabolos",
+      "dungeon_id": "arr-the-lost-city-of-amdapor",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-praetorium--01-mark-ii-magitek-colossus",
+      "name": "Mark II Magitek Colossus",
+      "dungeon_id": "arr-the-praetorium",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-praetorium--02-nero-tol-scaeva",
+      "name": "Nero tol Scaeva",
+      "dungeon_id": "arr-the-praetorium",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-praetorium--03-gaius-van-baelsar",
+      "name": "Gaius van Baelsar",
+      "dungeon_id": "arr-the-praetorium",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-stone-vigil--01-chudo-yudo",
+      "name": "Chudo-Yudo",
+      "dungeon_id": "arr-the-stone-vigil",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-stone-vigil--02-koshchei",
+      "name": "Koshchei",
+      "dungeon_id": "arr-the-stone-vigil",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-stone-vigil--03-isgebind",
+      "name": "Isgebind",
+      "dungeon_id": "arr-the-stone-vigil",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-stone-vigil-hard--01-gorynich",
+      "name": "Gorynich",
+      "dungeon_id": "arr-the-stone-vigil-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-stone-vigil-hard--02-cuca-fera",
+      "name": "Cuca Fera",
+      "dungeon_id": "arr-the-stone-vigil-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-stone-vigil-hard--03-giruveganaus",
+      "name": "Giruveganaus",
+      "dungeon_id": "arr-the-stone-vigil-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--01-teratotaur",
+      "name": "Teratotaur",
+      "dungeon_id": "arr-the-sunken-temple-of-qarn",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--02-temple-guardian",
+      "name": "Temple Guardian",
+      "dungeon_id": "arr-the-sunken-temple-of-qarn",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn--03-adjudicator",
+      "name": "Adjudicator",
+      "dungeon_id": "arr-the-sunken-temple-of-qarn",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn-hard--01-damaged-adjudicator",
+      "name": "Damaged Adjudicator",
+      "dungeon_id": "arr-the-sunken-temple-of-qarn-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn-hard--02-sabotender-emperatriz",
+      "name": "Sabotender Emperatriz",
+      "dungeon_id": "arr-the-sunken-temple-of-qarn-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-sunken-temple-of-qarn-hard--03-vicegerent-to-the-warden",
+      "name": "Vicegerent to the Warden",
+      "dungeon_id": "arr-the-sunken-temple-of-qarn-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft--01-void-soulcounter",
+      "name": "Void Soulcounter",
+      "dungeon_id": "arr-the-tam-tara-deepcroft",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator",
+      "name": "Galvanth the Dominator",
+      "dungeon_id": "arr-the-tam-tara-deepcroft",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft-hard--01-liavinne",
+      "name": "Liavinne",
+      "dungeon_id": "arr-the-tam-tara-deepcroft-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft-hard--02-spare-body",
+      "name": "Spare Body",
+      "dungeon_id": "arr-the-tam-tara-deepcroft-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-tam-tara-deepcroft-hard--03-avere-bravearm",
+      "name": "Avere Bravearm",
+      "dungeon_id": "arr-the-tam-tara-deepcroft-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-thousand-maws-of-toto-rak--01-coeurl-o-nine-tails",
+      "name": "Coeurl O' Nine Tails",
+      "dungeon_id": "arr-the-thousand-maws-of-toto-rak",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-thousand-maws-of-toto-rak--02-graffias",
+      "name": "Graffias",
+      "dungeon_id": "arr-the-thousand-maws-of-toto-rak",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-wanderer-s-palace--01-keeper-of-halidom",
+      "name": "Keeper of Halidom",
+      "dungeon_id": "arr-the-wanderer-s-palace",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-wanderer-s-palace--02-giant-bavarois",
+      "name": "Giant Bavarois",
+      "dungeon_id": "arr-the-wanderer-s-palace",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-wanderer-s-palace--03-tonberry-king",
+      "name": "Tonberry King",
+      "dungeon_id": "arr-the-wanderer-s-palace",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-the-wanderer-s-palace-hard--01-frumious-koheel-ja",
+      "name": "Frumious Koheel Ja",
+      "dungeon_id": "arr-the-wanderer-s-palace-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-the-wanderer-s-palace-hard--02-slithy-zolool-ja",
+      "name": "Slithy Zolool Ja",
+      "dungeon_id": "arr-the-wanderer-s-palace-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-the-wanderer-s-palace-hard--03-manxome-molaa-ja-ja",
+      "name": "Manxome Molaa Ja Ja",
+      "dungeon_id": "arr-the-wanderer-s-palace-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-world-of-darkness--01-angra-mainyu",
+      "name": "Angra Mainyu",
+      "dungeon_id": "arr-world-of-darkness",
+      "guide_status": true,
+      "encounter_order": 1
+    },
+    {
+      "id": "arr-world-of-darkness--02-five-headed-dragon",
+      "name": "Five-headed Dragon",
+      "dungeon_id": "arr-world-of-darkness",
+      "guide_status": true,
+      "encounter_order": 2
+    },
+    {
+      "id": "arr-world-of-darkness--03-cerberus",
+      "name": "Cerberus",
+      "dungeon_id": "arr-world-of-darkness",
+      "guide_status": true,
+      "encounter_order": 3
+    },
+    {
+      "id": "arr-world-of-darkness--04-cloud-of-darkness",
+      "name": "Cloud of Darkness",
+      "dungeon_id": "arr-world-of-darkness",
+      "guide_status": true,
+      "encounter_order": 4
+    },
+    {
+      "id": "dt-alexandria--01-antivirus-x",
+      "name": "Antivirus X",
+      "dungeon_id": "dt-alexandria",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-alexandria--02-amalgam",
+      "name": "Amalgam",
+      "dungeon_id": "dt-alexandria",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-alexandria--03-eliminator",
+      "name": "Eliminator",
+      "dungeon_id": "dt-alexandria",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-ihuykatumu--01-prime-punutiy",
+      "name": "Prime Punutiy",
+      "dungeon_id": "dt-ihuykatumu",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-ihuykatumu--02-drowsie",
+      "name": "Drowsie",
+      "dungeon_id": "dt-ihuykatumu",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-ihuykatumu--03-apollyon",
+      "name": "Apollyon",
+      "dungeon_id": "dt-ihuykatumu",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-origenics--01-herpekaris",
+      "name": "Herpekaris",
+      "dungeon_id": "dt-origenics",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-origenics--02-deceiver",
+      "name": "Deceiver",
+      "dungeon_id": "dt-origenics",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-origenics--03-ambrose-the-undeparted",
+      "name": "Ambrose the Undeparted",
+      "dungeon_id": "dt-origenics",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-tender-valley--01-barreltender",
+      "name": "Barreltender",
+      "dungeon_id": "dt-tender-valley",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-tender-valley--02-anthracite",
+      "name": "Anthracite",
+      "dungeon_id": "dt-tender-valley",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-tender-valley--03-greatest-serpent-of-tural",
+      "name": "Greatest Serpent of Tural",
+      "dungeon_id": "dt-tender-valley",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-the-skydeep-cenote--01-feather-ray",
+      "name": "Feather Ray",
+      "dungeon_id": "dt-the-skydeep-cenote",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-the-skydeep-cenote--02-firearms",
+      "name": "Firearms",
+      "dungeon_id": "dt-the-skydeep-cenote",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-the-skydeep-cenote--03-maulskull",
+      "name": "Maulskull",
+      "dungeon_id": "dt-the-skydeep-cenote",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-the-strayborough-deadwalk--01-his-royal-headness-leonogg-i",
+      "name": "His Royal Headness Leonogg I",
+      "dungeon_id": "dt-the-strayborough-deadwalk",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-the-strayborough-deadwalk--02-jack-in-the-pot",
+      "name": "Jack-in-the-Pot",
+      "dungeon_id": "dt-the-strayborough-deadwalk",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-the-strayborough-deadwalk--03-traumerei",
+      "name": "Träumerei",
+      "dungeon_id": "dt-the-strayborough-deadwalk",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-the-underkeep--01-gargant",
+      "name": "Gargant",
+      "dungeon_id": "dt-the-underkeep",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-the-underkeep--02-soldier-s0",
+      "name": "Soldier S0",
+      "dungeon_id": "dt-the-underkeep",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-the-underkeep--03-valia-pira",
+      "name": "Valia Pira",
+      "dungeon_id": "dt-the-underkeep",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-vanguard--01-vanguard-commander-r8",
+      "name": "Vanguard Commander R8",
+      "dungeon_id": "dt-vanguard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-vanguard--02-protector",
+      "name": "Protector",
+      "dungeon_id": "dt-vanguard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-vanguard--03-zander-the-snakeskinner",
+      "name": "Zander the Snakeskinner",
+      "dungeon_id": "dt-vanguard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-worqor-zormor--01-ryoqor-terteh",
+      "name": "Ryoqor Terteh",
+      "dungeon_id": "dt-worqor-zormor",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-worqor-zormor--02-kahderyor",
+      "name": "Kahderyor",
+      "dungeon_id": "dt-worqor-zormor",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-worqor-zormor--03-gurfurlur",
+      "name": "Gurfurlur",
+      "dungeon_id": "dt-worqor-zormor",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "dt-yuweyawata-field-station--01-lindblum-zaghnal",
+      "name": "Lindblum Zaghnal",
+      "dungeon_id": "dt-yuweyawata-field-station",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "dt-yuweyawata-field-station--02-overseer-kanilokka",
+      "name": "Overseer Kanilokka",
+      "dungeon_id": "dt-yuweyawata-field-station",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "dt-yuweyawata-field-station--03-lunipyati",
+      "name": "Lunipyati",
+      "dungeon_id": "dt-yuweyawata-field-station",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-alzadaal-s-legacy--01-ambujam",
+      "name": "Ambujam",
+      "dungeon_id": "ew-alzadaal-s-legacy",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-alzadaal-s-legacy--02-armored-chariot",
+      "name": "Armored Chariot",
+      "dungeon_id": "ew-alzadaal-s-legacy",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-alzadaal-s-legacy--03-kapikulu",
+      "name": "Kapikulu",
+      "dungeon_id": "ew-alzadaal-s-legacy",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-ktisis-hyperboreia--01-lyssa",
+      "name": "Lyssa",
+      "dungeon_id": "ew-ktisis-hyperboreia",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-ktisis-hyperboreia--02-ladon-lord",
+      "name": "Ladon Lord",
+      "dungeon_id": "ew-ktisis-hyperboreia",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-ktisis-hyperboreia--03-hermes",
+      "name": "Hermes",
+      "dungeon_id": "ew-ktisis-hyperboreia",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-lapis-manalis--01-albion",
+      "name": "Albion",
+      "dungeon_id": "ew-lapis-manalis",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-lapis-manalis--02-galatea-magna",
+      "name": "Galatea Magna",
+      "dungeon_id": "ew-lapis-manalis",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-lapis-manalis--03-cagnazzo",
+      "name": "Cagnazzo",
+      "dungeon_id": "ew-lapis-manalis",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-smileton--01-face",
+      "name": "Face",
+      "dungeon_id": "ew-smileton",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-smileton--02-frameworker",
+      "name": "Frameworker",
+      "dungeon_id": "ew-smileton",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-smileton--03-the-big-cheese",
+      "name": "The Big Cheese",
+      "dungeon_id": "ew-smileton",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-the-aetherfont--01-lyngbakr",
+      "name": "Lyngbakr",
+      "dungeon_id": "ew-the-aetherfont",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-the-aetherfont--02-arkas",
+      "name": "Arkas",
+      "dungeon_id": "ew-the-aetherfont",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-the-aetherfont--03-octomammoth",
+      "name": "Octomammoth",
+      "dungeon_id": "ew-the-aetherfont",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-the-aitiascope--01-livia-the-undeterred",
+      "name": "Livia the Undeterred",
+      "dungeon_id": "ew-the-aitiascope",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-the-aitiascope--02-rhitahtyn-the-unshakable",
+      "name": "Rhitahtyn the Unshakable",
+      "dungeon_id": "ew-the-aitiascope",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-the-aitiascope--03-amon-the-undying",
+      "name": "Amon the Undying",
+      "dungeon_id": "ew-the-aitiascope",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-the-dead-ends--01-caustic-grebuloff",
+      "name": "Caustic Grebuloff",
+      "dungeon_id": "ew-the-dead-ends",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-the-dead-ends--02-peacekeeper",
+      "name": "Peacekeeper",
+      "dungeon_id": "ew-the-dead-ends",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-the-dead-ends--03-ra-la",
+      "name": "Ra-la",
+      "dungeon_id": "ew-the-dead-ends",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-the-fell-court-of-troia--01-evil-dreamers",
+      "name": "Evil Dreamers",
+      "dungeon_id": "ew-the-fell-court-of-troia",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-the-fell-court-of-troia--02-beatrice",
+      "name": "Beatrice",
+      "dungeon_id": "ew-the-fell-court-of-troia",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-the-fell-court-of-troia--03-scarmiglione",
+      "name": "Scarmiglione",
+      "dungeon_id": "ew-the-fell-court-of-troia",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-the-lunar-subterrane--01-dark-elf",
+      "name": "Dark Elf",
+      "dungeon_id": "ew-the-lunar-subterrane",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-the-lunar-subterrane--02-durante",
+      "name": "Durante",
+      "dungeon_id": "ew-the-lunar-subterrane",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-the-lunar-subterrane--03-zeromus",
+      "name": "Zeromus",
+      "dungeon_id": "ew-the-lunar-subterrane",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-the-stigma-dreamscape--01-proto-omega",
+      "name": "Proto-Omega",
+      "dungeon_id": "ew-the-stigma-dreamscape",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-the-stigma-dreamscape--02-arch-lambda",
+      "name": "Arch-Lambda",
+      "dungeon_id": "ew-the-stigma-dreamscape",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-the-stigma-dreamscape--03-stigma-4",
+      "name": "Stigma-4",
+      "dungeon_id": "ew-the-stigma-dreamscape",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-the-tower-of-babil--01-barnabas",
+      "name": "Barnabas",
+      "dungeon_id": "ew-the-tower-of-babil",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-the-tower-of-babil--02-lugae",
+      "name": "Lugae",
+      "dungeon_id": "ew-the-tower-of-babil",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-the-tower-of-babil--03-anima",
+      "name": "Anima",
+      "dungeon_id": "ew-the-tower-of-babil",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-the-tower-of-zot--01-minduruva",
+      "name": "Minduruva",
+      "dungeon_id": "ew-the-tower-of-zot",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-the-tower-of-zot--02-sanduruva",
+      "name": "Sanduruva",
+      "dungeon_id": "ew-the-tower-of-zot",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-the-tower-of-zot--03-the-magus-sisters",
+      "name": "The Magus Sisters",
+      "dungeon_id": "ew-the-tower-of-zot",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "ew-vanaspati--01-terminus-snatcher",
+      "name": "Terminus Snatcher",
+      "dungeon_id": "ew-vanaspati",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "ew-vanaspati--02-terminus-wrecker",
+      "name": "Terminus Wrecker",
+      "dungeon_id": "ew-vanaspati",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "ew-vanaspati--03-svarbhanu",
+      "name": "Svarbhanu",
+      "dungeon_id": "ew-vanaspati",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-baelsar-s-wall--01-magitek-predator",
+      "name": "Magitek Predator",
+      "dungeon_id": "hw-baelsar-s-wall",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-baelsar-s-wall--02-armored-weapon",
+      "name": "Armored Weapon",
+      "dungeon_id": "hw-baelsar-s-wall",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-baelsar-s-wall--03-the-griffin",
+      "name": "The Griffin",
+      "dungeon_id": "hw-baelsar-s-wall",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-hullbreaker-isle-hard--01-sanguine-sirens",
+      "name": "Sanguine Sirens",
+      "dungeon_id": "hw-hullbreaker-isle-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-hullbreaker-isle-hard--02-ymir",
+      "name": "Ymir",
+      "dungeon_id": "hw-hullbreaker-isle-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-hullbreaker-isle-hard--03-mistbeard",
+      "name": "Mistbeard",
+      "dungeon_id": "hw-hullbreaker-isle-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-neverreap--01-nunyenunc",
+      "name": "Nunyenunc",
+      "dungeon_id": "hw-neverreap",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-neverreap--02-canu-vanu",
+      "name": "Canu Vanu",
+      "dungeon_id": "hw-neverreap",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-neverreap--03-waukkeon",
+      "name": "Waukkeon",
+      "dungeon_id": "hw-neverreap",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-pharos-sirius-hard--01-ghrah-luminary",
+      "name": "Ghrah Luminary",
+      "dungeon_id": "hw-pharos-sirius-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-pharos-sirius-hard--02-8th-order-patriarch-be-gu",
+      "name": "8th Order Patriarch Be Gu",
+      "dungeon_id": "hw-pharos-sirius-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-pharos-sirius-hard--03-progenitrix",
+      "name": "Progenitrix",
+      "dungeon_id": "hw-pharos-sirius-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-saint-mocianne-s-arboretum--01-rose-garden",
+      "name": "Rose Garden",
+      "dungeon_id": "hw-saint-mocianne-s-arboretum",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-saint-mocianne-s-arboretum--02-queen-hawk",
+      "name": "Queen Hawk",
+      "dungeon_id": "hw-saint-mocianne-s-arboretum",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-saint-mocianne-s-arboretum--03-belladonna",
+      "name": "Belladonna",
+      "dungeon_id": "hw-saint-mocianne-s-arboretum",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-sohm-al--01-raskovnik",
+      "name": "Raskovnik",
+      "dungeon_id": "hw-sohm-al",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-sohm-al--02-myath",
+      "name": "Myath",
+      "dungeon_id": "hw-sohm-al",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-sohm-al--03-tioman",
+      "name": "Tioman",
+      "dungeon_id": "hw-sohm-al",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-sohm-al-hard--01-the-leightonward",
+      "name": "The Leightonward",
+      "dungeon_id": "hw-sohm-al-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-sohm-al-hard--02-gowrow",
+      "name": "Gowrow",
+      "dungeon_id": "hw-sohm-al-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-sohm-al-hard--03-lava-scorpion",
+      "name": "Lava Scorpion",
+      "dungeon_id": "hw-sohm-al-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-sohr-khai--01-chieftain-moglin",
+      "name": "Chieftain Moglin",
+      "dungeon_id": "hw-sohr-khai",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-sohr-khai--02-poqhiraj",
+      "name": "Poqhiraj",
+      "dungeon_id": "hw-sohr-khai",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-sohr-khai--03-hraesvelgr",
+      "name": "Hraesvelgr",
+      "dungeon_id": "hw-sohr-khai",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-aery--01-rangda",
+      "name": "Rangda",
+      "dungeon_id": "hw-the-aery",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-aery--02-gyascutus",
+      "name": "Gyascutus",
+      "dungeon_id": "hw-the-aery",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-aery--03-nidhogg",
+      "name": "Nidhogg",
+      "dungeon_id": "hw-the-aery",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-aetherochemical-research-facility--01-regula-van-hydrus",
+      "name": "Regula van Hydrus",
+      "dungeon_id": "hw-the-aetherochemical-research-facility",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-aetherochemical-research-facility--02-harmachis",
+      "name": "Harmachis",
+      "dungeon_id": "hw-the-aetherochemical-research-facility",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-aetherochemical-research-facility--03-lahabrea-igeyorhm",
+      "name": "Lahabrea & Igeyorhm",
+      "dungeon_id": "hw-the-aetherochemical-research-facility",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-aetherochemical-research-facility--04-ascian-prime",
+      "name": "Ascian Prime",
+      "dungeon_id": "hw-the-aetherochemical-research-facility",
+      "guide_status": false,
+      "encounter_order": 4
+    },
+    {
+      "id": "hw-the-antitower--01-zuro-roggo",
+      "name": "Zuro Roggo",
+      "dungeon_id": "hw-the-antitower",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-antitower--02-ziggy",
+      "name": "Ziggy",
+      "dungeon_id": "hw-the-antitower",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-antitower--03-calcabrina",
+      "name": "Calcabrina",
+      "dungeon_id": "hw-the-antitower",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-dusk-vigil--01-towering-oliphant",
+      "name": "Towering Oliphant",
+      "dungeon_id": "hw-the-dusk-vigil",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-dusk-vigil--02-ser-yuhelmeric",
+      "name": "Ser Yuhelmeric",
+      "dungeon_id": "hw-the-dusk-vigil",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-dusk-vigil--03-opinicus",
+      "name": "Opinicus",
+      "dungeon_id": "hw-the-dusk-vigil",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-fractal-continuum--01-phantom-ray",
+      "name": "Phantom Ray",
+      "dungeon_id": "hw-the-fractal-continuum",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-fractal-continuum--02-minotaur",
+      "name": "Minotaur",
+      "dungeon_id": "hw-the-fractal-continuum",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-fractal-continuum--03-the-curator",
+      "name": "The Curator",
+      "dungeon_id": "hw-the-fractal-continuum",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-great-gubal-library--01-demon-tome",
+      "name": "Demon Tome",
+      "dungeon_id": "hw-the-great-gubal-library",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-great-gubal-library--02-byblos",
+      "name": "Byblos",
+      "dungeon_id": "hw-the-great-gubal-library",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-great-gubal-library--03-the-everliving-bibliotaph",
+      "name": "The Everliving Bibliotaph",
+      "dungeon_id": "hw-the-great-gubal-library",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-great-gubal-library-hard--01-demon-of-the-tome",
+      "name": "Demon of the Tome",
+      "dungeon_id": "hw-the-great-gubal-library-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-great-gubal-library-hard--02-liquid-flame",
+      "name": "Liquid Flame",
+      "dungeon_id": "hw-the-great-gubal-library-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-great-gubal-library-hard--03-strix",
+      "name": "Strix",
+      "dungeon_id": "hw-the-great-gubal-library-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-lost-city-of-amdapor-hard--01-achamoth",
+      "name": "Achamoth",
+      "dungeon_id": "hw-the-lost-city-of-amdapor-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-lost-city-of-amdapor-hard--02-winged-lion",
+      "name": "Winged Lion",
+      "dungeon_id": "hw-the-lost-city-of-amdapor-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-lost-city-of-amdapor-hard--03-kuribu",
+      "name": "Kuribu",
+      "dungeon_id": "hw-the-lost-city-of-amdapor-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-the-vault--01-ser-adelphel",
+      "name": "Ser Adelphel",
+      "dungeon_id": "hw-the-vault",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-the-vault--02-ser-grinnaux",
+      "name": "Ser Grinnaux",
+      "dungeon_id": "hw-the-vault",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-the-vault--03-ser-charibert",
+      "name": "Ser Charibert",
+      "dungeon_id": "hw-the-vault",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "hw-xelphatol--01-nuzal-hueloc",
+      "name": "Nuzal Hueloc",
+      "dungeon_id": "hw-xelphatol",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "hw-xelphatol--02-dotoli-ciloc",
+      "name": "Dotoli Ciloc",
+      "dungeon_id": "hw-xelphatol",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "hw-xelphatol--03-tozol-huatotl",
+      "name": "Tozol Huatotl",
+      "dungeon_id": "hw-xelphatol",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-ala-mhigo--01-magitek-scorpion",
+      "name": "Magitek Scorpion",
+      "dungeon_id": "sb-ala-mhigo",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-ala-mhigo--02-aulus-mal-asina",
+      "name": "Aulus mal Asina",
+      "dungeon_id": "sb-ala-mhigo",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-ala-mhigo--03-zenos-yae-galvus",
+      "name": "Zenos yae Galvus",
+      "dungeon_id": "sb-ala-mhigo",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-bardam-s-mettle--01-garula",
+      "name": "Garula",
+      "dungeon_id": "sb-bardam-s-mettle",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-bardam-s-mettle--02-bardam",
+      "name": "Bardam",
+      "dungeon_id": "sb-bardam-s-mettle",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-bardam-s-mettle--03-yol",
+      "name": "Yol",
+      "dungeon_id": "sb-bardam-s-mettle",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-castrum-abania--01-magna-roader",
+      "name": "Magna Roader",
+      "dungeon_id": "sb-castrum-abania",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-castrum-abania--02-number-xxiv",
+      "name": "Number XXIV",
+      "dungeon_id": "sb-castrum-abania",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-castrum-abania--03-inferno",
+      "name": "Inferno",
+      "dungeon_id": "sb-castrum-abania",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-doma-castle--01-magitek-rearguard",
+      "name": "Magitek Rearguard",
+      "dungeon_id": "sb-doma-castle",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-doma-castle--02-magitek-hexadrone",
+      "name": "Magitek Hexadrone",
+      "dungeon_id": "sb-doma-castle",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-doma-castle--03-hypertuned-grynewaht",
+      "name": "Hypertuned Grynewaht",
+      "dungeon_id": "sb-doma-castle",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-hells-lid--01-otengu",
+      "name": "Otengu",
+      "dungeon_id": "sb-hells-lid",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-hells-lid--02-kamaitachi",
+      "name": "Kamaitachi",
+      "dungeon_id": "sb-hells-lid",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-hells-lid--03-genbu",
+      "name": "Genbu",
+      "dungeon_id": "sb-hells-lid",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-kugane-castle--01-zuiko-maru",
+      "name": "Zuiko-maru",
+      "dungeon_id": "sb-kugane-castle",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-kugane-castle--02-dojun-maru",
+      "name": "Dojun-maru",
+      "dungeon_id": "sb-kugane-castle",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-kugane-castle--03-yojimbo",
+      "name": "Yojimbo",
+      "dungeon_id": "sb-kugane-castle",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-saint-mocianne-s-arboretum-hard--01-nullchu",
+      "name": "Nullchu",
+      "dungeon_id": "sb-saint-mocianne-s-arboretum-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-saint-mocianne-s-arboretum-hard--02-lakhamu",
+      "name": "Lakhamu",
+      "dungeon_id": "sb-saint-mocianne-s-arboretum-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-saint-mocianne-s-arboretum-hard--03-tokkapchi",
+      "name": "Tokkapchi",
+      "dungeon_id": "sb-saint-mocianne-s-arboretum-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-shisui-of-the-violet-tides--01-amikiri",
+      "name": "Amikiri",
+      "dungeon_id": "sb-shisui-of-the-violet-tides",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-shisui-of-the-violet-tides--02-ruby-princess",
+      "name": "Ruby Princess",
+      "dungeon_id": "sb-shisui-of-the-violet-tides",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-shisui-of-the-violet-tides--03-shisui-yohi",
+      "name": "Shisui Yohi",
+      "dungeon_id": "sb-shisui-of-the-violet-tides",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-the-burn--01-hedetet",
+      "name": "Hedetet",
+      "dungeon_id": "sb-the-burn",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-the-burn--02-defective-drone",
+      "name": "Defective Drone",
+      "dungeon_id": "sb-the-burn",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-the-burn--03-mist-dragon",
+      "name": "Mist Dragon",
+      "dungeon_id": "sb-the-burn",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-the-drowned-city-of-skalla--01-kelpie",
+      "name": "Kelpie",
+      "dungeon_id": "sb-the-drowned-city-of-skalla",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-the-drowned-city-of-skalla--02-the-old-one",
+      "name": "The Old One",
+      "dungeon_id": "sb-the-drowned-city-of-skalla",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-the-drowned-city-of-skalla--03-hrodric-poisontongue",
+      "name": "Hrodric Poisontongue",
+      "dungeon_id": "sb-the-drowned-city-of-skalla",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-the-fractal-continuum-hard--01-motherbit",
+      "name": "Motherbit",
+      "dungeon_id": "sb-the-fractal-continuum-hard",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-the-fractal-continuum-hard--02-the-ultima-warrior",
+      "name": "The Ultima Warrior",
+      "dungeon_id": "sb-the-fractal-continuum-hard",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-the-fractal-continuum-hard--03-the-ultima-beast",
+      "name": "The Ultima Beast",
+      "dungeon_id": "sb-the-fractal-continuum-hard",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-the-ghimlyt-dark--01-mark-iii-b-magitek-colossus",
+      "name": "Mark III-B Magitek Colossus",
+      "dungeon_id": "sb-the-ghimlyt-dark",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-the-ghimlyt-dark--02-prometheus",
+      "name": "Prometheus",
+      "dungeon_id": "sb-the-ghimlyt-dark",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-the-ghimlyt-dark--03-annia-quo-soranus-julia-quo-soranus",
+      "name": "Annia quo Soranus & Julia quo Soranus",
+      "dungeon_id": "sb-the-ghimlyt-dark",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-the-sirensong-sea--01-lugat",
+      "name": "Lugat",
+      "dungeon_id": "sb-the-sirensong-sea",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-the-sirensong-sea--02-the-governor",
+      "name": "The Governor",
+      "dungeon_id": "sb-the-sirensong-sea",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-the-sirensong-sea--03-lorelei",
+      "name": "Lorelei",
+      "dungeon_id": "sb-the-sirensong-sea",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-the-swallow-s-compass--01-qitian-dasheng",
+      "name": "Qitian Dasheng",
+      "dungeon_id": "sb-the-swallow-s-compass",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-the-swallow-s-compass--02-daidarabotchi",
+      "name": "Daidarabotchi",
+      "dungeon_id": "sb-the-swallow-s-compass",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-the-swallow-s-compass--03-qitian-dasheng",
+      "name": "Qitian Dasheng",
+      "dungeon_id": "sb-the-swallow-s-compass",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "sb-the-temple-of-the-fist--01-coeurl-sruti",
+      "name": "Coeurl Sruti",
+      "dungeon_id": "sb-the-temple-of-the-fist",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "sb-the-temple-of-the-fist--02-arbuda",
+      "name": "Arbuda",
+      "dungeon_id": "sb-the-temple-of-the-fist",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "sb-the-temple-of-the-fist--03-ivon-coeurlfist",
+      "name": "Ivon Coeurlfist",
+      "dungeon_id": "sb-the-temple-of-the-fist",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-akadaemia-anyder--01-cladoselache-doliodus",
+      "name": "Cladoselache & Doliodus",
+      "dungeon_id": "shb-akadaemia-anyder",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-akadaemia-anyder--02-marquis-morbol",
+      "name": "Marquis Morbol",
+      "dungeon_id": "shb-akadaemia-anyder",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-akadaemia-anyder--03-quetzalcoatl",
+      "name": "Quetzalcoatl",
+      "dungeon_id": "shb-akadaemia-anyder",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-amaurot--01-the-first-beast",
+      "name": "The First Beast",
+      "dungeon_id": "shb-amaurot",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-amaurot--02-terminus-bellwether",
+      "name": "Terminus Bellwether",
+      "dungeon_id": "shb-amaurot",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-amaurot--03-therion",
+      "name": "Therion",
+      "dungeon_id": "shb-amaurot",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-anamnesis-anyder--01-unknown",
+      "name": "Unknown",
+      "dungeon_id": "shb-anamnesis-anyder",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-anamnesis-anyder--02-kyklops",
+      "name": "Kyklops",
+      "dungeon_id": "shb-anamnesis-anyder",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-anamnesis-anyder--03-rukshs-dheem",
+      "name": "Rukshs Dheem",
+      "dungeon_id": "shb-anamnesis-anyder",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-dohn-mheg--01-aenc-thon-lord-of-the-lingering-gaze",
+      "name": "Aenc Thon, Lord of the Lingering Gaze",
+      "dungeon_id": "shb-dohn-mheg",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-dohn-mheg--02-griaule",
+      "name": "Griaule",
+      "dungeon_id": "shb-dohn-mheg",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-dohn-mheg--03-aenc-thon-lord-of-the-lengthsome-gait",
+      "name": "Aenc Thon, Lord of the Lengthsome Gait",
+      "dungeon_id": "shb-dohn-mheg",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-holminster-switch--01-forgiven-dissonance",
+      "name": "Forgiven Dissonance",
+      "dungeon_id": "shb-holminster-switch",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-holminster-switch--02-tesleen-the-forgiven",
+      "name": "Tesleen, the Forgiven",
+      "dungeon_id": "shb-holminster-switch",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-holminster-switch--03-philia",
+      "name": "Philia",
+      "dungeon_id": "shb-holminster-switch",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-malikah-s-well--01-greater-armadillo",
+      "name": "Greater Armadillo",
+      "dungeon_id": "shb-malikah-s-well",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-malikah-s-well--02-amphibious-talos",
+      "name": "Amphibious Talos",
+      "dungeon_id": "shb-malikah-s-well",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-malikah-s-well--03-storge",
+      "name": "Storge",
+      "dungeon_id": "shb-malikah-s-well",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-matoya-s-relict--01-mudman",
+      "name": "Mudman",
+      "dungeon_id": "shb-matoya-s-relict",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-matoya-s-relict--02-nixie",
+      "name": "Nixie",
+      "dungeon_id": "shb-matoya-s-relict",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-matoya-s-relict--03-mother-porxie",
+      "name": "Mother Porxie",
+      "dungeon_id": "shb-matoya-s-relict",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-mt-gulg--01-forgiven-cruelty",
+      "name": "Forgiven Cruelty",
+      "dungeon_id": "shb-mt-gulg",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-mt-gulg--02-forgiven-whimsy",
+      "name": "Forgiven Whimsy",
+      "dungeon_id": "shb-mt-gulg",
+      "guide_status": false,
+      "encounter_order": 2
+    },
+    {
+      "id": "shb-mt-gulg--03-forgiven-obscenity",
+      "name": "Forgiven Obscenity",
+      "dungeon_id": "shb-mt-gulg",
+      "guide_status": false,
+      "encounter_order": 3
+    },
+    {
+      "id": "shb-paglth-an--01-amhuluk",
+      "name": "Amhuluk",
+      "dungeon_id": "shb-paglth-an",
+      "guide_status": false,
+      "encounter_order": 1
+    },
+    {
+      "id": "shb-paglth-an--02-magitek-core",
+      "name": "Magitek Core",
+      "dungeon_id": "shb-paglth-an",
+      "guide_status": false,
+      "encounter_order": 2
+    }
+  ]
+}
