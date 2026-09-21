@@ -1,0 +1,1285 @@
+{
+  "table": "boss_atlas_mechanics",
+  "offset": 0,
+  "row_count": 213,
+  "rows": [
+    {
+      "name": "Numbing Breath",
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "description": "Cono frontal que aplica Parálisis.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Violet Back",
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "description": "Adds que pueden aplicar Poison.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Hammer Beak",
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "description": "Golpe fuerte sin cast al objetivo principal.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Tempest Biast",
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "description": "Add que debe ser recogido por el tanque.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Burning Cyclone",
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "description": "Cleave del drake hacia el jugador elegido por Brayflox; puede cancelarse con stun.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Blaze Spikes",
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "description": "Causa daño ligero a quien golpea en melee.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Effluvium",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "description": "Encierra a un jugador y le aplica varios debuffs hasta romper la burbuja.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Peculiar Light",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "description": "AoE alrededor del boss; aplica Magic Vulnerability Up limpiable.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Stagnant Spray",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "description": "Cono frontal hacia el tanque.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Touchdown",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "description": "Daño ligero y knockback al descender.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Dragon Breath",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "description": "Línea hacia un jugador; aplica Poison.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Salivous Snap",
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "description": "Tankbuster mágico con Poison.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Toxic Vomit",
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "description": "Dos tandas de pods venenosos que crecen y explotan.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Dragon Breath",
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "description": "Línea hacia un jugador que aplica Poison.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Salivous Snap",
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "description": "Tankbuster mágico con Poison.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Lumbering Leap",
+      "phase_id": "arr-copperbell-mines--01-kottos--p1",
+      "description": "Tres saltos con AoE circulares grandes; queda una zona segura junto al borde.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Catapult",
+      "phase_id": "arr-copperbell-mines--01-kottos--p1",
+      "description": "Roca lanzada a un jugador aleatorio.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Grand Slam",
+      "phase_id": "arr-copperbell-mines--01-kottos--p2",
+      "description": "Tankbuster.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Colossal Slam",
+      "phase_id": "arr-copperbell-mines--01-kottos--p2",
+      "description": "Cono grande dirigido a un jugador.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Syrup",
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p1",
+      "description": "AoE circular bajo cada miembro del grupo.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Fluid Spread",
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p1",
+      "description": "Tankbuster.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Divide",
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p2",
+      "description": "Convierte al jefe en varios adds.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Burst",
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p2",
+      "description": "AoE circular alrededor de cada Ichorous Drip.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Gigantic Swing",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "description": "Donut masivo; la zona segura está pegada al boss.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Grand Slam",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "description": "Tankbuster.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Gigantic Smash",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p2",
+      "description": "Círculo central más cinco exteriores; usa los huecos.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Colossal Slam",
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p2",
+      "description": "Cono grande hacia un jugador.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Formic Pheromones",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "description": "El Marshal da Vulnerability Down a la princesa mediante un tether.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Mandible Bite",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "description": "Cono frontal del boss, Guard y Marshal.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Silence",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "description": "Cast interruptible que silencia a un jugador.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Stone II",
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "description": "Círculo bajo un jugador.",
+      "mechanic_order": 4
+    },
+    {
+      "name": "Sand Pillar",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "description": "Daño sobre las trampas de arena.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Earthbreak",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "description": "Gran daño al emerger.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Sludge",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "description": "DoT fuerte sobre un jugador; se limpia con Esuna.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Bottomless Desert",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p2",
+      "description": "Atrae al grupo al centro y prepara la salida del boss.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Sand Cyclone",
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p2",
+      "description": "Daño y DoT sobre un jugador aleatorio.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "The Dragon's Voice",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p1",
+      "description": "Donut sin indicador naranja; fuera del melee range golpea y paraliza.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "The Ram's Voice",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p2",
+      "description": "AoE cercano sin indicador naranja; aplica Heavy.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Ram/Dragon Breath",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p2",
+      "description": "Conos laterales; la espalda del boss es segura para no-tanks.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Cacophony",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p3",
+      "description": "Esfera perseguidora que explota y aplica Parálisis.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Lightning Storm",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p3",
+      "description": "Círculos bajo dos jugadores.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Lion's Breath",
+      "phase_id": "arr-cutter-s-cry--03-chimera--p3",
+      "description": "Cleave frontal sin telegraph.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Void Matter",
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "description": "Secuencia paredes → centro; entra y después sal.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Eyes on Me",
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "description": "Daño a toda la party.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Blustering Blink",
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "description": "Línea frontal.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Firewater",
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "description": "Cuatro círculos lanzados por adds intocables.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Boulderdash",
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "description": "Daño de grupo instantáneo desde las plataformas.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Double Smash / Elbow Drop",
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "description": "Conos frontales; Elbow Drop aparece bajo 50%.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Crystal Tether",
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p1",
+      "description": "Mientras existe, Batraal es invulnerable.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Desolation",
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p1",
+      "description": "Columna de daño extremo dirigida al jugador marcado.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Hellssend",
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p2",
+      "description": "Damage Up permanente para la fase final.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Grim Halo",
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p2",
+      "description": "AoE alrededor del boss.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Grim Fate",
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p2",
+      "description": "Ataque frontal fuerte al objetivo principal.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Fireflow",
+      "phase_id": "arr-halatali--01-firemane--p1",
+      "description": "Dos tandas alternadas de cuatro conos cardinales.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Fire II",
+      "phase_id": "arr-halatali--01-firemane--p1",
+      "description": "AoE circular evitable.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Burning Bolt",
+      "phase_id": "arr-halatali--01-firemane--p1",
+      "description": "Tankbuster.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Hydroelectric Shock",
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "description": "Electrifica toda el agua; las pendientes de tierra son seguras.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Electrify",
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "description": "AoE circular alrededor del boss.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Levinfang",
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "description": "Tankbuster.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Burning Ward",
+      "phase_id": "arr-halatali--03-tangata--p1",
+      "description": "Escudo de invulnerabilidad; desaparece al resolver los wisps.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Fire Wisps",
+      "phase_id": "arr-halatali--03-tangata--p1",
+      "description": "Si llegan al boss, explotan con daño de grupo.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Plain Pound",
+      "phase_id": "arr-halatali--03-tangata--p2",
+      "description": "Secuencia círculo → dos donuts; fuera y luego dentro.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Firewater",
+      "phase_id": "arr-halatali--03-tangata--p2",
+      "description": "AoE circular bajo jugadores.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Straight Punch",
+      "phase_id": "arr-halatali--03-tangata--p2",
+      "description": "Tankbuster.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Sweet Steel",
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p1",
+      "description": "Cono frontal sin telegraph.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Void Fire II",
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p1",
+      "description": "AoE interruptible, normalmente sobre un jugador a distancia.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Dark Mist",
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p2",
+      "description": "PBAoE grande; vulnerable a stun.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Ice Spikes",
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "description": "Cast interruptible del Jester.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Soul Drain",
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "description": "Gran AoE alrededor del Steward; puede detenerse con stun.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Gaze",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p1",
+      "description": "Mirar al Sentry cuando resuelve su ojo aplica el castigo.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Seduce",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p1",
+      "description": "Te hace caminar hacia Amandine antes de otra mirada; gira al recuperar control.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Stoneskin",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "description": "La handmaiden intenta proteger a la jefa.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Void Fire III",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "description": "Hechizo interruptible.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Void Thunder III",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "description": "Tankbuster interruptible.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Dark Mist",
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "description": "AoE cercano vulnerable a stun.",
+      "mechanic_order": 4
+    },
+    {
+      "name": "Platinals",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "description": "Al morir separados, reviven más lentos y pueden detenerse.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Poison floor",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "description": "Las zonas bajas se vuelven peligrosas.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Skeleton Rush",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "description": "Demasiadas llegadas seguidas pueden provocar wipe.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Resurrection",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "description": "La secuencia se repite tras las primeras dos derrotas.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Rotting Eyes",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "description": "Adds de la última vida; normalmente se ignoran.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Final burn",
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "description": "La tercera muerte termina el encuentro.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Astral Realignment",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "description": "Sin este estado, Thanatos es inmune.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Magic Pots",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "description": "Si mueren los tres, el encuentro se pierde.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Pot tether",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "description": "El Pot muere rápidamente si llega a Thanatos.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Add priority",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "description": "La protección de los Pots vale más que el daño al jefe.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Alliance cycle",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "description": "Cada grupo recibe su ventana para dañar.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Cleave",
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "description": "Solo el tanque activo debe estar frente al jefe.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Comet",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "description": "Solo protege si está fuera del círculo del jefe.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Towers",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "description": "Pueden activarse para controlar daño adicional.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Iron Giant",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "description": "Su cleave también puede destruir la cobertura.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Puroboros",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "description": "Adds secundarios que avanzan hacia torres.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Ecliptic Meteor",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "description": "Ignora defensas y mata si hay línea de visión.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Line of sight",
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "description": "La roca debe quedar fuera del hitbox del jefe.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Iron Claw",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "description": "Inmoviliza a un jugador y debe morir rápido.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Frontal cleave",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "description": "No siempre tiene indicador visible.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Ancient Flare",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "description": "Ataque letal bloqueado por las tres plataformas.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Barrier",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "description": "Falla si una plataforma carece de jugadores.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Platform Giant",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "description": "Debe morir antes de retomar al jefe.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Second Flare",
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "description": "Puede repetirse con poca vida; correr es la opción segura.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Charged Whisker",
+      "phase_id": "arr-sastasha--01-chopper--p1",
+      "description": "AoE alrededor del jefe; no causa daño directo, pero aplica Parálisis.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Heavy Swing",
+      "phase_id": "arr-sastasha--02-captain-madison--p1",
+      "description": "Golpe adicional al objetivo principal.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Fast Blade",
+      "phase_id": "arr-sastasha--02-captain-madison--p1",
+      "description": "Daño ligero al tanque durante el segundo encuentro.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Sandslinger",
+      "phase_id": "arr-sastasha--02-captain-madison--p2",
+      "description": "Aplica Accuracy Down limpiable al objetivo principal.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Scurvy Dogs",
+      "phase_id": "arr-sastasha--02-captain-madison--p2",
+      "description": "Adds que entran en la segunda pelea cerca de 50%.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Hydroball",
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p1",
+      "description": "Cono hacia el objetivo principal; aplica Silence si golpea.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "True Thrust",
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p1",
+      "description": "Daño adicional al tanque.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Bubbling Grates",
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p2",
+      "description": "Las cuatro rejillas pueden generar adds durante el combate.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Lightning Orb",
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "description": "Carga un pilar para Daybreak.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Ice + Flame",
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "description": "Fuego libera hielo y deja un charco de agua.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Ancient Flare",
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "description": "El agua concede resistencia al fuego.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Water puddle",
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "description": "Se crea al descongelar con Flame Orb.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Daybreak",
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "description": "Petrifica a la alianza sin plataformas cargadas.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Phase 2",
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "description": "Continúan hielo, fuego y Ancient Flare.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Energy line",
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "description": "Interrumpirla permite matar el constructo.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Aura",
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "description": "Tres AoE aparecen bajo jugadores.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Damage reflection",
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "description": "Los nodos hacen que Glasya refleje daño.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Deathstream",
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "description": "Obliga a abandonar la plataforma central.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Outer platforms",
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "description": "Quedarse en el centro durante Deathstream mata.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Spiral Spin",
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "description": "En la fase final, colócate bajo Glasya para evitarlo.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Coloatura",
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "description": "Cleave frontal muy potente.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Marching adds",
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "description": "Al llegar aplican debuffs a toda la raid.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Mini",
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "description": "Reduce a Kum Kum y facilita matarlo.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Flame Toad",
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "description": "Puede descongelar, pero también destruir cobertura.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Curtain Call",
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "description": "Mata a quien no rompa línea de visión.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Ice block",
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "description": "No protege si está demasiado cerca de Amon.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Golden orbs",
+      "phase_id": "arr-syrcus-tower--04-xande--p1",
+      "description": "Vacíos causan daño fuerte a toda la alianza.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Knuckle Press",
+      "phase_id": "arr-syrcus-tower--04-xande--p1",
+      "description": "AoE con knockback alrededor de Xande.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Meteorfall",
+      "phase_id": "arr-syrcus-tower--04-xande--p2",
+      "description": "Los pequeños causan gran daño; el central sin matar provoca wipe.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Second intermission",
+      "phase_id": "arr-syrcus-tower--04-xande--p2",
+      "description": "Se repite cerca de 40% con más attractors.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Stack marker",
+      "phase_id": "arr-syrcus-tower--04-xande--p3",
+      "description": "El daño se divide entre quienes están dentro.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Ancient Quaga",
+      "phase_id": "arr-syrcus-tower--04-xande--p3",
+      "description": "Null Gravity anula el daño letal.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Gold Rush",
+      "phase_id": "arr-the-aurum-vale--01-locksmith--p1",
+      "description": "Aplica Gold Lung acumulable a todos.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Morbol Fruit",
+      "phase_id": "arr-the-aurum-vale--01-locksmith--p1",
+      "description": "Elimina Gold Lung y aplica Morbid Meal durante 20 segundos.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Gold Dust",
+      "phase_id": "arr-the-aurum-vale--01-locksmith--p1",
+      "description": "Círculo bajo un jugador.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Goldbile",
+      "phase_id": "arr-the-aurum-vale--01-locksmith--p1",
+      "description": "El líquido amarillo del suelo causa daño en el tiempo.",
+      "mechanic_order": 4
+    },
+    {
+      "name": "100-Tonze Swipe",
+      "phase_id": "arr-the-aurum-vale--02-coincounter--p1",
+      "description": "Cono frontal grande; la animación usa una mano.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "10-Tonze Swipe",
+      "phase_id": "arr-the-aurum-vale--02-coincounter--p1",
+      "description": "Golpe frontal moderado.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "100-Tonze Swing",
+      "phase_id": "arr-the-aurum-vale--02-coincounter--p2",
+      "description": "AoE circular cercano de daño extremo; animación a dos manos.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Glower",
+      "phase_id": "arr-the-aurum-vale--02-coincounter--p2",
+      "description": "Línea hacia un jugador; aplica Parálisis.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Eye of the Beholder",
+      "phase_id": "arr-the-aurum-vale--02-coincounter--p3",
+      "description": "AoE parcial tipo donut; cerca y detrás son seguros.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Burrs",
+      "phase_id": "arr-the-aurum-vale--03-miser-s-mistress--p1",
+      "description": "DoT acumulable; una fruta elimina todos los stacks.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Bad Breath",
+      "phase_id": "arr-the-aurum-vale--03-miser-s-mistress--p1",
+      "description": "Cono frontal con Parálisis, Silence, Poison, Blind, Slow, Heavy y HP Penalty.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Strange Morbol Fruit",
+      "phase_id": "arr-the-aurum-vale--03-miser-s-mistress--p2",
+      "description": "Si eclosiona, genera un Morbol Seedling.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Morbol Seedling",
+      "phase_id": "arr-the-aurum-vale--03-miser-s-mistress--p2",
+      "description": "Sus ataques añaden stacks de Burrs y pueden provocar un wipe.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Lion's Breath",
+      "phase_id": "arr-the-stone-vigil--01-chudo-yudo--p1",
+      "description": "Respiración frontal que aplica Burns.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Swinge",
+      "phase_id": "arr-the-stone-vigil--01-chudo-yudo--p1",
+      "description": "Cono frontal que aplica Silence y Pacification.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Rake",
+      "phase_id": "arr-the-stone-vigil--01-chudo-yudo--p1",
+      "description": "Golpe ligero al tanque.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Typhoon I",
+      "phase_id": "arr-the-stone-vigil--02-koshchei--p1",
+      "description": "Tres tornados; un carril queda libre.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Sonic Storm",
+      "phase_id": "arr-the-stone-vigil--02-koshchei--p1",
+      "description": "Círculo bajo un jugador.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Spiked Tail",
+      "phase_id": "arr-the-stone-vigil--02-koshchei--p1",
+      "description": "Tankbuster.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Typhoon II",
+      "phase_id": "arr-the-stone-vigil--02-koshchei--p2",
+      "description": "Dos parejas de tornados se desplazan en momentos distintos.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Cauterize",
+      "phase_id": "arr-the-stone-vigil--03-isgebind--p1",
+      "description": "Barrido aéreo por la franja azul; aplica Frostbite.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Sheet of Ice",
+      "phase_id": "arr-the-stone-vigil--03-isgebind--p1",
+      "description": "Círculo bajo jugadores; al final aparece dos veces seguidas.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Rime Wreath",
+      "phase_id": "arr-the-stone-vigil--03-isgebind--p1",
+      "description": "Daño de grupo.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Touchdown",
+      "phase_id": "arr-the-stone-vigil--03-isgebind--p2",
+      "description": "Impacto en el centro al regresar.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Frost Breath",
+      "phase_id": "arr-the-stone-vigil--03-isgebind--p2",
+      "description": "Cono frontal de daño alto.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Final Sting",
+      "phase_id": "arr-the-sunken-temple-of-qarn--01-teratotaur--p1",
+      "description": "Cada wespe puede quitar alrededor de 70% de su HP máximo al objetivo.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Triclip",
+      "phase_id": "arr-the-sunken-temple-of-qarn--01-teratotaur--p1",
+      "description": "Tankbuster telegraphed.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Mortal Ray",
+      "phase_id": "arr-the-sunken-temple-of-qarn--01-teratotaur--p2",
+      "description": "Doom de 12 segundos; mata al expirar.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Orange Plate",
+      "phase_id": "arr-the-sunken-temple-of-qarn--01-teratotaur--p2",
+      "description": "La única forma segura de eliminar Doom después del cast.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Frightful Roar / Mow",
+      "phase_id": "arr-the-sunken-temple-of-qarn--01-teratotaur--p2",
+      "description": "AoE cercano y cono; aplican vulnerabilidad o Poison limpiables.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Golem Soulstone",
+      "phase_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian--p1",
+      "description": "Mientras vive, el Guardian recibe daño mínimo.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Obliterate",
+      "phase_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian--p1",
+      "description": "Daño mágico a todo el grupo.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Stone Skull",
+      "phase_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian--p1",
+      "description": "Golpea, empuja y aturde a un jugador aleatorio.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Rockslide",
+      "phase_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian--p2",
+      "description": "Columna frontal.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "True Grit",
+      "phase_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian--p2",
+      "description": "Cono frontal que aplica Blind.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Boulder Clap",
+      "phase_id": "arr-the-sunken-temple-of-qarn--02-temple-guardian--p2",
+      "description": "Ataque frontal amplio.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Verge Line",
+      "phase_id": "arr-the-sunken-temple-of-qarn--03-adjudicator--p1",
+      "description": "Línea azul hacia jugadores.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Self-Destruct",
+      "phase_id": "arr-the-sunken-temple-of-qarn--03-adjudicator--p1",
+      "description": "A seis stacks provoca daño de grupo muy alto.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Creeping Darkness",
+      "phase_id": "arr-the-sunken-temple-of-qarn--03-adjudicator--p1",
+      "description": "Daño mágico a toda la party.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Verge Pulse",
+      "phase_id": "arr-the-sunken-temple-of-qarn--03-adjudicator--p2",
+      "description": "Si el disparo del Verge conecta, el jugador muere.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Dark II",
+      "phase_id": "arr-the-sunken-temple-of-qarn--03-adjudicator--p2",
+      "description": "Cono enorme; permanecer relativamente cerca del boss facilita esquivarlo.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Dark",
+      "phase_id": "arr-the-sunken-temple-of-qarn--03-adjudicator--p2",
+      "description": "Círculo bajo un jugador.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Tres apariciones",
+      "phase_id": "arr-the-tam-tara-deepcroft--01-void-soulcounter--p1",
+      "description": "Cada miniarena tiene más enemigos iniciales que la anterior.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Enthunder",
+      "phase_id": "arr-the-tam-tara-deepcroft--01-void-soulcounter--p2",
+      "description": "Buff interruptible que añade daño eléctrico a los ataques.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Condemnation",
+      "phase_id": "arr-the-tam-tara-deepcroft--01-void-soulcounter--p2",
+      "description": "Cono frontal evitable.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Dark Orb",
+      "phase_id": "arr-the-tam-tara-deepcroft--01-void-soulcounter--p2",
+      "description": "Daño ligero al objetivo principal.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Mind Blast",
+      "phase_id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator--p1",
+      "description": "AoE alrededor del jefe que aplica Parálisis.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Drain Touch",
+      "phase_id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator--p1",
+      "description": "Golpe al tanque con robo de vida; aparece tras la primera tanda de adds.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Inconspicuous Imp",
+      "phase_id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator--p2",
+      "description": "Su tether hace invulnerable al jefe.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Mitelings y Skeletons",
+      "phase_id": "arr-the-tam-tara-deepcroft--02-galvanth-the-dominator--p2",
+      "description": "Añaden presión, pero tienen prioridad menor que el imp.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Acid Mist",
+      "phase_id": "arr-the-thousand-maws-of-toto-rak--01-coeurl-o-nine-tails--p1",
+      "description": "Envenena a todos los jugadores cercanos.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Warden's Whip",
+      "phase_id": "arr-the-thousand-maws-of-toto-rak--01-coeurl-o-nine-tails--p1",
+      "description": "Dos adds aparecen con el segundo Coeurl.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Sticky Web",
+      "phase_id": "arr-the-thousand-maws-of-toto-rak--02-graffias--p1",
+      "description": "Crea un pod en la posición de un jugador.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Pod Burst",
+      "phase_id": "arr-the-thousand-maws-of-toto-rak--02-graffias--p1",
+      "description": "Explosión circular del pod que aplica Poison.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Silkscreen",
+      "phase_id": "arr-the-thousand-maws-of-toto-rak--02-graffias--p1",
+      "description": "AoE lineal hacia un jugador.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Graffias's Tail",
+      "phase_id": "arr-the-thousand-maws-of-toto-rak--02-graffias--p2",
+      "description": "Destruirla elimina Deadly Thrust y aplica Vulnerability Up al boss.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Deadly Thrust",
+      "phase_id": "arr-the-thousand-maws-of-toto-rak--02-graffias--p2",
+      "description": "Deja un gran charco de veneno bajo un jugador.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Realm Shaker",
+      "phase_id": "arr-the-thousand-maws-of-toto-rak--02-graffias--p2",
+      "description": "AoE alrededor del boss.",
+      "mechanic_order": 3
+    },
+    {
+      "name": "Sullen / Ireful",
+      "phase_id": "arr-world-of-darkness--01-angra-mainyu--p1",
+      "description": "Dos stacks hacen gran daño; tres matan.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Double Vision",
+      "phase_id": "arr-world-of-darkness--01-angra-mainyu--p1",
+      "description": "El piso completo se divide en dos colores.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Mortal Gaze",
+      "phase_id": "arr-world-of-darkness--01-angra-mainyu--p2",
+      "description": "Mirar al jefe aplica Doom.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Lit platform",
+      "phase_id": "arr-world-of-darkness--01-angra-mainyu--p2",
+      "description": "Elimina Doom al pisarla.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Roulette",
+      "phase_id": "arr-world-of-darkness--01-angra-mainyu--p3",
+      "description": "El cuarto iluminado se vuelve letal.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Level 100/150",
+      "phase_id": "arr-world-of-darkness--01-angra-mainyu--p3",
+      "description": "Salir de los círculos cancela las comprobaciones numéricas.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Ice Floor",
+      "phase_id": "arr-world-of-darkness--02-five-headed-dragon--p1",
+      "description": "Se expande y aplica Deep Freeze.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Toxic Slime",
+      "phase_id": "arr-world-of-darkness--02-five-headed-dragon--p1",
+      "description": "Si se forma y explota, daña y aplica Vulnerability Up.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Discordance",
+      "phase_id": "arr-world-of-darkness--02-five-headed-dragon--p2",
+      "description": "Si quedan cabezas vivas, la alianza muere.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Prominence",
+      "phase_id": "arr-world-of-darkness--02-five-headed-dragon--p2",
+      "description": "Mata orbes antes de Radiance.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Heatwave",
+      "phase_id": "arr-world-of-darkness--02-five-headed-dragon--p3",
+      "description": "Cada acción causa daño mientras está activo.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Dragonfire Fly",
+      "phase_id": "arr-world-of-darkness--02-five-headed-dragon--p3",
+      "description": "El tether debe transferirse entre jugadores.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Tail Swipe",
+      "phase_id": "arr-world-of-darkness--03-cerberus--p1",
+      "description": "Cono trasero que castiga la espalda.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Ululation",
+      "phase_id": "arr-world-of-darkness--03-cerberus--p1",
+      "description": "Aíslarse provoca Fear prolongado.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Mini → Devour",
+      "phase_id": "arr-world-of-darkness--03-cerberus--p2",
+      "description": "El orden es obligatorio para sobrevivir.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Stomach walls",
+      "phase_id": "arr-world-of-darkness--03-cerberus--p2",
+      "description": "Destruirlas derriba y debilita a Cerberus.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Open Fetters",
+      "phase_id": "arr-world-of-darkness--03-cerberus--p3",
+      "description": "Las dos interacciones completan el control.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Enrage buffs",
+      "phase_id": "arr-world-of-darkness--03-cerberus--p3",
+      "description": "Si falla estómago o cadenas, Haste/Damage Up terminan en wipe.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Feint Particle Beam",
+      "phase_id": "arr-world-of-darkness--04-cloud-of-darkness--p1",
+      "description": "Explosiones persiguen al marcado y aplican Vulnerability Up.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Zero-form Particle Beam",
+      "phase_id": "arr-world-of-darkness--04-cloud-of-darkness--p1",
+      "description": "Láser central sin telegráfico al recolocarse.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Comet towers",
+      "phase_id": "arr-world-of-darkness--04-cloud-of-darkness--p2",
+      "description": "Varias torres vacías pueden provocar wipe.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Cloud absorption",
+      "phase_id": "arr-world-of-darkness--04-cloud-of-darkness--p2",
+      "description": "Las nubes otorgan Damage Up al jefe.",
+      "mechanic_order": 2
+    },
+    {
+      "name": "Cloud boxes",
+      "phase_id": "arr-world-of-darkness--04-cloud-of-darkness--p3",
+      "description": "Después de cerrarse, no se puede dañar desde fuera.",
+      "mechanic_order": 1
+    },
+    {
+      "name": "Particle Beam",
+      "phase_id": "arr-world-of-darkness--04-cloud-of-darkness--p3",
+      "description": "Si una nube sobrevive al cast, causa daño masivo.",
+      "mechanic_order": 2
+    }
+  ]
+}
