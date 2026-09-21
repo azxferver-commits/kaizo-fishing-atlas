@@ -1,0 +1,1807 @@
+{
+  "table": "boss_atlas_phase_steps",
+  "offset": 0,
+  "row_count": 300,
+  "rows": [
+    {
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "step_order": 1,
+      "instruction": "Elimina los adds antes de volver al pelícano.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "step_order": 2,
+      "instruction": "Mantente fuera de la cara del boss.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "step_order": 1,
+      "instruction": "Aprovecha daño de área cuando los Violet Backs estén agrupados.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "step_order": 1,
+      "instruction": "Poison y Paralysis son limpiables con Esuna.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--01-great-yellow-pelican--p1",
+      "step_order": 1,
+      "instruction": "Recoge boss y adds, agrúpalos y oriéntalos lejos del grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "step_order": 1,
+      "instruction": "Cambia al Tempest Biast y elimínalo.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "step_order": 2,
+      "instruction": "No te agrupes delante del drake cuando vaya hacia Brayflox u otro jugador.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "step_order": 1,
+      "instruction": "Vigila al tanque y a Brayflox durante el cambio de aggro.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--02-inferno-drake--p1",
+      "step_order": 1,
+      "instruction": "Recoge el Biast de inmediato; el drake puede fijarse temporalmente en Brayflox.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "step_order": 1,
+      "instruction": "Cambia a la burbuja y destrúyela para liberar al jugador.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "step_order": 2,
+      "instruction": "No ignores la burbuja: reduce daño, curación y movimiento del objetivo.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "step_order": 1,
+      "instruction": "Si te atrapan, el grupo debe liberarte con máxima prioridad.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p1",
+      "step_order": 1,
+      "instruction": "Mantén al Hellbender estable mientras el resto rompe la burbuja.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "step_order": 1,
+      "instruction": "Aléjate del punto de aterrizaje y estabiliza tu posición tras el knockback.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "step_order": 2,
+      "instruction": "Ataca a Aiatar hasta que se retire al 70%.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "step_order": 1,
+      "instruction": "Limpia Poison de Salivous Snap o Dragon Breath.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--03-hellbender--p2",
+      "step_order": 1,
+      "instruction": "Recoge a Aiatar después de Touchdown y oriéntalo lejos del grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "step_order": 1,
+      "instruction": "Busca un hueco entre la primera tanda.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "step_order": 2,
+      "instruction": "Cuando exploten los primeros pods, entra en esa zona para esquivar la segunda tanda.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "step_order": 1,
+      "instruction": "Muévete entre explosiones, aunque tengas que cortar un cast.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "step_order": 1,
+      "instruction": "Poison es limpiable; prioriza a quien acumule daño.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-brayflox-s-longstop--04-aiatar--p1",
+      "step_order": 1,
+      "instruction": "Evita mover al dragón de forma imprevisible entre las dos tandas.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--01-kottos--p1",
+      "step_order": 1,
+      "instruction": "Mira las tres zonas marcadas y corre al pequeño espacio libre del borde.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--01-kottos--p1",
+      "step_order": 2,
+      "instruction": "Espera a que terminen las tres explosiones antes de volver.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--01-kottos--p1",
+      "step_order": 1,
+      "instruction": "Interrumpe el cast y muévete temprano; el espacio seguro es pequeño.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--01-kottos--p1",
+      "step_order": 1,
+      "instruction": "Después del salto, recupera al boss en el centro sin apuntarlo al grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--01-kottos--p2",
+      "step_order": 1,
+      "instruction": "No compartas posición con el tanque.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--01-kottos--p2",
+      "step_order": 2,
+      "instruction": "Si aparece el cono, sal por un lateral.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--01-kottos--p2",
+      "step_order": 1,
+      "instruction": "Prepara una cura directa tras Grand Slam.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--01-kottos--p2",
+      "step_order": 1,
+      "instruction": "Mitiga Grand Slam y desvía Colossal Slam lejos del grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p1",
+      "step_order": 1,
+      "instruction": "Deja de moverte solo el tiempo necesario para colocar el círculo y sal de él.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p1",
+      "step_order": 2,
+      "instruction": "Evita cruzarte con la salida de otro jugador.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p1",
+      "step_order": 1,
+      "instruction": "Sepárate ligeramente para que los cuatro círculos no se superpongan.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p1",
+      "step_order": 1,
+      "instruction": "Mantén al slime centrado mientras esquivas tu propio círculo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p2",
+      "step_order": 1,
+      "instruction": "Cambia al slime más cercano y mata los drips uno a uno.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p2",
+      "step_order": 2,
+      "instruction": "Sal de Burst cuando cada add empiece a castear.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p2",
+      "step_order": 1,
+      "instruction": "El daño de área es útil, pero conserva movilidad para esquivar.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--02-ichorous-ire--p2",
+      "step_order": 1,
+      "instruction": "Agrupa lo posible sin apilarte dentro de varios Burst.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "step_order": 1,
+      "instruction": "Entra al hitbox del jefe; el centro es seguro.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "step_order": 2,
+      "instruction": "No corras hacia el borde: allí golpea el donut.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "step_order": 1,
+      "instruction": "Cancela el cast si hace falta; llegar al centro tiene prioridad.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "step_order": 1,
+      "instruction": "Acércate apenas veas el nombre del cast.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p1",
+      "step_order": 1,
+      "instruction": "Quédate dentro y evita girar al jefe al regresar a posición.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p2",
+      "step_order": 1,
+      "instruction": "Busca un hueco entre los seis círculos.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p2",
+      "step_order": 2,
+      "instruction": "Después evita el cono de Colossal Slam.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p2",
+      "step_order": 1,
+      "instruction": "Mantén al grupo con vida antes del patrón, pero muévete primero.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-copperbell-mines--03-gyges-the-great--p2",
+      "step_order": 1,
+      "instruction": "Reubícalo solo después de que desaparezcan los AoE.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "step_order": 1,
+      "instruction": "Prioridad: Marshal, Guard y luego Soldiers.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "step_order": 2,
+      "instruction": "Si ves un tether hacia la princesa, corta al Marshal de inmediato.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "step_order": 1,
+      "instruction": "Daño de área sobre Soldiers, pero foco directo al Marshal.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "step_order": 1,
+      "instruction": "Mantén distancia de los conos mientras ambos objetivos golpean al tanque.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--01-myrmidon-princess--p1",
+      "step_order": 1,
+      "instruction": "Recoge los adds y oriéntalos para que Mandible Bite no cruce al grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "step_order": 1,
+      "instruction": "Sepárate de los demás para reducir golpes múltiples.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "step_order": 2,
+      "instruction": "Evita Sand Pillar y el lugar donde vaya a surgir con Earthbreak.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "step_order": 1,
+      "instruction": "Limpia Sludge rápidamente: su daño en el tiempo es fuerte.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p1",
+      "step_order": 1,
+      "instruction": "No puedes fijarlo mientras está bajo tierra; prioriza tu propia seguridad.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p2",
+      "step_order": 1,
+      "instruction": "Corre alejándote del centro mientras dura la atracción.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p2",
+      "step_order": 2,
+      "instruction": "No te quedes allí: el worm emerge con daño alto.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--02-giant-tunnel-worm--p2",
+      "step_order": 1,
+      "instruction": "Deja de castear y corre; el centro no es seguro después del pull.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p1",
+      "step_order": 1,
+      "instruction": "Corre y pégate al boss: The Dragon's Voice es un donut.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p1",
+      "step_order": 2,
+      "instruction": "Permanece dentro hasta que se resuelva.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p1",
+      "step_order": 1,
+      "instruction": "Corta el cast propio y entra inmediatamente.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p1",
+      "step_order": 1,
+      "instruction": "No intentes apurar un GCD desde lejos.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p1",
+      "step_order": 1,
+      "instruction": "Mantén el boss estable mientras todos entran.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p2",
+      "step_order": 1,
+      "instruction": "Aléjate del boss: The Ram's Voice golpea a todos los que estén cerca.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p2",
+      "step_order": 2,
+      "instruction": "Vuelve solo después de la explosión.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p2",
+      "step_order": 1,
+      "instruction": "Esuna limpia Heavy si alguien falla.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p2",
+      "step_order": 1,
+      "instruction": "Retrocede sin girar el frente del boss hacia el grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p3",
+      "step_order": 1,
+      "instruction": "Si eres el objetivo, aléjate de grupo y esfera.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p3",
+      "step_order": 2,
+      "instruction": "No cruces la esfera por encima de otro jugador.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-cutter-s-cry--03-chimera--p3",
+      "step_order": 1,
+      "instruction": "Limpia Paralysis si la esfera alcanza a alguien.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "step_order": 1,
+      "instruction": "Durante las explosiones de pared, muévete al centro.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "step_order": 2,
+      "instruction": "Cuando esas desaparezcan, sal del centro antes de la última explosión.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "step_order": 1,
+      "instruction": "Planea dos movimientos: entrar y salir.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--01-all-seeing-eye--p1",
+      "step_order": 1,
+      "instruction": "Mantén al boss centrado para no bloquear las rutas.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "step_order": 1,
+      "instruction": "Sepárate del resto y sal de cada Firewater.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "step_order": 2,
+      "instruction": "Mantente fuera de la parte frontal de Taulurd.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "step_order": 1,
+      "instruction": "Boulderdash golpea a todo el grupo; cura mientras sigues esquivando círculos.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--02-taulurd--p1",
+      "step_order": 1,
+      "instruction": "Apunta Double Smash y Elbow Drop lejos del grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p1",
+      "step_order": 1,
+      "instruction": "Cambia inmediatamente al Corrupted Crystal activo.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p1",
+      "step_order": 2,
+      "instruction": "Si recibes la mira, sepárate y apunta la futura línea lejos de todos.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p1",
+      "step_order": 1,
+      "instruction": "Sigue moviéndote entre Desolations; no sacrifiques posición por un cast largo.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p1",
+      "step_order": 1,
+      "instruction": "Ataca el cristal desde un ángulo que no cruce tu Desolation por el grupo.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p1",
+      "step_order": 1,
+      "instruction": "Mantén a Batraal orientado mientras el grupo destruye el cristal.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p2",
+      "step_order": 1,
+      "instruction": "Termina el boss rápido, pero sigue esquivando cada Desolation.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p2",
+      "step_order": 2,
+      "instruction": "Mantente fuera de su frente y del AoE cercano Grim Halo.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p2",
+      "step_order": 1,
+      "instruction": "Reserva recursos para el aumento de daño, sin quedarte en una línea.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-dzemael-darkhold--03-batraal--p2",
+      "step_order": 1,
+      "instruction": "Usa mitigación con más frecuencia durante la fase final.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-halatali--01-firemane--p1",
+      "step_order": 1,
+      "instruction": "Colócate en un hueco de la primera tanda.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-halatali--01-firemane--p1",
+      "step_order": 2,
+      "instruction": "Cuando explote, cruza a la zona que acaba de quedar limpia para evitar la segunda.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-halatali--01-firemane--p1",
+      "step_order": 1,
+      "instruction": "Planea un cast corto: tendrás que moverte dos veces.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-halatali--01-firemane--p1",
+      "step_order": 1,
+      "instruction": "Mantén al jefe cerca del centro para que todos los huecos sean alcanzables.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "step_order": 1,
+      "instruction": "Corre a cualquiera de las pendientes de tierra del borde.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "step_order": 2,
+      "instruction": "No vuelvas al agua hasta que la descarga termine.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "step_order": 1,
+      "instruction": "Colócate temprano en la pendiente y continúa casteando desde allí.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "step_order": 1,
+      "instruction": "Desde la pendiente puedes seguir curando a distancia.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "step_order": 1,
+      "instruction": "Sigue atacando desde terreno seco.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-halatali--02-thunderclap-guivre--p1",
+      "step_order": 1,
+      "instruction": "Lleva al boss cerca de una pendiente antes del patrón para reducir el recorrido.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-halatali--03-tangata--p1",
+      "step_order": 1,
+      "instruction": "Deja de golpear a Tangata y destruye los wisps antes de que lleguen al centro.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-halatali--03-tangata--p1",
+      "step_order": 2,
+      "instruction": "Al caer el escudo, vuelve al boss.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-halatali--03-tangata--p1",
+      "step_order": 1,
+      "instruction": "Cambia de objetivo sin terminar un cast inútil contra el escudo.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-halatali--03-tangata--p1",
+      "step_order": 1,
+      "instruction": "Prioriza el wisp que aparece más lejos.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-halatali--03-tangata--p1",
+      "step_order": 1,
+      "instruction": "Sostén a Tangata mientras ayudas con el wisp más cercano.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-halatali--03-tangata--p2",
+      "step_order": 1,
+      "instruction": "Quédate fuera del primer círculo.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-halatali--03-tangata--p2",
+      "step_order": 2,
+      "instruction": "En cuanto explote, entra a esa zona para evitar los donuts siguientes.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-halatali--03-tangata--p2",
+      "step_order": 1,
+      "instruction": "Cura cualquier daño previo antes de ejecutar el intercambio fuera-dentro.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p1",
+      "step_order": 1,
+      "instruction": "Quédate permanentemente detrás o al costado del boss.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p1",
+      "step_order": 2,
+      "instruction": "No cruces frente a ella mientras el tanque la reposiciona.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p1",
+      "step_order": 1,
+      "instruction": "Apúntala hacia una pared; su cleave puede golpear fuerte a jugadores sin armadura pesada.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p2",
+      "step_order": 1,
+      "instruction": "Sal del radio antes del final del cast, o usa un stun para detenerlo.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p2",
+      "step_order": 2,
+      "instruction": "Vuelve a posición detrás del boss.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p2",
+      "step_order": 1,
+      "instruction": "Leg Sweep también puede detener el cast.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-haukke-manor--01-manor-claviger--p2",
+      "step_order": 1,
+      "instruction": "Low Blow puede cancelar Dark Mist.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "step_order": 1,
+      "instruction": "Prioridad: Manor Jester primero, Manor Steward después.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "step_order": 2,
+      "instruction": "Interrumpe Ice Spikes y aléjate de Soul Drain.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "step_order": 1,
+      "instruction": "El Jester hace más daño; vigila picos mientras ambos viven.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "step_order": 1,
+      "instruction": "Stun al Steward durante Soul Drain si está disponible.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "step_order": 1,
+      "instruction": "Interrumpe Ice Spikes si tu job tiene interrupt.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-haukke-manor--02-manor-jester--p1",
+      "step_order": 1,
+      "instruction": "Mantén a ambos enemigos juntos y girados lejos del grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p1",
+      "step_order": 1,
+      "instruction": "Cuando aparezca el ojo, gira la cámara y el personaje para mirar en dirección contraria al Sentry.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p1",
+      "step_order": 2,
+      "instruction": "Puedes colocarte entre la jefa y el add para seguir atacando sin mirarlo.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p1",
+      "step_order": 1,
+      "instruction": "No intentes terminar un cast si te hará mirar al add.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p1",
+      "step_order": 1,
+      "instruction": "Mantén a Amandine quieta mientras todo el grupo resuelve la mirada.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "step_order": 1,
+      "instruction": "Cambia inmediatamente a la handmaiden: intentará lanzar Stoneskin sobre Amandine.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "step_order": 2,
+      "instruction": "Interrumpe Void Fire III y Void Thunder III cuando sea posible.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "step_order": 1,
+      "instruction": "Cambia de objetivo antes de completar daño innecesario al boss.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "step_order": 1,
+      "instruction": "Prioriza la handmaiden aunque aparezca lejos.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-haukke-manor--03-lady-amandine--p2",
+      "step_order": 1,
+      "instruction": "Mitiga Void Thunder III si no se interrumpe; funciona como tankbuster.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "step_order": 1,
+      "instruction": "Evita las zonas bajas cuando aparezca el veneno.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "step_order": 2,
+      "instruction": "No amontones los esqueletos junto al dragón.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "step_order": 1,
+      "instruction": "Usa daño de objetivo individual; no juntes sus muertes.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "step_order": 1,
+      "instruction": "Prepárate para daño grupal si un esqueleto llega al cadáver.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "step_order": 1,
+      "instruction": "Cambia a Platinals y sepáralos antes de rematarlos.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "step_order": 1,
+      "instruction": "Distribuye daño entre esqueletos alejados.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p1",
+      "step_order": 1,
+      "instruction": "Orienta al dragón lejos del grupo y recoge los adds sueltos.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "step_order": 1,
+      "instruction": "Mata cada Platinal antes de que toque al dragón.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "step_order": 2,
+      "instruction": "Cada llegada inflige daño inevitable a toda la alianza.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "step_order": 1,
+      "instruction": "Reserva instantáneos para rematar objetivos en movimiento.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "step_order": 1,
+      "instruction": "Cura en área después de cada impacto que no se pueda evitar.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "step_order": 1,
+      "instruction": "Persigue el objetivo más cercano al cadáver.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "step_order": 1,
+      "instruction": "Prioriza el esqueleto con menos distancia restante.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p2",
+      "step_order": 1,
+      "instruction": "Intercepta y controla esqueletos sin volverlos a juntar.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "step_order": 1,
+      "instruction": "Quema al Bone Dragon y evita AoE.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "step_order": 2,
+      "instruction": "Ignora Rotting Eyes salvo que amenacen al grupo.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "step_order": 1,
+      "instruction": "Usa tu ventana de daño final sobre el jefe.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "step_order": 1,
+      "instruction": "Sostén al tanque y cubre el daño residual.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "step_order": 1,
+      "instruction": "Permanece en el flanco o espalda mientras sea seguro.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "step_order": 1,
+      "instruction": "Ataca al jefe desde una plataforma elevada.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--01-bone-dragon--p3",
+      "step_order": 1,
+      "instruction": "Mantén al jefe estable para facilitar el burst.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "step_order": 1,
+      "instruction": "Con buff, ataca a Thanatos.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "step_order": 2,
+      "instruction": "Sin buff, elimina adds y protege los Pots.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "step_order": 1,
+      "instruction": "Con buff usa burst en Thanatos; sin buff controla adds.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "step_order": 1,
+      "instruction": "Cura los Magic Pots además de la alianza.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "step_order": 1,
+      "instruction": "Con buff pega por detrás; sin buff cambia inmediatamente a adds.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "step_order": 1,
+      "instruction": "Elimina Sandman y Nemesis que se acerquen a los Pots.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p1",
+      "step_order": 1,
+      "instruction": "El tanque con buff toma al jefe y lo orienta lejos de Pots y alianza.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "step_order": 1,
+      "instruction": "Mata primero el add conectado por línea roja.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "step_order": 2,
+      "instruction": "Deja que el Pot regrese y recupérelo con curas.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "step_order": 1,
+      "instruction": "Guarda instantáneos para cambiar al objetivo urgente.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "step_order": 1,
+      "instruction": "Cura al Pot liberado hasta estabilizarlo.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "step_order": 1,
+      "instruction": "Corta rápidamente el add conectado.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "step_order": 1,
+      "instruction": "Prioriza cualquier línea roja, aunque esté lejos.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p2",
+      "step_order": 1,
+      "instruction": "Recoge adds sin apuntar cleaves hacia los Pots.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "step_order": 1,
+      "instruction": "No anticipes el pull antes de que Alliance A esté presente.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "step_order": 2,
+      "instruction": "Repite daño al jefe y defensa de Pots hasta terminar.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "step_order": 1,
+      "instruction": "No malgastes casts en Thanatos sin Realignment.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "step_order": 1,
+      "instruction": "Mantén Pots vivos durante toda la rotación.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "step_order": 1,
+      "instruction": "Revisa tu buff antes de decidir objetivo.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "step_order": 1,
+      "instruction": "Cubre adds mientras otra alianza golpea al jefe.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--02-thanatos--p3",
+      "step_order": 1,
+      "instruction": "Realiza el relevo cuando tu alianza reciba el buff.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "step_order": 1,
+      "instruction": "Lleva la marca fuera del círculo de objetivo del Behemoth.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "step_order": 2,
+      "instruction": "No apiles los cometas ni los dejes junto al jefe.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "step_order": 1,
+      "instruction": "Preposiciona cerca de cobertura antes del Meteor.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "step_order": 1,
+      "instruction": "Activa torres cercanas si brillan y mantente lejos de las marcas.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "step_order": 1,
+      "instruction": "Deja espacio para que los marcados salgan del hitbox.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "step_order": 1,
+      "instruction": "Ayuda con torres y Puroboros sin alejarte de una roca válida.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p1",
+      "step_order": 1,
+      "instruction": "El tanque principal mantiene al jefe estable; los otros toman Iron Giants.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "step_order": 1,
+      "instruction": "Mata Iron Giants antes de que rompan las rocas.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "step_order": 2,
+      "instruction": "Conserva al menos un cometa sano para cada sector.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "step_order": 1,
+      "instruction": "Usa control y burst sobre Giants prioritarios.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "step_order": 1,
+      "instruction": "Vigila a los off-tanks que separan Giants.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "step_order": 1,
+      "instruction": "Ataca Giants desde el flanco, nunca entre su frente y una roca.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "step_order": 1,
+      "instruction": "Cambia rápidamente al Giant más cercano a un cometa.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p2",
+      "step_order": 1,
+      "instruction": "Aleja y orienta cada Giant fuera de jugadores y cometas.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "step_order": 1,
+      "instruction": "Coloca la roca exactamente entre tu personaje y el jefe.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "step_order": 2,
+      "instruction": "No ataques: confirma primero que el jefe no te ve.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "step_order": 1,
+      "instruction": "Cancela el cast y escóndete; Meteor mata al instante.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "step_order": 1,
+      "instruction": "Cura al salir de cobertura, no durante la búsqueda.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "step_order": 1,
+      "instruction": "Abandona el cuerpo del jefe de inmediato.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "step_order": 1,
+      "instruction": "No ocupes una cobertura de forma que bloquee la llegada de otros.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--03-king-behemoth--p3",
+      "step_order": 1,
+      "instruction": "También debes esconderte; la mitigación no sustituye la roca.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "step_order": 1,
+      "instruction": "A izquierda, B centro, C derecha.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "step_order": 2,
+      "instruction": "Evita los AoE y elimina Iron Claws.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "step_order": 1,
+      "instruction": "No coloques una animación larga antes de la transición.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "step_order": 1,
+      "instruction": "Mantén a tu grupo cerca de su ruta de salida.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "step_order": 1,
+      "instruction": "No permanezcas frente a su cleave.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "step_order": 1,
+      "instruction": "Elimina Claws que inmovilicen jugadores.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p1",
+      "step_order": 1,
+      "instruction": "Orienta al jefe lejos de no-tanks y recoge Iron Claws.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "step_order": 1,
+      "instruction": "Entra en la plataforma de tu alianza inmediatamente.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "step_order": 2,
+      "instruction": "Se necesitan suficientes jugadores en las tres para levantar la barrera.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "step_order": 1,
+      "instruction": "Cancela el cast; Ancient Flare sin barrera es wipe.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "step_order": 1,
+      "instruction": "Usa Sprint o Rescue si alguien queda rezagado.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "step_order": 1,
+      "instruction": "Corta el combo y corre al primer indicio del cast.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "step_order": 1,
+      "instruction": "Quédate dentro hasta ver la barrera cerrada.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p2",
+      "step_order": 1,
+      "instruction": "Abandona al jefe y entra en la plataforma; no intentes aguantar el cast.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "step_order": 1,
+      "instruction": "Elimina el Giant de tu grupo y vuelve al jefe.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "step_order": 2,
+      "instruction": "Prepárate para una segunda Ancient Flare cerca del final.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "step_order": 1,
+      "instruction": "Reserva movilidad para la segunda carrera.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "step_order": 1,
+      "instruction": "Cura el daño de la plataforma antes de regresar.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "step_order": 1,
+      "instruction": "Ataca por flanco/espalda dentro del espacio disponible.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "step_order": 1,
+      "instruction": "Ayuda a la plataforma con menor daño si es seguro.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-labyrinth-of-the-ancients--04-phlegethon--p3",
+      "step_order": 1,
+      "instruction": "Toma el Giant y apunta su frontal fuera del grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-sastasha--01-chopper--p1",
+      "step_order": 1,
+      "instruction": "Sal completamente del círculo antes de que termine el cast.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--01-chopper--p1",
+      "step_order": 2,
+      "instruction": "Vuelve al boss en cuanto explote; no hace falta alejarse más de lo necesario.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--01-chopper--p1",
+      "step_order": 1,
+      "instruction": "Si alguien falla, cura y limpia Parálisis con Esuna si ya la tienes disponible.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-sastasha--01-chopper--p1",
+      "step_order": 1,
+      "instruction": "Mantén al jefe centrado para que todos tengan espacio de salida.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p1",
+      "step_order": 1,
+      "instruction": "Elimina primero a los dos acompañantes y después concentra daño en Madison.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p1",
+      "step_order": 1,
+      "instruction": "Vigila al tanque mientras el grupo limpia los adds.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p1",
+      "step_order": 1,
+      "instruction": "Agrupa a Madison y sus acompañantes mirando en dirección contraria al grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p2",
+      "step_order": 1,
+      "instruction": "Cambia inmediatamente a los perros para que no se acumulen sobre el healer.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p2",
+      "step_order": 2,
+      "instruction": "Después vuelve a Madison hasta que escape.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p2",
+      "step_order": 1,
+      "instruction": "Usa daño de área cuando los perros estén agrupados.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p2",
+      "step_order": 1,
+      "instruction": "Sandslinger puede aplicar Accuracy Down; límpialo con Esuna si es necesario.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p2",
+      "step_order": 1,
+      "instruction": "Ayuda a borrar rápidamente los perros alejados.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-sastasha--02-captain-madison--p2",
+      "step_order": 1,
+      "instruction": "Recoge los perros con daño de área.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p1",
+      "step_order": 1,
+      "instruction": "Nunca te coloques delante de Denn salvo que seas el tanque.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p1",
+      "step_order": 2,
+      "instruction": "Sal del cono; si impacta también puede aplicar Silence.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p1",
+      "step_order": 1,
+      "instruction": "Mantente detrás y a media distancia para evitar el cono.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p1",
+      "step_order": 1,
+      "instruction": "Orienta a Denn hacia el borde y esquiva lateralmente sin girarlo hacia el grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p2",
+      "step_order": 1,
+      "instruction": "Interactúa con una rejilla activa para impedir un spawn, o mata rápidamente el add si aparece.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p2",
+      "step_order": 2,
+      "instruction": "No dejes que los adds se queden pegando al healer.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p2",
+      "step_order": 1,
+      "instruction": "Cierra la rejilla más cercana entre casteos.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p2",
+      "step_order": 1,
+      "instruction": "Eres el mejor situado para cerrar rejillas sin perder mucho daño.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-sastasha--03-denn-the-orcatoothed--p2",
+      "step_order": 1,
+      "instruction": "Recoge cualquier add que llegue a salir.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "step_order": 1,
+      "instruction": "Lleva Lightning Orb a uno de los tres pilares.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "step_order": 2,
+      "instruction": "Usa Flame Orb para descongelar y crear agua.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "step_order": 1,
+      "instruction": "Conserva movilidad para resolver tu color.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "step_order": 1,
+      "instruction": "Cura Unholy y vigila a jugadores congelados.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "step_order": 1,
+      "instruction": "Sal del grupo si te sigue un orbe de hielo.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "step_order": 1,
+      "instruction": "Guía el orbe al objetivo correcto sin cruzar la alianza.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p1",
+      "step_order": 1,
+      "instruction": "Mantén a Scylla estable, lejos de la ruta de orbes.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "step_order": 1,
+      "instruction": "No evapores el charco antes del cast.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "step_order": 2,
+      "instruction": "Permanece en agua hasta que Ancient Flare golpee.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "step_order": 1,
+      "instruction": "Interrumpe tu cast y entra en agua.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "step_order": 1,
+      "instruction": "Precura al grupo y entra en agua.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "step_order": 1,
+      "instruction": "Abandona el hitbox a tiempo.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "step_order": 1,
+      "instruction": "No dejes AoE sobre el charco seguro.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p2",
+      "step_order": 1,
+      "instruction": "Mueve al jefe solo si bloquea acceso al agua.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "step_order": 1,
+      "instruction": "A, B y C ocupan su plataforma cargada.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "step_order": 2,
+      "instruction": "Después elimina adds y repite Ancient Flare con agua.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "step_order": 1,
+      "instruction": "Mantén daño en adds y reserva movimiento para el próximo charco.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "step_order": 1,
+      "instruction": "Cubre daño grupal al salir de la protección.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "step_order": 1,
+      "instruction": "No abandones la plataforma antes de resolver.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "step_order": 1,
+      "instruction": "Ayuda con adds desde tu sector.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--01-scylla--p3",
+      "step_order": 1,
+      "instruction": "Recoge los adds de la segunda fase.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "step_order": 1,
+      "instruction": "Párate en la zona sombreada para cortar la línea.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "step_order": 2,
+      "instruction": "Mata el Wright mientras el enlace está interceptado.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "step_order": 1,
+      "instruction": "Evita Aura bajo tus pies mientras cambias de objetivo.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "step_order": 1,
+      "instruction": "Cura al jugador aturdido que intercepta.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "step_order": 1,
+      "instruction": "Cambia al Wright conectado más cercano.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "step_order": 1,
+      "instruction": "Intercepta enlaces lejanos y destruye adds.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p1",
+      "step_order": 1,
+      "instruction": "Mantén a Glasya en el centro; recoge constructos peligrosos.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "step_order": 1,
+      "instruction": "Conecta los Squires y elimínalos.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "step_order": 2,
+      "instruction": "Activa los tres saltadores antes de Deathstream.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "step_order": 1,
+      "instruction": "Observa el reflejo antes de lanzar burst.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "step_order": 1,
+      "instruction": "Prepara curación para Deathstream.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "step_order": 1,
+      "instruction": "No golpees al jefe mientras refleje daño.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "step_order": 1,
+      "instruction": "Prioriza nodos y Squires de tu sector.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p2",
+      "step_order": 1,
+      "instruction": "Agrupa Squires sin girar al jefe sobre el grupo.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "step_order": 1,
+      "instruction": "A izquierda, B abajo, C derecha.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "step_order": 2,
+      "instruction": "Avanza solo en una dirección y regresa al centro tras limpiar.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "step_order": 1,
+      "instruction": "No te quedes casteando cuando la plataforma sea bombardeada.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "step_order": 1,
+      "instruction": "Mantén al grupo unido durante los saltos.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "step_order": 1,
+      "instruction": "No saltes antes de que muera el add.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "step_order": 1,
+      "instruction": "Ataca el siguiente objetivo al aterrizar.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--02-glasya-labolas--p3",
+      "step_order": 1,
+      "instruction": "Lidera el recorrido de tu alianza.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "step_order": 1,
+      "instruction": "Mata #33, #66 y #99 antes de que apliquen Silence o Pacification.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "step_order": 2,
+      "instruction": "No te coloques frente al cleave Coloatura.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "step_order": 1,
+      "instruction": "Evita Thundaga superpuestos y usa instantáneos al cambiar.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "step_order": 1,
+      "instruction": "Limpia con Esuna el debuff de bomba.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "step_order": 1,
+      "instruction": "Ataca adds desde flanco/espalda.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "step_order": 1,
+      "instruction": "Stun y daño rápido a adds en las esquinas.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p1",
+      "step_order": 1,
+      "instruction": "Mantén a Amon al centro y toma Kum Kum.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "step_order": 1,
+      "instruction": "Haz que el orbe de Mini toque a Kum Kum.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "step_order": 2,
+      "instruction": "Como sapo, usa Flame Breath para liberar congelados, no todos los bloques.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "step_order": 1,
+      "instruction": "No derritas el último hielo disponible.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "step_order": 1,
+      "instruction": "Mantén vivos a congelados y sapos perseguidos.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "step_order": 1,
+      "instruction": "Mata Kichiknebiks que persiguen sapos.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "step_order": 1,
+      "instruction": "Guía el orbe y elimina serpientes.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p2",
+      "step_order": 1,
+      "instruction": "Sujeta Kum Kum en la ruta del orbe.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "step_order": 1,
+      "instruction": "Alinea el bloque entre Amon y tu personaje.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "step_order": 2,
+      "instruction": "No derritas el hielo durante el cast.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "step_order": 1,
+      "instruction": "Cancela tu cast y confirma cobertura.",
+      "audience_role": "Caster"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "step_order": 1,
+      "instruction": "No intentes curar atravesando la mecánica; escóndete.",
+      "audience_role": "Healer"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "step_order": 1,
+      "instruction": "Sal del hitbox del jefe para que el bloque funcione.",
+      "audience_role": "Melee"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "step_order": 1,
+      "instruction": "Comparte espacio sin salir de la línea de protección.",
+      "audience_role": "Ranged"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--03-amon--p3",
+      "step_order": 1,
+      "instruction": "Abandona el frente y usa cobertura.",
+      "audience_role": "Tank"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--04-xande--p1",
+      "step_order": 1,
+      "instruction": "Ocupa un círculo vacío antes de que detone.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--04-xande--p1",
+      "step_order": 2,
+      "instruction": "Evita superponer AoE personales.",
+      "audience_role": "ALL"
+    },
+    {
+      "phase_id": "arr-syrcus-tower--04-xande--p1",
+      "step_order": 1,
+      "instruction": "Muévete temprano hacia un círculo lejano.",
+      "audience_role": "Caster"
+    }
+  ]
+}
