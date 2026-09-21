@@ -1,0 +1,2007 @@
+{
+  "table": "boss_master_assets",
+  "offset": 200,
+  "row_count": 100,
+  "rows": [
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-aery--03-nidhogg:primary",
+        "owner_id": "hw-the-aery--03-nidhogg",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-aery-nidhogg-3-7945af3d.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/d/d3/Nidhogg.png/720px-Nidhogg.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Nidhogg.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-aery--03-nidhogg:primary",
+      "owner_id": "hw-the-aery--03-nidhogg",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Nidhogg.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-aetherochemical-research-facility--01-regula-van-hydrus:primary",
+        "owner_id": "hw-the-aetherochemical-research-facility--01-regula-van-hydrus",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-aetherochemical-research-facility-regula-van-hydrus-1-5aec40df.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/e/e1/Regula_van_Hydrus.png/720px-Regula_van_Hydrus.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Regula_van_Hydrus.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-aetherochemical-research-facility--01-regula-van-hydrus:primary",
+      "owner_id": "hw-the-aetherochemical-research-facility--01-regula-van-hydrus",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Regula_van_Hydrus.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-aetherochemical-research-facility--02-harmachis:primary",
+        "owner_id": "hw-the-aetherochemical-research-facility--02-harmachis",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-aetherochemical-research-facility-harmachis-2-691913a0.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/6e/Harmachis.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Harmachis.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-aetherochemical-research-facility--02-harmachis:primary",
+      "owner_id": "hw-the-aetherochemical-research-facility--02-harmachis",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Harmachis.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-aetherochemical-research-facility--03-lahabrea-igeyorhm:primary",
+        "owner_id": "hw-the-aetherochemical-research-facility--03-lahabrea-igeyorhm",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/lahabrea-and-igeyorhm-group.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/5/54/The_Aetherochemical_Research_Facility.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Aetherochemical_Research_Facility",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-aetherochemical-research-facility--03-lahabrea-igeyorhm:primary",
+      "owner_id": "hw-the-aetherochemical-research-facility--03-lahabrea-igeyorhm",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Aetherochemical_Research_Facility",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-aetherochemical-research-facility--04-ascian-prime:primary",
+        "owner_id": "hw-the-aetherochemical-research-facility--04-ascian-prime",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-aetherochemical-research-facility-ascian-prime-4-99305e54.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/2/23/Ascian_Prime.png/720px-Ascian_Prime.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ascian_Prime.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-aetherochemical-research-facility--04-ascian-prime:primary",
+      "owner_id": "hw-the-aetherochemical-research-facility--04-ascian-prime",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ascian_Prime.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-antitower--01-zuro-roggo:primary",
+        "owner_id": "hw-the-antitower--01-zuro-roggo",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-antitower-zuro-roggo-1-1fdfa646.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/2a/Zuro_Roggo.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Zuro_Roggo.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-antitower--01-zuro-roggo:primary",
+      "owner_id": "hw-the-antitower--01-zuro-roggo",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Zuro_Roggo.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-antitower--02-ziggy:primary",
+        "owner_id": "hw-the-antitower--02-ziggy",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-antitower-ziggy-2-162eb161.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/1/17/Ziggy.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ziggy.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-antitower--02-ziggy:primary",
+      "owner_id": "hw-the-antitower--02-ziggy",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ziggy.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-antitower--03-calcabrina:primary",
+        "owner_id": "hw-the-antitower--03-calcabrina",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-antitower-calcabrina-3-6d5b501b.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/bc/Calcabrina.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Calcabrina.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-antitower--03-calcabrina:primary",
+      "owner_id": "hw-the-antitower--03-calcabrina",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Calcabrina.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-dusk-vigil--01-towering-oliphant:primary",
+        "owner_id": "hw-the-dusk-vigil--01-towering-oliphant",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-dusk-vigil-towering-oliphant-1-d82bb15d.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/6c/Towering_Oliphant.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Towering_Oliphant.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-dusk-vigil--01-towering-oliphant:primary",
+      "owner_id": "hw-the-dusk-vigil--01-towering-oliphant",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Towering_Oliphant.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-dusk-vigil--02-ser-yuhelmeric:primary",
+        "owner_id": "hw-the-dusk-vigil--02-ser-yuhelmeric",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-dusk-vigil-ser-yuhelmeric-2-e0e17b19.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/c6/Ser_Yuhelmeric.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ser_Yuhelmeric.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-dusk-vigil--02-ser-yuhelmeric:primary",
+      "owner_id": "hw-the-dusk-vigil--02-ser-yuhelmeric",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ser_Yuhelmeric.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-dusk-vigil--03-opinicus:primary",
+        "owner_id": "hw-the-dusk-vigil--03-opinicus",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-dusk-vigil-opinicus-3-6d549615.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/e/e3/Opinicus.png/720px-Opinicus.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Opinicus.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-dusk-vigil--03-opinicus:primary",
+      "owner_id": "hw-the-dusk-vigil--03-opinicus",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Opinicus.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-fractal-continuum--01-phantom-ray:primary",
+        "owner_id": "hw-the-fractal-continuum--01-phantom-ray",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-fractal-continuum-phantom-ray-1-2e009df9.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/c4/Phantom_Ray.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Phantom_Ray.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-fractal-continuum--01-phantom-ray:primary",
+      "owner_id": "hw-the-fractal-continuum--01-phantom-ray",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Phantom_Ray.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-fractal-continuum--02-minotaur:primary",
+        "owner_id": "hw-the-fractal-continuum--02-minotaur",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-fractal-continuum-minotaur-2-7a6f2bda.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/9/97/Minotaur.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Minotaur.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-fractal-continuum--02-minotaur:primary",
+      "owner_id": "hw-the-fractal-continuum--02-minotaur",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Minotaur.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-fractal-continuum--03-the-curator:primary",
+        "owner_id": "hw-the-fractal-continuum--03-the-curator",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-fractal-continuum-the-curator-3-cb8125ef.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/d/d8/The_Fractal_Continuum5.jpg/560px-The_Fractal_Continuum5.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Curator",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-fractal-continuum--03-the-curator:primary",
+      "owner_id": "hw-the-fractal-continuum--03-the-curator",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Curator",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-great-gubal-library--01-demon-tome:primary",
+        "owner_id": "hw-the-great-gubal-library--01-demon-tome",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-great-gubal-library-demon-tome-1-e12c9737.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/2/20/Demon_Tome.jpg/720px-Demon_Tome.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Demon_Tome.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-great-gubal-library--01-demon-tome:primary",
+      "owner_id": "hw-the-great-gubal-library--01-demon-tome",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Demon_Tome.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-great-gubal-library--02-byblos:primary",
+        "owner_id": "hw-the-great-gubal-library--02-byblos",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-great-gubal-library-byblos-2-8bbe4b7a.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/8/87/Byblos.png/720px-Byblos.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Byblos.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-great-gubal-library--02-byblos:primary",
+      "owner_id": "hw-the-great-gubal-library--02-byblos",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Byblos.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-great-gubal-library--03-the-everliving-bibliotaph:primary",
+        "owner_id": "hw-the-great-gubal-library--03-the-everliving-bibliotaph",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-great-gubal-library-the-everliving-bibliotaph-3-602c01d9.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/d/dc/The_Great_Gubal_Library4.jpg/560px-The_Great_Gubal_Library4.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Everliving_Bibliotaph",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-great-gubal-library--03-the-everliving-bibliotaph:primary",
+      "owner_id": "hw-the-great-gubal-library--03-the-everliving-bibliotaph",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Everliving_Bibliotaph",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-great-gubal-library-hard--01-demon-of-the-tome:primary",
+        "owner_id": "hw-the-great-gubal-library-hard--01-demon-of-the-tome",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-great-gubal-library-hard-demon-of-the-tome-1-be989fb6.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/d/da/Demon_of_the_Tome.jpg/720px-Demon_of_the_Tome.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Demon_of_the_Tome.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-great-gubal-library-hard--01-demon-of-the-tome:primary",
+      "owner_id": "hw-the-great-gubal-library-hard--01-demon-of-the-tome",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Demon_of_the_Tome.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-great-gubal-library-hard--02-liquid-flame:primary",
+        "owner_id": "hw-the-great-gubal-library-hard--02-liquid-flame",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-great-gubal-library-hard-liquid-flame-2-82bc01d8.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/bb/Liquid_Flame.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Liquid_Flame.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-great-gubal-library-hard--02-liquid-flame:primary",
+      "owner_id": "hw-the-great-gubal-library-hard--02-liquid-flame",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Liquid_Flame.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-great-gubal-library-hard--03-strix:primary",
+        "owner_id": "hw-the-great-gubal-library-hard--03-strix",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-great-gubal-library-hard-strix-3-cf070321.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/5/50/Strix.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Strix.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-great-gubal-library-hard--03-strix:primary",
+      "owner_id": "hw-the-great-gubal-library-hard--03-strix",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Strix.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-lost-city-of-amdapor-hard--01-achamoth:primary",
+        "owner_id": "hw-the-lost-city-of-amdapor-hard--01-achamoth",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-lost-city-of-amdapor-hard-achamoth-1-ec965969.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/67/Achamoth.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Achamoth.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-lost-city-of-amdapor-hard--01-achamoth:primary",
+      "owner_id": "hw-the-lost-city-of-amdapor-hard--01-achamoth",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Achamoth.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-lost-city-of-amdapor-hard--02-winged-lion:primary",
+        "owner_id": "hw-the-lost-city-of-amdapor-hard--02-winged-lion",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-lost-city-of-amdapor-hard-winged-lion-2-5417d5cb.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/65/Winged_Lion.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Winged_Lion.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-lost-city-of-amdapor-hard--02-winged-lion:primary",
+      "owner_id": "hw-the-lost-city-of-amdapor-hard--02-winged-lion",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Winged_Lion.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-lost-city-of-amdapor-hard--03-kuribu:primary",
+        "owner_id": "hw-the-lost-city-of-amdapor-hard--03-kuribu",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-lost-city-of-amdapor-hard-kuribu-3-75ca189a.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a5/Kuribu.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Kuribu.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-lost-city-of-amdapor-hard--03-kuribu:primary",
+      "owner_id": "hw-the-lost-city-of-amdapor-hard--03-kuribu",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Kuribu.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-vault--01-ser-adelphel:primary",
+        "owner_id": "hw-the-vault--01-ser-adelphel",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-vault-ser-adelphel-1-a5af2d76.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/b/bf/Ser_Adelphel_normal.png/560px-Ser_Adelphel_normal.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Ser_Adelphel",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-vault--01-ser-adelphel:primary",
+      "owner_id": "hw-the-vault--01-ser-adelphel",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Ser_Adelphel",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-vault--02-ser-grinnaux:primary",
+        "owner_id": "hw-the-vault--02-ser-grinnaux",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-vault-ser-grinnaux-2-83e2f2c2.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/4/4d/Ser_Grinnaux_normal.png/560px-Ser_Grinnaux_normal.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Ser_Grinnaux",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-vault--02-ser-grinnaux:primary",
+      "owner_id": "hw-the-vault--02-ser-grinnaux",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Ser_Grinnaux",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-the-vault--03-ser-charibert:primary",
+        "owner_id": "hw-the-vault--03-ser-charibert",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-vault-ser-charibert-3-260d02d5.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/7/7f/Ser_Charibert_normal.png/560px-Ser_Charibert_normal.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Ser_Charibert",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-the-vault--03-ser-charibert:primary",
+      "owner_id": "hw-the-vault--03-ser-charibert",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Ser_Charibert",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-xelphatol--01-nuzal-hueloc:primary",
+        "owner_id": "hw-xelphatol--01-nuzal-hueloc",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/xelphatol-nuzal-hueloc-1-0aa3aafb.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/0c/Nuzal_Hueloc.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Nuzal_Hueloc.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-xelphatol--01-nuzal-hueloc:primary",
+      "owner_id": "hw-xelphatol--01-nuzal-hueloc",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Nuzal_Hueloc.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-xelphatol--02-dotoli-ciloc:primary",
+        "owner_id": "hw-xelphatol--02-dotoli-ciloc",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/xelphatol-dotoli-ciloc-2-7d4cd913.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/37/Dotoli_Ciloc.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Dotoli_Ciloc.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-xelphatol--02-dotoli-ciloc:primary",
+      "owner_id": "hw-xelphatol--02-dotoli-ciloc",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Dotoli_Ciloc.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:hw-xelphatol--03-tozol-huatotl:primary",
+        "owner_id": "hw-xelphatol--03-tozol-huatotl",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/xelphatol-tozol-huatotl-3-f93be71d.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/4e/Tozol_Huatotl.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Tozol_Huatotl.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:hw-xelphatol--03-tozol-huatotl:primary",
+      "owner_id": "hw-xelphatol--03-tozol-huatotl",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Tozol_Huatotl.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-ala-mhigo--01-magitek-scorpion:primary",
+        "owner_id": "sb-ala-mhigo--01-magitek-scorpion",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/ala-mhigo-magitek-scorpion-1-84593d48.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/1/1c/Magitek_Scorpion.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magitek_Scorpion.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-ala-mhigo--01-magitek-scorpion:primary",
+      "owner_id": "sb-ala-mhigo--01-magitek-scorpion",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magitek_Scorpion.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-ala-mhigo--02-aulus-mal-asina:primary",
+        "owner_id": "sb-ala-mhigo--02-aulus-mal-asina",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/ala-mhigo-aulus-mal-asina-2-45d1c9d4.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/2/2a/Aulus-mal-asina.jpg/560px-Aulus-mal-asina.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Aulus_mal_Asina",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-ala-mhigo--02-aulus-mal-asina:primary",
+      "owner_id": "sb-ala-mhigo--02-aulus-mal-asina",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Aulus_mal_Asina",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-ala-mhigo--03-zenos-yae-galvus:primary",
+        "owner_id": "sb-ala-mhigo--03-zenos-yae-galvus",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/ala-mhigo-zenos-yae-galvus-3-6cb23cae.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/e/e8/Zenos_yae_Galvus.jpg/720px-Zenos_yae_Galvus.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Zenos_yae_Galvus.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-ala-mhigo--03-zenos-yae-galvus:primary",
+      "owner_id": "sb-ala-mhigo--03-zenos-yae-galvus",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Zenos_yae_Galvus.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-bardam-s-mettle--01-garula:primary",
+        "owner_id": "sb-bardam-s-mettle--01-garula",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/bardam-s-mettle-garula-1-710d46c9.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/4e/Garula_%28Mob%29.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Garula_(Mob).jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-bardam-s-mettle--01-garula:primary",
+      "owner_id": "sb-bardam-s-mettle--01-garula",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Garula_(Mob).jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-bardam-s-mettle--02-bardam:primary",
+        "owner_id": "sb-bardam-s-mettle--02-bardam",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/bardam-s-mettle-bardam-2-1f8f00ee.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d3/Bardam.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Bardam.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-bardam-s-mettle--02-bardam:primary",
+      "owner_id": "sb-bardam-s-mettle--02-bardam",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Bardam.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-bardam-s-mettle--03-yol:primary",
+        "owner_id": "sb-bardam-s-mettle--03-yol",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/bardam-s-mettle-yol-3-d3d70295.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/7/7a/Yol.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Yol.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-bardam-s-mettle--03-yol:primary",
+      "owner_id": "sb-bardam-s-mettle--03-yol",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Yol.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-castrum-abania--01-magna-roader:primary",
+        "owner_id": "sb-castrum-abania--01-magna-roader",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/castrum-abania-magna-roader-1-2f549cea.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/7/75/Magna_Roader.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magna_Roader.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-castrum-abania--01-magna-roader:primary",
+      "owner_id": "sb-castrum-abania--01-magna-roader",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magna_Roader.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-castrum-abania--02-number-xxiv:primary",
+        "owner_id": "sb-castrum-abania--02-number-xxiv",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/castrum-abania-number-xxiv-2-0ee82738.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f0/Subject_Number_XXIV.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Number_XXIV",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-castrum-abania--02-number-xxiv:primary",
+      "owner_id": "sb-castrum-abania--02-number-xxiv",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Number_XXIV",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-castrum-abania--03-inferno:primary",
+        "owner_id": "sb-castrum-abania--03-inferno",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/castrum-abania-inferno-3-c4de47a3.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f0/Inferno.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Inferno.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-castrum-abania--03-inferno:primary",
+      "owner_id": "sb-castrum-abania--03-inferno",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Inferno.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-doma-castle--01-magitek-rearguard:primary",
+        "owner_id": "sb-doma-castle--01-magitek-rearguard",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/doma-castle-magitek-rearguard-1-f184e31a.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/1/19/Magitek_Rearguard.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magitek_Rearguard.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-doma-castle--01-magitek-rearguard:primary",
+      "owner_id": "sb-doma-castle--01-magitek-rearguard",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magitek_Rearguard.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-doma-castle--02-magitek-hexadrone:primary",
+        "owner_id": "sb-doma-castle--02-magitek-hexadrone",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/doma-castle-magitek-hexadrone-2-f744a15a.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/7/73/Magitek_Hexadrone.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magitek_Hexadrone.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-doma-castle--02-magitek-hexadrone:primary",
+      "owner_id": "sb-doma-castle--02-magitek-hexadrone",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magitek_Hexadrone.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-doma-castle--03-hypertuned-grynewaht:primary",
+        "owner_id": "sb-doma-castle--03-hypertuned-grynewaht",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/doma-castle-hypertuned-grynewaht-3-703922fb.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/cc/Hypertuned_Grynewaht.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hypertuned_Grynewaht.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-doma-castle--03-hypertuned-grynewaht:primary",
+      "owner_id": "sb-doma-castle--03-hypertuned-grynewaht",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hypertuned_Grynewaht.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-hells-lid--01-otake-maru:primary",
+        "owner_id": "sb-hells-lid--01-otake-maru",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/hells-lid-otengu-1-9044568f.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/0/0d/Otengu.jpg/720px-Otengu.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Otengu.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-hells-lid--01-otake-maru:primary",
+      "owner_id": "sb-hells-lid--01-otake-maru",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Otengu.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-hells-lid--02-kamaitachi:primary",
+        "owner_id": "sb-hells-lid--02-kamaitachi",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/hells-lid-kamaitachi-2-1e027e96.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/4c/Kamaitachi.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Kamaitachi.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-hells-lid--02-kamaitachi:primary",
+      "owner_id": "sb-hells-lid--02-kamaitachi",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Kamaitachi.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-hells-lid--03-genbu:primary",
+        "owner_id": "sb-hells-lid--03-genbu",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/hells-lid-genbu-3-c0a603d1.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/c1/Genbu.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Genbu.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-hells-lid--03-genbu:primary",
+      "owner_id": "sb-hells-lid--03-genbu",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Genbu.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-kugane-castle--01-zuiko-maru:primary",
+        "owner_id": "sb-kugane-castle--01-zuiko-maru",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/kugane-castle-zuiko-maru-1-178adcbb.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/2b/Zuiko-maru.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Zuiko-maru.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-kugane-castle--01-zuiko-maru:primary",
+      "owner_id": "sb-kugane-castle--01-zuiko-maru",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Zuiko-maru.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-kugane-castle--02-dojun-maru:primary",
+        "owner_id": "sb-kugane-castle--02-dojun-maru",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/kugane-castle-dojun-maru-2-8783b961.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f7/Dojun-maru.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Dojun-maru.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-kugane-castle--02-dojun-maru:primary",
+      "owner_id": "sb-kugane-castle--02-dojun-maru",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Dojun-maru.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-kugane-castle--03-yojimbo:primary",
+        "owner_id": "sb-kugane-castle--03-yojimbo",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/kugane-castle-yojimbo-3-fd8d0cb9.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/7/75/Yojimbo.jpg/720px-Yojimbo.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Yojimbo.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-kugane-castle--03-yojimbo:primary",
+      "owner_id": "sb-kugane-castle--03-yojimbo",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Yojimbo.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-saint-mocianne-s-arboretum-hard--01-nullchu:primary",
+        "owner_id": "sb-saint-mocianne-s-arboretum-hard--01-nullchu",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/saint-mocianne-s-arboretum-hard-nullchu-1-a99738b2.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/dd/Nullchu.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Nullchu.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-saint-mocianne-s-arboretum-hard--01-nullchu:primary",
+      "owner_id": "sb-saint-mocianne-s-arboretum-hard--01-nullchu",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Nullchu.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-saint-mocianne-s-arboretum-hard--02-lakhamu:primary",
+        "owner_id": "sb-saint-mocianne-s-arboretum-hard--02-lakhamu",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/saint-mocianne-s-arboretum-hard-lakhamu-2-c4a7500d.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/26/Lakhamu.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lakhamu.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-saint-mocianne-s-arboretum-hard--02-lakhamu:primary",
+      "owner_id": "sb-saint-mocianne-s-arboretum-hard--02-lakhamu",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lakhamu.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-saint-mocianne-s-arboretum-hard--03-tokkapchi:primary",
+        "owner_id": "sb-saint-mocianne-s-arboretum-hard--03-tokkapchi",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/saint-mocianne-s-arboretum-hard-tokkapchi-3-6103997a.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/e/e4/Tokkapchi.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Tokkapchi.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-saint-mocianne-s-arboretum-hard--03-tokkapchi:primary",
+      "owner_id": "sb-saint-mocianne-s-arboretum-hard--03-tokkapchi",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Tokkapchi.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-shisui-of-the-violet-tides--01-amikiri:primary",
+        "owner_id": "sb-shisui-of-the-violet-tides--01-amikiri",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/shisui-of-the-violet-tides-amikiri-1-457a2bc6.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/cc/Amikiri.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amikiri.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-shisui-of-the-violet-tides--01-amikiri:primary",
+      "owner_id": "sb-shisui-of-the-violet-tides--01-amikiri",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amikiri.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-shisui-of-the-violet-tides--02-ruby-princess:primary",
+        "owner_id": "sb-shisui-of-the-violet-tides--02-ruby-princess",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/shisui-of-the-violet-tides-ruby-princess-2-098dd27b.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/a/ae/Ruby_Princess.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ruby_Princess.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-shisui-of-the-violet-tides--02-ruby-princess:primary",
+      "owner_id": "sb-shisui-of-the-violet-tides--02-ruby-princess",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ruby_Princess.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-shisui-of-the-violet-tides--03-shisui-yohi:primary",
+        "owner_id": "sb-shisui-of-the-violet-tides--03-shisui-yohi",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/shisui-of-the-violet-tides-shisui-yohi-3-57b550ac.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/6b/Shisui_Yohi.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Shisui_Yohi.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-shisui-of-the-violet-tides--03-shisui-yohi:primary",
+      "owner_id": "sb-shisui-of-the-violet-tides--03-shisui-yohi",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Shisui_Yohi.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-burn--01-hedetet:primary",
+        "owner_id": "sb-the-burn--01-hedetet",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-burn-hedetet-1-6682b369.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/2/29/The_Burn1.jpg/560px-The_Burn1.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Hedetet",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-burn--01-hedetet:primary",
+      "owner_id": "sb-the-burn--01-hedetet",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Hedetet",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-burn--02-defective-drone:primary",
+        "owner_id": "sb-the-burn--02-defective-drone",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-burn-defective-drone-2-134aae23.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/9/97/Defective_Drone.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Defective_Drone.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-burn--02-defective-drone:primary",
+      "owner_id": "sb-the-burn--02-defective-drone",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Defective_Drone.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-burn--03-mist-dragon:primary",
+        "owner_id": "sb-the-burn--03-mist-dragon",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-burn-mist-dragon-3-feafb7d0.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/4/4e/The_Burn_Duty_Support.jpg/560px-The_Burn_Duty_Support.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Mist_Dragon",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-burn--03-mist-dragon:primary",
+      "owner_id": "sb-the-burn--03-mist-dragon",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Mist_Dragon",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-drowned-city-of-skalla--01-kelpie:primary",
+        "owner_id": "sb-the-drowned-city-of-skalla--01-kelpie",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-drowned-city-of-skalla-kelpie-1-a5193a3a.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/7/7e/The_drowned_city_of_skalla3.jpg/560px-The_drowned_city_of_skalla3.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Kelpie",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-drowned-city-of-skalla--01-kelpie:primary",
+      "owner_id": "sb-the-drowned-city-of-skalla--01-kelpie",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Kelpie",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-drowned-city-of-skalla--02-the-old-one:primary",
+        "owner_id": "sb-the-drowned-city-of-skalla--02-the-old-one",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-drowned-city-of-skalla-the-old-one-2-ffdce874.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/b5/The_Old_One.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Old_One.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-drowned-city-of-skalla--02-the-old-one:primary",
+      "owner_id": "sb-the-drowned-city-of-skalla--02-the-old-one",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Old_One.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-drowned-city-of-skalla--03-hrodric-poisontongue:primary",
+        "owner_id": "sb-the-drowned-city-of-skalla--03-hrodric-poisontongue",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-drowned-city-of-skalla-hrodric-poisontongue-3-1f0ecca3.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/3/3a/Hrodric_Poisontongue.jpg/720px-Hrodric_Poisontongue.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hrodric_Poisontongue.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-drowned-city-of-skalla--03-hrodric-poisontongue:primary",
+      "owner_id": "sb-the-drowned-city-of-skalla--03-hrodric-poisontongue",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Hrodric_Poisontongue.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-fractal-continuum-hard--01-motherbit:primary",
+        "owner_id": "sb-the-fractal-continuum-hard--01-motherbit",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-fractal-continuum-hard-motherbit-1-9d7b32ed.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/8f/Motherbit.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Motherbit.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-fractal-continuum-hard--01-motherbit:primary",
+      "owner_id": "sb-the-fractal-continuum-hard--01-motherbit",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Motherbit.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-fractal-continuum-hard--02-the-ultima-warrior:primary",
+        "owner_id": "sb-the-fractal-continuum-hard--02-the-ultima-warrior",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-fractal-continuum-hard-the-ultima-warrior-2-aadfc1a9.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/27/The_Ultima_Warrior.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Ultima_Warrior.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-fractal-continuum-hard--02-the-ultima-warrior:primary",
+      "owner_id": "sb-the-fractal-continuum-hard--02-the-ultima-warrior",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Ultima_Warrior.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-fractal-continuum-hard--03-the-ultima-beast:primary",
+        "owner_id": "sb-the-fractal-continuum-hard--03-the-ultima-beast",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-fractal-continuum-hard-the-ultima-beast-3-8d70874e.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/2e/The_Ultima_Beast.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Ultima_Beast.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-fractal-continuum-hard--03-the-ultima-beast:primary",
+      "owner_id": "sb-the-fractal-continuum-hard--03-the-ultima-beast",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Ultima_Beast.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-ghimlyt-dark--01-mark-iii-b-magitek-colossus:primary",
+        "owner_id": "sb-the-ghimlyt-dark--01-mark-iii-b-magitek-colossus",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-ghimlyt-dark-mark-iii-b-magitek-colossus-1-2c920ed0.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/e/ec/Mark_III-B_Magitek_Colossus.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Mark_III-B_Magitek_Colossus.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-ghimlyt-dark--01-mark-iii-b-magitek-colossus:primary",
+      "owner_id": "sb-the-ghimlyt-dark--01-mark-iii-b-magitek-colossus",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Mark_III-B_Magitek_Colossus.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-ghimlyt-dark--02-prometheus:primary",
+        "owner_id": "sb-the-ghimlyt-dark--02-prometheus",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-ghimlyt-dark-prometheus-2-c1c5b8f5.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/6e/Prometheus.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Prometheus.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-ghimlyt-dark--02-prometheus:primary",
+      "owner_id": "sb-the-ghimlyt-dark--02-prometheus",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Prometheus.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-ghimlyt-dark--03-annia-quo-soranus-julia-quo-soranus:primary",
+        "owner_id": "sb-the-ghimlyt-dark--03-annia-quo-soranus-julia-quo-soranus",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/annia-and-julia-quo-soranus-group.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/e/e8/The_Ghimlyt_Dark_%28image%29.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Ghimlyt_Dark",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-ghimlyt-dark--03-annia-quo-soranus-julia-quo-soranus:primary",
+      "owner_id": "sb-the-ghimlyt-dark--03-annia-quo-soranus-julia-quo-soranus",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Ghimlyt_Dark",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-sirensong-sea--01-lugat:primary",
+        "owner_id": "sb-the-sirensong-sea--01-lugat",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-sirensong-sea-lugat-1-b2fe05f8.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/84/Lugat.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lugat.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-sirensong-sea--01-lugat:primary",
+      "owner_id": "sb-the-sirensong-sea--01-lugat",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Lugat.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-sirensong-sea--02-the-governor:primary",
+        "owner_id": "sb-the-sirensong-sea--02-the-governor",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-sirensong-sea-the-governor-2-0c88b29e.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/6a/The_Governor.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Governor.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-sirensong-sea--02-the-governor:primary",
+      "owner_id": "sb-the-sirensong-sea--02-the-governor",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_Governor.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-sirensong-sea--03-lorelei:primary",
+        "owner_id": "sb-the-sirensong-sea--03-lorelei",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-sirensong-sea-lorelei-3-d441f38b.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/66/The_Sirensong_Sea2.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Lorelei_%28Boss%29",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-sirensong-sea--03-lorelei:primary",
+      "owner_id": "sb-the-sirensong-sea--03-lorelei",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Lorelei_%28Boss%29",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-swallow-s-compass--01-otengu:primary",
+        "owner_id": "sb-the-swallow-s-compass--01-otengu",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-swallow-s-compass-qitian-dasheng-1-9831de4d.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/bf/Qitian_Dasheng.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Qitian_Dasheng.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-swallow-s-compass--01-otengu:primary",
+      "owner_id": "sb-the-swallow-s-compass--01-otengu",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Qitian_Dasheng.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-swallow-s-compass--02-daidarabotchi:primary",
+        "owner_id": "sb-the-swallow-s-compass--02-daidarabotchi",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-swallow-s-compass-daidarabotchi-2-3efb1e6c.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/c/ca/Daidarabotchi.jpg/720px-Daidarabotchi.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Daidarabotchi.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-swallow-s-compass--02-daidarabotchi:primary",
+      "owner_id": "sb-the-swallow-s-compass--02-daidarabotchi",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Daidarabotchi.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-swallow-s-compass--03-qitian-dasheng:primary",
+        "owner_id": "sb-the-swallow-s-compass--03-qitian-dasheng",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-swallow-s-compass-qitian-dasheng-3-48bde8dd.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/bf/Qitian_Dasheng.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Qitian_Dasheng.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-swallow-s-compass--03-qitian-dasheng:primary",
+      "owner_id": "sb-the-swallow-s-compass--03-qitian-dasheng",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Qitian_Dasheng.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-temple-of-the-fist--01-coeurl-sruti:primary",
+        "owner_id": "sb-the-temple-of-the-fist--01-coeurl-sruti",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-temple-of-the-fist-coeurl-sruti-1-787209cb.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/0/0e/Coeurl_Sruti.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Coeurl_Sruti.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-temple-of-the-fist--01-coeurl-sruti:primary",
+      "owner_id": "sb-the-temple-of-the-fist--01-coeurl-sruti",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Coeurl_Sruti.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-temple-of-the-fist--02-arbuda:primary",
+        "owner_id": "sb-the-temple-of-the-fist--02-arbuda",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-temple-of-the-fist-arbuda-2-3b462c5d.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/c/cc/Arbuda.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Arbuda.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-temple-of-the-fist--02-arbuda:primary",
+      "owner_id": "sb-the-temple-of-the-fist--02-arbuda",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Arbuda.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:sb-the-temple-of-the-fist--03-ivon-coeurlfist:primary",
+        "owner_id": "sb-the-temple-of-the-fist--03-ivon-coeurlfist",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/the-temple-of-the-fist-ivon-coeurlfist-3-1053b513.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/64/Ivon_Coeurlfist.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ivon_Coeurlfist.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:sb-the-temple-of-the-fist--03-ivon-coeurlfist:primary",
+      "owner_id": "sb-the-temple-of-the-fist--03-ivon-coeurlfist",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Ivon_Coeurlfist.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-akadaemia-anyder--01-cladoselache-doliodus:primary",
+        "owner_id": "shb-akadaemia-anyder--01-cladoselache-doliodus",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/akadaemia-anyder-cladoselache-and-doliodus-1-2e62581c.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/61/Cladoselache.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cladoselache_%26_Doliodus",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-akadaemia-anyder--01-cladoselache-doliodus:primary",
+      "owner_id": "shb-akadaemia-anyder--01-cladoselache-doliodus",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Cladoselache_%26_Doliodus",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-akadaemia-anyder--02-marquis-morbol:primary",
+        "owner_id": "shb-akadaemia-anyder--02-marquis-morbol",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/akadaemia-anyder-marquis-morbol-2-85cfd882.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/1/19/Marquis_Morbol.jpg/720px-Marquis_Morbol.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Marquis_Morbol.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-akadaemia-anyder--02-marquis-morbol:primary",
+      "owner_id": "shb-akadaemia-anyder--02-marquis-morbol",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Marquis_Morbol.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-akadaemia-anyder--03-quetzalcoatl:primary",
+        "owner_id": "shb-akadaemia-anyder--03-quetzalcoatl",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/akadaemia-anyder-quetzalcoatl-3-7456e052.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/9/9f/Quetzalcoatl.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Quetzalcoatl.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-akadaemia-anyder--03-quetzalcoatl:primary",
+      "owner_id": "shb-akadaemia-anyder--03-quetzalcoatl",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Quetzalcoatl.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-amaurot--01-the-first-beast:primary",
+        "owner_id": "shb-amaurot--01-the-first-beast",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/amaurot-the-first-beast-1-e99f31ca.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/a/a6/The_First_Beast.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_First_Beast.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-amaurot--01-the-first-beast:primary",
+      "owner_id": "shb-amaurot--01-the-first-beast",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:The_First_Beast.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-amaurot--02-terminus-bellwether:primary",
+        "owner_id": "shb-amaurot--02-terminus-bellwether",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/amaurot-terminus-bellwether-2-36a61510.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/4/4e/Terminus_Bellwether.jpg/720px-Terminus_Bellwether.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Terminus_Bellwether.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-amaurot--02-terminus-bellwether:primary",
+      "owner_id": "shb-amaurot--02-terminus-bellwether",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Terminus_Bellwether.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-amaurot--03-therion:primary",
+        "owner_id": "shb-amaurot--03-therion",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/amaurot-therion-3-a326505d.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/4/42/Therion.jpg/720px-Therion.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Therion.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-amaurot--03-therion:primary",
+      "owner_id": "shb-amaurot--03-therion",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Therion.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-anamnesis-anyder--01-unknown:primary",
+        "owner_id": "shb-anamnesis-anyder--01-unknown",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/anamnesis-anyder-unknown-1-59d419e8.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/5/52/Unknown.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Unknown.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-anamnesis-anyder--01-unknown:primary",
+      "owner_id": "shb-anamnesis-anyder--01-unknown",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Unknown.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-anamnesis-anyder--02-kyklops:primary",
+        "owner_id": "shb-anamnesis-anyder--02-kyklops",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/anamnesis-anyder-kyklops-2-a537c759.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/81/Kyklops.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Kyklops.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-anamnesis-anyder--02-kyklops:primary",
+      "owner_id": "shb-anamnesis-anyder--02-kyklops",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Kyklops.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-anamnesis-anyder--03-rukshs-dheem:primary",
+        "owner_id": "shb-anamnesis-anyder--03-rukshs-dheem",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/anamnesis-anyder-rukshs-dheem-3-be3fc50e.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/1/11/Rukshs_Dheem.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Rukshs_Dheem.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-anamnesis-anyder--03-rukshs-dheem:primary",
+      "owner_id": "shb-anamnesis-anyder--03-rukshs-dheem",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Rukshs_Dheem.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-dohn-mheg--01-aenc-thon-lord-of-the-lingering-gaze:primary",
+        "owner_id": "shb-dohn-mheg--01-aenc-thon-lord-of-the-lingering-gaze",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/dohn-mheg-aenc-thon-lord-of-the-lingering-gaze-1-c89fab84.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/65/Aenc_Thon%2C_Lord_of_the_Lingering_Gaze.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Aenc_Thon,_Lord_of_the_Lingering_Gaze.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-dohn-mheg--01-aenc-thon-lord-of-the-lingering-gaze:primary",
+      "owner_id": "shb-dohn-mheg--01-aenc-thon-lord-of-the-lingering-gaze",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Aenc_Thon,_Lord_of_the_Lingering_Gaze.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-dohn-mheg--02-griaule:primary",
+        "owner_id": "shb-dohn-mheg--02-griaule",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/dohn-mheg-griaule-2-d11dd154.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/b6/Griaule.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Griaule.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-dohn-mheg--02-griaule:primary",
+      "owner_id": "shb-dohn-mheg--02-griaule",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Griaule.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-dohn-mheg--03-aenc-thon-lord-of-the-lengthsome-gait:primary",
+        "owner_id": "shb-dohn-mheg--03-aenc-thon-lord-of-the-lengthsome-gait",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/dohn-mheg-aenc-thon-lord-of-the-lengthsome-gait-3-ac731776.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/6/63/Aenc_Thon%2C_Lord_of_the_Lengthsome_Gait.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Aenc_Thon,_Lord_of_the_Lengthsome_Gait.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-dohn-mheg--03-aenc-thon-lord-of-the-lengthsome-gait:primary",
+      "owner_id": "shb-dohn-mheg--03-aenc-thon-lord-of-the-lengthsome-gait",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Aenc_Thon,_Lord_of_the_Lengthsome_Gait.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-holminster-switch--01-forgiven-dissonance:primary",
+        "owner_id": "shb-holminster-switch--01-forgiven-dissonance",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/holminster-switch-forgiven-dissonance-1-9754623a.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/0/0c/Ffxiv_07062019_183014_182.png/560px-Ffxiv_07062019_183014_182.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Forgiven_Dissonance",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-holminster-switch--01-forgiven-dissonance:primary",
+      "owner_id": "shb-holminster-switch--01-forgiven-dissonance",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Forgiven_Dissonance",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-holminster-switch--02-tesleen-the-forgiven:primary",
+        "owner_id": "shb-holminster-switch--02-tesleen-the-forgiven",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/holminster-switch-tesleen-the-forgiven-2-f5a3b05a.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/1/19/Ffxiv_07062019_185129_657.png/560px-Ffxiv_07062019_185129_657.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Tesleen%2C_the_Forgiven",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-holminster-switch--02-tesleen-the-forgiven:primary",
+      "owner_id": "shb-holminster-switch--02-tesleen-the-forgiven",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Tesleen%2C_the_Forgiven",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-holminster-switch--03-philia:primary",
+        "owner_id": "shb-holminster-switch--03-philia",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/holminster-switch-philia-3-9db067f8.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/a/ad/Ffxiv_06292019_180829_721.png/560px-Ffxiv_06292019_180829_721.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/Philia",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-holminster-switch--03-philia:primary",
+      "owner_id": "shb-holminster-switch--03-philia",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/Philia",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-malikah-s-well--01-greater-armadillo:primary",
+        "owner_id": "shb-malikah-s-well--01-greater-armadillo",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/malikah-s-well-greater-armadillo-1-7b8d9200.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/3/32/Greater_Armadillo.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Greater_Armadillo.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-malikah-s-well--01-greater-armadillo:primary",
+      "owner_id": "shb-malikah-s-well--01-greater-armadillo",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Greater_Armadillo.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-malikah-s-well--02-amphibious-talos:primary",
+        "owner_id": "shb-malikah-s-well--02-amphibious-talos",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/malikah-s-well-amphibious-talos-2-bb2eec79.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/f/f2/Amphibious_Talos.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amphibious_Talos.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-malikah-s-well--02-amphibious-talos:primary",
+      "owner_id": "shb-malikah-s-well--02-amphibious-talos",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amphibious_Talos.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-malikah-s-well--03-storge:primary",
+        "owner_id": "shb-malikah-s-well--03-storge",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/malikah-s-well-storge-3-65ceb075.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/1/17/Storge.jpg/720px-Storge.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Storge.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-malikah-s-well--03-storge:primary",
+      "owner_id": "shb-malikah-s-well--03-storge",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Storge.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-matoya-s-relict--01-mudman:primary",
+        "owner_id": "shb-matoya-s-relict--01-mudman",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/matoya-s-relict-mudman-1-833f58c6.png",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/b/bf/Mudman.png",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Mudman.png",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-matoya-s-relict--01-mudman:primary",
+      "owner_id": "shb-matoya-s-relict--01-mudman",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Mudman.png",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-matoya-s-relict--02-nixie:primary",
+        "owner_id": "shb-matoya-s-relict--02-nixie",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/matoya-s-relict-nixie-2-0c8b6e71.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/d/d5/Nixie.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Nixie.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-matoya-s-relict--02-nixie:primary",
+      "owner_id": "shb-matoya-s-relict--02-nixie",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Nixie.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-matoya-s-relict--03-mother-porxie:primary",
+        "owner_id": "shb-matoya-s-relict--03-mother-porxie",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/matoya-s-relict-mother-porxie-3-f9444b64.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/1/13/Mother_Porxie.jpg/720px-Mother_Porxie.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Mother_Porxie.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-matoya-s-relict--03-mother-porxie:primary",
+      "owner_id": "shb-matoya-s-relict--03-mother-porxie",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Mother_Porxie.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-mt-gulg--01-forgiven-cruelty:primary",
+        "owner_id": "shb-mt-gulg--01-forgiven-cruelty",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/mt-gulg-forgiven-cruelty-1-6af63166.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/8/8f/Forgiven_Cruelty.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Forgiven_Cruelty.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-mt-gulg--01-forgiven-cruelty:primary",
+      "owner_id": "shb-mt-gulg--01-forgiven-cruelty",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Forgiven_Cruelty.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-mt-gulg--02-forgiven-whimsy:primary",
+        "owner_id": "shb-mt-gulg--02-forgiven-whimsy",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/mt-gulg-forgiven-whimsy-2-9ac4d2e1.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/0/0b/Forgiven_Whimsy.jpg/720px-Forgiven_Whimsy.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Forgiven_Whimsy.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-mt-gulg--02-forgiven-whimsy:primary",
+      "owner_id": "shb-mt-gulg--02-forgiven-whimsy",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Forgiven_Whimsy.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-mt-gulg--03-forgiven-obscenity:primary",
+        "owner_id": "shb-mt-gulg--03-forgiven-obscenity",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/mt-gulg-forgiven-obscenity-3-023ad2c3.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/1/1d/Forgiven_Obscenity.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Forgiven_Obscenity.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-mt-gulg--03-forgiven-obscenity:primary",
+      "owner_id": "shb-mt-gulg--03-forgiven-obscenity",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Forgiven_Obscenity.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-paglth-an--01-amhuluk:primary",
+        "owner_id": "shb-paglth-an--01-amhuluk",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/paglth-an-amhuluk-1-1d1b2743.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/2/25/Amhuluk.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amhuluk.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-paglth-an--01-amhuluk:primary",
+      "owner_id": "shb-paglth-an--01-amhuluk",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Amhuluk.jpg",
+      "verification_status": "verified"
+    },
+    {
+      "sha256": null,
+      "payload": {
+        "asset_id": "boss:shb-paglth-an--02-magitek-core:primary",
+        "owner_id": "shb-paglth-an--02-magitek-core",
+        "mime_type": "image/webp",
+        "asset_type": "boss_image",
+        "local_path": "kaizo-atlas-assets/bosses/paglth-an-magitek-core-2-d4baaf01.jpg",
+        "owner_type": "boss",
+        "remote_url": "https://ffxiv.consolegameswiki.com/mediawiki/images/4/43/Magitek_Core.jpg",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magitek_Core.jpg",
+        "verification_status": "verified"
+      },
+      "asset_id": "boss:shb-paglth-an--02-magitek-core:primary",
+      "owner_id": "shb-paglth-an--02-magitek-core",
+      "asset_type": "boss_image",
+      "owner_type": "boss",
+      "source_url": "https://ffxiv.consolegameswiki.com/wiki/File:Magitek_Core.jpg",
+      "verification_status": "verified"
+    }
+  ]
+}
