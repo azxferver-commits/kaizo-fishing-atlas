@@ -1,0 +1,25 @@
+{
+  "table": "boss_master_job_recommendations",
+  "row_count": 1,
+  "rows": [
+    {
+      "job_id": "mch",
+      "boss_id": "arr-the-stone-vigil-hard--02-cuca-fera",
+      "payload": {
+        "job_id": "mch",
+        "boss_id": "arr-the-stone-vigil-hard--02-cuca-fera",
+        "phase_id": "arr-the-stone-vigil-hard--02-cuca-fera--source-overview",
+        "source_url": "https://ffxiv.consolegameswiki.com/wiki/The_Stone_Vigil_(Hard)",
+        "instructions": [
+          "* Machinist's Wildfire (accurate as of Patch 6.4)"
+        ],
+        "recommendation_id": "arr-the-stone-vigil-hard--02-cuca-fera--mch",
+        "verification_status": "source_documented",
+        "job_specific_audit_note": "Retained because the source explicitly identifies Machinist Wildfire; exact encounter-specific usage should remain source-bounded and is not promoted to verified."
+      },
+      "phase_id": "arr-the-stone-vigil-hard--02-cuca-fera--source-overview",
+      "recommendation_id": "arr-the-stone-vigil-hard--02-cuca-fera--mch",
+      "verification_status": "source_documented"
+    }
+  ]
+}
