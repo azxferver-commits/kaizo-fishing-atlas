@@ -1,0 +1,82 @@
+{
+  "table": "boss_master_meta",
+  "row_count": 1,
+  "rows": [
+    {
+      "key": "manifest",
+      "value": {
+        "notes": [
+          "La interfaz no fue modificada.",
+          "Los campos sin fuente verificable permanecen null o pending.",
+          "Los nombres corregidos conservan legacy_name y stable_id."
+        ],
+        "counts": {
+          "jobs": 21,
+          "assets": 437,
+          "bosses": 313,
+          "duties": 103,
+          "phases": 408,
+          "sources": 16,
+          "mechanics": 1423,
+          "role_guides": 2067,
+          "arena_elements": 1247,
+          "job_recommendations": 1
+        },
+        "status": "closed_for_app_integration",
+        "version": "master-1.0",
+        "closed_at": "2026-09-21T14:37:47.810562+00:00",
+        "ids_frozen": true,
+        "closure_note": "Structure closed for application integration; verification statuses remain authoritative and closure does not imply all content is verified.",
+        "generated_at": "2026-09-21T04:31:33.514Z",
+        "verification": {
+          "jobs": {
+            "verified": 21
+          },
+          "assets": {
+            "verified": 437
+          },
+          "bosses": {
+            "verified": 313
+          },
+          "duties": {
+            "verified": 15,
+            "source_documented": 88
+          },
+          "phases": {
+            "verified": 308,
+            "legacy_unverified": 95,
+            "source_documented": 5
+          },
+          "mechanics": {
+            "verified": 1365,
+            "source_documented": 58
+          },
+          "role_guides": {
+            "pending": 361,
+            "verified": 204,
+            "legacy_unverified": 502,
+            "source_documented": 1000
+          },
+          "arena_elements": {
+            "source_documented": 116,
+            "derived_from_source": 1131
+          },
+          "job_recommendations": {
+            "source_documented": 1
+          }
+        },
+        "database_role": "canonical_source_for_boss_atlas",
+        "final_snapshot": "boss_master_final_20260921",
+        "schema_version": "2.0.0",
+        "last_identity_review": {
+          "date": "2026-09-21",
+          "note": "Boss identity/name only; phase/mechanic/role verification statuses were intentionally not promoted.",
+          "method": "manual_source_review",
+          "bosses_reviewed": 18
+        },
+        "source_database_version": "3.0-job-icons-arena-maps"
+      },
+      "updated_at": "2026-09-21T14:37:56.684168+00:00"
+    }
+  ]
+}
