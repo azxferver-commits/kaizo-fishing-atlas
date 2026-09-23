@@ -1,49 +1,59 @@
 {
-  "week": 451,
-  "date": "2026-09-18",
-  "theme": "Shiver Me Timbers",
-  "updatedAt": "2026-09-18T15:52:56Z",
+  "week": 452,
+  "date": "2026-09-25",
+  "theme": "Riders From The Distant Past",
+  "updatedAt": "2026-09-23T06:31:25Z",
   "source": "Sincronización automática",
   "sourceUrl": "https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2",
   "slots": [
     {
       "type": "Head",
-      "hint": "Shivering Timbers",
-      "items": []
-    },
-    {
-      "type": "Body",
-      "hint": "Winter Wonderland",
+      "hint": "Bush Stylish",
       "items": [
-        "Adventuring Sweater",
-        "Dream Tunic",
-        "Glacial Coat",
-        "Highland Smock",
-        "Starlight Robe",
-        "Starlight Tunic",
-        "Winter Sweater"
+        "Dhalmelskin Bush Hat",
+        "Gaganaskin Bush Hat",
+        "Serpentskin Bush Hat"
       ]
     },
     {
-      "type": "Hands",
-      "hint": "Bewitched",
+      "type": "Body",
+      "hint": "Riding High",
       "items": [
-        "Antiquated Constellation Armlets",
-        "Ghost Barque Long Gloves Of Scouting",
-        "Star Velvet Long Gloves Of Casting",
-        "Star Velvet Long Gloves Of Healing",
-        "Thavnairian Armlets"
+        "Archaeoskin Jackcoat Of Crafting",
+        "Archaeoskin Jackcoat Of Gathering",
+        "Fistfighter's Jackcoat"
       ]
     },
     {
       "type": "Legs",
-      "hint": "Sleight Of Hand",
+      "hint": "Ronkan Robes",
       "items": [
-        "Magician's Slops",
-        "Pilgrim's Slops",
-        "Rainbow Slops Of Aiming",
-        "Rainbow Slops Of Casting",
-        "Rainbow Slops Of Healing"
+        "Ronkan Breeches Of Fending",
+        "Ronkan Breeches Of Striking",
+        "Ronkan Tights Of Casting",
+        "Ronkan Tights Of Healing",
+        "Ronkan Trousers Of Aiming",
+        "Ronkan Trousers Of Maiming",
+        "Ronkan Trousers Of Scouting"
+      ]
+    },
+    {
+      "type": "Ring",
+      "hint": "Jewels Of Red",
+      "items": [
+        "Darklight Band Of Striking",
+        "Garnet Ring",
+        "High Allagan Ring Of Casting",
+        "Platinum Ring Of Slaying",
+        "Ring Of Divine Death",
+        "Ring Of Divine Light",
+        "Ring Of Divine Wisdom",
+        "Rubellite Ring",
+        "Ruby Ring",
+        "Sunstone Ring",
+        "Warwolf Ring Of Aiming",
+        "Warwolf Ring Of Slaying",
+        "Wolf Rubellite Ring"
       ]
     }
   ]
