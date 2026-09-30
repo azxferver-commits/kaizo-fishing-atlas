@@ -1,59 +1,71 @@
 {
-  "week": 452,
-  "date": "2026-09-25",
-  "theme": "Riders From The Distant Past",
-  "updatedAt": "2026-09-23T06:31:25Z",
+  "week": 453,
+  "date": "2026-10-02",
+  "theme": "Overslept The Revolution",
+  "updatedAt": "2026-09-30T00:35:40Z",
   "source": "Sincronización automática",
   "sourceUrl": "https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2",
   "slots": [
     {
-      "type": "Head",
-      "hint": "Bush Stylish",
-      "items": [
-        "Dhalmelskin Bush Hat",
-        "Gaganaskin Bush Hat",
-        "Serpentskin Bush Hat"
-      ]
-    },
-    {
       "type": "Body",
-      "hint": "Riding High",
+      "hint": "Robed In Resistance",
       "items": [
-        "Archaeoskin Jackcoat Of Crafting",
-        "Archaeoskin Jackcoat Of Gathering",
-        "Fistfighter's Jackcoat"
+        "Bozjan Coat Of Casting",
+        "Bozjan Coat Of Fending",
+        "Bozjan Coat Of Healing",
+        "Bozjan Coat Of Maiming",
+        "Bozjan Gillet Of Aiming",
+        "Bozjan Gillet Of Scouting",
+        "Bozjan Gillet Of Striking",
+        "Filibuster's Coat Of Casting",
+        "Filibuster's Coat Of Healing",
+        "Filibuster's Gambison Of Aiming",
+        "Filibuster's Gambison Of Scouting",
+        "Filibuster's Gambison Of Striking",
+        "Filibuster's Heavy Gambison Of Fending",
+        "Heavy Filibuster's Gambison Of Maiming",
+        "Royal Volunteer's Coat Of Scouting",
+        "Royal Volunteer's Coat Of Striking",
+        "Royal Volunteer's Gambison Of Aiming",
+        "Royal Volunteer's Gambison Of Casting",
+        "Royal Volunteer's Gambison Of Fending",
+        "Royal Volunteer's Gambison Of Healing",
+        "Royal Volunteer's Gambison Of Maiming"
       ]
     },
     {
       "type": "Legs",
-      "hint": "Ronkan Robes",
+      "hint": "Sleepover Style",
       "items": [
-        "Ronkan Breeches Of Fending",
-        "Ronkan Breeches Of Striking",
-        "Ronkan Tights Of Casting",
-        "Ronkan Tights Of Healing",
-        "Ronkan Trousers Of Aiming",
-        "Ronkan Trousers Of Maiming",
-        "Ronkan Trousers Of Scouting"
+        "Cactuar Pajama Bottoms",
+        "Chocobo Pajama Bottoms",
+        "Crescent Moon Bottoms",
+        "Plain Pajama Bottoms"
       ]
     },
     {
-      "type": "Ring",
-      "hint": "Jewels Of Red",
+      "type": "Feet",
+      "hint": "Dressed For Success",
       "items": [
-        "Darklight Band Of Striking",
-        "Garnet Ring",
-        "High Allagan Ring Of Casting",
-        "Platinum Ring Of Slaying",
-        "Ring Of Divine Death",
-        "Ring Of Divine Light",
-        "Ring Of Divine Wisdom",
-        "Rubellite Ring",
-        "Ruby Ring",
-        "Sunstone Ring",
-        "Warwolf Ring Of Aiming",
-        "Warwolf Ring Of Slaying",
-        "Wolf Rubellite Ring"
+        "Best Man's Gaiters",
+        "Cotton Dress Shoes",
+        "Dress Shoes",
+        "Felt Dress Shoes",
+        "Patrician's Gaiters",
+        "Velveteen Dress Shoes",
+        "Velveteen Gaiters",
+        "Woolen Dress Shoes"
+      ]
+    },
+    {
+      "type": "Ear",
+      "hint": "Beautiful Dreamer",
+      "items": [
+        "Lakshmi's Earrings Of Aiming",
+        "Lakshmi's Earrings Of Casting",
+        "Lakshmi's Earrings Of Fending",
+        "Lakshmi's Earrings Of Healing",
+        "Lakshmi's Earrings Of Slaying"
       ]
     }
   ]
