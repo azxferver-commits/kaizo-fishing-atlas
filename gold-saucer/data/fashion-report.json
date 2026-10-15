@@ -1,51 +1,76 @@
 {
-  "week": 454,
-  "date": "2026-10-09",
-  "theme": "Avant-Garde Rider",
-  "updatedAt": "2026-10-06T18:31:01Z",
+  "week": 455,
+  "date": "2026-10-16",
+  "theme": "Omega's Jest",
+  "updatedAt": "2026-10-15T00:49:56Z",
   "source": "Sincronización automática",
   "sourceUrl": "https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2",
   "slots": [
     {
-      "type": "Head",
-      "hint": "The Wild Side",
+      "type": "Body",
+      "hint": "A Pirate's Life",
       "items": [
-        "Anemos Hat",
-        "Gaganaskin Hat Of Aiming",
-        "Gyuki Leather Hat",
-        "Wrangler's Hat"
+        "Altered Woolen Shirt",
+        "Holy Rainbow Shirt of Aiming",
+        "Holy Rainbow Shirt of Casting",
+        "Holy Rainbow Shirt of Fending",
+        "Holy Rainbow Shirt of Healing",
+        "Holy Rainbow Shirt of Maiming",
+        "Holy Rainbow Shirt of Scouting",
+        "Holy Rainbow Shirt of Striking",
+        "Shirt Of The Divine Hero",
+        "Shirt Of The Divine Light"
       ]
     },
     {
-      "type": "Body",
-      "hint": "Riding High",
+      "type": "Hands",
+      "hint": "Motley Crew",
       "items": [
-        "Archaeoskin Jackcoat Of Crafting",
-        "Archaeoskin Jackcoat Of Gathering",
-        "Fistfighter's Jackcoat"
+        "Claws Of The Beast",
+        "Clown's Shortgloves",
+        "Dragonskin Gloves Of Aiming",
+        "Dragonskin Gloves Of Casting",
+        "Dragonskin Gloves Of Healing",
+        "Evenstar Gloves",
+        "Shikaree's Gloves"
+      ]
+    },
+    {
+      "type": "Legs",
+      "hint": "Pumped Up Kecks",
+      "items": [
+        "Cotton Kecks",
+        "Darklight Kecks",
+        "Felt Kecks",
+        "Gryphonskin Kecks",
+        "Hempen Kecks",
+        "Serpent Private's Kecks",
+        "Serpent Sergeant's Kecks",
+        "Storm Sergeant's Kecks",
+        "Toxotes Kecks",
+        "Warwolf Kecks Of Striking",
+        "Wolf Kecks",
+        "Woolen Kecks"
       ]
     },
     {
       "type": "Feet",
-      "hint": "Avant-Garde",
+      "hint": "Omega Ornamentation",
       "items": [
-        "Aurum Leg Guards",
-        "Goatskin Leg Guards",
-        "Noble's Leg Guards",
-        "Raptorskin Leg Guards",
-        "Toadskin Leg Guards",
-        "Vintage Thighboots"
-      ]
-    },
-    {
-      "type": "Ear",
-      "hint": "Coiled Finally",
-      "items": [
-        "Dreadwyrm Earring Of Aiming",
-        "Dreadwyrm Earring Of Casting",
-        "Dreadwyrm Earring Of Fending",
-        "Dreadwyrm Earring Of Healing",
-        "Dreadwyrm Earring Of Slaying"
+        "Omega Boots of Aiming",
+        "Omega Boots of Scouting",
+        "Omega Shoes Of Casting",
+        "Omega Shoes Of Fending",
+        "Omega Shoes Of Healing",
+        "Omega Shoes Of Maiming",
+        "Omega Shoes Of Striking",
+        "Omicron Boots Of Aiming",
+        "Omicron Boots Of Scouting",
+        "Omicron Shoes Of Casting",
+        "Omicron Shoes Of Fending",
+        "Omicron Shoes Of Healing",
+        "Omicron Shoes Of Maiming",
+        "Omicron Shoes Of Striking"
       ]
     }
   ]
