@@ -1,76 +1,72 @@
 {
-  "week": 455,
-  "date": "2026-10-16",
-  "theme": "Omega's Jest",
-  "updatedAt": "2026-10-15T00:49:56Z",
+  "week": 456,
+  "date": "2026-10-23",
+  "theme": "Enchanting Gods Of Eld",
+  "updatedAt": "2026-10-20T17:01:16Z",
   "source": "Sincronización automática",
   "sourceUrl": "https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2",
   "slots": [
     {
       "type": "Body",
-      "hint": "A Pirate's Life",
+      "hint": "Ronkan Robes",
       "items": [
-        "Altered Woolen Shirt",
-        "Holy Rainbow Shirt of Aiming",
-        "Holy Rainbow Shirt of Casting",
-        "Holy Rainbow Shirt of Fending",
-        "Holy Rainbow Shirt of Healing",
-        "Holy Rainbow Shirt of Maiming",
-        "Holy Rainbow Shirt of Scouting",
-        "Holy Rainbow Shirt of Striking",
-        "Shirt Of The Divine Hero",
-        "Shirt Of The Divine Light"
+        "Ronkan Coat Of Aiming",
+        "Ronkan Jacket Of Scouting",
+        "Ronkan Mail Of Fending",
+        "Ronkan Mail Of Maiming",
+        "Ronkan Mail Of Striking",
+        "Ronkan Robe Of Casting",
+        "Ronkan Robe Of Healing"
       ]
     },
     {
       "type": "Hands",
-      "hint": "Motley Crew",
+      "hint": "Bewitched",
       "items": [
-        "Claws Of The Beast",
-        "Clown's Shortgloves",
-        "Dragonskin Gloves Of Aiming",
-        "Dragonskin Gloves Of Casting",
-        "Dragonskin Gloves Of Healing",
-        "Evenstar Gloves",
-        "Shikaree's Gloves"
+        "Antiquated Constellation Armlets",
+        "Ghost Barque Long Gloves Of Scouting",
+        "Star Velvet Long Gloves Of Casting",
+        "Star Velvet Long Gloves Of Healing",
+        "Thavnairian Armlets"
       ]
     },
     {
       "type": "Legs",
-      "hint": "Pumped Up Kecks",
+      "hint": "Flap In Front",
       "items": [
-        "Cotton Kecks",
-        "Darklight Kecks",
-        "Felt Kecks",
-        "Gryphonskin Kecks",
-        "Hempen Kecks",
-        "Serpent Private's Kecks",
-        "Serpent Sergeant's Kecks",
-        "Storm Sergeant's Kecks",
-        "Toxotes Kecks",
-        "Warwolf Kecks Of Striking",
-        "Wolf Kecks",
-        "Woolen Kecks"
+        "Allagan Breeches Of Casting",
+        "Allagan Breeches Of Healing",
+        "Althyk's Cuisses Of Scouting",
+        "Althyk's Cuisses Of Striking",
+        "Chimerical Felt Breeches Of Fending",
+        "Eastern Lady's Loincloth",
+        "Flame Elite's Loincloth",
+        "Hemiskin Brais Of Fending",
+        "Hemiskin Brais Of Maiming",
+        "Kudzu Culottes Of Crafting",
+        "Kudzu Culottes Of Gathering",
+        "Noct Breeches",
+        "Nomad's Breeches Of Aiming",
+        "Nomad's Breeches Of Casting",
+        "Nomad's Breeches Of Fending",
+        "Nomad's Breeches Of Healing",
+        "Nomad's Breeches Of Maiming",
+        "Nomad's Breeches Of Scouting",
+        "Nomad's Breeches Of Striking",
+        "Replica Allagan Breeches Of Casting",
+        "Replica Allagan Breeches Of Healing",
+        "Weathered Noct Breeches"
       ]
     },
     {
-      "type": "Feet",
-      "hint": "Omega Ornamentation",
+      "type": "Ear",
+      "hint": "Beautiful Dreamer",
       "items": [
-        "Omega Boots of Aiming",
-        "Omega Boots of Scouting",
-        "Omega Shoes Of Casting",
-        "Omega Shoes Of Fending",
-        "Omega Shoes Of Healing",
-        "Omega Shoes Of Maiming",
-        "Omega Shoes Of Striking",
-        "Omicron Boots Of Aiming",
-        "Omicron Boots Of Scouting",
-        "Omicron Shoes Of Casting",
-        "Omicron Shoes Of Fending",
-        "Omicron Shoes Of Healing",
-        "Omicron Shoes Of Maiming",
-        "Omicron Shoes Of Striking"
+        "Lakshmi's Earrings Of Aiming",
+        "Lakshmi's Earrings Of Casting",
+        "Lakshmi's Earrings Of Fending",
+        "Lakshmi's Earrings Of Healing",
+        "Lakshmi's Earrings Of Slaying"
       ]
     }
   ]
