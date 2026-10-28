@@ -1,72 +1,59 @@
 {
-  "week": 456,
-  "date": "2026-10-23",
-  "theme": "Enchanting Gods Of Eld",
-  "updatedAt": "2026-10-20T17:01:16Z",
+  "week": 457,
+  "date": "2026-10-30",
+  "theme": "Bold Hunter",
+  "updatedAt": "2026-10-28T22:32:53Z",
   "source": "Sincronización automática",
   "sourceUrl": "https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2",
   "slots": [
     {
-      "type": "Body",
-      "hint": "Ronkan Robes",
+      "type": "Head",
+      "hint": "Mono A Mono",
       "items": [
-        "Ronkan Coat Of Aiming",
-        "Ronkan Jacket Of Scouting",
-        "Ronkan Mail Of Fending",
-        "Ronkan Mail Of Maiming",
-        "Ronkan Mail Of Striking",
-        "Ronkan Robe Of Casting",
-        "Ronkan Robe Of Healing"
+        "Blessed Monocle",
+        "Butler's Monocle",
+        "Direwolf Monocle Of Healing",
+        "Electrum Monocle",
+        "Hardsilver Monocle Of Healing",
+        "Loyal Butler's Monocle",
+        "Makai Marksman's Eyepatch",
+        "Monocle Of Divine Death",
+        "Scion Adventurer's Monocle",
+        "Silver Monocle",
+        "Torturer's Monocle"
       ]
     },
     {
-      "type": "Hands",
-      "hint": "Bewitched",
+      "type": "Body",
+      "hint": "Monster Hunt",
       "items": [
-        "Antiquated Constellation Armlets",
-        "Ghost Barque Long Gloves Of Scouting",
-        "Star Velvet Long Gloves Of Casting",
-        "Star Velvet Long Gloves Of Healing",
-        "Thavnairian Armlets"
+        "Augmented Rathalos Mail",
+        "Rathalos Mail"
       ]
     },
     {
       "type": "Legs",
-      "hint": "Flap In Front",
+      "hint": "Less Is More",
       "items": [
-        "Allagan Breeches Of Casting",
-        "Allagan Breeches Of Healing",
-        "Althyk's Cuisses Of Scouting",
-        "Althyk's Cuisses Of Striking",
-        "Chimerical Felt Breeches Of Fending",
-        "Eastern Lady's Loincloth",
-        "Flame Elite's Loincloth",
-        "Hemiskin Brais Of Fending",
-        "Hemiskin Brais Of Maiming",
-        "Kudzu Culottes Of Crafting",
-        "Kudzu Culottes Of Gathering",
-        "Noct Breeches",
-        "Nomad's Breeches Of Aiming",
-        "Nomad's Breeches Of Casting",
-        "Nomad's Breeches Of Fending",
-        "Nomad's Breeches Of Healing",
-        "Nomad's Breeches Of Maiming",
-        "Nomad's Breeches Of Scouting",
-        "Nomad's Breeches Of Striking",
-        "Replica Allagan Breeches Of Casting",
-        "Replica Allagan Breeches Of Healing",
-        "Weathered Noct Breeches"
+        "Coeurl Beach Briefs",
+        "Coeurl Beach Maro",
+        "Coeurl Beach Tanga",
+        "Flame Sergeant's Subligar",
+        "Hard Leather Subligar",
+        "Star-Spangled Subligar"
       ]
     },
     {
-      "type": "Ear",
-      "hint": "Beautiful Dreamer",
+      "type": "Feet",
+      "hint": "Bookworm",
       "items": [
-        "Lakshmi's Earrings Of Aiming",
-        "Lakshmi's Earrings Of Casting",
-        "Lakshmi's Earrings Of Fending",
-        "Lakshmi's Earrings Of Healing",
-        "Lakshmi's Earrings Of Slaying"
+        "Sharlayan Conservator's Boots",
+        "Sharlayan Custodian's Boots",
+        "Sharlayan Emissary's Boots",
+        "Sharlayan Pankratiast's Boots",
+        "Sharlayan Pathmaker's Boots",
+        "Sharlayan Philosopher's Boots",
+        "Sharlayan Preceptor's Boots"
       ]
     }
   ]
