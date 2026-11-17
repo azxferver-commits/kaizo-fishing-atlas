@@ -1,93 +1,67 @@
 {
-  "week": 459,
-  "date": "2026-11-13",
-  "theme": "Lily Of The Bandit",
-  "updatedAt": "2026-11-12T23:36:42Z",
+  "week": 460,
+  "date": "2026-11-20",
+  "theme": "Dread Sky Pirate Mod-Beard",
+  "updatedAt": "2026-11-17T20:52:50Z",
   "source": "Sincronización automática",
   "sourceUrl": "https://github.com/KevinAllenWiegand/ffxiv-fashion-report-v2",
   "slots": [
     {
       "type": "Head",
-      "hint": "Healing Lilies",
+      "hint": "Wild Whiskers",
       "items": [
-        "Black Brightlily Corsage",
-        "Blue Brightlily Corsage",
-        "Green Brightlily Corsage",
-        "Orange Brightlily Corsage",
-        "Purple Brightlily Corsage",
-        "Rainbow Brightlily Corsage",
-        "Red Brightlily Corsage",
-        "White Brightlily Corsage",
-        "Yellow Brightlily Corsage"
+        "Dwarven Cotton Petasos Of Casting",
+        "Dwarven Cotton Petasos Of Healing",
+        "Dwarven Cotton Turban Of Aiming",
+        "Dwarven Cotton Turban Of Scouting",
+        "Dwarven Mythril Helm Of Fending",
+        "False Mustache",
+        "Saint's Cap"
       ]
     },
     {
-      "type": "Hands",
-      "hint": "Fashion Bandit",
+      "type": "Body",
+      "hint": "Mantle Of Mod",
       "items": [
-        "Woad Skychaser's Armguards",
-        "Woad Skydruid's Armlets",
-        "Woad Skyhunter's Armlets",
-        "Woad Skylancer's Armlets",
-        "Woad Skyraider's Armguards",
-        "Woad Skywarrior's Armguards",
-        "Woad Skywicce's Armguards"
-      ]
-    },
-    {
-      "type": "Legs",
-      "hint": "Rouse Trousers",
-      "items": [
-        "Allagan Trousers Of Aiming",
-        "Allagan Trousers Of Maiming",
-        "Allagan Trousers Of Striking",
-        "Augmented Ironworks Trousers Of Fending",
-        "Cavalry Trousers",
-        "Gambler's Trousers",
-        "Hempen Trousers",
-        "High Allagan Trousers Of Fending",
-        "High Allagan Trousers Of Maiming",
-        "High Allagan Trousers Of Striking",
-        "Hoplite's Trousers",
-        "Ironworks Trousers Of Fending",
-        "Linen Trousers",
-        "Orthodox Trousers Of Aiming",
-        "Orthodox Trousers Of Scouting",
-        "Orthodox Trousers Of Striking",
-        "Padded Linen Trousers",
-        "Picaroon's Trousers Of Maiming",
-        "Picaroon's Trousers Of Striking",
-        "Raimie Trousers Of Aiming",
-        "Raimie Trousers Of Scouting",
-        "Raimie Trousers Of Striking",
-        "Ramie Trousers Of Aiming",
-        "Ramie Trousers Of Scouting",
-        "Ramie Trousers Of Striking",
-        "Replica Allagan Trousers Of Aiming",
-        "Replica Allagan Trousers Of Maiming",
-        "Replica Allagan Trousers Of Striking",
-        "Replica High Allagan Trousers Of Fending",
-        "Replica High Allagan Trousers Of Maiming",
-        "Replica High Allagan Trousers Of Striking",
-        "Sky Pirate's Trousers Of Scouting"
+        "Rebel Coat",
+        "Urban Coat"
       ]
     },
     {
       "type": "Feet",
-      "hint": "Caligae Divorcee",
+      "hint": "Do Rats Fly",
       "items": [
-        "Ala Mhigan Caligae Of Aiming",
-        "Ala Mhigan Caligae Of Casting",
-        "Ala Mhigan Caligae Of Fending",
-        "Ala Mhigan Caligae Of Scouting",
-        "Ala Mhigan Caligae Of Striking",
-        "Darklight Caligae Of Aiming",
-        "Darklight Caligae Of Striking",
-        "Hard Leather Caligae",
-        "Moonfire Caligae",
-        "Republican Signifier's Caligae",
-        "True Girffin Caligae Of Scouting",
-        "True Griffin Caligae Of Striking"
+        "Replica Sky Rat Hookboots Of Fending",
+        "Replica Sky Rat Hookboots Of Healing",
+        "Replica Sky Rat Hookboots Of Maiming",
+        "Replica Sky Rat Hookboots Of Scouting",
+        "Replica Sky Rat Ironclad Boots Of Aiming",
+        "Replica Sky Rat Ironclad Boots Of Casting",
+        "Replica Sky Rat Ironclad Boots Of Striking",
+        "Sky Rat Hookboots Of Fending",
+        "Sky Rat Hookboots Of Healing",
+        "Sky Rat Hookboots Of Maiming",
+        "Sky Rat Hookboots Of Scouting",
+        "Sky Rat Ironclad Boots Of Aiming",
+        "Sky Rat Ironclad Boots Of Casting",
+        "Sky Rat Ironclad Boots Of Striking"
+      ]
+    },
+    {
+      "type": "Neck",
+      "hint": "Jewels Of Yellow",
+      "items": [
+        "Allagan Choker Of Striking",
+        "Amber Choker",
+        "Augmented Ironworks Choker Of Aiming",
+        "Augmented Ironworks Choker Of Casting",
+        "Augmented Ironworks Choker Of Fending",
+        "Augmented Ironworks Choker Of Healing",
+        "Augmented Ironworks Choker Of Slaying",
+        "Helidor Choker",
+        "Sphene Choker",
+        "Topaz Choker",
+        "Wolf Amber Choker"
       ]
     }
   ]
